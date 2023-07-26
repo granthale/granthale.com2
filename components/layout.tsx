@@ -1,8 +1,9 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
+import Link from "next/link";
+import Navbar from "./Navbar";
 
-const name = 'grant hale'
-export const siteTitle = 'grant hale'
+const name = "grant hale";
+export const siteTitle = "grant hale";
 
 export default function Layout({
   children,
@@ -29,9 +30,12 @@ export default function Layout({
       <header>
         {home ? (
           <>
-            <h1 className="m-4 text-primary font-extrabold sm:text-4xl md:text-5xl lg:text-6xl">
-              {name}
-            </h1>
+            <div className="flex flex-row justify-evenly">
+              <h1 className="basis-1/4 mt-8 ml-8 text-primary font-extrabold text-6xl">
+                {name}
+              </h1>
+              <Navbar color="primary"/>
+            </div>
           </>
         ) : (
           <>

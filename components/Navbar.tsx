@@ -1,17 +1,21 @@
-import styles from "./Navbar.module.css";
 
 interface Props {
-  className: any;
+  color: string;
 }
 
-const Navbar = ({ className }: Props): JSX.Element => {
+const Navbar = ({color}:Props) => {
+  const box = `box-border h-12 w-64 mt-8 p-4 bg-${color} rounded-3xl flex items-center justify-between`;
   return (
-    <div className={`component ${className}`}>
-      <div className="about">about</div>
-      <img className="line" alt="Line" src="line-1.svg" />
-      <div className="writing">writing</div>
-      <img className="line" alt="Line" src="line-2.svg" />
-      <div className="influences">influences</div>
+    <div className={box}>
+      <a href="/about" className="text-white font-bold">
+        about
+      </a>
+      <a href="/writing" className="text-white font-bold">
+        writing
+      </a>
+      <a href="/influences" className="text-white font-bold">
+        influences
+      </a>
     </div>
   );
 };
