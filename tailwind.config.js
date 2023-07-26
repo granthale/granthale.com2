@@ -11,6 +11,7 @@ module.exports = {
       "waving_brown": '#F4C641',
       "tealish": "#00FFC2",
       "white": "#FFFFFF",
+      "background": "#FDF3F1"
     }
   },
   plugins: [],
