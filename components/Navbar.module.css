@@ -1,0 +1,57 @@
+.component {
+    align-items: flex-start;
+    background-color: #360ef1;
+    border-radius: 6px;
+    display: inline-flex;
+    gap: 53px;
+    overflow: hidden;
+    padding: 8px 51px;
+    position: relative;
+}
+
+.component .about {
+    color: #ffffff;
+    font-family: "Spartan-Bold", Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 72px;
+}
+
+.component .line {
+    height: 25px;
+    mix-blend-mode: difference;
+    object-fit: cover;
+    position: relative;
+    width: 1px;
+}
+
+.component .writing {
+    color: #ffffff;
+    font-family: "Spartan-Bold", Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 89px;
+}
+
+.component .influences {
+    color: #ffffff;
+    font-family: "Spartan-Bold", Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 120px;
+}
