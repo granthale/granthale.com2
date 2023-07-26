@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Navbar from "./Navbar";
+import Socials from "./Socials";
+import Activities from "./Activities";
 
 const name = "grant hale";
 export const siteTitle = "grant hale";
@@ -30,11 +32,17 @@ export default function Layout({
       <header>
         {home ? (
           <>
-            <div className="flex flex-row justify-evenly">
-              <h1 className="basis-1/4 mt-8 ml-8 text-primary font-extrabold text-6xl">
-                {name}
-              </h1>
-              <Navbar color="primary"/>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="col-start-1">
+                <h1 className="mt-8 ml-8 text-primary font-extrabold text-6xl">
+                  {name}
+                </h1>
+                <Activities />
+              </div>
+              <div className="col-start-2">
+                <Navbar color="primary" />
+                <Socials />
+              </div>
             </div>
           </>
         ) : (
