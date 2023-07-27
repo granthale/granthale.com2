@@ -30,6 +30,7 @@ export default function Layout({ children, color, home, sidebar }: Props) {
               </div>
               <div className="md:hidden">
                 <MenuButton menuStatus={menuStatus} setMenuStatus={setMenuStatus}/>
+                {menuStatus && <Menu menuStatus={menuStatus} />}
               </div>
             </section>
             {/* Bottom half */}
