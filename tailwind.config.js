@@ -8,10 +8,11 @@ module.exports = {
     colors: {
       "primary": '#360EF1',
       "neon-green": '#70FF00',
-      "waving_brown": '#F4C641',
+      "waving-brown": '#F4C641',
       "tealish": "#00FFC2",
       "white": "#FFFFFF",
-      "background": "#FDF3F1"
+      "background": "#FDF3F1",
+      "gray": "#808080"
     }
   },
   plugins: [],
