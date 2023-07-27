@@ -538,6 +538,10 @@ video {
   visibility: visible;
 }
 
+.\!visible {
+  visibility: visible !important;
+}
+
 .collapse {
   visibility: collapse;
 }
@@ -550,6 +554,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -558,32 +566,25 @@ video {
   position: sticky;
 }
 
-.m-2 {
-  margin: 0.5rem;
+.m-4 {
+  margin: 1rem;
 }
 
 .m-8 {
   margin: 2rem;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .box-border {
@@ -622,6 +623,10 @@ video {
   height: 16rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -632,10 +637,6 @@ video {
 
 .w-64 {
   width: 16rem;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .flex-none {
@@ -706,10 +707,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border {
   border-width: 1px;
 }
@@ -732,10 +729,6 @@ video {
   padding: 1rem;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -748,6 +741,14 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
 
 .text-gray {
@@ -770,6 +771,11 @@ video {
   color: rgb(0 255 194 / var(--tw-text-opacity));
 }
 
+.text-waving-brown {
+  --tw-text-opacity: 1;
+  color: rgb(244 198 65 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -783,10 +789,49 @@ video {
   outline-style: solid;
 }
 
+.outline-1 {
+  outline-width: 1px;
+}
+
+.outline-2 {
+  outline-width: 2px;
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 html, body{
   background: #FDF3F1;
+}
+
+::-moz-selection {
+  background: #70FF00;
+}
+
+::selection {
+  background: #70FF00;
+}
+
+::-moz-selection {
+  background: #70FF00;
+}
+
+.hover\:text-neon-green:hover {
+  --tw-text-opacity: 1;
+  color: rgb(112 255 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
 }

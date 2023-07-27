@@ -1,30 +1,28 @@
+import Link from "next/link";
 
 interface Props {
   color: string;
 }
 
-const Navbar = ({color}:Props) => {
+const Navbar = ({ color }: Props) => {
+
   const box = `box-border h-12 w-64 xl m-8 p-4 bg-${color} rounded-xl flex items-center justify-between`;
   return (
     <div className={box}>
-      <a
-        href="/about"
-        className="text-white font-bold border-r border-white pr-2"
-      >
+      <Link href="/about" className="text-white hover:text-neon-green font-bold">
         about
-      </a>
-      <a
-        href="/writing"
-        className="text-white font-bold border-r border-white pr-2"
-      >
+      </Link>
+      <div className="border-r border-white h-full mx-2"></div>
+      <Link href="/writing" className="text-white hover:text-neon-green font-bold">
         writing
-      </a>
-      <a
+      </Link>
+      <div className="border-r border-white h-full mx-2"></div>
+      <Link
         href="/influences"
-        className="text-white font-bold"
+        className="text-white hover:text-neon-green font-bold"
       >
         influences
-      </a>
+      </Link>
     </div>
   );
 };

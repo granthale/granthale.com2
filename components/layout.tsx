@@ -2,13 +2,16 @@ import Navbar from "./Navbar";
 import Activities from "./Activities";
 import Socials from "./Socials";
 import Title from "./Title";
+import Menu from "./Menu";
 
 interface Props {
-  color: string;
+  color?: string;
   children: React.ReactNode;
+  sidebar?: React.ReactNode;
+  home?: boolean;
 }
 
-export default function Layout({ children, color }: Props) {
+export default function Layout({ children, color, home, sidebar }: Props) {
   return (
     <>
       <div>
@@ -18,12 +21,19 @@ export default function Layout({ children, color }: Props) {
             {/* Top bar */}
             <div className="sticky flex justify-between">
               <Title color={color} />
-              <Navbar color="primary" />
+              {/* Navbar is hidden on small screens and visible on medium screens and larger */}
+              <div className="hidden md:flex">
+                <Navbar color={color} />
+              </div>
+              {/* Menu is visible on small screens and hidden on medium screens and larger */}
+              <div className="md:hidden">
+                <Menu />
+              </div>
             </div>
             {/* Bottom half */}
-            <div className="flex flex-1 overflow-hidden">
+            <div className="flex overflow-hidden">
               {/* Side panel */}
-              <div className="sticky">
+              <div className="hidden md:block sticky m-8">
                 <Activities />
               </div>
               <div className="flex flex-col">
