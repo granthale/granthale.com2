@@ -15,9 +15,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </Head>
         <main>
           {/* Whole screen */}
-          <div className="flex flex-col border-2 h-screen">
+          <div className="flex flex-col h-screen">
             {/* Top bar */}
-            <div className="border-2 sticky">
+            <div className="sticky">
               <div className="flex justify-between">
                 <h1 className="text-primary m-8 text-5xl font-bold flex-none">
                   grant hale
@@ -26,9 +26,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </div>
             </div>
             {/* Bottom half */}
-            <div className="border-2 flex flex-1 overflow-hidden">
+            <div className="flex flex-1 overflow-hidden">
               {/* Side panel */}
-              <div className="border-2 sticky">
+              <div className="sticky">
                 <Activities />
               </div>
               <div className="flex flex-col">
