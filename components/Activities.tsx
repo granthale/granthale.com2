@@ -12,7 +12,7 @@ const Activities = () => {
     <>
       <div className="flex flex-col justify-center text-3xl items-left font-bold">
         {activities.map((activity) => (
-          <p className={activity.color}>{activity.activity}</p>
+          <p key={activity.activity} className={activity.color}>{activity.activity}</p>
         ))}
       </div>
     </>

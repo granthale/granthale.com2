@@ -10,7 +10,7 @@ const Socials = () => {
   return (
     <div className="flex sticky">
       {Object.keys(socials).map((key) => (
-        <a className="m-4 text-gray hover:text-neon-green" key={key} href={socials[key]}>
+        <a className="m-4 text-gray hover:text-primary" key={key} href={socials[key]}>
           {key}
         </a>
       ))}
