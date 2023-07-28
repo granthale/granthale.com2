@@ -12,24 +12,18 @@ const Header = ({ page }: Props) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@grant__hale" />
       <meta name="twitter:title" content={title} />
-      <meta
-        name="twitter:description"
-        content="Get to know him!"
-      />
+      <meta name="twitter:description" content="Get to know him!" />
       <meta
         name="twitter:image"
         content="https://www.granthale.com/thumbnail.jpg"
       />
 
       <meta property="og:title" content={title} />
-      <meta
-        property="og:description"
-        content="Get to know him!"
-      />
+      <meta property="og:description" content="Get to know him!" />
       <meta property="og:url" content="https://www.granthale.com" />
       <meta
         property="og:image"
-        content="https://www.granthale.com/thumbnail.png"
+        content="https://www.granthale.com/thumbnail.jpg"
       />
     </Head>
   );
