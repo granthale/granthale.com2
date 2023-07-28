@@ -16,8 +16,16 @@ export default function Influences() {
       link: "https://patrickcollison.com/",
     },
     {
+      name: "Frances Perkins",
+      link: "https://en.wikipedia.org/wiki/Frances_Perkins",
+    },
+    {
       name: "Paul Graham",
       link: "http://paulgraham.com/",
+    },
+    {
+      name: "Dorothy Day",
+      link: "https://en.wikipedia.org/wiki/Dorothy_Day",
     },
     {
       name: "Naval Ravikant",
@@ -163,6 +171,16 @@ export default function Influences() {
       author: "Douglas Hofstadter",
       link: "https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach",
     },
+    {
+      name: "Hooked",
+      author: "Nir Eyal",
+      link: "https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788",
+    },
+    {
+      name: "The Road to Character",
+      author: "David Brooks",
+      link: "https://www.amazon.com/Character-Thorndike-Press-Large-Print/dp/1594139377",
+    },
   ];
   return (
     <>
@@ -188,7 +206,7 @@ export default function Influences() {
         </p>
         <br />
         <h1 className="text-2xl text-gray font-bold">people</h1>
-        <ul className="list-disc pl-5 text-waving-brown font-bold">
+        <ul className="list-disc pl-5 text-waving-brown font-bold text-lg">
           {people.map((person) => (
             <li className="underline hover:text-primary">
               <Link href={person.link}>{person.name}</Link>
@@ -198,7 +216,7 @@ export default function Influences() {
         <br />
         <br />
         <h1 className="text-2xl text-gray font-bold">books</h1>
-        <ul className="list-disc pl-5 text-waving-brown font-bold">
+        <ul className="list-disc pl-5 text-waving-brown font-bold text-lg">
           {books.map((book) => (
             <li className="underline hover:text-primary">
               <Link href={book.link}>{book.name}</Link> by {book.author}

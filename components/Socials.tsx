@@ -6,6 +6,7 @@ const Socials = () => {
     LinkedIn: "https://www.linkedin.com/in/grantrhale/",
     Github: "https://github.com/granthale",
     Podcast: "https://podcasters.spotify.com/pod/show/surfacetensionpod",
+    Email: "mailto:contact@granthale.com"
   };
   return (
     <div className="flex sticky">

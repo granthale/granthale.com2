@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/layout";
 import Head from "next/head";
 
@@ -10,21 +11,36 @@ export default function Home() {
       </Head>
       <Layout home>
         <div className="text-primary text-3xl">
-          <p>👋 Welcome!</p>
+          <p>👋 welcome!</p>
           <br />
           <p>
-            I believe that everyone has room for more curiosity, more wonder,
-            and more creativity. I’m on a mission to hone those qualities in
-            myself and help others do the same.
+            i believe that everyone has more room for{" "}
+            <span className="font-bold">curiosity, wonder, and creativity</span>
+            . i’m living to broaden those qualities in myself and help others do
+            the same.
           </p>
           <br />
           <p>
-            Recently graduated the University of Illinois with a degree in
-            finance and a passion for computer science. Currently co-host a
-            podcast called Surface Tension that aims to expose cool perspectives
-            on the world around us. Don’t love the word “i”, looking for my
-            post-i calling. Working on creating things, meeting smart,
-            ambitious, kind people, and building a better character.
+            i currently co-host a podcast called{" "}
+            <Link
+              className="underline hover:text-neon-green"
+              href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
+            >
+              Surface Tension
+            </Link>{" "}
+            that aims to expose insightful perspectives on the world around us.
+            i (ironically) don’t love the word “i” and am currenty{" "}
+            <span className="font-bold">looking for my post-"i" calling.</span>
+          </p>
+          <br />
+          <p>
+            (here i go again) i'm currently working on building things, meeting
+            smart, ambitious, kind people, and experiencing the many things our
+            world has to offer.
+          </p>
+          <br />
+          <p>
+            click around to get to know me and reach out if you'd like to connect!
           </p>
         </div>
       </Layout>
