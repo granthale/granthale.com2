@@ -14,22 +14,22 @@ const Header = ({ page }: Props) => {
       <meta name="twitter:title" content={title} />
       <meta
         name="twitter:description"
-        content="grant hale is a good guy to know."
+        content="Get to know him!"
       />
       <meta
         name="twitter:image"
-        content="http://www.granthale.com/thumbnail.png"
+        content="https://www.granthale.com/thumbnail.jpg"
       />
 
       <meta property="og:title" content={title} />
       <meta
         property="og:description"
-        content="grant hale is a good guy to know."
+        content="Get to know him!"
       />
-      <meta property="og:url" content="http://www.granthale.com" />
+      <meta property="og:url" content="https://www.granthale.com" />
       <meta
         property="og:image"
-        content="http://www.granthale.com/thumbnail.png"
+        content="https://www.granthale.com/thumbnail.png"
       />
     </Head>
   );
