@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Layout from "../components/layout";
 import Link from "next/link";
 
@@ -22,27 +23,34 @@ export default function About() {
   const main_color = "text-reddish";
   return (
     <>
+      <Head>
+        <title>about | grant hale</title>
+        <meta
+          name="twitter:card"
+          content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
+        />
+      </Head>
       <Layout sidebar={sidebar}>
         <h1 className={`font-bold ${main_color} text-3xl`}>about!</h1>
         <br />
-        <p className={`font-bold ${main_color} text-lg`}>
+        <p className={`font-bold ${main_color} text-xl`}>
           I'm currently living in San Francisco, reading about China's history,
           and making an effort to truly think everyday.
         </p>
         <br />
-        <p className="text-gray text-lg">
+        <p className="text-gray text-xl">
           In my freetime, I love to read and grapple with challenging and
           interesting ideas, spend time cooking with friends, run, write, and
           lift.
         </p>
         <br />
-        <p className="text-lg text-gray">
+        <p className="text-gray text-xl">
           I graduated in May 2023 from the{" "}
           <span className="font-bold">University of Illinois</span> with a major
           in finance and a minor in computer science.
         </p>
         <br />
-        <p className="text-lg text-gray">
+        <p className="text-gray text-xl">
           <span className="font-bold">College is not outdated.</span> I truly
           don't know where I would be without the people I met and the
           (main)character that I developed.
@@ -52,7 +60,7 @@ export default function About() {
         <br />
         {locations.map((location) => (
           <>
-            <div className="text-lg text-gray">
+            <div className="text-gray text-xl">
               <span className="font-bold">{location.month}:</span>{" "}
               {location.location}
             </div>
@@ -61,12 +69,12 @@ export default function About() {
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>energy</h3>
         <br />
-        <p className="text-lg text-gray">
+        <p className="text-gray text-xl">
           Here are the things that I'm currently putting energy into:
         </p>
         <br />
 
-        <ul className="list-disc text-gray pl-5 text-lg">
+        <ul className="list-disc text-gray pl-5 text-xl">
           <li>
             Recording podcast episodes for{" "}
             <Link

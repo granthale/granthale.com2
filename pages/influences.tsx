@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/layout";
+import Head from "next/head";
 
 export default function Influences() {
   const sidebar = (
@@ -184,42 +185,54 @@ export default function Influences() {
   ];
   return (
     <>
+      <Head>
+        <title>influences | grant hale</title>
+        <meta
+          name="twitter:card"
+          content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
+        />
+      </Head>
       <Layout sidebar={sidebar}>
         <h1 className="font-bold text-waving-brown text-3xl">influences!</h1>
         <br />
-        <p className="text-gray text-lg">
+        <p className="text-gray text-xl">
           I like to think of <span className="font-bold">ideas as seeds</span>{" "}
           planted by our influences and nourished by curiosity, contemplation,
           and exploration.
         </p>
         <br />
-        <p className="text-gray text-lg">
+        <p className="text-gray text-xl">
           These seeds, when shared with others through discussion and creation,
           have the power to take root and become a{" "}
           <span className="font-bold">collective intellectual forest.</span>
         </p>
         <br />
-        <p className="text-gray text-lg">
+        <p className="text-gray text-xl">
           Here are some of the{" "}
           <span className="font-bold">books and people</span> that have provided
           me with seeds as a person and thinker:
         </p>
         <br />
         <h1 className="text-2xl text-gray font-bold">people</h1>
-        <ul className="list-disc pl-5 text-waving-brown font-bold text-lg">
+        <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {people.map((person) => (
             <li className="underline hover:text-primary">
-              <Link href={person.link}>{person.name}</Link>
+              <Link href={person.link} target="_blank">
+                {person.name}
+              </Link>
             </li>
           ))}
         </ul>
         <br />
         <br />
         <h1 className="text-2xl text-gray font-bold">books</h1>
-        <ul className="list-disc pl-5 text-waving-brown font-bold text-lg">
+        <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {books.map((book) => (
             <li className="underline hover:text-primary">
-              <Link href={book.link}>{book.name}</Link> by {book.author}
+              <Link href={book.link} target="_blank">
+                {book.name}
+              </Link>{" "}
+              by {book.author}
             </li>
           ))}
         </ul>

@@ -647,6 +647,10 @@ video {
   height: 100vh;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -871,7 +875,7 @@ video {
 
 .text-neon-green {
   --tw-text-opacity: 1;
-  color: rgb(139 236 88 / var(--tw-text-opacity));
+  color: rgb(112 255 35 / var(--tw-text-opacity));
 }
 
 .text-primary {
@@ -947,6 +951,14 @@ video {
   transition-duration: 300ms;
 }
 
+.\[f\:i\] {
+  f: i;
+}
+
+.\[ylX\:s\] {
+  yl-x: s;
+}
+
 html, body{
   background: #FDF3F1;
 }
@@ -965,7 +977,7 @@ html, body{
 
 .hover\:text-neon-green:hover {
   --tw-text-opacity: 1;
-  color: rgb(139 236 88 / var(--tw-text-opacity));
+  color: rgb(112 255 35 / var(--tw-text-opacity));
 }
 
 .hover\:text-primary:hover {

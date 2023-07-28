@@ -7,10 +7,13 @@ export default function Home() {
     <>
       <Head>
         <title>grant hale</title>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:card"
+          content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
+        />
       </Head>
       <Layout home>
-        <div className="text-primary text-3xl">
+        <div className="text-primary text-2xl">
           <p>👋 welcome!</p>
           <br />
           <p>
@@ -25,8 +28,9 @@ export default function Home() {
             <Link
               className="underline hover:text-neon-green"
               href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
+              target="_blank"
             >
-              Surface Tension
+              surface tension
             </Link>{" "}
             that aims to expose insightful perspectives on the world around us.
             i (ironically) don’t love the word “i” and am currenty{" "}
@@ -40,7 +44,8 @@ export default function Home() {
           </p>
           <br />
           <p>
-            click around to get to know me and reach out if you'd like to connect!
+            click around to get to know me and reach out if you'd like to
+            connect!
           </p>
         </div>
       </Layout>
