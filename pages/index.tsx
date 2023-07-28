@@ -8,7 +8,7 @@ export default function Home() {
         <title>grant hale</title>
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Layout color="primary" home>
+      <Layout home>
         <div className="text-primary text-3xl">
           <p>👋 Welcome!</p>
           <br />

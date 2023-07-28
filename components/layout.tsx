@@ -7,15 +7,14 @@ import MenuButton from "./MenuButton";
 import { useState } from "react";
 
 interface Props {
-  color?: string;
   children: React.ReactNode;
   sidebar?: React.ReactNode;
   home?: boolean;
 }
 
-export default function Layout({ children, color, home, sidebar }: Props) {
+export default function Layout({ children, home, sidebar }: Props) {
   const [menuStatus, setMenuStatus] = useState(false);
-  
+
   return (
     <>
       <div>
@@ -24,20 +23,23 @@ export default function Layout({ children, color, home, sidebar }: Props) {
           <div className="flex flex-col h-screen justify-between">
             {/* Top bar */}
             <section className="sticky flex flex-initial border-b-2 justify-between">
-              <Title color={color} />
+              <Title home={home} />
               <div className="hidden md:flex">
-                <Navbar color={color} />
+                <Navbar home={home} />
               </div>
               <div className="md:hidden">
-                <MenuButton menuStatus={menuStatus} setMenuStatus={setMenuStatus}/>
-                {menuStatus && <Menu menuStatus={menuStatus} />}
+                <MenuButton
+                  menuStatus={menuStatus}
+                  setMenuStatus={setMenuStatus}
+                />
+                {menuStatus && <Menu />}
               </div>
             </section>
             {/* Bottom half */}
             <div className="flex flex-grow overflow-hidden">
               {/* Side panel */}
               <section className="hidden md:block sticky m-8 overflow-y">
-                <Activities />
+                <Activities home={home} />
               </section>
               <section className="flex flex-col">
                 <div

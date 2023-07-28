@@ -1,6 +1,10 @@
 import React from "react";
 
-const Activities = () => {
+interface Props {
+  home: boolean;
+}
+
+const Activities = ({ home }: Props) => {
   const activities = [
     { activity: "thinking,", color: "text-primary" },
     { activity: "learning,", color: "text-neon-green" },
@@ -12,7 +16,12 @@ const Activities = () => {
     <>
       <div className="flex flex-col justify-center text-3xl items-left font-bold">
         {activities.map((activity) => (
-          <p key={activity.activity} className={activity.color}>{activity.activity}</p>
+          <p
+            key={activity.activity}
+            className={home ? activity.color : "text-gray"}
+          >
+            {activity.activity}
+          </p>
         ))}
       </div>
     </>
