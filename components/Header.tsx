@@ -9,16 +9,16 @@ const Header = ({ page }: Props) => {
   return (
     <Head>
       <title>{title}</title>
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="grant__hale" />
+      <meta name="twitter:title" content="grant hale" />
       <meta
-        name="twitter:card"
-        content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
+        name="twitter:description"
+        content="grant hale is a guy to get to know."
       />
-      <meta name="description" content="All about grant!" key="desc" />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content="All about grant!" />
       <meta
-        property="og:image"
-        content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
+        name="twitter:image"
+        content="http://www.granthale.com/thumbnail.png"
       />
     </Head>
   );
