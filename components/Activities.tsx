@@ -6,9 +6,9 @@ interface Props {
 
 const Activities = ({ home }: Props) => {
   const activities = [
-    { activity: "thinking,", color: "text-primary" },
-    { activity: "learning,", color: "text-neon-green" },
-    { activity: "coding,", color: "text-tealish" },
+    { activity: "learning,", color: "text-primary" },
+    { activity: "thinking,", color: "text-neon-green" },
+    { activity: "coding,", color: "text-reddish" },
     { activity: "writing,", color: "text-primary" },
     { activity: "podcasting", color: "text-primary" },
   ];

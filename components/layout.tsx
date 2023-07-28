@@ -22,7 +22,7 @@ export default function Layout({ children, home, sidebar }: Props) {
           {/* Whole screen */}
           <div className="flex flex-col h-screen justify-between">
             {/* Top bar */}
-            <section className="sticky flex flex-initial border-b-2 justify-between">
+            <section className="sticky flex flex-initial border-b-2 border-background-primary justify-between">
               <Title home={home} />
               <div className="hidden md:flex">
                 <Navbar home={home} />
