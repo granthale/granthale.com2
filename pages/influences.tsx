@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/layout";
-import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Influences() {
   const sidebar = (
@@ -185,13 +185,7 @@ export default function Influences() {
   ];
   return (
     <>
-      <Head>
-        <title>influences | grant hale</title>
-        <meta
-          name="twitter:card"
-          content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
-        />
-      </Head>
+      <Header page="influences" />
       <Layout sidebar={sidebar}>
         <h1 className="font-bold text-waving-brown text-3xl">influences!</h1>
         <br />

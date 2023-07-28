@@ -1,17 +1,11 @@
 import Link from "next/link";
 import Layout from "../components/layout";
-import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>grant hale</title>
-        <meta
-          name="twitter:card"
-          content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
-        />
-      </Head>
+      <Header page="home" />
       <Layout home>
         <div className="text-primary text-2xl">
           <p>👋 welcome!</p>

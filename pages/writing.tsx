@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/layout";
-import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Writing() {
   const sidebar = (
@@ -15,15 +15,10 @@ export default function Writing() {
   const main_color = "text-neon-green";
   return (
     <>
-      <Head>
-        <title>writing | grant hale</title>
-        <meta
-          name="twitter:card"
-          content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
-        />
-      </Head>
+      <Header page="writing" />
       <Layout sidebar={sidebar}>
         <h1 className={`font-bold ${main_color} text-3xl`}>writing!</h1>
+        <br />
         <h3 className="text-gray text-xl">
           I write for clarity and I write to explore. Subscribe to{" "}
           <Link
@@ -41,6 +36,7 @@ export default function Writing() {
           {pieces.map((piece) => (
             <Link
               href={piece.link}
+              target="_blank"
               className={`${main_color} underline hover:text-primary`}
             >
               <li>{piece.title}</li>

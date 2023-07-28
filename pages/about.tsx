@@ -1,6 +1,6 @@
-import Head from "next/head";
 import Layout from "../components/layout";
 import Link from "next/link";
+import Header from "../components/Header";
 
 export default function About() {
   const sidebar = (
@@ -23,13 +23,7 @@ export default function About() {
   const main_color = "text-reddish";
   return (
     <>
-      <Head>
-        <title>about | grant hale</title>
-        <meta
-          name="twitter:card"
-          content={`${process.env.NEXT_PUBLIC_BASE_URL}/dot.png`}
-        />
-      </Head>
+      <Header page="about" />
       <Layout sidebar={sidebar}>
         <h1 className={`font-bold ${main_color} text-3xl`}>about!</h1>
         <br />
