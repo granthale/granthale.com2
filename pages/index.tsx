@@ -27,7 +27,7 @@ export default function Home() {
               surface tension
             </Link>{" "}
             that aims to expose insightful perspectives on the world around us.
-            i (ironically) don’t love the word “i” and am currenty{" "}
+            i (ironically) don’t love the word “i” and am
             <span className="font-bold">looking for my post-"i" calling.</span>
           </p>
           <br />
