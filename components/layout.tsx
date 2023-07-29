@@ -16,7 +16,7 @@ export default function Layout({ children, home }: Props) {
     <main>
       <div className={`flex flex-col ${styles.container}`}>
         <TopBar
-          home={home }
+          home={home}
           menuStatus={menuStatus}
           setMenuStatus={setMenuStatus}
         ></TopBar>
