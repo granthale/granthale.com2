@@ -7,9 +7,9 @@ html, body{
 }
 
 ::selection {
-  background: #9b94b8;
+  background: #5dc284;
 }
 
 ::-moz-selection {
-  background: #9b94b8;
+  background: #5dc284;
 }

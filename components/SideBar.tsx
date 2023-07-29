@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 
 interface Props {
   home: boolean;
 }
 
-const Activities = ({ home }: Props) => {
+const SideBar = ({ home }: Props) => {
   const activities = [
     { activity: "learning,", color: "text-primary" },
     { activity: "thinking,", color: "text-neon-green" },
@@ -14,7 +15,8 @@ const Activities = ({ home }: Props) => {
   ];
   return (
     <>
-      <div className="flex flex-col justify-center text-3xl items-left font-bold">
+      <Image src="/images/boat.png" alt="journey" width="200" height="200" />
+      {/* <div className="flex flex-col justify-center text-3xl items-left font-bold">
         {activities.map((activity) => (
           <p
             key={activity.activity}
@@ -23,9 +25,9 @@ const Activities = ({ home }: Props) => {
             {activity.activity}
           </p>
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
 
-export default Activities;
+export default SideBar;

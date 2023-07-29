@@ -5,7 +5,6 @@ const Socials = () => {
     Twitter: "https://twitter.com/grant__hale",
     LinkedIn: "https://www.linkedin.com/in/grantrhale/",
     Github: "https://github.com/granthale",
-    Podcast: "https://podcasters.spotify.com/pod/show/surfacetensionpod",
     Email: "mailto:contact@granthale.com"
   };
   return (

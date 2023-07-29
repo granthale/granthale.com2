@@ -13,16 +13,22 @@ const Menu = () => {
               about
             </Link>
             <Link
+              href="/influences"
+              className="text-4xl text-white font-bold hover:text-neon-green mt-3"
+            >
+              influences
+            </Link>
+            <Link
               href="/writing"
               className="text-4xl text-white font-bold hover:text-neon-green mt-3"
             >
               writing
             </Link>
             <Link
-              href="/influences"
+              href="/podcast"
               className="text-4xl text-white font-bold hover:text-neon-green mt-3"
             >
-              influences
+              podcast
             </Link>
           </div>
         </div>

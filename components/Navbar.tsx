@@ -5,12 +5,12 @@ interface Props {
 }
 
 const Navbar = ({ home }: Props) => {
-  const box = home
-    ? `box-border h-12 w-64 xl m-8 p-4 bg-primary rounded-xl flex items-center justify-between`
-    : `box-border h-12 w-64 xl m-8 p-4 bg-gray rounded-xl flex items-center justify-between`;
-  const hover = home
-    ? `text-white hover:text-neon-green font-bold`
-    : `text-white hover:text-primary font-bold`;
+  const box = `box-border h-12 w-74 xl m-8 p-4 bg-${
+    home ? "primary" : "gray"
+  } rounded-xl flex items-center justify-between`;
+  const hover = `text-white hover:text-${
+    home ? "neon-green" : "primary"
+  } font-bold`;
   return (
     <div className={box}>
       <Link href="/about" className={hover}>
@@ -23,6 +23,10 @@ const Navbar = ({ home }: Props) => {
       <div className="border-r border-white h-full mx-2"></div>
       <Link href="/writing" className={hover}>
         writing
+      </Link>
+      <div className="border-r border-white h-full mx-2"></div>
+      <Link href="/podcast" className={hover}>
+        podcast
       </Link>
     </div>
   );

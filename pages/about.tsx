@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Link from "next/link";
 import Header from "../components/Header";
 
@@ -24,7 +24,7 @@ export default function About() {
   return (
     <>
       <Header page="about" />
-      <Layout sidebar={sidebar}>
+      <Layout>
         <h1 className={`font-bold ${main_color} text-3xl`}>about!</h1>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>

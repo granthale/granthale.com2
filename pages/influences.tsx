@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Header from "../components/Header";
 
 export default function Influences() {
@@ -186,7 +186,7 @@ export default function Influences() {
   return (
     <>
       <Header page="influences" />
-      <Layout sidebar={sidebar}>
+      <Layout>
         <h1 className="font-bold text-waving-brown text-3xl">influences!</h1>
         <br />
         <p className="text-gray text-xl">

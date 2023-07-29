@@ -1,11 +1,8 @@
 import Link from "next/link";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Header from "../components/Header";
 
 export default function Writing() {
-  const sidebar = (
-    <div className="text-tealish text-3xl font-bold">Writing</div>
-  );
   const pieces = [
     {
       title: "The European Experiment",
@@ -16,7 +13,7 @@ export default function Writing() {
   return (
     <>
       <Header page="writing" />
-      <Layout sidebar={sidebar}>
+      <Layout>
         <h1 className={`font-bold ${main_color} text-3xl`}>writing!</h1>
         <br />
         <h3 className="text-gray text-xl">

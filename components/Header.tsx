@@ -16,7 +16,7 @@ const Header = ({ page }: Props) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:image"
-        content="https://www.granthale.com/thumbnail.jpg"
+        content="https://www.granthale.com/images/dot.png"
       />
       <meta property="og:title" content={title} />
       <meta property="og:url" content="https://www.granthale.com" />
@@ -27,7 +27,7 @@ const Header = ({ page }: Props) => {
       <meta property="og:description" content="Get to know him!" />
       <meta
         property="og:image"
-        content="https://www.granthale.com/thumbnail.jpg"
+        content="https://www.granthale.com/images/dot.png"
       />
     </Head>
   );

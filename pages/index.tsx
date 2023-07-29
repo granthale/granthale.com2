@@ -1,17 +1,17 @@
 import Link from "next/link";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Header from "../components/Header";
 
 export default function Home() {
   return (
     <>
       <Header page="home" />
-      <Layout home>
+      <Layout>
         <div className="text-primary text-2xl">
-          <p>👋 welcome!</p>
+          <p className="font-bold">👋 Hi, my name is Grant!</p>
           <br />
           <p>
-            i believe that everyone has more room for{" "}
+            i believe that everye has more room for{" "}
             <span className="font-bold">curiosity, wonder, and creativity</span>
             . i’m living to broaden those qualities in myself and help others do
             the same.
@@ -27,7 +27,7 @@ export default function Home() {
               surface tension
             </Link>{" "}
             that aims to expose insightful perspectives on the world around us.
-            i (ironically) don’t love the word “i” and am 
+            i (ironically) don’t love the word “i” and am
             <span className="font-bold">looking for my post-"i" calling.</span>
           </p>
           <br />
