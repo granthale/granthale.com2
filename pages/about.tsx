@@ -52,6 +52,19 @@ export default function About() {
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>time & location</h3>
         <br />
+        <p className="text-gray text-xl">
+          I've got ~
+          <span className="font-bold">
+            {Math.round(
+              (new Date("2024-01-01").getTime() - new Date().getTime()) /
+                (1000 * 60 * 60 * 24)
+            ) + 1}{" "}
+            days and counting{" "}
+          </span>
+          until I start work for Boston Consulting Group as an Associate. Here
+          is where I'll be from now until then:
+        </p>
+        <br />
         {locations.map((location) => (
           <>
             <div className="text-gray text-xl">
@@ -67,7 +80,6 @@ export default function About() {
           Here are the things that I'm currently putting energy into:
         </p>
         <br />
-
         <ul className="list-disc text-gray pl-5 text-xl">
           <li>
             Recording podcast episodes for{" "}
