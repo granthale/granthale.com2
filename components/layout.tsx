@@ -2,6 +2,7 @@ import TopBar from "./TopBar";
 import BottomBar from "./BottomBar";
 import MainContent from "./MainContent";
 import { useState } from "react";
+import styles from "../styles/Layout.module.css";
 
 interface Props {
   children: React.ReactNode;
@@ -12,21 +13,16 @@ export default function Layout({ children, home }: Props) {
   const [menuStatus, setMenuStatus] = useState(false);
 
   return (
-    <>
-      <main>
-        {/* Whole screen */}
-        <div className="flex flex-col">
-          <TopBar
-            home={home}
-            menuStatus={menuStatus}
-            setMenuStatus={setMenuStatus}
-          ></TopBar>
-          {/* Main content */}
-          <MainContent home={home} children={children} />
-          {/* Bottom bar */}
-          <BottomBar />
-        </div>
-      </main>
-    </>
+    <main>
+      <div className={`flex flex-col ${styles.container}`}>
+        <TopBar
+          home={home }
+          menuStatus={menuStatus}
+          setMenuStatus={setMenuStatus}
+        ></TopBar>
+        <MainContent home={home} children={children} />
+        <BottomBar />
+      </div>
+    </main>
   );
 }

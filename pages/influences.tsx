@@ -210,7 +210,7 @@ export default function Influences() {
         <h1 className="text-2xl text-gray font-bold">people</h1>
         <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {people.map((person) => (
-            <li className="underline hover:text-primary">
+            <li className="underline hover:text-primary" key={person.name}>
               <Link href={person.link} target="_blank">
                 {person.name}
               </Link>
@@ -222,7 +222,7 @@ export default function Influences() {
         <h1 className="text-2xl text-gray font-bold">books</h1>
         <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {books.map((book) => (
-            <li className="underline hover:text-primary">
+            <li className="underline hover:text-primary" key={book.name}>
               <Link href={book.link} target="_blank">
                 {book.name}
               </Link>{" "}

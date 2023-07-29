@@ -15,10 +15,10 @@ export default function About() {
     },
     { month: "July", location: "San Francisco" },
     { month: "August", location: "San Francisco, Chicago" },
-    { month: "September", location: "Vietnam?" },
+    { month: "September", location: "China?" },
     { month: "October", location: "Japan?" },
-    { month: "November", location: "Spain?" },
-    { month: "December", location: "???" },
+    { month: "November", location: "India?" },
+    { month: "December", location: "Spain?" },
   ];
   const main_color = "text-reddish";
   return (

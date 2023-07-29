@@ -24,7 +24,7 @@ export default function Writing() {
           >
             Tree to Forest
           </Link>{" "}
-          and get ready for more!
+          if you'd like to read more!
         </h3>
         <br />
         <br />
@@ -35,6 +35,7 @@ export default function Writing() {
               href={piece.link}
               target="_blank"
               className={`${main_color} underline hover:text-primary`}
+              key={piece.title}
             >
               <li>{piece.title}</li>
             </Link>

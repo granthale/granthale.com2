@@ -11,10 +11,10 @@ export default function Home() {
           <p className="font-bold">👋 Hi, my name is Grant!</p>
           <br />
           <p>
-            i believe that everye has more room for{" "}
-            <span className="font-bold">curiosity, wonder, and creativity</span>
-            . i’m living to broaden those qualities in myself and help others do
-            the same.
+            i believe that everyone has more room for{" "}
+            <span className="font-bold">curiosity and creativity</span>. i’m
+            living to broaden those qualities in myself and help others do the
+            same.
           </p>
           <br />
           <p>
