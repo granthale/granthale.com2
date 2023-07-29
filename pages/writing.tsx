@@ -12,7 +12,7 @@ export default function Writing() {
   const main_color = "text-neon-green";
   return (
     <>
-      <Header page="writing" />
+      <Header page="Writing" />
       <Layout>
         <h1 className={`font-bold ${main_color} text-3xl`}>writing!</h1>
         <br />

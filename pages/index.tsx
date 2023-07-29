@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header page="home" />
       <Layout>
-        <div className="text-primary text-2xl">
+        <div className="text-primary text-xl">
           <p className="font-bold">👋 Hi, my name is Grant!</p>
           <br />
           <p>
