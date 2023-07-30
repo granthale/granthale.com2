@@ -187,7 +187,7 @@ export default function Influences() {
     <>
       <Header page="influences" />
       <Layout>
-        <h1 className="font-bold text-waving-brown text-3xl">influences!</h1>
+        <h1 className="font-extrabold text-waving-brown text-4xl">influences!</h1>
         <br />
         <p className="text-gray text-xl">
           I like to think of <span className="font-bold">ideas as seeds</span>{" "}

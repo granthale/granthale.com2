@@ -25,7 +25,7 @@ export default function About() {
     <>
       <Header page="about" />
       <Layout>
-        <h1 className={`font-bold ${main_color} text-3xl`}>about!</h1>
+        <h1 className={`font-extrabold ${main_color} text-4xl`}>about!</h1>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
           I'm currently living in San Francisco, reading about China's history,

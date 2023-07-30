@@ -14,7 +14,7 @@ export default function Writing() {
     <>
       <Header page="Writing" />
       <Layout>
-        <h1 className={`font-bold ${main_color} text-3xl`}>writing!</h1>
+        <h1 className={`font-extrabold ${main_color} text-4xl`}>writing!</h1>
         <br />
         <h3 className="text-gray text-xl">
           I write for clarity and I write to explore. Subscribe to{" "}

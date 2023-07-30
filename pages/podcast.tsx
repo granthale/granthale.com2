@@ -5,7 +5,7 @@ import Pods from "../components/Pods";
 const podcast = () => {
   return (
     <Layout>
-      <div className="text-waving-brown font-bold text-3xl">podcast!</div>
+      <div className="text-waving-brown font-extrabold text-4xl">podcast!</div>
       <br />
       <div className="text-gray text-xl">
         Sharad Doshi and I have been working on{" "}
