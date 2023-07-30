@@ -9,7 +9,7 @@ interface Props {
   home?: boolean;
 }
 
-export default function Layout({ children, home }: Props) {
+function Layout({ children, home }: Props) {
   const [menuStatus, setMenuStatus] = useState(false);
 
   return (
@@ -26,3 +26,5 @@ export default function Layout({ children, home }: Props) {
     </main>
   );
 }
+
+export default Layout;

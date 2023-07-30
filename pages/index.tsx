@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header page="home" />
-      <Layout>
+      <Layout home>
         <div className="text-primary text-xl">
           <p className="font-bold text-2xl">👋 Hi,I'm Grant!</p>
           <br />
@@ -30,11 +30,8 @@ export default function Home() {
               to get to the bottom of worthwhile ideas.
             </li>
             <li>
-              i’m traveling the world, searching for{" "}
-              <Link className="underline hover:text-neon-green" href="/writing">
-                perspective
-              </Link>{" "}
-              on society, people, and myself.
+              i’m traveling the world, searching for perspective on society,
+              people, and myself.
             </li>
             <li>
               i’m exploring disparate fields and problems in the hopes of
