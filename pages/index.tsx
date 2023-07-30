@@ -8,7 +8,7 @@ export default function Home() {
       <Header page="home" />
       <Layout home>
         <div className="text-primary text-xl">
-          <p className="font-bold text-2xl">👋 Hi,I'm Grant!</p>
+          <p className="font-extrabold text-4xl">👋 Hi,I'm Grant!</p>
           <br />
           <p>
             i believe that everyone has more room for{" "}
@@ -26,22 +26,19 @@ export default function Home() {
                 target="_blank"
               >
                 surface tension
-              </Link>{" "}
-              to get to the bottom of worthwhile ideas.
+              </Link>.
             </li>
             <li>
-              i’m traveling the world, searching for perspective on society,
-              people, and myself.
+              i’m traveling the world, looking for perspective on society and
+              self.
             </li>
             <li>
-              i’m exploring disparate fields and problems in the hopes of
-              finding ways to make the world a better place.
+              i’m learning about different fields to find problems worth solving.
             </li>
           </ul>
           <br />
           <p>
-            click around to get to know me and reach out if you'd like to
-            connect!
+            click around to get to know me and reach out to say hi!
           </p>
         </div>
       </Layout>

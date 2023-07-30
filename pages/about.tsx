@@ -15,10 +15,10 @@ export default function About() {
     },
     { month: "July", location: "San Francisco" },
     { month: "August", location: "San Francisco, Chicago" },
-    { month: "September", location: "China?" },
-    { month: "October", location: "Japan?" },
-    { month: "November", location: "India?" },
-    { month: "December", location: "Spain?" },
+    { month: "September", location: "China (?)" },
+    { month: "October", location: "Japan (?)" },
+    { month: "November", location: "India (?)" },
+    { month: "December", location: "Spain (?)" },
   ];
   const main_color = "text-reddish";
   return (
@@ -33,8 +33,8 @@ export default function About() {
         </p>
         <br />
         <p className="text-gray text-xl">
-          In my freetime, I love to read and grapple with challenging and
-          interesting ideas, spend time with friends, play sports, write (
+          In my freetime, I love to read, spend time with friends, play sports,
+          write both{" "}
           <Link className="underline hover:text-neon-green" href="/writing">
             words
           </Link>{" "}
@@ -46,15 +46,13 @@ export default function About() {
           >
             code
           </Link>
-          ), and run.
+          , and run.
         </p>
         <br />
         <p className="text-gray text-xl">
-          I graduated in May 2023 from the{" "}
-          <span className="font-bold">University of Illinois</span> with a major
-          in finance and a minor in computer science.
+          I recently graduated in May 2023 from the{" "}
+          <span className="font-bold">University of Illinois</span>.
         </p>
-        <br />
         <p className="text-gray text-xl">
           <span className="font-bold">College is not outdated.</span> I truly
           don't know where I would be without the people I met and the
@@ -113,8 +111,9 @@ export default function About() {
             </Link>{" "}
             @ least 15 minutes a day - ideally closer to an hour
           </li>
-          <li>Honing my full-stack development skills using Next.js.</li>
-          <li>Reading history, science, and biographies like a madman.</li>
+          <li>
+            Reading like a madman (mostly history, science, and biographies).
+          </li>
         </ul>
 
         <br />
