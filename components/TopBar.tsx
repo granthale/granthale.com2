@@ -13,13 +13,13 @@ interface Props {
 const TopBar = ({home, menuStatus, setMenuStatus} : Props) => {
   return (
     <div className="sticky flex border-b-2 justify-between">
-      <Title home={home} />
-      <div className="hidden md:flex">
-        <Navbar home={home} />
-      </div>
-      <div className="md:hidden">
-        <MenuButton menuStatus={menuStatus} setMenuStatus={setMenuStatus} />
-        {menuStatus && <Menu />}
+        <Title home={home} />
+        <div className="hidden md:flex">
+          <Navbar home={home} />
+        </div>
+        <div className="md:hidden">
+          <MenuButton menuStatus={menuStatus} setMenuStatus={setMenuStatus} />
+          {menuStatus && <Menu />}
       </div>
     </div>
   );

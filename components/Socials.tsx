@@ -9,16 +9,19 @@ const Socials = () => {
     Email: "mailto:g@granthale.com",
   };
   return (
-    <div className="flex sticky">
+    <div className="flex flex-col sticky">
       {Object.keys(socials).map((key) => (
-        <Link
-          className="m-4 text-gray hover:text-primary"
-          key={key}
-          href={socials[key]}
-          target="_blank"
-        >
-          {key}
-        </Link>
+        <>
+          <br />
+          <Link
+            className="text-gray hover:text-primary"
+            key={key}
+            href={socials[key]}
+            target="_blank"
+          >
+            {key}
+          </Link>
+        </>
       ))}
     </div>
   );

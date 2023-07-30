@@ -14,15 +14,15 @@ function Layout({ children, home }: Props) {
 
   return (
     <main>
-      <div className={`flex flex-col ${styles.container}`}>
-        <TopBar
-          home={home}
-          menuStatus={menuStatus}
-          setMenuStatus={setMenuStatus}
-        ></TopBar>
-        <MainContent home={home} children={children} />
-        <BottomBar />
-      </div>
+        <div className={`flex flex-col ${styles.container}`}>
+          <TopBar
+            home={home}
+            menuStatus={menuStatus}
+            setMenuStatus={setMenuStatus}
+          ></TopBar>
+          <MainContent home={home} children={children} />
+          <BottomBar />
+        </div>
     </main>
   );
 }
