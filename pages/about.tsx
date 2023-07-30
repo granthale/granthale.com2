@@ -34,8 +34,19 @@ export default function About() {
         <br />
         <p className="text-gray text-xl">
           In my freetime, I love to read and grapple with challenging and
-          interesting ideas, spend time cooking with friends, run, write, and
-          lift.
+          interesting ideas, spend time with friends, play sports, write (
+          <Link className="underline hover:text-neon-green" href="/writing">
+            words
+          </Link>{" "}
+          and{" "}
+          <Link
+            className="underline hover:text-neon-green"
+            href="https://github.com/granthale"
+            target="_blank"
+          >
+            code
+          </Link>
+          ), and run.
         </p>
         <br />
         <p className="text-gray text-xl">
@@ -103,8 +114,31 @@ export default function About() {
             @ least 15 minutes a day - ideally closer to an hour
           </li>
           <li>Honing my full-stack development skills using Next.js.</li>
-          <li>Reading like a madman</li>
+          <li>Reading history, science, and biographies like a madman.</li>
         </ul>
+
+        <br />
+        <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
+        <br />
+        <p className="text-gray text-xl">
+          I'm always looking to meet new people and learn new things. If you'd
+          like to chat, reach me on{" "}
+          <Link
+            className="underline hover:text-neon-green"
+            href="https://twitter.com/grant__hale"
+            target="_blank"
+          >
+            Twitter
+          </Link>{" "}
+          or by{" "}
+          <Link
+            className="underline hover:text-neon-green"
+            href="mailto:g@granthale.com"
+          >
+            email
+          </Link>
+          !
+        </p>
       </Layout>
     </>
   );
