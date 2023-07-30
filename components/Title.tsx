@@ -19,10 +19,10 @@ const Title = ({ home }: Props) => {
     </>
   ) : (
     <>
-      <Link href="/" className={`hidden sm:block ${secondary_class}`}>
+      <Link href="/" className={`hidden md:block ${secondary_class}`}>
         grant hale
       </Link>
-      <Link href="/" className={`block sm:hidden ${secondary_class}`}>
+      <Link href="/" className={`block md:hidden ${secondary_class}`}>
         gha
       </Link>
     </>
