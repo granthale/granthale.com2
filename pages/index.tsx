@@ -31,10 +31,7 @@ export default function Home() {
             </li>
             <li>
               i’m traveling the world, searching for{" "}
-              <Link
-                className="underline hover:text-neon-green"
-                href="/writing"
-              >
+              <Link className="underline hover:text-neon-green" href="/writing">
                 perspective
               </Link>{" "}
               on society, people, and myself.

@@ -6,9 +6,13 @@ export interface Podcast {
   id: number;
   name: string;
   audio_preview_url: string;
-  external_urls: string;
+  external_urls: ExternalUrls;
   release_date: string;
   description: string;
+}
+
+interface ExternalUrls {
+  spotify: string;
 }
 
 interface FetchPodsResponse {
