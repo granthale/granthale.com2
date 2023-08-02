@@ -6,14 +6,16 @@ module.exports = {
     darkMode: 'light',
     extend: {},
     colors: {
-      "primary": '#360EF1',
-      "neon-green": '#70FF23',
+      "primary": '#2563eb',
+      "neon-green": '#22c55e',
       "waving-brown": '#F4C641',
       "tealish": "#00FFC2",
       "white": "#FFFFFF",
       "background": "#FDF3F1",
       "gray": "#808080",
       "reddish":"#E55C41",
+      "black": "#000000",
+      "blue": "#2563eb"
     }
   },
   plugins: [],

@@ -33,13 +33,14 @@ const Socials = () => {
         <>
           <br />
           <Link
-            className="text-gray hover:text-primary mr-2"
+            className="text-black hover:text-primary mr-2"
             key={key}
             href={socials[key].link}
             target="_blank"
           >
             {socials[key].icon}
           </Link>
+          <br />
           <br />
         </>
       ))}

@@ -197,27 +197,32 @@ export default function Influences() {
     <>
       <Header page="influences" />
       <Layout>
-        <h1 className="font-extrabold text-waving-brown text-4xl">influences!</h1>
+        <h1 className="font-extrabold text-waving-brown text-4xl">
+          influences!
+        </h1>
         <br />
-        <p className="text-gray text-xl">
-          I like to think of <span className="font-bold">ideas as seeds</span>{" "}
-          planted by our influences and nourished by curiosity, contemplation,
-          and exploration.
-        </p>
+        <div className="text-xl">
+          <p>
+            I like to think of <span className="font-bold">ideas as seeds</span>{" "}
+            planted by our influences and nourished by curiosity, contemplation,
+            and exploration.
+          </p>
+          <br />
+          <p>
+            These seeds, when shared with others through discussion and
+            creation, have the power to take root and become a{" "}
+            <span className="font-bold">collective intellectual forest.</span>
+          </p>
+          <br />
+          <p>
+            Here are some of the{" "}
+            <span className="font-bold">books and people</span> that have
+            provided me with seeds as a person and thinker:
+          </p>
+        </div>
         <br />
-        <p className="text-gray text-xl">
-          These seeds, when shared with others through discussion and creation,
-          have the power to take root and become a{" "}
-          <span className="font-bold">collective intellectual forest.</span>
-        </p>
         <br />
-        <p className="text-gray text-xl">
-          Here are some of the{" "}
-          <span className="font-bold">books and people</span> that have provided
-          me with seeds as a person and thinker:
-        </p>
-        <br />
-        <h1 className="text-2xl text-gray font-bold">people</h1>
+        <h1 className="text-2xl font-bold">people</h1>
         <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {people.map((person) => (
             <li className="underline hover:text-primary" key={person.name}>
@@ -229,7 +234,7 @@ export default function Influences() {
         </ul>
         <br />
         <br />
-        <h1 className="text-2xl text-gray font-bold">books</h1>
+        <h1 className="text-2xl font-bold">books</h1>
         <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {books.map((book) => (
             <li className="underline hover:text-primary" key={book.name}>

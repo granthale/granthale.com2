@@ -3,9 +3,6 @@ import Link from "next/link";
 import Header from "../components/Header";
 
 export default function About() {
-  const sidebar = (
-    <div className="text-neon-green font-bold text-3xl">About me</div>
-  );
 
   const locations = [
     { month: "May", location: "Chicago" },
@@ -32,9 +29,9 @@ export default function About() {
           and making an effort to truly think everyday.
         </p>
         <br />
-        <p className="text-gray text-xl">
+        <p className="text-xl">
           In my freetime, I love to read, spend time with friends, play sports,
-          write both{" "}
+          write{" "}
           <Link className="underline hover:text-neon-green" href="/writing">
             words
           </Link>{" "}
@@ -49,19 +46,16 @@ export default function About() {
           , and run.
         </p>
         <br />
-        <p className="text-gray text-xl">
+        <p className="text-xl">
           I recently graduated in May 2023 from the{" "}
-          <span className="font-bold">University of Illinois</span>.
-        </p>
-        <p className="text-gray text-xl">
-          <span className="font-bold">College is not outdated.</span> I truly
-          don't know where I would be without the people I met and the
-          (main)character that I developed.
+          <span className="font-bold">University of Illinois</span>. College is
+          not outdated. I truly don't know where I would be without the people I
+          met and the (main)character that I developed.
         </p>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>time & location</h3>
         <br />
-        <p className="text-gray text-xl">
+        <p className="text-xl">
           I've got ~
           <span className="font-bold">
             {Math.round(
@@ -76,7 +70,7 @@ export default function About() {
         <br />
         {locations.map((location) => (
           <>
-            <div className="text-gray text-xl">
+            <div className="text-xl">
               <span className="font-bold">{location.month}:</span>{" "}
               {location.location}
             </div>
@@ -85,11 +79,11 @@ export default function About() {
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>energy</h3>
         <br />
-        <p className="text-gray text-xl">
+        <p className="text-xl">
           Here are the things that I'm currently putting energy into:
         </p>
         <br />
-        <ul className="list-disc text-gray pl-5 text-xl">
+        <ul className="list-disc pl-5 text-xl">
           <li>
             Recording podcast episodes for{" "}
             <Link
@@ -119,7 +113,7 @@ export default function About() {
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
         <br />
-        <p className="text-gray text-xl">
+        <p className="text-xl">
           I'm always looking to meet new people and learn new things. If you'd
           like to chat, reach me on{" "}
           <Link

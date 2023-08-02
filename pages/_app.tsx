@@ -1,14 +1,17 @@
 import "../dist/output.css";
 
-import { Roboto_Mono } from "next/font/google";
-const robotoMono = Roboto_Mono({ subsets: ["latin"] });
+import { Alegreya_Sans } from "next/font/google";
+const font = {
+  subsets: ["latin"],
+  display: "swap",
+};
 import { ThemeProvider } from "next-themes";
 
 import { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={robotoMono.className}>
+    <main className={font.display}>
       <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>

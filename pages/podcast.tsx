@@ -8,11 +8,11 @@ const podcast = () => {
     <>
       <Header page="podcast" />
       <Layout>
-        <div className="text-waving-brown font-extrabold text-4xl">
+        <div className="text-neon-green font-extrabold text-4xl">
           podcast!
         </div>
         <br />
-        <div className="text-gray text-xl">
+        <div className="text-xl">
           Sharad Doshi and I have been working on{" "}
           <Link
             className="underline hover:text-neon-green"

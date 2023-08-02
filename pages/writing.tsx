@@ -9,17 +9,17 @@ export default function Writing() {
       link: "https://treetoforest.substack.com/p/the-european-experiment",
     },
   ];
-  const main_color = "text-neon-green";
+  const main_color = "text-blue";
   return (
     <>
       <Header page="writing" />
       <Layout>
         <h1 className={`font-extrabold ${main_color} text-4xl`}>writing!</h1>
         <br />
-        <h3 className="text-gray text-xl">
+        <h3 className="text-xl">
           I write for clarity and I write to explore. Subscribe to{" "}
           <Link
-            className="underline text-primary hover:text-neon-green"
+            className="underline text-blue hover:text-neon-green"
             href="https://treetoforest.substack.com/"
           >
             Tree to Forest
@@ -28,13 +28,13 @@ export default function Writing() {
         </h3>
         <br />
         <br />
-        <h3 className={`font-bold text-gray text-2xl`}>pieces</h3>
+        <h3 className={`font-bold text-2xl`}>pieces</h3>
         <ul className="list-disc pl-5 text-xl">
           {pieces.map((piece) => (
             <Link
               href={piece.link}
               target="_blank"
-              className={`${main_color} underline hover:text-primary`}
+              className={`${main_color} underline hover:text-neon-green`}
               key={piece.title}
             >
               <li>{piece.title}</li>
