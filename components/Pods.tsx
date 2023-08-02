@@ -62,7 +62,6 @@ const Pods = () => {
             Authorization: "Bearer " + token,
           },
         });
-        console.log(response.data);
         setPods(response.data.items);
       } catch (error) {
         console.error(error);
@@ -74,7 +73,7 @@ const Pods = () => {
   }, [token]);
 
   return (
-    <div>
+    <div className="relative z-10">
       {pods.map((pod) => {
         return <PodCard podcast={pod} />;
       })}
