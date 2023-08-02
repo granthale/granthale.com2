@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import PodCard from "./PodCard";
+import PodCard from "./PodCard/PodCard";
 
 export interface Podcast {
   id: number;
@@ -76,9 +76,7 @@ const Pods = () => {
   return (
     <div>
       {pods.map((pod) => {
-        return (
-          <PodCard podcast={pod} />
-        );
+        return <PodCard podcast={pod} />;
       })}
     </div>
   );
