@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Arrow from "../components/arrow";
+import Arrow from "../components/Arrow";
 
 export default function Writing() {
   const pieces = [

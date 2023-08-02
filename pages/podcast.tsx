@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Pods from "../components/Pods";
 import Header from "../components/Header";
-import Arrow from "../components/arrow";
+import Arrow from "../components/Arrow";
 
 const podcast = () => {
   return (

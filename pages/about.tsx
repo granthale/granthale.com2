@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 import Header from "../components/Header";
-import Arrow from "../components/arrow";
+import Arrow from "../components/Arrow";
 
 export default function About() {
 
