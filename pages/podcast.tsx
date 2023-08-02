@@ -13,7 +13,7 @@ const podcast = () => {
         <div className="text-xl">
           Sharad Doshi and I have been working on{" "}
           <a
-            className="underline hover:text-neon-green"
+            className="text-neon-green underline hover:text-black"
             href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
             target="_blank"
           >

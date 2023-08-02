@@ -36,7 +36,7 @@ export default function Writing() {
             <a
               href={piece.link}
               target="_blank"
-              className={`${main_color} underline hover:text-neon-green`}
+              className={`underline hover:text-neon-green`}
               key={piece.title}
             >
               <li>
