@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Layout from "../components/Layout";
 import Pods from "../components/Pods";
 import Header from "../components/Header";
@@ -14,13 +13,13 @@ const podcast = () => {
         <br />
         <div className="text-xl">
           Sharad Doshi and I have been working on{" "}
-          <Link
+          <a
             className="underline hover:text-neon-green"
             href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
             target="_blank"
           >
             Surface Tension
-          </Link>{" "}
+          </a>{" "}
           for a little under a year now. Here are the episodes that we've
           currently released.
         </div>

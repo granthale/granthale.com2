@@ -1,10 +1,11 @@
-import Link from "next/link"
+import Link from "next/link";
+import Socials from "./Socials";
 
 const Menu = () => {
   return (
     <>
-      <div className="fixed top-23 left-0 w-full h-full bg-primary bg-opacity-90 z-50">
-        <div className="flex flex-col m-8 justify-top items-left h-full">
+      <div className="fixed top-23 left-0 w-full h-full bg-primary bg-opacity-100 z-50">
+        <div className="flex flex-col flex-1 m-8 justify-between items-left min-h-full">
           <div className="flex flex-col justify-center">
             <Link
               href="/about"
@@ -31,6 +32,9 @@ const Menu = () => {
               podcast
             </Link>
           </div>
+        </div>
+        <div className="p-4">
+          <Socials menu />
         </div>
       </div>
     </>

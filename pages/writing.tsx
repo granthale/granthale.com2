@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 
@@ -18,12 +17,12 @@ export default function Writing() {
         <br />
         <h3 className="text-xl">
           I write for clarity and I write to explore. Subscribe to{" "}
-          <Link
+          <a
             className="underline text-blue hover:text-neon-green"
             href="https://treetoforest.substack.com/"
           >
             Tree to Forest
-          </Link>{" "}
+          </a>{" "}
           if you'd like to read more!
         </h3>
         <br />
@@ -31,14 +30,14 @@ export default function Writing() {
         <h3 className={`font-bold text-2xl`}>pieces</h3>
         <ul className="list-disc pl-5 text-xl">
           {pieces.map((piece) => (
-            <Link
+            <a
               href={piece.link}
               target="_blank"
               className={`${main_color} underline hover:text-neon-green`}
               key={piece.title}
             >
               <li>{piece.title}</li>
-            </Link>
+            </a>
           ))}
         </ul>
       </Layout>

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 
@@ -20,13 +19,13 @@ export default function Home() {
           <ul className="list-disc text-black pl-5 text-xl">
             <li key="podcast">
               I’m asking questions on{" "}
-              <Link
+              <a
                 className="underline hover:text-neon-green"
                 href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
                 target="_blank"
               >
                 Surface Tension
-              </Link>
+              </a>
               .
             </li>
             <li key="travel">

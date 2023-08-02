@@ -36,13 +36,13 @@ export default function About() {
             words
           </Link>{" "}
           and{" "}
-          <Link
+          <a
             className="underline hover:text-neon-green"
             href="https://github.com/granthale"
             target="_blank"
           >
             code
-          </Link>
+          </a>
           , and run.
         </p>
         <br />
@@ -86,23 +86,23 @@ export default function About() {
         <ul className="list-disc pl-5 text-xl">
           <li>
             Recording podcast episodes for{" "}
-            <Link
+            <a
               href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
               className="underline hover:text-neon-green"
               target="_blank"
             >
               Surface Tension
-            </Link>
+            </a>
           </li>
           <li>
             {" "}
-            <Link
+            <a
               href="https://treetoforest.substack.com/"
               target="_blank"
               className="underline hover:text-neon-green"
             >
               Writing
-            </Link>{" "}
+            </a>{" "}
             @ least 15 minutes a day - ideally closer to an hour
           </li>
           <li>
@@ -116,20 +116,20 @@ export default function About() {
         <p className="text-xl">
           I'm always looking to meet new people and learn new things. If you'd
           like to chat, reach me on{" "}
-          <Link
+          <a
             className="underline hover:text-neon-green"
             href="https://twitter.com/grant__hale"
             target="_blank"
           >
             Twitter
-          </Link>{" "}
+          </a>{" "}
           or by{" "}
-          <Link
+          <a
             className="underline hover:text-neon-green"
             href="mailto:g@granthale.com"
           >
             email
-          </Link>
+          </a>
           !
         </p>
       </Layout>

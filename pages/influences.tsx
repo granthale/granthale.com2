@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 
@@ -226,9 +225,9 @@ export default function Influences() {
         <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {people.map((person) => (
             <li className="underline hover:text-primary" key={person.name}>
-              <Link href={person.link} target="_blank">
+              <a href={person.link} target="_blank">
                 {person.name}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>
@@ -238,9 +237,9 @@ export default function Influences() {
         <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
           {books.map((book) => (
             <li className="underline hover:text-primary" key={book.name}>
-              <Link href={book.link} target="_blank">
+              <a href={book.link} target="_blank">
                 {book.name}
-              </Link>{" "}
+              </a>{" "}
               by {book.author}
             </li>
           ))}

@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Podcast } from "./Pods";
 import { FaPlay, FaPause } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
-import Link from "next/link";
 
 interface Props {
   podcast: Podcast;
@@ -38,7 +37,7 @@ export default function PodCard({ podcast }: Props) {
         {/* Div for image / text */}
         {/* Image */}
         <div className="flex flex-none">
-          <Link href={podcast.external_urls.spotify} target="_blank">
+          <a href={podcast.external_urls.spotify} target="_blank">
             <Image
               className="rounded-full"
               width={100}
@@ -46,17 +45,17 @@ export default function PodCard({ podcast }: Props) {
               src="/images/surface-tension.png"
               alt="surface tension logo"
             />
-          </Link>
+          </a>
         </div>
         {/* Text */}
         <div className="ml-4">
-          <Link
+          <a
             href={podcast.external_urls.spotify}
             className="text-gray-900 font-bold text-xl mb-2 hover:text-neon-green"
             target="_blank"
           >
             {podcast.name}
-          </Link>
+          </a>
           <p className="hidden md:flex text-gray-700 text-base">
             {podcast.description.substring(0, 200)}...
           </p>
