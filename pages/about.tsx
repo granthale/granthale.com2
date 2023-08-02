@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 import Header from "../components/Header";
+import Arrow from "../components/arrow";
 
 export default function About() {
 
@@ -34,6 +35,7 @@ export default function About() {
           write{" "}
           <Link className="underline hover:text-neon-green" href="/writing">
             words
+            <Arrow></Arrow>
           </Link>{" "}
           and{" "}
           <a
@@ -42,6 +44,7 @@ export default function About() {
             target="_blank"
           >
             code
+            <Arrow></Arrow>
           </a>
           , and run.
         </p>
@@ -92,6 +95,7 @@ export default function About() {
               target="_blank"
             >
               Surface Tension
+              <Arrow></Arrow>
             </a>
           </li>
           <li>
@@ -102,6 +106,7 @@ export default function About() {
               className="underline hover:text-neon-green"
             >
               Writing
+              <Arrow></Arrow>
             </a>{" "}
             @ least 15 minutes a day - ideally closer to an hour
           </li>
@@ -122,6 +127,7 @@ export default function About() {
             target="_blank"
           >
             Twitter
+            <Arrow />
           </a>{" "}
           or by{" "}
           <a
@@ -129,6 +135,7 @@ export default function About() {
             href="mailto:g@granthale.com"
           >
             email
+            <Arrow />
           </a>
           !
         </p>

@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import Arrow from "../components/arrow";
 
 export default function Writing() {
   const pieces = [
@@ -22,6 +23,7 @@ export default function Writing() {
             href="https://treetoforest.substack.com/"
           >
             Tree to Forest
+            <Arrow></Arrow>
           </a>{" "}
           if you'd like to read more!
         </h3>
@@ -36,7 +38,10 @@ export default function Writing() {
               className={`${main_color} underline hover:text-neon-green`}
               key={piece.title}
             >
-              <li>{piece.title}</li>
+              <li>
+                {piece.title}
+                <Arrow></Arrow>
+              </li>
             </a>
           ))}
         </ul>

@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import Arrow from "../components/arrow";
 
 export default function Home() {
   return (
@@ -25,20 +26,22 @@ export default function Home() {
                 target="_blank"
               >
                 Surface Tension
-              </a>
-              .
+                <Arrow></Arrow>
+                </a>
             </li>
             <li key="travel">
               I’m traveling the world, looking for perspective on society and
-              self.
+              self
             </li>
             <li key="learning">
               I’m learning about different fields to find problems worth
-              solving.
+              solving
             </li>
           </ul>
           <br />
-          <p className="text-neon-green">Click around to get to know me and don't be a stranger!</p>
+          <p className="text-neon-green">
+            Click around to get to know me and don't be a stranger!
+          </p>
         </div>
       </Layout>
     </>

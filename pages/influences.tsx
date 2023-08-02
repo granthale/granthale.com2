@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import Arrow from "../components/arrow";
 
 export default function Influences() {
   const sidebar = (
@@ -227,6 +228,7 @@ export default function Influences() {
             <li className="underline hover:text-primary" key={person.name}>
               <a href={person.link} target="_blank">
                 {person.name}
+                <Arrow></Arrow>
               </a>
             </li>
           ))}
@@ -241,6 +243,7 @@ export default function Influences() {
                 {book.name}
               </a>{" "}
               by {book.author}
+              <Arrow></Arrow>
             </li>
           ))}
         </ul>
