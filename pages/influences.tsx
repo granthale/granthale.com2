@@ -123,6 +123,16 @@ export default function Influences() {
       link: "https://www.betterworldbooks.com/product/detail/something-incredibly-wonderful-happens-frank-oppenheimer-and-the-world-he-made-up-9780151008223",
     },
     {
+      name: "How To Live: 27 Conflicting Answers and One Weird Question",
+      author: "Derek Sivers",
+      link: "https://sive.rs/h",
+    },
+    {
+      name: "Skin in the Game",
+      author: "Nassim Taleb",
+      link: "https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/042528462X",
+    },
+    {
       name: "Surely You're Joking, Mr. Feynman!",
       author: "Richard Feynman",
       link: "https://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041",
