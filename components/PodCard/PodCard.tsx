@@ -35,7 +35,7 @@ export default function PodCard({ podcast }: Props) {
   }, [isPlaying]);
 
   return (
-    <div className="relative">
+    <div className="relative z-10">
       <div className="bg-white border border-gray-500 rounded-b lg:rounded-b-none lg:rounded-r p-4">
         <PodImage podcast={podcast}></PodImage>
         <div className="ml-4">

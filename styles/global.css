@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body{
-  background: #FDF3F1;
+  background: #fefaf9;
 }
 
 ::selection {

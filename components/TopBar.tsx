@@ -1,4 +1,4 @@
-import Menu from "./Menu";
+import Menu from "./Menu/Menu";
 import MenuButton from "./MenuButton";
 import Navbar from "./Navbar";
 import Title from "./Title";

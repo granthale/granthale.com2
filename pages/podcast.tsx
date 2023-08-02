@@ -8,9 +8,7 @@ const podcast = () => {
     <>
       <Header page="podcast" />
       <Layout>
-        <div className="text-neon-green font-extrabold text-4xl">
-          podcast!
-        </div>
+        <div className="text-neon-green font-extrabold text-4xl">podcast!</div>
         <br />
         <div className="text-xl">
           Sharad Doshi and I have been working on{" "}
