@@ -7,7 +7,7 @@ interface Props {
 
 const PodImage = ({ podcast }: Props) => {
   return (
-    <div className="flex flex-none">
+    <div className="flex flex-none mb-5 m-2">
       <a href={podcast.external_urls.spotify} target="_blank">
         <Image
           className="rounded-full"

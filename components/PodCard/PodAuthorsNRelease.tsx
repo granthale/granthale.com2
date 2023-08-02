@@ -6,7 +6,7 @@ interface Props {
 
 const PodAuthorsNRelease = ({ podcast }: Props) => {
   return (
-    <div className="text-sm">
+    <div className="text-sm ml-4">
       <p className="text-gray-900 font-bold leading-none">
         Grant Hale & Sharad Doshi
       </p>
