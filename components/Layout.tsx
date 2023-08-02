@@ -1,8 +1,8 @@
 import TopBar from "./TopBar";
-import BottomBar from "./BottomBar";
 import MainContent from "./MainContent";
 import { useState } from "react";
 import styles from "../styles/Layout.module.css";
+import Socials from "./Socials";
 
 interface Props {
   children: React.ReactNode;
@@ -21,7 +21,7 @@ function Layout({ children, home }: Props) {
             setMenuStatus={setMenuStatus}
           ></TopBar>
           <MainContent home={home} children={children} />
-          <BottomBar />
+          <Socials />
         </div>
     </main>
   );
