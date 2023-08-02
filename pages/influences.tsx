@@ -188,13 +188,13 @@ export default function Influences() {
       link: "https://www.amazon.com/Character-Thorndike-Press-Large-Print/dp/1594139377",
     },
   ];
+
+  const main_color = "text-violet";
   return (
     <>
       <Header page="influences" />
       <Layout>
-        <h1 className="font-extrabold text-waving-brown text-4xl">
-          influences!
-        </h1>
+        <h1 className={`font-extrabold ${main_color} text-4xl`}>influences!</h1>
         <br />
         <div className="text-xl">
           <p>
@@ -209,16 +209,16 @@ export default function Influences() {
             <span className="font-bold">collective intellectual forest.</span>
           </p>
           <br />
-          <p>
-            Here are some of the{" "}
-            <span className="font-bold">books and people</span> that have
-            provided me with seeds as a person and thinker:
+          <p className={`${main_color} font-bold`}>
+            Here are some of the books and people that have provided me with
+            seeds as a person and thinker:
           </p>
         </div>
         <br />
         <br />
-        <h1 className="text-2xl font-bold">people</h1>
-        <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
+        <h1 className={`font-bold ${main_color} text-3xl`}>people</h1>
+        <br />
+        <ul className="list-disc pl-5 text-xl">
           {people.map((person) => (
             <li className="underline hover:text-primary" key={person.name}>
               <a href={person.link} target="_blank">
@@ -230,8 +230,9 @@ export default function Influences() {
         </ul>
         <br />
         <br />
-        <h1 className="text-2xl font-bold">books</h1>
-        <ul className="list-disc pl-5 text-waving-brown font-bold text-xl">
+        <h1 className={`font-bold ${main_color} text-3xl`}>books</h1>
+        <br />
+        <ul className="list-disc pl-5 text-xl">
           {books.map((book) => (
             <li className="underline hover:text-primary" key={book.name}>
               <a href={book.link} target="_blank">

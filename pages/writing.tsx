@@ -29,7 +29,8 @@ export default function Writing() {
         </h3>
         <br />
         <br />
-        <h3 className={`font-bold text-2xl`}>pieces</h3>
+        <h3 className={`${main_color} font-bold text-3xl`}>pieces</h3>
+        <br />
         <ul className="list-disc pl-5 text-xl">
           {pieces.map((piece) => (
             <a
