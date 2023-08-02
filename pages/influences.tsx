@@ -178,11 +178,6 @@ export default function Influences() {
       link: "https://en.wikipedia.org/wiki/The_Great_Gatsby",
     },
     {
-      name: "Godel, Escher, Bach",
-      author: "Douglas Hofstadter",
-      link: "https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach",
-    },
-    {
       name: "Hooked",
       author: "Nir Eyal",
       link: "https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788",
