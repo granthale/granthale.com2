@@ -4,7 +4,6 @@ import Header from "../components/Header";
 import Arrow from "../components/Arrow";
 
 export default function About() {
-
   const locations = [
     { month: "May", location: "Chicago" },
     {
@@ -42,6 +41,7 @@ export default function About() {
             className="underline hover:text-neon-green"
             href="https://github.com/granthale"
             target="_blank"
+            rel="noopener noreferrer"
           >
             code
             <Arrow></Arrow>
@@ -71,14 +71,14 @@ export default function About() {
           is where I'll be from now until then:
         </p>
         <br />
-        {locations.map((location) => (
-          <>
-            <div className="text-xl">
+        <ul>
+          {locations.map((location) => (
+            <li key={location.location} className="text-xl">
               <span className="font-bold">{location.month}:</span>{" "}
               {location.location}
-            </div>
-          </>
-        ))}
+            </li>
+          ))}
+        </ul>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>energy</h3>
         <br />
@@ -87,22 +87,24 @@ export default function About() {
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
-          <li>
+          <li key="podcasting">
             Recording podcast episodes for{" "}
             <a
               href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
               className="underline hover:text-neon-green"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Surface Tension
               <Arrow></Arrow>
             </a>
           </li>
-          <li>
+          <li key="writing">
             {" "}
             <a
               href="https://treetoforest.substack.com/"
               target="_blank"
+              rel="noopener noreferrer"
               className="underline hover:text-neon-green"
             >
               Writing
@@ -110,7 +112,7 @@ export default function About() {
             </a>{" "}
             @ least 15 minutes a day - ideally closer to an hour
           </li>
-          <li>
+          <li key="reading">
             Reading like a madman (mostly history, science, and biographies).
           </li>
         </ul>
@@ -125,6 +127,7 @@ export default function About() {
             className="underline hover:text-neon-green"
             href="https://twitter.com/grant__hale"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Twitter
             <Arrow />

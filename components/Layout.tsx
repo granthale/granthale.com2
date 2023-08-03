@@ -21,7 +21,7 @@ function Layout({ children, home }: Props) {
           setMenuStatus={setMenuStatus}
         ></TopBar>
         <MainContent home={home} children={children} />
-        <Socials />
+        {!home && <Socials />}
       </div>
     </main>
   );

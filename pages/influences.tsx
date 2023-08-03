@@ -117,11 +117,11 @@ export default function Influences() {
       author: "G.H. Hardy",
       link: "https://www.amazon.com/Mathematicians-Apology-Canto-Classics/dp/110760463X",
     },
-    {
-      name: "Whole Earth Discipline",
-      author: "Stewart Brand",
-      link: "https://www.amazon.com/Whole-Earth-Discipline-Transgenic-Geoengineering/dp/0143118285",
-    },
+    // {
+    //   name: "Whole Earth Discipline",
+    //   author: "Stewart Brand",
+    //   link: "https://www.amazon.com/Whole-Earth-Discipline-Transgenic-Geoengineering/dp/0143118285",
+    // },
     {
       name: "Something Incredibly Wonderful Happens",
       author: "K.C. Cole",
@@ -226,7 +226,7 @@ export default function Influences() {
         <ul className="list-disc pl-5 text-xl">
           {people.map((person) => (
             <li className="underline hover:text-primary" key={person.name}>
-              <a href={person.link} target="_blank">
+              <a href={person.link} target="_blank" rel="noopener noreferrer">
                 {person.name}
                 <Arrow></Arrow>
               </a>
@@ -240,7 +240,7 @@ export default function Influences() {
         <ul className="list-disc pl-5 text-xl">
           {books.map((book) => (
             <li className="underline hover:text-primary" key={book.name}>
-              <a href={book.link} target="_blank">
+              <a href={book.link} target="_blank" rel="noopener noreferrer">
                 {book.name}
               </a>{" "}
               by {book.author}

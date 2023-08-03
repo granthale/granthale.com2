@@ -16,6 +16,7 @@ const podcast = () => {
             className="text-neon-green underline hover:text-black"
             href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Surface Tension
             <Arrow></Arrow>

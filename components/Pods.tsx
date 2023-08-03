@@ -73,11 +73,15 @@ const Pods = () => {
   }, [token]);
 
   return (
-    <div className="relative z-10">
+    <ul className="relative z-10 list-none">
       {pods.map((pod) => {
-        return <PodCard podcast={pod} />;
+        return (
+          <li key={pod.id}>
+            <PodCard podcast={pod} />
+          </li>
+        );
       })}
-    </div>
+    </ul>
   );
 };
 

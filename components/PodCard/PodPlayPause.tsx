@@ -9,7 +9,7 @@ const PodPlayPause = ({ togglePlayPause, isPlaying }: Props) => {
   return (
     <button
       onClick={togglePlayPause}
-      className="bg-gray-500 p-4 rounded-full focus:outline-none"
+      className="text-black p-4 rounded-full focus:outline-none"
     >
       {isPlaying ? <FaPause /> : <FaPlay />}
     </button>

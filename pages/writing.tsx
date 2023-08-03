@@ -20,7 +20,7 @@ export default function Writing() {
           I write for clarity and I write to explore. Subscribe to{" "}
           <a
             className="underline text-blue hover:text-neon-green"
-            href="https://treetoforest.substack.com/"
+            href="https://treetoforest.substack.com/" target="_blank" rel="noopener noreferrer"
           >
             Tree to Forest
             <Arrow></Arrow>
@@ -36,6 +36,7 @@ export default function Writing() {
             <a
               href={piece.link}
               target="_blank"
+              rel="noopener noreferrer"
               className={`underline hover:text-neon-green`}
               key={piece.title}
             >

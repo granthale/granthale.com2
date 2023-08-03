@@ -6,7 +6,7 @@ interface Props {
 
 const PodDescription = ({ podcast }: Props) => {
   return (
-    <p className="hidden md:flex text-gray-700 text-base">
+    <p className="hidden md:flex text-base">
       {podcast.description.substring(0, 200)}...
     </p>
   );

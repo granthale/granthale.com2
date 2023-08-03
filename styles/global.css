@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body{
-  background: #fefaf9;
-}
+/* html, body{
+  background: #FDF3F1;
+} */
 
 ::selection {
   background: #5dc284;

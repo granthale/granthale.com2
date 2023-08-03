@@ -3,7 +3,7 @@ module.exports = {
   content: ["./pages/**/*.{ts,tsx}", 
     "./components/**/*.{ts,tsx}"],
   theme: {
-    darkMode: 'light',
+    darkMode: 'media',
     extend: {},
     colors: {
       "primary": '#2563eb',

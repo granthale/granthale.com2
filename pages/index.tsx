@@ -2,6 +2,8 @@ import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Arrow from "../components/Arrow";
 import Image from "next/image";
+import ThemeButton from "../components/ThemeButton";
+import Socials from "../components/Socials";
 
 export default function Home() {
   return (
@@ -9,8 +11,8 @@ export default function Home() {
       <Header page="home" />
       <Layout home>
         <div className="flex">
-          <div className="text-xl text-primary">
-            <p className="font-extrabold text-4xl">👋 Hello!</p>
+          <div className="text-xl">
+            <p className="text-primary font-extrabold text-4xl">👋 Hello!</p>
             <br />
             <p className="text-neon-green">
               I'm Grant. I believe that everyone has more room for{" "}
@@ -19,7 +21,7 @@ export default function Home() {
               same.
             </p>
             <br />
-            <ul className="list-disc text-black pl-5 text-xl">
+            <ul className="list-disc pl-5 text-xl">
               <li key="podcast">
                 I’m asking questions on{" "}
                 <a
@@ -42,7 +44,8 @@ export default function Home() {
             </ul>
             <br />
             <p className="text-neon-green">
-              Always happy to talk to someone new, reach out!
+              Reach out if you want to chat about any of the above, or if you
+              have a problem you think I can help with!
             </p>
           </div>
           <div className="hidden md:block sticky m-8 flex-none">
@@ -53,7 +56,13 @@ export default function Home() {
               height={200}
               priority={true}
             />
+            <div className="relative mt-12">
+              <Socials />
+            </div>
           </div>
+        </div>
+        <div className="md:hidden relative mt-8">
+          <Socials />
         </div>
       </Layout>
     </>

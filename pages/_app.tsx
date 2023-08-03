@@ -1,6 +1,6 @@
 import "../dist/output.css";
 
-import { Alegreya_Sans } from "next/font/google";
+// import { Alegreya_Sans } from "next/font/google";
 const font = {
   subsets: ["latin"],
   display: "swap",

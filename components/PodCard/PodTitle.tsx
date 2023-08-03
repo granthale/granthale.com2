@@ -10,6 +10,7 @@ const PodTitle = ({podcast} : Props) => {
       href={podcast.external_urls.spotify}
       className="text-neon-green font-bold text-xl mb-2"
       target="_blank"
+      rel="noopener noreferrer"
     >
       {podcast.name}
     </a>

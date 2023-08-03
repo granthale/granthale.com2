@@ -30,26 +30,23 @@ const Socials = ({ menu }: Props) => {
       icon: <AiTwotoneMail size={icon_size} />,
     },
   ];
-  const classy = `text-${menu ? "white" : "black"} hover:text-${
-    menu ? "neon-green" : "primary"
-  } mr-2`;
+  const classy = `hover:text-neon-green hover:scale-110 transform transition duration-500 ease-in-out m-2`;
 
   return (
     <div className="flex justify-end">
-      {Object.keys(socials).map((key) => (
-        <>
+      {socials.map((social) => (
+        <React.Fragment key={social.name}>
           <br />
-          <a
+          <button
+            key={social.name}
             className={classy}
-            key={key}
-            href={socials[key].link}
-            target="_blank"
+            onClick={() => window.open(social.link, "_blank")}
           >
-            {socials[key].icon}
-          </a>
+            {social.icon}
+          </button>
           <br />
           <br />
-        </>
+        </React.Fragment>
       ))}
     </div>
   );

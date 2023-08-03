@@ -8,7 +8,11 @@ interface Props {
 const PodImage = ({ podcast }: Props) => {
   return (
     <div className="flex flex-none mb-5 m-2">
-      <a href={podcast.external_urls.spotify} target="_blank">
+      <a
+        href={podcast.external_urls.spotify}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image
           className="rounded-full"
           width={100}
