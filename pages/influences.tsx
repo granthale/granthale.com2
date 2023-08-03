@@ -113,6 +113,11 @@ export default function Influences() {
       link: "https://www.amazon.com/Hard-Landing-Contest-Profits-Airlines/dp/0812928350",
     },
     {
+      name: "A Mathematician's Aplogy",
+      author: "G.H. Hardy",
+      link: "https://www.amazon.com/Mathematicians-Apology-Canto-Classics/dp/110760463X",
+    },
+    {
       name: "Whole Earth Discipline",
       author: "Stewart Brand",
       link: "https://www.amazon.com/Whole-Earth-Discipline-Transgenic-Geoengineering/dp/0143118285",
