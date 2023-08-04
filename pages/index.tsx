@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import Arrow from "../components/Arrow";
 import Image from "next/image";
 import Socials from "../components/Socials";
-import ThemeButton from "../components/ThemeButton";
 
 export default function Home() {
   return (
