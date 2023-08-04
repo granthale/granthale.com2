@@ -33,13 +33,14 @@ const Socials = ({ menu }: Props) => {
   const classy = `hover:text-neon-green hover:scale-110 transform transition duration-500 ease-in-out m-2`;
 
   return (
+    <>
     <div className="flex justify-end">
       {socials.map((social) => (
         <React.Fragment key={social.name}>
           <br />
           <button
             key={social.name}
-            className={classy}
+            className="hover:text-neon-green hover:scale-110 transform transition duration-500 ease-in-out m-2"
             onClick={() => window.open(social.link, "_blank")}
           >
             {social.icon}
@@ -49,6 +50,8 @@ const Socials = ({ menu }: Props) => {
         </React.Fragment>
       ))}
     </div>
+    <br />
+    </>
   );
 };
 

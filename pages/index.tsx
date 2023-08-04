@@ -2,7 +2,6 @@ import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Arrow from "../components/Arrow";
 import Image from "next/image";
-import ThemeButton from "../components/ThemeButton";
 import Socials from "../components/Socials";
 
 export default function Home() {
