@@ -40,7 +40,7 @@ const Socials = ({ menu }: Props) => {
           <br />
           <button
             key={social.name}
-            className="hover:text-neon-green hover:scale-110 transform transition duration-500 ease-in-out m-2"
+            className={`hover:text-neon-green hover:scale-110 transform transition duration-500 ease-in-out m-2 ${menu ? "text-white" : ""}`}
             onClick={() => window.open(social.link, "_blank")}
           >
             {social.icon}
