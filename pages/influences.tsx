@@ -194,6 +194,29 @@ export default function Influences() {
     },
   ];
 
+  const podcasts = [
+    {
+      name: "Kevin Kelly - Be Generous & Unique",
+      author: "Invest Like the Best",
+      link: "https://podcasts.apple.com/us/podcast/invest-like-the-best-with-patrick-oshaughnessy/id1154105909?i=1000618457137",
+    },
+    {
+      name: "Steve Jobs (Make Something Wonderful)",
+      author: "Founders",
+      link: "https://podcasts.apple.com/us/podcast/founders/id1141877104?i=1000609323048",
+    },
+    {
+      name: "In Defense of Thinking",
+      author: "Cal Newport",
+      link: "https://podcasts.apple.com/us/podcast/deep-questions-with-cal-newport/id1515786216?i=1000614859620",
+    },
+    {
+      name: "The 2022 Recess Awards: Lesson, Predictions, and...",
+      author: "Recess",
+      link: "https://podcasts.apple.com/us/podcast/recess/id1657280211?i=1000596970518",
+    },
+  ];
+
   const main_color = "text-violet";
   return (
     <>
@@ -244,6 +267,21 @@ export default function Influences() {
                 {book.name}
               </a>{" "}
               by {book.author}
+              <Arrow></Arrow>
+            </li>
+          ))}
+        </ul>
+        <br />
+        <br />
+        <h1 className={`font-bold ${main_color} text-3xl`}>podcasts</h1>
+        <br />
+        <ul className="list-disc pl-5 text-xl">
+          {podcasts.map((podcast) => (
+            <li className="underline hover:text-primary" key={podcast.name}>
+              <a href={podcast.link} target="_blank" rel="noopener noreferrer">
+                {podcast.name}
+              </a>{" "}
+              by {podcast.author}
               <Arrow></Arrow>
             </li>
           ))}
