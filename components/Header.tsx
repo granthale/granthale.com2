@@ -12,8 +12,8 @@ const Header = ({ page }: Props) => {
       <meta name="twitter:site" content="@" />
       <meta name="twitter:creator" content="@" />
       <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content="Get to know him!" />
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:description" content="Grant's internet cafe." />
+      <meta name="twitter:card" content="summary" />
       <meta name="twitter:image:type" content="image/png" />
       <meta
         name="twitter:image:secure_url"
@@ -38,7 +38,7 @@ const Header = ({ page }: Props) => {
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:description" content="Get to know him!" />
+      <meta property="og:description" content="Grant's internet cafe." />
     </Head>
   );
 };
