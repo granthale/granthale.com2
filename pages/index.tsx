@@ -47,22 +47,19 @@ export default function Home() {
               have a problem you think I can help with!
             </p>
           </div>
-          <div className="hidden md:block sticky m-8 flex-none">
-            <Image
-              src="/images/boat.png"
-              alt="boat"
-              width={200}
-              height={200}
-              priority={true}
-            />
-            <div className="relative mt-12">
-              <Socials />
+          <div className="hidden md:block sticky mt-8 mx-2 flex-none">
+            <div className="w-48 h-48 rounded-full border overflow-hidden">
+              <Image
+                src="/images/man_earth.jpeg"
+                alt="man on earth"
+                width={250}
+                height={250}
+                priority={true}
+              />
             </div>
           </div>
         </div>
-        <div className="md:hidden relative mt-8">
           <Socials />
-        </div>
       </Layout>
     </>
   );

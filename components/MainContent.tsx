@@ -4,7 +4,7 @@ interface Props {
 }
 
 const MainContent = ({ home, children }: Props) => {
-  return <div className="m-8 overflow-y-auto">{children}</div>;
+  return <div className="mt-8 mx-2 overflow-y-auto">{children}</div>;
 };
 
 export default MainContent;

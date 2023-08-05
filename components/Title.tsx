@@ -5,8 +5,8 @@ interface Props {
 }
 
 const Title = ({ home }: Props) => {
-  const primary_class = `m-8 text-5xl text-neon-green font-extrabold flex-none`;
-  const secondary_class = `m-8 text-5xl font-extrabold flex-none hover:text-neon-green`;
+  const primary_class = `mt-8 mx-2 text-5xl text-neon-green font-extrabold flex-none`;
+  const secondary_class = `mt-8 mx-2 text-5xl font-extrabold flex-none hover:text-neon-green`;
   return home ? (
     <>
       <Link href="/" className={`hidden md:block ${primary_class}`}>
