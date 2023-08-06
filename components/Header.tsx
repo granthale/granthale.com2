@@ -9,8 +9,6 @@ const Header = ({ page }: Props) => {
   return (
     <Head>
       <title>{title}</title>
-      <meta name="twitter:site" content="@" />
-      <meta name="twitter:creator" content="@" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content="Grant's bustling internet cafe." />
       <meta name="twitter:card" content="summary" />
@@ -24,8 +22,6 @@ const Header = ({ page }: Props) => {
         content="https://www.granthale.com/images/man_earth.jpeg"
       />
       <meta property="og:title" content={title} />
-      <meta property="og:url" content="https://www.granthale.com" />
-      <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_US" />
       <meta
         property="og:image"
