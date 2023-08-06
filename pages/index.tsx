@@ -12,37 +12,31 @@ export default function Home() {
       <Layout home>
         <div className="flex">
           <div className="text-xl">
-            <p className="text-neon-green mt-4">
-              <span className="text-blue font-bold">Hello, I'm Grant! </span>I
-              believe that everyone has more room for{" "}
-              <span className="font-bold">curiosity</span> and{" "}
-              <span className="font-bold">creativity</span>. I’m living to
-              broaden those qualities in myself and help others do the same.
+            <p className="text-blue font-bold text-2xl">Hello, I'm Grant! </p>
+            <br />
+            <p className="text-neon-green mt-4 font-bold">
+              I believe that everyone has more room for curiosity and
+              creativity. I’m living to broaden those qualities in myself and
+              help others do the same.
             </p>
             <br />
-            <p className="text-blue mt-4 font-bold">Me in 10 seconds:</p>
+            <p className="text-blue mt-4 font-bold text-2xl">
+              Me in 10 seconds
+            </p>
+            <br />
             <ul className="list-disc pl-5 text-xl">
-              <li key="travel">
-                I’m traveling through America, Europe, and Asia
-              </li>
-              <li key="podcast">
-                I’m asking questions on{" "}
-                <a
-                  className="underline hover:text-neon-green"
-                  href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
-                  target="_blank"
-                >
-                  Surface Tension
-                  <Arrow></Arrow>
-                </a>
+              <li key="learning">
+                You'll find me thinking, podcasting, coding, reading, exercising, and writing...
               </li>
               <li key="learning">
-                I’m learning about Chinese history, programming, and
-                entrepreneurship
+                ...while traveling through Europe, San Francisco, Chicago, and Asia
               </li>
             </ul>
             <br />
-            <p className="text-blue mt-4 font-bold">Me in 10 minutes:</p>
+            <p className="text-blue mt-4 font-bold text-2xl">
+              Me in 10 minutes?
+            </p>
+            <br />
             <p>
               Check out my{" "}
               <Link className="underline hover:text-neon-green" href="/about">
@@ -53,7 +47,7 @@ export default function Home() {
             <br />
 
             <p className="text-neon-green font-bold">
-              Reach out if you'd like to talk!
+              Reach out if you'd like to talk, I answer all of my emails!
             </p>
           </div>
           <div className="hidden md:block sticky mt-8 mx-1 flex-none">
