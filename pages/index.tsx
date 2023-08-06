@@ -11,13 +11,11 @@ export default function Home() {
       <Layout home>
         <div className="flex">
           <div className="text-xl">
-            <p className="text-primary font-extrabold text-4xl">👋 Hello!</p>
-            <br />
-            <p className="text-neon-green">
-              I'm Grant. I believe that everyone has more room for{" "}
-              <span className="font-bold">curiosity and creativity</span>. I’m
-              living to broaden those qualities in myself and help others do the
-              same.
+            <p className="text-neon-green mt-4">
+              <span className="text-blue font-bold">Hello, I'm Grant! </span>I believe that everyone
+              has more room for <span className="font-bold">curiosity</span> and{" "}
+              <span className="font-bold">creativity</span>. I’m living to
+              broaden those qualities in myself and help others do the same.
             </p>
             <br />
             <ul className="list-disc pl-5 text-xl">
@@ -42,12 +40,9 @@ export default function Home() {
               </li>
             </ul>
             <br />
-            <p className="text-neon-green">
-              Reach out if you want to chat about any of the above, or if you
-              have a problem you think I can help with!
-            </p>
+            <p className="text-neon-green font-bold">Reach out if you'd like to talk!</p>
           </div>
-          <div className="hidden md:block sticky mt-8 mx-2 flex-none">
+          <div className="hidden md:block sticky mt-4 mx-2 flex-none">
             <div className="w-48 h-48 rounded-full border overflow-hidden">
               <Image
                 src="/images/man_earth.jpeg"
@@ -59,7 +54,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-          <Socials />
+        <br />
+        <Socials />
       </Layout>
     </>
   );
