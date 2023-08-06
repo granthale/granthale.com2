@@ -34,7 +34,7 @@ const Socials = ({ menu }: Props) => {
 
   return (
     <>
-    <div className="flex justify-end">
+    <div className="flex justify-end mx-2">
       {socials.map((social) => (
         <React.Fragment key={social.name}>
           <br />
