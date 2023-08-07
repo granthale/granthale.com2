@@ -25,12 +25,13 @@ export default function Home() {
             </p>
             <br />
             <ul className="list-disc pl-5 text-xl">
-              <li key="learning">
-                You'll find me thinking, podcasting, coding, reading, exercising, and writing...
+              <li key="curious">I'm that curious kid</li>
+              <li key="learning and traveling">
+                You'll find me thinking, podcasting, coding, reading,
+                exercising, and writing in Europe, San Francisco, Chicago,
+                and Asia...
               </li>
-              <li key="learning">
-                ...while traveling through Europe, San Francisco, Chicago, and Asia
-              </li>
+              <li>...with the purpose of better understanding different cultures and myself !</li>
             </ul>
             <br />
             <p className="text-blue mt-4 font-bold text-2xl">
