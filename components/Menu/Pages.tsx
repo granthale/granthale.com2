@@ -4,16 +4,10 @@ const Pages = () => {
   return (
     <div className="flex flex-col justify-center m-12">
       <Link
-        href="/about"
+        href="/podcast"
         className="text-4xl text-white font-bold hover:text-neon-green"
       >
-        about
-      </Link>
-      <Link
-        href="/influences"
-        className="text-4xl text-white font-bold hover:text-neon-green mt-3"
-      >
-        influences
+        podcast
       </Link>
       <Link
         href="/writing"
@@ -22,13 +16,19 @@ const Pages = () => {
         writing
       </Link>
       <Link
-        href="/podcast"
+        href="/influences"
         className="text-4xl text-white font-bold hover:text-neon-green mt-3"
       >
-        podcast
+        influences
+      </Link>
+      <Link
+        href="/about"
+        className="text-4xl text-white font-bold hover:text-neon-green mt-3"
+      >
+        about
       </Link>
     </div>
   );
-}
+};
 
-export default Pages
+export default Pages;
