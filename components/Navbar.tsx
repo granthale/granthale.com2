@@ -10,20 +10,20 @@ const Navbar = ({ home }: Props) => {
    font-bold `;
   return (
     <div className={box}>
-      <Link href="/about" className={hover}>
-        about
-      </Link>
-      <div className="border-r bg-black h-full mx-2"></div>
-      <Link href="/influences" className={hover}>
-        influences
+      <Link href="/podcast" className={hover}>
+        podcast
       </Link>
       <div className="border-r bg-black h-full mx-2"></div>
       <Link href="/writing" className={hover}>
         writing
       </Link>
       <div className="border-r bg-black h-full mx-2"></div>
-      <Link href="/podcast" className={hover}>
-        podcast
+      <Link href="/influences" className={hover}>
+        influences
+      </Link>
+      <div className="border-r bg-black h-full mx-2"></div>
+      <Link href="/about" className={hover}>
+        about
       </Link>
     </div>
   );
