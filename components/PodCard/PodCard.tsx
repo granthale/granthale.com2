@@ -32,6 +32,14 @@ export default function PodCard({ podcast }: Props) {
     } else if (!isPlaying && audioRef.current) {
       audioRef.current.pause();
     }
+
+    // This function will be called when the component is unmounted
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause(); // Pause the audio
+        audioRef.current.currentTime = 0; // Optionally, reset the playback position
+      }
+    };
   }, [isPlaying]);
 
   return (
