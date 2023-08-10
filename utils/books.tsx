@@ -24,12 +24,18 @@ export function getSortedBooksData() {
     // Combine the data with the id
     return {
       id,
-      ...(matterResult.data as { date: string; title: string }),
+      ...(matterResult.data as {
+        title: string;
+        author: string;
+        summary: string;
+        rating: string;
+        href: string;
+      }),
     };
   });
   // Sort books by date
   return allBooksData.sort((a, b) => {
-    if (a.date < b.date) {
+    if (a.rating > b.rating) {
       return 1;
     } else {
       return -1;
@@ -66,8 +72,8 @@ export async function getBookData(id: string) {
     id,
     contentHtml,
     ...(matterResult.data as {
-      author: string;
       title: string;
+      author: string;
       summary: string;
       rating: string;
       href: string;
