@@ -1,11 +1,18 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Arrow from "../components/Arrow";
 import Image from "next/image";
 import Socials from "../components/Socials";
 import Link from "next/link";
 
-export default function Home() {
+export default function Home({
+  allPostsData,
+}: {
+  allPostsData: {
+    date: string;
+    title: string;
+    id: string;
+  }[];
+}) {
   return (
     <>
       <Header page="home" />
@@ -28,10 +35,13 @@ export default function Home() {
               <li key="curious">I'm that curious kid</li>
               <li key="learning and traveling">
                 You'll find me thinking, podcasting, coding, reading,
-                exercising, and writing in Europe, San Francisco, Chicago,
-                and Asia...
+                exercising, and writing in Europe, San Francisco, Chicago, and
+                Asia...
               </li>
-              <li>...with the purpose of better understanding different cultures and myself !</li>
+              <li>
+                ...with the purpose of better understanding different cultures
+                and myself !
+              </li>
             </ul>
             <br />
             <p className="text-blue mt-4 font-bold text-2xl">
