@@ -4,7 +4,7 @@ import { getSortedPostsData } from "../utils/posts";
 import Link from "next/link";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
-import BookCard from "../components/BookCard";
+import BookCard from "../components/BookCard/BookCard";
 
 const books = ({
   allPostsData,

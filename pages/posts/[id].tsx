@@ -20,15 +20,20 @@ export default function Post({
       <Head>
         <title>{postData.title}</title>
       </Head>
+      <Link className="text-blue underline hover:no-underline" href="/books">
+        ← Back to books
+      </Link>
+      <br />
       <article>
         <h1 className="font-bold text-2xl">{postData.title}</h1>
         <br />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
       <br />
-      <div className={styles.backToHome}>
-        <Link href="/books">← Back to books</Link>
-      </div>
+      <br />
+      <Link className="text-blue underline hover:no-underline" href="/books">
+        ← Back to books
+      </Link>
     </Layout>
   );
 }
