@@ -3,7 +3,6 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
-import { books } from "../data/books";
 
 const booksDirectory = path.join(process.cwd(), "books");
 

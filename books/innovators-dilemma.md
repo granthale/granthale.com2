@@ -1,7 +1,7 @@
 ---
-title: "Innovator's Dilemma"
+title: "The Innovator's Dilemma"
 author: 'Clayton Christensen'
-summary: 'Wow'
+summary: 'This book was pretty darn good'
 rating: '8'
 href: '/../public/books/innovators-dilemma.jpeg'
 ---

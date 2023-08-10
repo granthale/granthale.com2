@@ -1,9 +1,9 @@
 ---
-title: 'The Grapes of Wrath'
-author: 'Evan Osnos'
+title: 'Atomic Habits'
+author: 'James Clear'
 summary: 'This book was pretty darn good'
 rating: '8'
-href: '/../public/books/grapes-of-wrath.jpeg'
+href: '/../public/books/atomic-habits.jpeg'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
