@@ -1,13 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface Book {
-  img: string;
-  title: string;
-  author: string;
-  summary: string;
-}
-
 interface Props {
   title: string;
   author: string;
@@ -31,13 +24,7 @@ const BookCard = ({ title, author, summary, id, rating, href }: Props) => {
             </div>
             <p>Score: {rating}/10</p>
           </div>
-          <Image
-            className=""
-            width={120}
-            height={120}
-            src={href}
-            alt={id}
-          />
+          <Image className="" width={120} height={120} src={href} alt={id} />
         </div>
         <br />
       </Link>
