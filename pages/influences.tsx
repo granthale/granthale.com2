@@ -60,7 +60,7 @@ export default function Influences() {
             <Link className="underline hover:text-neon-green" href="/books">
               here
             </Link>{" "}
-            for my notes on books that I read.
+            for my notes on books that I've read.
           </p>
           <p>
             This is a recent habit, and something that should hopefully provide

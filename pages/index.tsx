@@ -33,9 +33,9 @@ export default function Home({
             <br />
             <ul className="list-disc pl-5 text-xl font-bold">
               <li key="curious">
-                I'm that curious guy who brushes his teeth with his left hand
+                I'm a righty who brushes his teeth with his left hand
               </li>
-              <br/>
+              <br />
               <li key="learning and traveling">
                 You'll find me thinking, podcasting, coding, reading,
                 exercising, and writing in Europe, San Francisco, Chicago, and
@@ -43,8 +43,9 @@ export default function Home({
               </li>
               <br />
               <li>
-                I'm always trying to better understand different cultures and
-                myself and always looking for new people to talk to and meet!
+                I'm actively trying to better understand different cultures and
+                businesses, and am always looking for new people to talk to and
+                meet!
               </li>
             </ul>
             <br />
@@ -62,7 +63,7 @@ export default function Home({
             <br />
 
             <p className="text-neon-green font-bold">
-              Reach out if you'd like to talk, I answer all of my emails!
+              Reach out if you'd like to talk!
             </p>
           </div>
           <div className="hidden md:block sticky mt-8 mx-1 flex-none">
