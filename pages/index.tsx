@@ -19,7 +19,7 @@ export default function Home({
       <Layout home>
         <div className="flex">
           <div className="text-xl">
-            <p className="text-blue font-bold text-2xl">Hello, I'm Grant! </p>
+            <p className="text-blue font-bold text-3xl">Hello, I'm Grant! </p>
             <br />
             <p className="text-neon-green mt-4 font-bold">
               I believe that everyone has more room for curiosity and
@@ -31,16 +31,20 @@ export default function Home({
               Me in 10 seconds
             </p>
             <br />
-            <ul className="list-disc pl-5 text-xl">
-              <li key="curious">I'm that curious kid</li>
+            <ul className="list-disc pl-5 text-xl font-bold">
+              <li key="curious">
+                I'm that curious guy who brushes his teeth with his left hand
+              </li>
+              <br/>
               <li key="learning and traveling">
                 You'll find me thinking, podcasting, coding, reading,
                 exercising, and writing in Europe, San Francisco, Chicago, and
-                Asia...
+                Asia
               </li>
+              <br />
               <li>
-                ...with the purpose of better understanding different cultures
-                and myself !
+                I'm always trying to better understand different cultures and
+                myself and always looking for new people to talk to and meet!
               </li>
             </ul>
             <br />
@@ -48,7 +52,7 @@ export default function Home({
               Me in 10 minutes?
             </p>
             <br />
-            <p>
+            <p className="font-bold">
               Check out my{" "}
               <Link className="underline hover:text-neon-green" href="/about">
                 about
@@ -62,7 +66,7 @@ export default function Home({
             </p>
           </div>
           <div className="hidden md:block sticky mt-8 mx-1 flex-none">
-            <div className="w-48 h-48 rounded-full border overflow-hidden">
+            <div className="w-48 h-48 rounded-full border overflow-hidden ml-4">
               <Image
                 src="/images/man_earth.jpeg"
                 alt="man on earth"

@@ -4,6 +4,7 @@ import Arrow from "../components/Arrow";
 import { books } from "../data/books";
 import { people } from "../data/people";
 import { podcasts } from "../data/podcasts";
+import Link from "next/link";
 
 export default function Influences() {
   const sidebar = (
@@ -53,31 +54,53 @@ export default function Influences() {
         <br />
         <h1 className={`font-bold ${main_color} text-3xl`}>books</h1>
         <br />
+        <div className="text-xl text-violet">
+          <p>
+            Click{" "}
+            <Link className="underline hover:text-neon-green" href="/books">
+              here
+            </Link>{" "}
+            for my notes on books that I read.
+          </p>
+          <p>
+            This is a recent habit, and something that should hopefully provide
+            you some value!
+          </p>
+        </div>
+        <br />
         <ul className="list-disc pl-5 text-xl">
-          {books.map((book) => (
-            <li className="underline hover:text-primary" key={book.name}>
-              <a href={book.link} target="_blank" rel="noopener noreferrer">
-                {book.name}
-              </a>{" "}
-              by {book.author}
-              <Arrow></Arrow>
-            </li>
-          ))}
+          {books
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((book) => (
+              <li className="underline hover:text-primary" key={book.name}>
+                <a href={book.link} target="_blank" rel="noopener noreferrer">
+                  {book.name}
+                </a>{" "}
+                by {book.author}
+                <Arrow></Arrow>
+              </li>
+            ))}
         </ul>
         <br />
         <br />
         <h1 className={`font-bold ${main_color} text-3xl`}>podcasts</h1>
         <br />
         <ul className="list-disc pl-5 text-xl">
-          {podcasts.map((podcast) => (
-            <li className="underline hover:text-primary" key={podcast.name}>
-              <a href={podcast.link} target="_blank" rel="noopener noreferrer">
-                {podcast.name}
-              </a>{" "}
-              by {podcast.author}
-              <Arrow></Arrow>
-            </li>
-          ))}
+          {podcasts
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((podcast) => (
+              <li className="underline hover:text-primary" key={podcast.name}>
+                <a
+                  href={podcast.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {podcast.name}
+                </a>{" "}
+                by {podcast.author}
+                <Arrow></Arrow>
+              </li>
+            ))}
         </ul>
       </Layout>
     </>
