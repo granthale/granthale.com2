@@ -1,10 +1,8 @@
 import Layout from "../../components/Layout";
 import Head from "next/head";
-import utilStyles from "../../styles/utils.module.css";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllPostIds, getPostData } from "../../utils/posts";
 import Link from "next/link";
-import styles from "../../styles/Layout.module.css";
 
 export default function Post({
   postData,

@@ -14,9 +14,10 @@ interface Props {
   summary: string;
   id: string;
   rating: string;
+  href: string;
 }
 
-const BookCard = ({ title, author, summary, id, rating }: Props) => {
+const BookCard = ({ title, author, summary, id, rating, href }: Props) => {
   return (
     <>
       <Link href={`/posts/${id}`}>
@@ -34,8 +35,8 @@ const BookCard = ({ title, author, summary, id, rating }: Props) => {
             className=""
             width={120}
             height={120}
-            src="/images/surface-tension.png"
-            alt="surface tension logo"
+            src={href}
+            alt={id}
           />
         </div>
         <br />

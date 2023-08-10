@@ -69,6 +69,7 @@ export async function getPostData(id: string) {
       title: string;
       summary: string;
       rating: string;
+      href: string;
     }),
   };
 }
