@@ -20,7 +20,7 @@ const BookCard = ({ title, author, summary, id, rating, href }: Props) => {
               <p className="text-2xl font-bold">
                 {title} by {author}
               </p>
-              <p>{summary}</p>
+              <p className="hidden md:block">{summary}</p>
             </div>
             <p>Score: {rating}/10</p>
           </div>

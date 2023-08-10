@@ -1,8 +1,8 @@
 ---
-title: 'Algorithms'
-author: 'Jeff Erickson'
-summary: 'This book was alright, ya know?'
-rating: '1'
+title: 'How to Live'
+author: 'Derek Sivers'
+summary: 'This book was the bible, ya know?'
+rating: '10'
 href: '/../public/images/dot.png'
 ---
 

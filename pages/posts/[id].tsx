@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout";
 import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { getAllPostIds, getPostData } from "../../utils/posts";
+import { getAllBookIds, getBookData } from "../../utils/books";
 import Link from "next/link";
 
 export default function Post({
@@ -34,7 +34,7 @@ export default function Post({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllPostIds();
+  const paths = getAllBookIds();
   return {
     paths,
     fallback: false,
@@ -42,7 +42,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const postData = await getPostData(params?.id as string);
+  const postData = await getBookData(params?.id as string);
   return {
     props: {
       postData,
