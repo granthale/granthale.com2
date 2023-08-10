@@ -25,10 +25,6 @@ const books = ({
           <ul className="list-disc">
             {allPostsData.map(({ id, title }) => (
               <BookCard id={id} title={title}></BookCard>
-              //   <li className="text-xl hover:text-neon-green underline" key={id}>
-              //     <Link href={`/posts/${id}`}>{title}</Link>
-              //     <br />
-              //   </li>
             ))}
           </ul>
         </section>
