@@ -3,7 +3,7 @@ title: 'Age of Ambition'
 author: 'Evan Osnos'
 summary: 'This book was pretty darn good'
 rating: '8'
-href: '/../public/images/boat.png'
+href: '/../public/books/age-of-ambition.jpeg'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

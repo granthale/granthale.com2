@@ -1,9 +1,9 @@
 ---
-title: 'Algorithms'
-author: 'Jeff Erickson'
-summary: 'Made me think harder than ever before'
+title: 'Hard Landing'
+author: 'Thomas Petzinger, Jr.'
+summary: 'Fascinating for business strategy'
 rating: '8'
-href: '/../public/books/algorithms.jpeg'
+href: '/../public/books/hard-landing.jpeg'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

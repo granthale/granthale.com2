@@ -1,9 +1,9 @@
 ---
-title: 'Algorithms'
-author: 'Jeff Erickson'
-summary: 'Made me think harder than ever before'
+title: 'Stuff Matters'
+author: 'Mark Miodownik'
+summary: 'This book was pretty darn good'
 rating: '8'
-href: '/../public/books/algorithms.jpeg'
+href: '/../public/books/stuff-matters.jpeg'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
