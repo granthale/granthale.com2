@@ -20,9 +20,6 @@ export default function Post({
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <Link className="text-blue underline hover:no-underline" href="/books">
-        ← Back to books
-      </Link>
       <br />
       <article>
         <h1 className="font-bold text-2xl">{postData.title}</h1>

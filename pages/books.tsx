@@ -10,9 +10,11 @@ const books = ({
   allPostsData,
 }: {
   allPostsData: {
-    date: string;
     title: string;
+    author: string;
+    summary: string;
     id: string;
+    rating: string;
   }[];
 }) => {
   return (
@@ -23,8 +25,14 @@ const books = ({
           <h2 className="text-2xl font-bold">Books</h2>
           <br />
           <ul className="list-disc">
-            {allPostsData.map(({ id, title }) => (
-              <BookCard id={id} title={title}></BookCard>
+            {allPostsData.map(({ id, title, author, summary, rating }) => (
+              <BookCard
+                id={id}
+                title={title}
+                author={author}
+                summary={summary}
+                rating={rating}
+              ></BookCard>
             ))}
           </ul>
         </section>
