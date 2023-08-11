@@ -5,7 +5,7 @@ import Arrow from "../components/Arrow";
 import axios from "axios";
 import { Podcast } from "../components/Pods";
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const CLIENT_ID = "1f2b3fd8e5f9456784a516219a435cfa";
   const CLIENT_SECRET = "0e3e2d1089a14edf870bf79d35225ab7";
 
@@ -32,6 +32,7 @@ export const getServerSideProps = async () => {
 
     return {
       props: { pods: response.data.items }, // will be passed to the page component as props
+      revalidate: 3600,
     };
   } catch (error) {
     console.error(error);

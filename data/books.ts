@@ -5,9 +5,19 @@ export const books = [
       link: "https://jeffe.cs.illinois.edu/teaching/algorithms/",
     },
     {
+      name: "Age of Ambition",
+      author: "Evan Osnos",
+      link: "https://www.amazon.com/Age-Ambition-Chasing-Fortune-Truth/dp/0374535272",
+    },
+    {
       name: "Catch-22",
       author: "Joseph Heller",
       link: "https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657",
+    },
+    {
+      name: "A Guide to the Good Life",
+      author: "William B. Irvine",
+      link: "https://www.amazon.com/Guide-Good-Life-Ancient-Stoic/dp/1522632735",
     },
     {
       name: "Black Boy",
@@ -45,9 +55,9 @@ export const books = [
       link: "https://www.amazon.com/Hard-Landing-Contest-Profits-Airlines/dp/0812928350",
     },
     {
-      name: "A Mathematician's Aplogy",
-      author: "G.H. Hardy",
-      link: "https://www.amazon.com/Mathematicians-Apology-Canto-Classics/dp/110760463X",
+      name: "Atomic Habits",
+      author: "James Clear",
+      link: "https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07RFSSYBH",
     },
     {
       name: "Something Incredibly Wonderful Happens",

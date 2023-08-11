@@ -25,8 +25,8 @@ export default function About() {
         <h1 className={`font-extrabold ${main_color} text-4xl`}>about!</h1>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          I'm currently living in San Francisco, reading about China's history,
-          and making an effort to truly think everyday.
+          I'm currently living in Chicago, reading about personal finance, and
+          habits, and making an effort to truly think everyday.
         </p>
         <br />
         <p className="text-xl">
