@@ -8,7 +8,9 @@ const booksDirectory = path.join(process.cwd(), "books");
 
 export function getSortedBooksData() {
   // Get file names under /books
-  const fileNames = fs.readdirSync(booksDirectory);
+  const fileNames = fs
+    .readdirSync(booksDirectory)
+    .filter((fileName) => fileName.endsWith(".md"));
   const allBooksData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
