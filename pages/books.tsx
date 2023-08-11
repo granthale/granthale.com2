@@ -26,7 +26,8 @@ const books = ({
           <div className="text-violet">
             <h1 className="text-3xl font-bold">Books</h1>
             <br />
-            <p className="text-xl">Sort by: (rating, title, recency)</p>
+            <p className="text-xl">Sorting coming soon...</p>
+            {/*  by: (rating, title, recency) */}
             <br />
           </div>
           <ul className="list-disc">
