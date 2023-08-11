@@ -21,7 +21,7 @@ export default function Home({
           <div className="text-xl">
             <p className="text-blue font-bold text-3xl">Hello, I'm Grant! </p>
             <br />
-            <p className="text-neon-green mt-4 font-bold">
+            <p className="mt-4">
               I believe that everyone has more room for curiosity and
               creativity. I’m living to broaden those qualities in myself and
               help others do the same.
@@ -31,21 +31,20 @@ export default function Home({
               Me in 10 seconds
             </p>
             <br />
-            <ul className="list-disc pl-5 text-xl font-bold">
+            <ul className="list-disc pl-5 text-xl">
               <li key="curious">
                 I'm a righty who brushes his teeth with his left hand
               </li>
               <br />
               <li key="learning and traveling">
-                You'll find me thinking, podcasting, coding, reading,
-                exercising, and writing in Europe, San Francisco, Chicago, and
-                Asia
+                I'm a thinker, podcaster, coder, reader, writer, and health
+                enthusiast whose currently splitting time between Europe, San
+                Francisco, Chicago, and Asia
               </li>
               <br />
               <li>
                 I'm actively trying to better understand different cultures and
-                businesses, and am always looking for new people to talk to and
-                meet!
+                businesses
               </li>
             </ul>
             <br />
@@ -53,7 +52,7 @@ export default function Home({
               Me in 10 minutes?
             </p>
             <br />
-            <p className="font-bold">
+            <p>
               Check out my{" "}
               <Link className="underline hover:text-neon-green" href="/about">
                 about
@@ -62,9 +61,7 @@ export default function Home({
             </p>
             <br />
 
-            <p className="text-neon-green font-bold">
-              Reach out if you'd like to talk!
-            </p>
+            <p className="text-neon-green font-bold">Reach out to say hi!</p>
           </div>
           <div className="hidden md:block sticky mt-8 mx-1 flex-none">
             <div className="w-48 h-48 rounded-full border overflow-hidden ml-4">
