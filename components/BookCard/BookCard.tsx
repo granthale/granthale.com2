@@ -16,10 +16,9 @@ const BookCard = ({ title, author, summary, id, rating }: Props) => {
         <div className="rounded-b border lg:rounded-b-none lg:rounded-r flex justify-between p-4">
           <div className="flex flex-col justify-between">
             <div>
-              <p className="text-2xl font-bold mb-1">
+              <p className="text-2xl font-bold mb-1 hidden md:block">
                 {title} by {author}
               </p>
-              {/* Truncate the summary after 250 characters */}
               <p className="hidden md:block">
                 {summary
                   ? summary.length > 250
@@ -28,7 +27,9 @@ const BookCard = ({ title, author, summary, id, rating }: Props) => {
                   : ""}
               </p>
             </div>
-            <p className="font-bold">Score: {rating}/10</p>
+            <p className="mt-4">
+              <span className="font-bold">Score:</span> {rating}/10
+            </p>
           </div>
           <div className="flex-none ml-4">
             <img
