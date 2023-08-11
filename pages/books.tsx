@@ -30,19 +30,16 @@ const books = ({
             {/*  by: (rating, title, recency) */}
             <br />
           </div>
-          <ul className="list-disc">
-            {allBooksData.map(
-              ({ id, title, author, summary, rating, href }) => (
-                <BookCard
-                  id={id}
-                  title={title}
-                  author={author}
-                  summary={summary}
-                  rating={rating}
-                ></BookCard>
-              )
-            )}
-          </ul>
+          {allBooksData.map(({ id, title, author, summary, rating, href }) => (
+            <BookCard
+              key={id}
+              id={id}
+              title={title}
+              author={author}
+              summary={summary}
+              rating={rating}
+            ></BookCard>
+          ))}
           <br />
           <Link
             className="text-violet underline hover:no-underline"
