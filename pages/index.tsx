@@ -21,7 +21,7 @@ export default function Home({
           <div className="text-xl">
             <p className="text-blue font-bold text-3xl">Hello, I'm Grant! </p>
             <br />
-            <p className="mt-4">
+            <p className="mt-4 text-neon-green font-bold">
               I believe that everyone has more room for curiosity and
               creativity. I’m living to broaden those qualities in myself and
               help others do the same.
