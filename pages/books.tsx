@@ -24,9 +24,17 @@ const books = ({
       <Layout>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className="text-violet">
+            <Link
+              className="text-violet underline hover:no-underline"
+              href="/influences"
+            >
+              ← Back to influences
+            </Link>
+            <br />
+            <br />
             <h1 className="text-3xl font-bold">Books</h1>
             <br />
-            <p className="text-xl">Sorting coming soon...</p>
+            <p className="text-xl font-bold">Sorting coming soon...</p>
             {/*  by: (rating, title, recency) */}
             <br />
           </div>
