@@ -15,6 +15,11 @@ export const books = [
       link: "https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657",
     },
     {
+      name: "A Guide to the Good Life",
+      author: "William B. Irvine",
+      link: "https://www.amazon.com/Guide-Good-Life-Ancient-Stoic/dp/1522632735",
+    },
+    {
       name: "Black Boy",
       author: "Richard Wright",
       link: "https://www.amazon.com/Black-Boy-Richard-Wright/dp/0061443085",

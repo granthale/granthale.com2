@@ -4,6 +4,7 @@ import { getSortedBooksData } from "../utils/books";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
 import BookCard from "../components/BookCard/BookCard";
+import Link from "next/link";
 
 const books = ({
   allBooksData,
@@ -37,11 +38,17 @@ const books = ({
                   author={author}
                   summary={summary}
                   rating={rating}
-                  href={href}
                 ></BookCard>
               )
             )}
           </ul>
+          <br />
+          <Link
+            className="text-violet underline hover:no-underline"
+            href="/influences"
+          >
+            ← Back to influences
+          </Link>
         </section>
       </Layout>
     </>

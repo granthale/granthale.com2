@@ -7,24 +7,36 @@ interface Props {
   summary: string;
   id: string;
   rating: string;
-  href: string;
 }
 
-const BookCard = ({ title, author, summary, id, rating, href }: Props) => {
+const BookCard = ({ title, author, summary, id, rating }: Props) => {
   return (
     <>
-      <Link href={`/posts/${id}`}>
+      <Link href={`/books/${id}`}>
         <div className="rounded-b border lg:rounded-b-none lg:rounded-r flex justify-between p-4">
           <div className="flex flex-col justify-between">
             <div>
               <p className="text-2xl font-bold">
                 {title} by {author}
               </p>
-              <p className="hidden md:block">{summary}</p>
+              {/* Truncate the summary after 250 characters */}
+              <p className="hidden md:block">
+                {summary
+                  ? summary.length > 250
+                    ? `${summary.substring(0, 250)}...`
+                    : summary
+                  : ""}
+              </p>
             </div>
-            <p>Score: {rating}/10</p>
+            <p className="font-bold">Score: {rating}/10</p>
           </div>
-          <Image className="" width={120} height={120} src={href} alt={id} />
+          <div className="flex-none ml-4">
+            <img
+              width={125}
+              src={`/books/${id}.jpeg`}
+              alt={`Cover of ${title}`}
+            />
+          </div>
         </div>
         <br />
       </Link>

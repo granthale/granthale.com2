@@ -55,7 +55,7 @@ export default function Influences() {
         <h1 className={`font-bold ${main_color} text-3xl`}>books</h1>
         <br />
         <div className="text-xl text-violet">
-          <p>
+          <p className="font-bold">
             Click{" "}
             <Link className="underline hover:text-neon-green" href="/books">
               here

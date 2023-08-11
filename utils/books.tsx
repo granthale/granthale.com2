@@ -28,11 +28,10 @@ export function getSortedBooksData() {
         author: string;
         summary: string;
         rating: string;
-        href: string;
       }),
     };
   });
-  // Sort books by date
+  // Sort books by rating
   return allBooksData.sort((a, b) => {
     if (a.rating > b.rating) {
       return 1;
@@ -75,7 +74,6 @@ export async function getBookData(id: string) {
       author: string;
       summary: string;
       rating: string;
-      href: string;
     }),
   };
 }
