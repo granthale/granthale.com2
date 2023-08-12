@@ -51,8 +51,7 @@ export default function About() {
         <br />
         <p className="text-xl">
           I recently graduated in May 2023 from the{" "}
-          <span className="font-bold">University of Illinois</span>. College is
-          not outdated. I truly don't know where I would be without the people I
+          <span className="font-bold">University of Illinois</span>. I truly don't know where I would be without the people I
           met and the (main)character that I developed.
         </p>
         <br />
