@@ -4,15 +4,7 @@ import Image from "next/image";
 import Socials from "../components/Socials";
 import Link from "next/link";
 
-export default function Home({
-  allPostsData,
-}: {
-  allPostsData: {
-    date: string;
-    title: string;
-    id: string;
-  }[];
-}) {
+export default function Home() {
   return (
     <>
       <Header page="home" />
