@@ -29,18 +29,25 @@ export default function Book({
             {/* Title and author */}
             <div>
               <h1 className="font-bold text-violet text-3xl">
-                {bookData.title}
+                {bookData.title} <span className="text-black font-light">- {bookData.rating}/10</span>
               </h1>
               <h2 className="text-violet text-2xl">by {bookData.author}</h2>
             </div>
             <br />
             {/* summary */}
-            <p className="text-xl">{bookData.summary}</p>
-            <br />
+            <p className="text-xl font-bold">{bookData.summary}</p>
             <br />
           </div>
           {/* image */}
           <div className="flex-none md:ml-4">
+            <Link
+              className="text-violet underline hover:no-underline text-xl"
+              href="/books"
+            >
+              ← Back to books
+            </Link>
+            <br />
+            <br />
             <img
               src={`/books/${bookData.id}.jpeg`}
               alt={`Cover of ${bookData.title}`}
@@ -50,8 +57,7 @@ export default function Book({
           <br />
           <br />
         </div>
-        <h2 className="font-bold text-violet text-2xl">Notes</h2>
-        <br />
+        <h2 className="font-bold text-violet text-3xl underline">Notes</h2>
         <BookNotes contentHTML={bookData.contentHTML} />
       </article>
       <br />

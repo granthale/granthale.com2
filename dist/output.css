@@ -594,7 +594,7 @@ video {
 
 .markdown-content p {
   margin-bottom: 1rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -602,6 +602,12 @@ video {
   margin-bottom: 1rem;
   list-style-position: inside;
   list-style-type: disc;
+}
+
+.markdown-content li {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .markdown-content ol {
@@ -628,7 +634,7 @@ video {
   padding-left: 1rem;
 }
 
-.markdown-content blockquote > p {
+.markdown-content blockquote p {
   font-style: italic;
 }
 
@@ -720,6 +726,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -937,6 +947,10 @@ video {
   padding-left: 1.25rem;
 }
 
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -980,6 +994,18 @@ video {
   font-weight: 800;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 .leading-none {
   line-height: 1;
 }
@@ -1012,6 +1038,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline {
