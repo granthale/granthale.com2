@@ -14,9 +14,4 @@ export const podcasts = [
       author: "Cal Newport",
       link: "https://podcasts.apple.com/us/podcast/deep-questions-with-cal-newport/id1515786216?i=1000614859620",
     },
-    {
-      name: "The 2022 Recess Awards: Lesson, Predictions, and...",
-      author: "Recess",
-      link: "https://podcasts.apple.com/us/podcast/recess/id1657280211?i=1000596970518",
-    },
   ];
