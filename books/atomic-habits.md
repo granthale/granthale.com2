@@ -35,7 +35,6 @@ href: '/../public/books/atomic-habits.jpeg'
   
 ## **Chapter 2**
   
-  
 - There are three layers of behavior change - 1. outcome change 2. process change 3. identity change
   - ⭐ People often start with the outcome they want and that leads to outcome based habits, identity-based habits are often far more powerful
 - Use your identity as leverage - “no thanks, I’m not a smoker” vs. “I’m trying to quit”
@@ -228,7 +227,9 @@ href: '/../public/books/atomic-habits.jpeg'
   - Scientists have tried to quantify this and have arrived at things that are ~4% more difficult than your current skillset
   - Flow can be seen as a balanced position between System 1 thinking and System 2 thinking
 - “At some point it comes down to who can handle the boredom of training every day, doing the same lifts over and over and over”
-- Machiavelli - “Men desire novelty to such an extent that those who are doing well wish for a change as much as those who are doing badly”
+
+> Machiavelli - “Men desire novelty to such an extent that those who are doing well wish for a change as much as those who are doing badly”
+
 - ⭐ Variable rewards are more satisfying, but you wouldn’t want variable rewards for everything - like Google, Uber, flossing
 - You have to fall in love with boredom
 - ⭐ ”Stepping up when it’s annoying or painful or draining to do so, that’s what makes the difference between a professional and an amateur”
@@ -247,7 +248,9 @@ href: '/../public/books/atomic-habits.jpeg'
     - What are the core values that drive my life and work?
     - How am I living and working with integrity right now?
     - How can I set a higher standard in the future?
-- ⭐ “Thus whoever is stiff and inflexible is a disciple of death. Whoever is soft and yielding is a disciple of life” - Lao Tzu
+
+> ⭐ “Thus whoever is stiff and inflexible is a disciple of death. Whoever is soft and yielding is a disciple of life” - Lao Tzu
+
 - Just don’t stop!
 
 ## **Little Lessons from the Four Laws**
@@ -260,4 +263,5 @@ href: '/../public/books/atomic-habits.jpeg'
 - ⭐ Actions reveal how badly you want something
 - ⭐ Self-control is difficult because it isn’t rewarding. It’s just waiting for a desire to pass
 - The gap between our cravings and the reward determines how satisfied we are with the reward
-  - Seneca “Being poor is not having too little, it is wanting more”
+
+> Seneca “Being poor is not having too little, it is wanting more”
