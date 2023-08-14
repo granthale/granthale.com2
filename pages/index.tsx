@@ -32,10 +32,6 @@ export default function Home({
             </p>
             <br />
             <ul className="list-disc pl-5 text-xl">
-              <li key="curious">
-                I'm a righty who brushes his teeth with his left hand
-              </li>
-              <br />
               <li key="learning and traveling">
                 I'm a thinker, podcaster, coder, reader, writer, and health
                 enthusiast whose currently splitting time between Europe, San
