@@ -35,7 +35,7 @@ export const books = [
       link: "https://www.amazon.com/Invisible-Man-Ralph-Ellison/dp/0679732764",
     },
     {
-      name: "The Dream Machine",
+      name: "Dream Machine, The",
       author: "M. Mitchell Waldrop",
       link: "https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119/ref=sr_1_1?crid=1DCWPQ0M4DO0T&keywords=the+dream+machine&qid=1683673665&s=books&sprefix=the+dream+machine%2Cstripbooks%2C92&sr=1-1",
     },
@@ -50,7 +50,7 @@ export const books = [
       link: "https://www.amazon.com/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544236041",
     },
     {
-      name: "The Almanack of Naval Ravikant",
+      name: "Almanack of Naval Ravikant, The",
       author: "Eric Jorgenson",
       link: "https://www.navalmanack.com/",
     },
@@ -95,7 +95,7 @@ export const books = [
       link: "https://www.amazon.com/Poor-Charlies-Almanack-Essential-Charles/dp/1953953239/ref=sr_1_1?crid=3SR5XEKQJNH0L&keywords=poor+charlie%27s+almanack&qid=1683681145&sprefix=poor%2520charlies%2520almanack%2Caps%2C88&sr=8-1",
     },
     {
-      name: "The Innovator's Dilemma",
+      name: "Innovator's Dilemma, The",
       author: "Clayton Christensen",
       link: "https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780/ref=sr_1_1?keywords=innovators+dilemma&qid=1683681292&s=books&sprefix=the+innovators+di%2Cstripbooks%2C88&sr=1-1",
     },
@@ -110,17 +110,17 @@ export const books = [
       link: "https://www.amazon.com/Good-Calories-Bad-Controversial-Science/dp/1400033462/ref=asc_df_1400033462/?tag=hyprod-20&linkCode=df0&hvadid=312134205520&hvpos=&hvnetw=g&hvrand=830581454970089288&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9022185&hvtargid=pla-330756790220&psc=1",
     },
     {
-      name: "The Grapes of Wrath",
+      name: "Grapes of Wrath, The",
       author: "John Steinbeck",
       link: "https://www.amazon.com/Grapes-Wrath-John-Steinbeck/dp/0143039431",
     },
     {
-      name: "The Misbehavior of Markets",
+      name: "Misbehavior of Markets, The",
       author: "Benoit Mandelbrot",
       link: "https://www.amazon.com/Misbehavior-Markets-Fractal-Financial-Turbulence/dp/0465043577",
     },
     {
-      name: "The Great Gatsby",
+      name: "Great Gatsby, The",
       author: "F. Scott Fitzgerald",
       link: "https://en.wikipedia.org/wiki/The_Great_Gatsby",
     },
@@ -130,7 +130,7 @@ export const books = [
       link: "https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788",
     },
     {
-      name: "The Road to Character",
+      name: "Road to Character, The",
       author: "David Brooks",
       link: "https://www.amazon.com/Character-Thorndike-Press-Large-Print/dp/1594139377",
     },
