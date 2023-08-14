@@ -52,10 +52,6 @@ export default function Book({
         </div>
         <h2 className="font-bold text-violet text-2xl">Notes</h2>
         <br />
-        <div
-          className="text-xl leading-relaxed"
-          dangerouslySetInnerHTML={{ __html: bookData.contentHTML }}
-        />
         <BookNotes contentHTML={bookData.contentHTML} />
       </article>
       <br />
