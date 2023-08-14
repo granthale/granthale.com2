@@ -1,9 +1,9 @@
 ---
 title: 'How to Live'
 author: 'Derek Sivers'
-summary: 'To do'
-rating: 'x'
+summary: 'The closest thing to a personal bible that I've found.'
+rating: '10'
 href: '/../public/books/how-to-live.jpeg'
 ---
 
-Personal bible
+To do...
