@@ -18,6 +18,8 @@ module.exports = {
       "violet": "#7c3aed"
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }
 

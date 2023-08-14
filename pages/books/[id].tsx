@@ -3,6 +3,7 @@ import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllBookIds, getBookData } from "../../utils/books";
 import Link from "next/link";
+import BookNotes from "../../components/Books/BookNotes";
 
 export default function Book({
   bookData,
@@ -13,7 +14,7 @@ export default function Book({
     summary: string;
     rating: string;
     id: string;
-    contentHtml: string;
+    contentHTML: string;
   };
 }) {
   return (
@@ -52,9 +53,10 @@ export default function Book({
         <h2 className="font-bold text-violet text-2xl">Notes</h2>
         <br />
         <div
-          className="text-xl"
-          dangerouslySetInnerHTML={{ __html: bookData.contentHtml }}
+          className="text-xl leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: bookData.contentHTML }}
         />
+        <BookNotes contentHTML={bookData.contentHTML} />
       </article>
       <br />
       <br />

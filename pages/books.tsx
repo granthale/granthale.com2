@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 import { getSortedBooksData } from "../utils/books";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
-import BookCard from "../components/BookCard/BookCard";
+import BookCard from "../components/Books/BookCard";
 import Link from "next/link";
 
 const books = ({

@@ -10,6 +10,11 @@ export const books = [
       link: "https://www.amazon.com/Age-Ambition-Chasing-Fortune-Truth/dp/0374535272",
     },
     {
+      name: "Alchemist, The",
+      author: "Paulo Coelho",
+      link: "https://www.amazon.com/Alchemist-Paulo-Coelho-ebook/dp/B00U6SFUSS/",
+    },
+    {
       name: "Catch-22",
       author: "Joseph Heller",
       link: "https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657",
