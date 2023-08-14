@@ -12,8 +12,6 @@ async function markdownToHTML(markdown) {
     .use(rehypeStringify)
     .process(markdown);
 
-  console.log(String(file));
-
   return String(file);
 }
 

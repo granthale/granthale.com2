@@ -1,8 +1,6 @@
-
-
 function BookNotes({ contentHTML }) {
   return (
-    <div className="text-xl mx-auto">
+    <div className="markdown-content">
       <div dangerouslySetInnerHTML={{ __html: contentHTML }} />
     </div>
   );
