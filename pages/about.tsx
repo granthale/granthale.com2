@@ -29,6 +29,7 @@ export default function About() {
           habits, and making an effort to truly think everyday.
         </p>
         <br />
+
         <p className="text-xl">
           In my freetime, I love to read, spend time with friends, play sports,
           write{" "}
@@ -49,19 +50,22 @@ export default function About() {
           , and run.
         </p>
         <br />
+
         <p className="text-xl">
           I recently graduated in May 2023 from the{" "}
-          <span className="font-bold">University of Illinois</span>. I truly don't know where I would be without the people I
-          met and the (main)character that I developed.
+          <span className="font-bold">University of Illinois</span>. I truly
+          don't know where I would be without the people I met and the
+          (main)character that I developed.
         </p>
         <br />
+
         <h3 className={`font-bold ${main_color} text-3xl`}>time & location</h3>
         <br />
         <p className="text-xl">
           I've got ~
           <span className="font-bold">
             {Math.round(
-              (new Date("2024-01-01").getTime() - new Date().getTime()) /
+              (new Date("2024-01-05").getTime() - new Date().getTime()) /
                 (1000 * 60 * 60 * 24)
             ) + 1}{" "}
             days and counting{" "}
@@ -79,6 +83,7 @@ export default function About() {
           ))}
         </ul>
         <br />
+
         <h3 className={`font-bold ${main_color} text-3xl`}>energy</h3>
         <br />
         <p className="text-xl">
@@ -112,11 +117,30 @@ export default function About() {
             @ least 15 minutes a day - ideally closer to an hour
           </li>
           <li key="reading">
-            Reading like a madman (mostly history, science, and biographies).
+            Reading like a madman (mostly history, science, and biographies)
           </li>
         </ul>
-
         <br />
+
+        <h3 className={`font-bold ${main_color} text-3xl`}>hypotheses</h3>
+        <br />
+        <p className={`font-bold ${main_color} text-xl`}>
+          I'm pretty sure that I want to do the following:
+        </p>
+        <br />
+        <ul className="list-disc pl-5 text-xl">
+          <li key="entrepreneurship">
+            Join an early-stage company or start my own
+          </li>
+          <li key="living">
+            Live in a different country for an extended period of time
+          </li>
+          <li key="talking">
+            Facilitate great conversations with friends & strangers
+          </li>
+        </ul>
+        <br />
+
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
         <br />
         <p className="text-xl">

@@ -25,14 +25,15 @@ export default function Home() {
             <br />
             <ul className="list-disc pl-5 text-xl">
               <li key="learning and traveling">
-                I'm a thinker, podcaster, coder, reader, writer, and health
-                enthusiast whose currently splitting time between Europe, San
-                Francisco, Chicago, and Asia
+                I'm a reading, writing, thinking, lifting, coding, podcasting,
+                and running guy whose currently splitting time between Europe,
+                San Francisco, Chicago, and Asia.
               </li>
               <br />
               <li>
-                I'm actively trying to better understand different cultures and
-                businesses
+                I'm actively trying to better understand different businesses
+                and cultures, while putting myself in new, fun, and challenging
+                environments.
               </li>
             </ul>
             <br />
