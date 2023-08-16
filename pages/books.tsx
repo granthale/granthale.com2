@@ -30,12 +30,12 @@ const books = ({
               <p className="text-xl font-bold">Sorting coming soon...</p>
               {/*  by: (rating, title, recency) */}
             </div>
-            <Link className="underline hover:no-underline" href="/influences">
+            <Link className="text-right underline hover:no-underline" href="/influences">
               ← Back to influences
             </Link>
           </div>
           <br />
-          {allBooksData.map(({ id, title, author, summary, rating, href }) => (
+          {allBooksData.map(({ id, title, author, summary, rating }) => (
             <BookCard
               key={id}
               id={id}
