@@ -1,8 +1,9 @@
 function BookNotes({ contentHTML }) {
   return (
-    <div className="markdown-content">
-      <div dangerouslySetInnerHTML={{ __html: contentHTML }} />
-    </div>
+    <article
+      className="prose prose-lg lg:prose-xl max-w-none"
+      dangerouslySetInnerHTML={{ __html: contentHTML }}
+    ></article>
   );
 }
 
