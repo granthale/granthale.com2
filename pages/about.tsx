@@ -12,10 +12,10 @@ export default function About() {
     },
     { month: "July", location: "San Francisco" },
     { month: "August", location: "San Francisco, Chicago" },
-    { month: "September", location: "China (?)" },
-    { month: "October", location: "Japan (?)" },
-    { month: "November", location: "India (?)" },
-    { month: "December", location: "Spain (?)" },
+    { month: "September", location: "Japan, Thailand, Indonesia" },
+    { month: "October", location: "China, Taiwan" },
+    { month: "November", location: "India" },
+    { month: "December", location: "Chicago (?)" },
   ];
   const main_color = "text-reddish";
   return (
@@ -130,7 +130,8 @@ export default function About() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="entrepreneurship">
-            Join an early-stage company or start my own (I know, classic American)
+            Join an early-stage company or start my own (I know, classic
+            American)
           </li>
           <li key="living">
             Live in a different country for an extended period of time
