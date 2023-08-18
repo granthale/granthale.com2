@@ -27,17 +27,17 @@ export default function Home() {
             </p>
             <br />
             <p className="text-blue font-bold">Welcome to my website.</p>
-            <p className="text-neon-green">
+            <p>
               How would I define myself? Three words. Kind. Curious. Ambitious.
             </p>
             <br />
-            <p className="text-neon-green">
+            <p>
               What am I currently doing? I'm reading, thinking, lifting, and
               coding, while splitting time between Europe, San Francisco,
               Chicago & Asia.
             </p>
             <br />
-            <p className="text-neon-green">
+            <p>
               More specifically, I'm focused on choosing what to commit to,
               creating the{" "}
               <a
@@ -52,13 +52,13 @@ export default function Home() {
               make me uncomfortable.
             </p>
             <br />
-            <p className="text-neon-green">
+            <p>
               I'm most interested in science, entrepreneurship and creativity,
               but if something is interesting (as most things can be), I'd
               probably love to talk about it.
             </p>
             <br />
-            <p className="text-neon-green">
+            <p>
               Check out my{" "}
               <Link className="underline hover:text-neon-green" href="/about">
                 about
@@ -67,7 +67,7 @@ export default function Home() {
             </p>
             <br />
             <div className="text-blue font-bold">
-              <p>Until we meet (i.e., until you reach out),</p>
+              <p>Until we meet, yours truly,</p>
               <p>Grant</p>
             </div>
           </div>
