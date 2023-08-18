@@ -28,13 +28,8 @@ export default function Home() {
             <br />
             <p className="text-blue font-bold">Welcome to my website.</p>
             <p>
-              How would I define myself? Three words. Kind. Curious. Ambitious.
-            </p>
-            <br />
-            <p>
-              What am I currently doing? I'm reading, thinking, lifting, and
-              coding, while splitting time between Europe, San Francisco,
-              Chicago & Asia.
+              I'm currently reading, thinking, lifting, and coding, while splitting time
+              between Europe, San Francisco, Chicago & Asia.
             </p>
             <br />
             <p>
@@ -67,7 +62,7 @@ export default function Home() {
             </p>
             <br />
             <div className="text-blue font-bold">
-              <p>Until we meet, yours truly,</p>
+              <p>Cheers,</p>
               <p>Grant</p>
             </div>
           </div>
