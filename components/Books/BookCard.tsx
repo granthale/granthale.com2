@@ -27,7 +27,7 @@ const BookCard = ({ title, author, summary, id, rating }: Props) => {
               </p>
             </div>
             <p className="mt-4">
-              <span className="font-bold">Score:</span> {rating}/10
+              <span className="font-bold">Rating:</span> {rating}/10
             </p>
           </div>
           <div className="flex-none ml-4">
