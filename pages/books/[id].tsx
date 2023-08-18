@@ -29,9 +29,15 @@ export default function Book({
             {/* Title and author */}
             <div>
               <h1 className="font-bold text-violet text-3xl">
-                {bookData.title} <span className="text-black font-light">- {bookData.rating}/10</span>
+                {bookData.title}{" "}
+                <span className="text-violet text-2xl font-normal">
+                  by {bookData.author}
+                </span>
               </h1>
-              <h2 className="text-violet text-2xl">by {bookData.author}</h2>
+              <br />
+              <h2 className="text-black font-light text-2xl">
+                Rating: {bookData.rating}/10
+              </h2>
             </div>
             <br />
             {/* summary */}
