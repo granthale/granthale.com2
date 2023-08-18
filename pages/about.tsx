@@ -130,7 +130,7 @@ export default function About() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="entrepreneurship">
-            Join an early-stage company or start my own
+            Join an early-stage company or start my own (I know, classic American)
           </li>
           <li key="living">
             Live in a different country for an extended period of time

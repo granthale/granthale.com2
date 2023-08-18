@@ -4,6 +4,10 @@ export const people = [
       link: "https://en.wikipedia.org/wiki/Frank_Oppenheimer",
     },
     {
+      name: "Benjamin Franklin",
+      link: "https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/0684807610/",
+    },
+    {
       name: "Patrick Collison",
       link: "https://patrickcollison.com/",
     },
