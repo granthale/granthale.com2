@@ -5,43 +5,60 @@ import Socials from "../components/Socials";
 import Link from "next/link";
 
 export default function Home() {
+  const identities = [
+    "reader",
+    "writer",
+    "thinker",
+    "lifter",
+    "coder",
+    "podcaster",
+    "runner",
+  ];
   return (
     <>
       <Header page="home" />
       <Layout home>
         <div className="flex">
           <div className="text-xl">
-            <p className="text-blue font-bold text-3xl">Hello, I'm Grant! </p>
-            <br />
-            <p className="mt-4 text-neon-green font-bold">
-              I believe that everyone has more room for curiosity and
-              creativity. I’m living to broaden those qualities in myself and
-              help others do the same.
+            <p className="text-blue font-bold text-3xl">Hello friend, </p>
+            <p className="mt-4 text-neon-green">
+              <span className="font-bold">My name is Grant.</span> I'm a human
+              being and a human doing.
             </p>
             <br />
-            <p className="text-blue mt-4 font-bold text-2xl">
-              Me in 10 seconds
+            <p className="text-blue font-bold">Welcome to my website.</p>
+            <p className="text-neon-green">
+              How would I define myself? Three words. Kind. Curious. Ambitious.
             </p>
             <br />
-            <ul className="list-disc pl-5 text-xl">
-              <li key="learning and traveling">
-                I'm a reading, writing, thinking, lifting, coding, podcasting,
-                and running guy whose currently splitting time between Europe,
-                San Francisco, Chicago, and Asia.
-              </li>
-              <br />
-              <li>
-                I'm actively trying to better understand different businesses
-                and cultures, while putting myself in new, fun, and challenging
-                environments.
-              </li>
-            </ul>
-            <br />
-            <p className="text-blue mt-4 font-bold text-2xl">
-              Me in 10 minutes?
+            <p className="text-neon-green">
+              What am I currently doing? I'm reading, thinking, lifting, and
+              coding, while splitting time between Europe, San Francisco,
+              Chicago & Asia.
             </p>
             <br />
-            <p>
+            <p className="text-neon-green">
+              More specifically, I'm focused on choosing what to commit to,
+              creating the{" "}
+              <a
+                className="underline hover:no-underline"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://www.paulgraham.com/selfindulgence.html"
+              >
+                proper alarm bells
+              </a>
+              , understanding myself, and pushing deeper into the things that
+              make me uncomfortable.
+            </p>
+            <br />
+            <p className="text-neon-green">
+              I'm most interested in science, entrepreneurship and creativity,
+              but if something is interesting (as most things can be), I'd
+              probably love to talk about it.
+            </p>
+            <br />
+            <p className="text-neon-green">
               Check out my{" "}
               <Link className="underline hover:text-neon-green" href="/about">
                 about
@@ -49,8 +66,10 @@ export default function Home() {
               page to learn more!
             </p>
             <br />
-
-            <p className="text-neon-green font-bold">Reach out to say hi!</p>
+            <div className="text-blue font-bold">
+              <p>Until we meet (i.e., until you reach out),</p>
+              <p>Grant</p>
+            </div>
           </div>
           <div className="hidden md:block sticky mt-8 mx-1 flex-none">
             <div className="w-48 h-48 rounded-full border overflow-hidden ml-4">
