@@ -1,1 +1,1 @@
-Most recent personal website built in Next.js
+This is my most up-to-date personal website. It is built using Next.JS.
