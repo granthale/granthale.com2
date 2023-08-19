@@ -59,4 +59,8 @@ export const people = [
       name: "Douglas Hofstadter",
       link: "https://en.wikipedia.org/wiki/Douglas_Hofstadter",
     },
+    {
+      name: "Jakob Greenfeld",
+      link: "https://jakobgreenfeld.com/",
+    },
   ];
