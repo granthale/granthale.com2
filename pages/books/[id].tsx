@@ -35,7 +35,7 @@ export default function Book({
                 </span>
               </h1>
               <br />
-              <h2 className="text-black font-light text-2xl">
+              <h2 className="font-light text-2xl">
                 Rating: {bookData.rating}/10
               </h2>
             </div>

@@ -28,8 +28,8 @@ export default function Home() {
             <br />
             <p className="text-blue font-bold">Welcome to my website.</p>
             <p>
-              I'm currently reading, thinking, lifting, and coding, while splitting time
-              between Europe, San Francisco, Chicago & Asia.
+              I'm currently reading, thinking, lifting, and coding, while
+              splitting time between Europe, San Francisco, Chicago & Asia.
             </p>
             <br />
             <p>
