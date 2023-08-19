@@ -67,4 +67,8 @@ export const people = [
       name: "Jakob Greenfeld",
       link: "https://jakobgreenfeld.com/",
     },
+    {
+      name: "Jessica Livingston",
+      link: "https://foundersatwork.posthaven.com/",
+    },
   ];
