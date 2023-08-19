@@ -60,6 +60,10 @@ export const people = [
       link: "https://en.wikipedia.org/wiki/Douglas_Hofstadter",
     },
     {
+      name: "Pieter Levels",
+      link: "https://levels.io/blog",
+    },
+    {
       name: "Jakob Greenfeld",
       link: "https://jakobgreenfeld.com/",
     },
