@@ -13,3 +13,14 @@
 ::-moz-selection {
   background: #5dc284;
 }
+
+[data-theme='dark'] .prose,
+[data-theme='dark'] .prose h1,
+[data-theme='dark'] .prose h2,
+[data-theme='dark'] .prose h3 {
+  color: #fff;
+}
+
+[data-theme='dark'] .prose a {
+  color: #5dc284;
+}

@@ -1,7 +1,7 @@
 function BookNotes({ contentHTML }) {
   return (
     <article
-      className="prose prose-lg lg:prose-xl max-w-none"
+      className="prose dark:text-green-500 prose-lg lg:prose-xl max-w-none"
       dangerouslySetInnerHTML={{ __html: contentHTML }}
     ></article>
   );

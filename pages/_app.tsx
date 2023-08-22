@@ -1,12 +1,12 @@
 import "../dist/output.css";
+// import "../styles/global.css";
+import { AppProps } from "next/app";
+import { ThemeProvider } from "next-themes";
 
 const font = {
   subsets: ["latin"],
   display: "swap",
 };
-import { ThemeProvider } from "next-themes";
-
-import { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
