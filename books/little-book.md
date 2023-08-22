@@ -5,7 +5,7 @@ summary: 'An extremely sensible way to invest, applicable to everyone except War
 rating: '8'
 ---
 
-## **Intro**
+### **Intro**
 
 - The economy is made of businesses
   - The US GDP has grown by a nominal rate of 6.2% since 1929
