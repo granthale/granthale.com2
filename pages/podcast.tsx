@@ -50,7 +50,6 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
         <div className="text-neon-green font-extrabold text-4xl">podcast!</div>
         <br />
         <div className="text-xl">
-          Sharad Doshi and I have been working on{" "}
           <a
             className="text-neon-green underline hover:text-black"
             href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
@@ -60,8 +59,13 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
             Surface Tension
             <Arrow></Arrow>
           </a>{" "}
-          for a little under a year now. Here are the episodes that we've
-          currently released.
+          is dedicated to making you more curious about the world we live in.
+          From uncovering creators to interviewing academics, we break beyond
+          the surface level and aim to better you for it.
+        </div>
+        <br />
+        <div className="text-xl">
+          Sharad Doshi and I have been working on it for a little under a year now. Here are the episodes that we've currently released.
         </div>
         <br />
         <br />
