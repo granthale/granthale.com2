@@ -28,29 +28,9 @@ export default function Home() {
             <br />
             <p className="text-blue font-bold">Welcome to my website.</p>
             <p>
-              I'm currently reading, thinking, lifting, and coding, while
-              splitting time between Europe, San Francisco, Chicago & Asia.
-            </p>
-            <br />
-            <p>
-              More specifically, I'm focused on choosing what to commit to,
-              creating the{" "}
-              <a
-                className="underline hover:no-underline"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://www.paulgraham.com/selfindulgence.html"
-              >
-                proper alarm bells
-              </a>
-              , understanding myself, and pushing deeper into the things that
-              make me uncomfortable.
-            </p>
-            <br />
-            <p>
-              I'm most interested in science, entrepreneurship and creativity,
-              but if something is interesting (as most things can be), I'd
-              probably love to talk about it.
+              I'm most interested in science, entrepreneurship and learning. But
+              if there's something you're passionate about, I'd probably love to
+              talk about it. Reach out!
             </p>
             <br />
             <p>
@@ -62,7 +42,7 @@ export default function Home() {
             </p>
             <br />
             <div className="text-blue font-bold">
-              <p>Cheers,</p>
+              <p>See you around,</p>
               <p>Grant</p>
             </div>
           </div>
