@@ -10,11 +10,6 @@ export const books = [
       link: "https://www.amazon.com/Age-Ambition-Chasing-Fortune-Truth/dp/0374535272",
     },
     {
-      name: "Alchemist, The",
-      author: "Paulo Coelho",
-      link: "https://www.amazon.com/Alchemist-Paulo-Coelho-ebook/dp/B00U6SFUSS/",
-    },
-    {
       name: "Catch-22",
       author: "Joseph Heller",
       link: "https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657",
@@ -134,4 +129,9 @@ export const books = [
       author: "David Brooks",
       link: "https://www.amazon.com/Character-Thorndike-Press-Large-Print/dp/1594139377",
     },
+    {
+      name: "Dune",
+      author: "Frank Herbert",
+      link: "https://www.amazon.com/Dune-Frank-Herbert/dp/0441172717",
+    }
   ];
