@@ -22,6 +22,12 @@ const Pages = () => {
         influences
       </Link>
       <Link
+        href="/books"
+        className="text-4xl text-white font-bold hover:text-neon-green mt-3"
+      >
+        books
+      </Link>
+      <Link
         href="/about"
         className="text-4xl text-white font-bold hover:text-neon-green mt-3"
       >
