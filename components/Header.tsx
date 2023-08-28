@@ -29,6 +29,7 @@ const Header = ({ page }: Props) => {
         property="og:image"
         content="https://www.granthale.com/images/man_earth.jpeg"
       />
+      <meta property="og:image:alt" content="grant hale" />
       <meta
         property="og:image:secure_url"
         content="https://www.granthale.com/images/man_earth.jpeg"
