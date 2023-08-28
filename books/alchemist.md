@@ -1,9 +1,9 @@
 ---
 title: 'The Alchemist'
 author: 'Paulo Coelho'
-id: 'alchemist'
+dateFinished: '2023-08-15'
 summary: 'An endearing story about a shepherd boy who follows his dreams.'
-rating: '9'
+rating: 9
 ---
 
 ## Introduction

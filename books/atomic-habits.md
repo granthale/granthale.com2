@@ -1,8 +1,9 @@
 ---
 title: 'Atomic Habits'
 author: 'James Clear'
+dateFinished: '2023-08-20'
 summary: 'The hype was real. Going to be thinking about the concepts in this book an awful lot moving forward.'
-rating: '9'
+rating: 9
 ---
 
 ### Chapter 1

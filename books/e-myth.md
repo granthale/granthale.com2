@@ -1,8 +1,9 @@
 ---
 title: 'The E-Myth Revisited'
 author: 'Michael E. Gerber'
+dateFinished: ''
 summary: 'Coming soon...'
-rating: '_'
+rating: 000
 ---
 
 ### Intro

@@ -1,8 +1,9 @@
 ---
 title: 'The Little Book of Common Sense Investing'
 author: 'John C. Bogle'
+dateFinished: '2023-08-17'
 summary: 'An extremely sensible way to invest, applicable to everyone except Warren Buffett, delivered straight from the father of the low-cost index fund.'
-rating: '8'
+rating: 8
 ---
 
 ### **Intro**

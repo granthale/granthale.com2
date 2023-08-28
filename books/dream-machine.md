@@ -1,8 +1,9 @@
 ---
 title: 'The Dream Machine'
 author: 'M. Mitchell Waldrop'
+dateFinished: ''
 summary: 'Coming soon...'
-rating: '_'
+rating: 10
 ---
 
 to do...
