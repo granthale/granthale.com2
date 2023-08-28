@@ -46,6 +46,7 @@ const books = ({
             <div>
               <h1 className="text-4xl font-extrabold">books!</h1>
               <br />
+              <p>Here are some books that I've read recently!</p>
               <p className="font-bold">
                 Sort by{" "}
                 <button
