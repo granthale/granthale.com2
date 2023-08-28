@@ -23,6 +23,8 @@ const Header = ({ page }: Props) => {
       />
       <meta property="og:title" content={title} />
       <meta property="og:locale" content="en_US" />
+      <meta property="og:url" content="https://www.granthale.com" />
+      <meta property="og:type" content="website" />
       <meta
         property="og:image"
         content="https://www.granthale.com/images/man_earth.jpeg"
