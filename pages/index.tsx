@@ -26,11 +26,10 @@ export default function Home() {
               being and a human doing.
             </p>
             <br />
-            <p className="text-blue font-bold">Welcome to my website.</p>
             <p>
-              I'm most interested in science, entrepreneurship and learning. But
-              if there's something you're passionate about, I'd probably love to
-              talk about it. Reach out!
+              I'm most interested in science, entrepreneurship, thinking, and
+              learning. But if there's something else you're passionate about,
+              I'd probably love to talk about it. Reach out!
             </p>
             <br />
             <p>

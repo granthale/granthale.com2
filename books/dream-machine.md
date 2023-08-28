@@ -1,5 +1,5 @@
 ---
-title: 'Dream Machine, The'
+title: 'The Dream Machine'
 author: 'M. Mitchell Waldrop'
 summary: 'Coming soon...'
 rating: '_'

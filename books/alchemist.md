@@ -1,5 +1,5 @@
 ---
-title: 'Alchemist, The'
+title: 'The Alchemist'
 author: 'Paulo Coelho'
 id: 'alchemist'
 summary: 'An endearing story about a shepherd boy who follows his dreams.'

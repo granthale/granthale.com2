@@ -1,5 +1,5 @@
 ---
-title: 'Road to Character'
+title: 'The Road to Character'
 author: 'David Brooks'
 summary: 'Coming soon...'
 rating: '_'

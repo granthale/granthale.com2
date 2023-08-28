@@ -130,14 +130,16 @@ export default function About() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="entrepreneurship">
-            Join an early-stage company or start my own (I know, classic
-            American)
+            Join an early-stage company or start my own
           </li>
           <li key="living">
             Live in a different country for an extended period of time
           </li>
           <li key="talking">
             Facilitate great conversations with friends & strangers
+          </li>
+          <li key="talking">
+            Read every book known to man
           </li>
         </ul>
         <br />
