@@ -3,12 +3,20 @@ import Link from "next/link";
 interface Props {
   title: string;
   author: string;
+  dateFinished: string;
   summary: string;
   id: string;
-  rating: string;
+  rating: number;
 }
 
-const BookCard = ({ title, author, summary, id, rating }: Props) => {
+const BookCard = ({
+  title,
+  author,
+  dateFinished,
+  summary,
+  id,
+  rating,
+}: Props) => {
   return (
     <>
       <Link href={`/books/${id}`}>
@@ -27,7 +35,12 @@ const BookCard = ({ title, author, summary, id, rating }: Props) => {
               </p>
             </div>
             <p className="mt-4">
-              <span className="font-bold">Rating:</span> {rating}/10
+              <p>
+                <span className="font-bold">Rating:</span> {rating}/10
+              </p>
+              <p> 
+                <span className="font-bold">Date finished:</span> {dateFinished}
+              </p>
             </p>
           </div>
           <div className="flex-none ml-4">

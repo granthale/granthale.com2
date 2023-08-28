@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 import BookCard from "../components/Books/BookCard";
 import Link from "next/link";
+import { useState } from "react";
 
 const books = ({
   allBooksData,
@@ -12,13 +13,30 @@ const books = ({
   allBooksData: {
     title: string;
     author: string;
+    dateFinished: string;
     summary: string;
+    rating: number;
     id: string;
-    rating: string;
-    href: string;
   }[];
 }) => {
+  const [sortedBooks, setSortedBooks] = useState(allBooksData);
+
+  const sortBooks = (criteria) => {
+    const sorted = [...sortedBooks].sort((a, b) => {
+      if (criteria === "rating") {
+        return b.rating - a.rating;
+      } else if (criteria === "title") {
+        return a.title.localeCompare(b.title);
+      } else if (criteria === "recency") {
+        return +new Date(b.dateFinished) - +new Date(a.dateFinished);
+      } else {
+        return 0;
+      }
+    });
+    setSortedBooks(sorted);
+  };
   const main_color = "text-violet";
+  const button_class = "text-blue underline hover:no-underline";
   return (
     <>
       <Header page="books" />
@@ -28,58 +46,57 @@ const books = ({
             <div>
               <h1 className="text-4xl font-extrabold">books!</h1>
               <br />
-              <p className="text-xl">
-                Automatically sorted by my highest rating.
-              </p>
-              <p>
+              <p className="font-bold">
                 Sort by{" "}
-                <Link
-                  className="underline text-blue hover:no-underline"
-                  href="?sort=rating"
+                <button
+                  className={`${button_class}`}
+                  onClick={() => sortBooks("rating")}
                 >
                   rating
-                </Link>
+                </button>
                 ,{" "}
-                <Link
-                  className="underline text-blue hover:no-underline"
-                  href="?sort=title"
+                <button
+                  className={`${button_class}`}
+                  onClick={() => sortBooks("title")}
                 >
                   title
-                </Link>
+                </button>
                 , or{" "}
-                <Link
-                  className="underline text-blue hover:no-underline"
-                  href="?sort=recency"
+                <button
+                  className={`${button_class}`}
+                  onClick={() => sortBooks("recency")}
                 >
                   recency
-                </Link>
+                </button>
               </p>
-              {/*  by: (rating, title, recency) */}
             </div>
             <Link
               className="text-right underline hover:no-underline"
               href="/influences"
             >
-              ← Back to influences
+              ← To influences
             </Link>
           </div>
           <br />
-          {allBooksData.map(({ id, title, author, summary, rating }) => (
-            <BookCard
-              key={id}
-              id={id}
-              title={title}
-              author={author}
-              summary={summary}
-              rating={rating}
-            ></BookCard>
-          ))}
+          {allBooksData.map(
+            ({ id, title, author, dateFinished, summary, rating }) => (
+              <BookCard
+                key={id}
+                title={title}
+                author={author}
+                dateFinished={dateFinished}
+                summary={summary}
+                rating={rating}
+                id={id}
+              ></BookCard>
+            )
+          )}
           <br />
           <Link
             className="text-violet underline hover:no-underline"
             href="/influences"
           >
-            ← Back to influences
+            ← To influences
           </Link>
         </section>
       </Layout>
