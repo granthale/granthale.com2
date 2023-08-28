@@ -59,13 +59,14 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
             Surface Tension
             <Arrow></Arrow>
           </a>{" "}
-          is dedicated to making you more curious about the world we live in.
-          From uncovering creators to interviewing academics, we break beyond
-          the surface level and aim to better you for it.
+          helps us all be a little more curious. We interview creators,
+          academics, and entrepreneurs to expose you to thought-provoking ideas
+          and to help you learn something new.
+          <br />
         </div>
-        <br />
         <div className="text-xl">
-          Sharad Doshi and I have been working on it for a little under a year now. Here are the episodes that we've currently released.
+          Sharad Doshi and I have been working on the podcast for a little under
+          a year now. Here are the episodes that we've currently released.
         </div>
         <br />
         <br />
