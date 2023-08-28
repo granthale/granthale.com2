@@ -18,19 +18,48 @@ const books = ({
     href: string;
   }[];
 }) => {
+  const main_color = "text-violet";
   return (
     <>
       <Header page="books" />
       <Layout>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <div className="flex justify-between text-violet">
+          <div className={`flex justify-between ${main_color}`}>
             <div>
-              <h1 className="text-3xl font-bold">Books</h1>
+              <h1 className="text-4xl font-extrabold">books!</h1>
               <br />
-              <p className="text-xl font-bold">Sorting coming soon...</p>
+              <p className="text-xl">
+                Automatically sorted by my highest rating.
+              </p>
+              <p>
+                Sort by{" "}
+                <Link
+                  className="underline text-blue hover:no-underline"
+                  href="?sort=rating"
+                >
+                  rating
+                </Link>
+                ,{" "}
+                <Link
+                  className="underline text-blue hover:no-underline"
+                  href="?sort=title"
+                >
+                  title
+                </Link>
+                , or{" "}
+                <Link
+                  className="underline text-blue hover:no-underline"
+                  href="?sort=recency"
+                >
+                  recency
+                </Link>
+              </p>
               {/*  by: (rating, title, recency) */}
             </div>
-            <Link className="text-right underline hover:no-underline" href="/influences">
+            <Link
+              className="text-right underline hover:no-underline"
+              href="/influences"
+            >
               ← Back to influences
             </Link>
           </div>
