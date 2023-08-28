@@ -1,5 +1,5 @@
 ---
-title: 'The Road to Character'
+title: 'Road to Character'
 author: 'David Brooks'
 dateFinished: '2023-08-04'
 summary: 'Coming soon...'

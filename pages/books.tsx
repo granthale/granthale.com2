@@ -75,11 +75,11 @@ const books = ({
               className="text-right underline hover:no-underline"
               href="/influences"
             >
-              ← To influences
+              ← To other influences
             </Link>
           </div>
           <br />
-          {allBooksData.map(
+          {sortedBooks.map(
             ({ id, title, author, dateFinished, summary, rating }) => (
               <BookCard
                 key={id}
@@ -97,7 +97,7 @@ const books = ({
             className="text-violet underline hover:no-underline"
             href="/influences"
           >
-            ← To influences
+            ← To other influences
           </Link>
         </section>
       </Layout>

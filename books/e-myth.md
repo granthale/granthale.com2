@@ -1,5 +1,5 @@
 ---
-title: 'The E-Myth Revisited'
+title: 'E-Myth Revisited'
 author: 'Michael E. Gerber'
 dateFinished: ''
 summary: 'Coming soon...'

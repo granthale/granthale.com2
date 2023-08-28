@@ -1,5 +1,5 @@
 ---
-title: 'The Dream Machine'
+title: 'Dream Machine'
 author: 'M. Mitchell Waldrop'
 dateFinished: ''
 summary: 'Coming soon...'

@@ -44,7 +44,7 @@ export default function PodCard({ podcast }: Props) {
 
   return (
     <div key={podcast.id}>
-      <div className="rounded-b border lg:rounded-b-none lg:rounded-r p-4">
+      <div className="rounded-b border lg:rounded-b-none lg:rounded-r p-4 hover:text-neon-green">
         <PodImage podcast={podcast}></PodImage>
         <div className="ml-4">
           <PodTitle podcast={podcast}></PodTitle>

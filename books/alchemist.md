@@ -1,5 +1,5 @@
 ---
-title: 'The Alchemist'
+title: 'Alchemist'
 author: 'Paulo Coelho'
 dateFinished: '2023-08-15'
 summary: 'An endearing story about a shepherd boy who follows his dreams.'
