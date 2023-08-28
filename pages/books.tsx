@@ -69,6 +69,7 @@ const books = ({
                 >
                   recency
                 </button>
+                .
               </p>
             </div>
             <Link
