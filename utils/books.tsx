@@ -34,7 +34,7 @@ export function getSortedBooksData() {
   });
   // Sort books by rating
   return allBooksData.sort((a, b) => {
-    if (a.rating > b.rating) {
+    if (a.rating < b.rating) {
       return 1;
     } else {
       return -1;
