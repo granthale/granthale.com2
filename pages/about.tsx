@@ -93,31 +93,25 @@ export default function About() {
         <ul className="list-disc pl-5 text-xl">
           <li key="podcasting">
             Recording podcast episodes for{" "}
-            <a
-              href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
-              className="underline hover:text-neon-green"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link className="underline hover:text-neon-green" href="/podcast">
               Surface Tension
               <Arrow></Arrow>
-            </a>
+            </Link>
           </li>
           <li key="writing">
             {" "}
-            <a
-              href="https://treetoforest.substack.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-neon-green"
-            >
+            <Link href="/writing" className="underline hover:text-neon-green">
               Writing
               <Arrow></Arrow>
-            </a>{" "}
+            </Link>{" "}
             @ least 15 minutes a day - ideally closer to an hour
           </li>
           <li key="reading">
-            Reading like a madman (mostly history, science, and biographies)
+            <Link href="/books" className="underline hover:text-neon-green">
+              Reading
+              <Arrow></Arrow>
+            </Link>{" "}
+            like a madman (mostly history, science, and biographies)
           </li>
         </ul>
         <br />
@@ -138,9 +132,7 @@ export default function About() {
           <li key="talking">
             Facilitate great conversations with friends & strangers
           </li>
-          <li key="talking">
-            Read every book known to man
-          </li>
+          <li key="talking">Read every book known to man</li>
         </ul>
         <br />
 
