@@ -132,7 +132,7 @@ export default function About() {
           <li key="talking">
             Facilitate great conversations with friends & strangers
           </li>
-          <li key="talking">Read every book known to man</li>
+          <li key="talking">Read every (great) book known to man</li>
         </ul>
         <br />
 
