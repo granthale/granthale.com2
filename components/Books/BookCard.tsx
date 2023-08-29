@@ -20,10 +20,10 @@ const BookCard = ({
   return (
     <>
       <Link href={`/books/${id}`}>
-        <div className="rounded-b border lg:rounded-b-none lg:rounded-r flex justify-between p-4 hover:text-neon-green">
-          <div className="flex flex-col justify-between">
-            <div>
-              <p className="text-2xl font-bold mb-1 hidden md:block">
+        <div className="flex p-4 rounded-b border lg:rounded-b-none lg:rounded-r hover:text-violet">
+          <div className="flex flex-col flex-grow justify-between">
+            <div className="mr-2">
+              <p className="text-2xl font-bold mb-1 hidden md:block left-0">
                 {title} by {author}
               </p>
               <p className="hidden md:block">
@@ -34,16 +34,14 @@ const BookCard = ({
                   : ""}
               </p>
             </div>
-            <p className="mt-4">
+            <p className="flex flex-col md:flex-row md:justify-between mr-2">
               <p>
                 <span className="font-bold">Rating:</span> {rating}/10
               </p>
-              <p>
-                <span className="font-bold">Date finished:</span> {dateFinished}
-              </p>
+              <p className="mt-4 md:mt-0">{dateFinished}</p>
             </p>
           </div>
-          <div className="flex-none ml-4">
+          <div className="mx-1 flex-none">
             <img
               width={125}
               src={`/books/${id}.jpeg`}

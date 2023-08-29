@@ -62,8 +62,8 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
           helps us all be a little more curious. We interview creators,
           academics, and entrepreneurs to expose you to thought-provoking ideas
           and to help you learn something new.
-          <br />
         </div>
+        <br />
         <div className="text-xl">
           Sharad Doshi and I have been working on the podcast for a little under
           a year now. Here are the episodes that we've currently released.

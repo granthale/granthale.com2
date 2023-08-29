@@ -1,9 +1,9 @@
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "../../styles/utils.module.css";
 import { GetStaticProps } from "next";
-import { getSortedBooksData } from "../utils/books";
-import Header from "../components/Header";
-import Layout from "../components/Layout";
-import BookCard from "../components/Books/BookCard";
+import { getSortedBooksData } from "../../utils/books";
+import Header from "../../components/Header";
+import Layout from "../../components/Layout";
+import BookCard from "../../components/Books/BookCard";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -20,7 +20,9 @@ const books = ({
   }[];
 }) => {
   const [sortedBooks, setSortedBooks] = useState(allBooksData);
-
+  const handleSortChange = (e) => {
+    sortBooks(e.target.value);
+  };
   const sortBooks = (criteria) => {
     const sorted = [...sortedBooks].sort((a, b) => {
       if (criteria === "rating") {
@@ -36,7 +38,6 @@ const books = ({
     setSortedBooks(sorted);
   };
   const main_color = "text-violet";
-  const button_class = "text-blue underline hover:no-underline";
   return (
     <>
       <Header page="books" />
@@ -46,37 +47,26 @@ const books = ({
             <div>
               <h1 className="text-4xl font-extrabold">books!</h1>
               <br />
-              <p>Here are some books that I've read recently!</p>
-              <p className="font-bold">
-                Sort by{" "}
-                <button
-                  className={`${button_class}`}
-                  onClick={() => sortBooks("rating")}
+              <div className="flex items-center">
+                <p className="mr-4">Sort by:</p>
+                <select
+                  id="sorting"
+                  onChange={handleSortChange}
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 >
-                  rating
-                </button>
-                ,{" "}
-                <button
-                  className={`${button_class}`}
-                  onClick={() => sortBooks("title")}
-                >
-                  title
-                </button>
-                , or{" "}
-                <button
-                  className={`${button_class}`}
-                  onClick={() => sortBooks("recency")}
-                >
-                  recency
-                </button>
-                .
-              </p>
+                  <option value="rating" selected>
+                    Rating
+                  </option>
+                  <option value="recency">Recency</option>
+                  <option value="title">Title</option>
+                </select>
+              </div>
             </div>
             <Link
-              className="text-right underline hover:no-underline"
+              className="text-right underline hover:no-underline ml-4"
               href="/influences"
             >
-              ← To other influences
+              ← To influences
             </Link>
           </div>
           <br />
@@ -98,7 +88,7 @@ const books = ({
             className="text-violet underline hover:no-underline"
             href="/influences"
           >
-            ← To other influences
+            ← To influences
           </Link>
         </section>
       </Layout>

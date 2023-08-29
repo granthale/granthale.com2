@@ -63,8 +63,6 @@ export default function Book({
           <br />
           <br />
         </div>
-        <h2 className="font-bold text-violet text-3xl underline">Notes</h2>
-        <br />
         <BookNotes contentHTML={bookData.contentHTML} />
       </article>
       <br />
