@@ -50,18 +50,20 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
         <div className="text-neon-green font-extrabold text-4xl">podcast!</div>
         <br />
         <div className="text-xl">
-          <a
-            className="text-neon-green underline hover:text-black"
-            href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Surface Tension
-            <Arrow></Arrow>
-          </a>{" "}
-          helps us all be a little more curious. We interview creators,
-          academics, and entrepreneurs to expose you to thought-provoking ideas
-          and to help you learn something new.
+          <span className="font-bold">
+            <a
+              className="text-neon-green underline hover:text-black"
+              href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Surface Tension
+              <Arrow></Arrow>
+            </a>{" "}
+            helps us all be a little more curious.{" "}
+          </span>
+          We interview creators, academics, and entrepreneurs to expose you to
+          thought-provoking ideas and to help you learn something new.
         </div>
         <br />
         <div className="text-xl">

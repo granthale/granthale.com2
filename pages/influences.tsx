@@ -5,6 +5,7 @@ import { books } from "../data/books";
 import { people } from "../data/people";
 import { podcasts } from "../data/podcasts";
 import { essays } from "../data/essays";
+import { friends } from "../data/friends";
 import Link from "next/link";
 
 export default function Influences() {
@@ -112,6 +113,20 @@ export default function Influences() {
             <li className="underline hover:text-primary" key={essay.name}>
               <a href={essay.link} target="_blank" rel="noopener noreferrer">
                 {essay.name} by {essay.author}
+                <Arrow></Arrow>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <br />
+        <br />
+        <h1 className={`font-bold ${main_color} text-3xl`}>friends</h1>
+        <br />
+        <ul className="list-disc pl-5 text-xl">
+          {friends.map((friend) => (
+            <li className="underline hover:text-primary" key={friend.name}>
+              <a href={friend.link} target="_blank" rel="noopener noreferrer">
+                {friend.name}
                 <Arrow></Arrow>
               </a>
             </li>

@@ -28,8 +28,8 @@ export default function Home() {
             <br />
             <p>
               I'm most interested in science, entrepreneurship, thinking, and
-              learning. But if there's something you're passionate about,
-              I'd probably love to talk about it. Reach out!
+              learning. If there's something you're passionate about, I'd
+              probably love to talk about it. Reach out!
             </p>
             <br />
             <p>
