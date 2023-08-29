@@ -12,9 +12,10 @@ export default function Book({
     title: string;
     author: string;
     summary: string;
+    dateFinished: string;
+    contentHTML: string;
     rating: string;
     id: string;
-    contentHTML: string;
   };
 }) {
   return (
@@ -35,9 +36,14 @@ export default function Book({
                 </span>
               </h1>
               <br />
+              <div className="md:flex md:justify-between">
               <h2 className="font-light text-2xl">
                 Rating: {bookData.rating}/10
               </h2>
+              <h2 className="font-light text-2xl">
+                Date Finished: {bookData.dateFinished}
+              </h2>
+              </div>
             </div>
             <br />
             {/* summary */}
