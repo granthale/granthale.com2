@@ -1,7 +1,7 @@
 ---
 title: 'Dream Machine'
 author: 'M. Mitchell Waldrop'
-dateFinished: ''
+dateFinished: '2023-06-19'
 summary: 'Coming soon...'
 rating: 10
 ---

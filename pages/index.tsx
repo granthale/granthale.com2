@@ -23,12 +23,12 @@ export default function Home() {
             <p className="text-blue font-bold text-3xl">Hello friend, </p>
             <p className="mt-4 text-neon-green">
               <span className="font-bold">My name is Grant.</span> I'm a human
-              being and a human doing.
+              being, a human doing, and a human questioning
             </p>
             <br />
             <p>
               I'm most interested in science, entrepreneurship, thinking, and
-              learning. But if there's something else you're passionate about,
+              learning. But if there's something you're passionate about,
               I'd probably love to talk about it. Reach out!
             </p>
             <br />
@@ -41,7 +41,7 @@ export default function Home() {
             </p>
             <br />
             <div className="text-blue font-bold">
-              <p>See you around,</p>
+              <p>See ya around,</p>
               <p>Grant</p>
             </div>
           </div>
