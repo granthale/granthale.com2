@@ -23,13 +23,15 @@ export default function Home() {
             <p className="text-blue font-bold text-3xl">Hello friend, </p>
             <p className="mt-4 text-neon-green">
               <span className="font-bold">My name is Grant.</span> I'm a human
-              being, a human doing, and a human questioning
+              being and a human doing.
             </p>
             <br />
+            <p>But most of all I've got questions.</p>
+            <br />
             <p>
-              I'm most interested in science, entrepreneurship, thinking, and
-              learning. If there's something you're passionate about, I'd
-              probably love to talk about it. Reach out!
+              Questions about what? Well...let's just say that ~83% of them are
+              about science, entrepreneurship, thinking, and learning. The other
+              17% are often changing.
             </p>
             <br />
             <p>
