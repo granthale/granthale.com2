@@ -38,7 +38,7 @@ const BookCard = ({
               <p>
                 <span className="font-bold">Rating:</span> {rating}/10
               </p>
-              <p className="mt-4 md:mt-0">{dateFinished}</p>
+              <p className="mt-4 md:mt-0 font-bold">{dateFinished}</p>
             </p>
           </div>
           <div className="mx-1 flex-none">
