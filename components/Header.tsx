@@ -10,8 +10,12 @@ const Header = ({ page }: Props) => {
     <Head>
       <title>{title}</title>
       <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content="Grant's bustling internet cafe." />
+      <meta
+        name="twitter:description"
+        content="Grant's bustling internet cafe."
+      />
       <meta name="twitter:card" content="summary" />
+      <meta name="twitter:creator" content="@grant__hale" />
       <meta name="twitter:image:type" content="image/jpeg" />
       <meta
         name="twitter:image:secure_url"
@@ -37,7 +41,10 @@ const Header = ({ page }: Props) => {
       <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:description" content="Grant's bustling internet cafe." />
+      <meta
+        property="og:description"
+        content="Grant's bustling internet cafe."
+      />
     </Head>
   );
 };
