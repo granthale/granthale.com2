@@ -7,14 +7,14 @@ interface Props {
 
 const PodImage = ({ podcast }: Props) => {
   return (
-    <div className="flex flex-none mb-5 m-2">
+    <div className="flex flex-none">
       <a
         href={podcast.external_urls.spotify}
         target="_blank"
         rel="noopener noreferrer"
       >
         <Image
-          className="rounded-full"
+          className="rounded"
           width={100}
           height={100}
           src="/images/surface-tension.png"
