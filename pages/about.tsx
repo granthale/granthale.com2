@@ -12,10 +12,10 @@ export default function About() {
     },
     { month: "July", location: "San Francisco" },
     { month: "August", location: "San Francisco, Chicago" },
-    { month: "September", location: "Japan, Thailand, Indonesia" },
-    { month: "October", location: "China, Taiwan" },
-    { month: "November", location: "India" },
-    { month: "December", location: "Chicago (?)" },
+    { month: "September", location: "Japan, Taiwan" },
+    { month: "October", location: "Taiwan, China" },
+    { month: "November", location: "Phillipines, Thailand, Indonesia, India" },
+    { month: "December", location: "India, Chicago" },
   ];
   const main_color = "text-reddish";
   return (
