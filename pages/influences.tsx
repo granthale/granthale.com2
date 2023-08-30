@@ -76,9 +76,8 @@ export default function Influences() {
             .map((book) => (
               <li className="underline hover:text-primary" key={book.name}>
                 <a href={book.link} target="_blank" rel="noopener noreferrer">
-                  {book.name}
-                </a>{" "}
-                by {book.author}
+                  {book.name} by {book.author}
+                </a>
                 <Arrow></Arrow>
               </li>
             ))}
@@ -97,9 +96,8 @@ export default function Influences() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {podcast.name}
-                </a>{" "}
-                by {podcast.author}
+                  {podcast.name} by {podcast.author}
+                </a>
                 <Arrow></Arrow>
               </li>
             ))}
