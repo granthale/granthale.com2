@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Image from "next/image";
 import Socials from "../components/Socials";
 import Link from "next/link";
+import Arrow from "../components/Arrow";
 
 export default function Home() {
   const identities = [
@@ -26,18 +27,19 @@ export default function Home() {
               being and a human doing.
             </p>
             <br />
-            <p>But most of all I've got questions.</p>
+            <p>Most of all, I'm asking questions.</p>
             <br />
             <p>
-              Questions about what? Well...let's just say that ~83% of them are
-              about science, entrepreneurship, thinking, and learning. The other
-              17% are often changing.
+              Questions about what? Well, ~83% of them are about science,
+              entrepreneurship, thinking, and learning. The other 17% cover a
+              wide range of things, including history, computers, and wellbeing.
             </p>
             <br />
             <p>
               Check out my{" "}
               <Link className="underline hover:text-neon-green" href="/about">
                 about
+                <Arrow></Arrow>
               </Link>{" "}
               page to learn more!
             </p>
