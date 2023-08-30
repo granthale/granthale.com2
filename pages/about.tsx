@@ -135,7 +135,12 @@ export default function About() {
           <li key="talking">Read every (great) book known to man</li>
         </ul>
         <br />
-
+        <h3 className={`font-bold ${main_color} text-3xl`}>colophon</h3>
+        <br />
+        <p className="text-xl">
+          This website was made using Next.js and is hosted on Vercel.
+        </p>
+        <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
         <br />
         <p className="text-xl">
