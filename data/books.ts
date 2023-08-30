@@ -138,5 +138,10 @@ export const books = [
       name: "Dune",
       author: "Frank Herbert",
       link: "https://www.amazon.com/Dune-Frank-Herbert/dp/0441172717",
+    },
+    {
+      name: "Thinking Physics",
+      author: "Lewis Caroll Epstein",
+      link: "https://archive.org/details/ThinkingPhysicsPracticalLessonsInCriticalThinking_201808/mode/2up",
     }
   ];
