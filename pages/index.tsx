@@ -31,8 +31,8 @@ export default function Home() {
             <br />
             <p>
               Questions about what? Well, ~83% of them are about science,
-              entrepreneurship, thinking, and learning. The other 17% cover a
-              wide range of things, including history, computers, and wellbeing.
+              entrepreneurship, thinking, and learning. The other 17% are mostly
+              covered by history, computers, and wellbeing.
             </p>
             <br />
             <p>

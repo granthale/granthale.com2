@@ -8,6 +8,10 @@ export const people = [
       link: "https://waitbutwhy.com/",
     },
     {
+      name: "Kevin Kelly",
+      link: "https://kk.org/",
+    },
+    {
       name: "Benjamin Franklin",
       link: "https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/0684807610/",
     },
@@ -48,6 +52,10 @@ export const people = [
       link: "https://hubermanlab.com/",
     },
     {
+      name: "Andy Matuschak",
+      link: "https://andymatuschak.org/"
+    },
+    {
       name: "Richard Feynman",
       link: "https://en.wikipedia.org/wiki/Richard_Feynman",
     },
@@ -75,8 +83,4 @@ export const people = [
       name: "Jakob Greenfeld",
       link: "https://jakobgreenfeld.com/",
     },
-    {
-      name: "Andy Matuschak",
-      link: "https://andymatuschak.org/"
-    }
   ];

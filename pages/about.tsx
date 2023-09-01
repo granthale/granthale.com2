@@ -138,7 +138,8 @@ export default function About() {
         <h3 className={`font-bold ${main_color} text-3xl`}>colophon</h3>
         <br />
         <p className="text-xl">
-          This website was made using Next.js and is hosted on Vercel.
+          This website was made using Next.js, is hosted on Vercel, and is
+          powered by ☕.
         </p>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
