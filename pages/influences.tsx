@@ -121,7 +121,7 @@ export default function Influences() {
         <h1 className={`font-bold ${main_color} text-3xl`}>friends</h1>
         <br />
         <p className={`${main_color} text-xl`}>
-          Here are some friends that are cool enough to have personal websites.
+          Here are some friends that are cool enough to have personal websites!
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
