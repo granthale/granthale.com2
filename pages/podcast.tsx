@@ -60,7 +60,7 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
               Surface Tension
               <Arrow></Arrow>
             </a>{" "}
-            helps us all be a little more curious.{" "}
+            helps us stay curious.{" "}
           </span>
           We interview creators, academics, and entrepreneurs to expose you to
           thought-provoking ideas.
