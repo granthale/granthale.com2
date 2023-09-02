@@ -14,4 +14,9 @@ export const podcasts = [
       author: "Cal Newport",
       link: "https://podcasts.apple.com/us/podcast/deep-questions-with-cal-newport/id1515786216?i=1000614859620",
     },
+    {
+      name: "Andy Matuschak - Self Teaching, Spaced Repetition",
+      author: "Dwarkesh Patel",
+      link: "https://podcasts.apple.com/us/podcast/dwarkesh-podcast-lunar-society-formerly/id1516093381?i=1000620902710"
+    }
   ];
