@@ -63,7 +63,7 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
             helps us all be a little more curious.{" "}
           </span>
           We interview creators, academics, and entrepreneurs to expose you to
-          thought-provoking ideas and to help you learn something new.
+          thought-provoking ideas.
         </div>
         <br />
         <div className="text-xl">
