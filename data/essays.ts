@@ -38,5 +38,10 @@ export const essays = [
         name: "The Cook and the Chef: Musk's Secret Sauce",
         author: "Tim Urban",
         link: "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html"
+    },
+    {
+        name: "How to write good prompts: using spaced repetition to create understanding",
+        author: "Andy Matuschak",
+        link: "https://andymatuschak.org/prompts/"
     }
 ];
