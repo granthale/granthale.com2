@@ -17,7 +17,9 @@ const PodImage = ({ podcast }: Props) => {
           className="rounded"
           width={100}
           height={100}
-          src="/images/surface-tension.png"
+          // if the title starts with Stay Curious, use the logo with the text
+          // otherwise, use the logo without the text
+          src={`/images/${podcast.name.startsWith("Stay Curious") ? "stay-curious" : "surface-tension"}.jpeg`}
           alt="surface tension logo"
         />
       </a>
