@@ -40,7 +40,7 @@ export const essays = [
         link: "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html"
     },
     {
-        name: "How to write good prompts: using spaced repetition to create understanding",
+        name: "How to write good prompts (spaced repetition)",
         author: "Andy Matuschak",
         link: "https://andymatuschak.org/prompts/"
     }
