@@ -12,20 +12,8 @@ export const people = [
       link: "https://kk.org/",
     },
     {
-      name: "Benjamin Franklin",
-      link: "https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/0684807610/",
-    },
-    {
       name: "Patrick Collison",
       link: "https://patrickcollison.com/",
-    },
-    {
-      name: "Frances Perkins",
-      link: "https://en.wikipedia.org/wiki/Frances_Perkins",
-    },
-    {
-      name: "Dorothy Day",
-      link: "https://en.wikipedia.org/wiki/Dorothy_Day",
     },
     {
       name: "Derek Sivers",
@@ -62,10 +50,6 @@ export const people = [
     {
       name: "Charlie Munger",
       link: "https://en.wikipedia.org/wiki/Charlie_Munger",
-    },
-    {
-      name: "Nassim Taleb",
-      link: "https://www.fooledbyrandomness.com/",
     },
     {
       name: "J.C.R. Licklider",
