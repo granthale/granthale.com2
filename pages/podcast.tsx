@@ -53,7 +53,7 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
           <span className="font-bold">
             <a
               className="text-neon-green underline hover:text-black"
-              href="https://podcasters.spotify.com/pod/show/surfacetensionpod"
+              href="https://surfacetensionpod.substack.com"
               target="_blank"
               rel="noopener noreferrer"
             >
