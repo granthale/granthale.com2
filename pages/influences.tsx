@@ -22,7 +22,16 @@ export default function Influences() {
         <br />
         <div className="text-xl">
           <p>
-            I like to think of <span className="font-bold">ideas as seeds</span>{" "}
+            I like to think of ideas as{" "}
+            <a
+              href="https://www.mentalnodes.com/a-gardening-guide-for-your-mind"
+              className="underline hover:text-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              seeds
+              <Arrow></Arrow>
+            </a>
             planted by our influences and nourished by curiosity, contemplation,
             and exploration.
           </p>
