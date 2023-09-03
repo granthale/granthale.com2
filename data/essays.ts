@@ -47,6 +47,6 @@ export const essays = [
     {
         name: "Media Playlists",
         author: "Simon Hørup Eskildsen",
-        link: "https://sirupsen.com/playlist/"
+        link: "https://sirupsen.com/playlists/"
     }
 ];
