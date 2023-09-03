@@ -43,5 +43,10 @@ export const essays = [
         name: "How to write good prompts (spaced repetition)",
         author: "Andy Matuschak",
         link: "https://andymatuschak.org/prompts/"
+    },
+    {
+        name: "Media Playlists",
+        author: "Simon Hørup Eskildsen",
+        link: "https://sirupsen.com/playlist/"
     }
 ];
