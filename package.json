@@ -10,7 +10,7 @@
     "path": false,
     "os": false
   },
-  "prebuild": "ts-node utils/generateRssFeed.tsx",
+  "prebuild": "ts-node utils/generateRssFeed.ts",
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "axios": "^1.4.0",
