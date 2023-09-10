@@ -1,8 +1,8 @@
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
 import Arrow from "../../components/Arrow";
-import { pieces } from "../../data/pieces";
-import { muses } from "../../data/muses";
+import { writing } from "../../data/writing";
+import { musing } from "../../data/musing";
 
 export default function Writing() {
   const main_color = "text-blue";
@@ -30,7 +30,7 @@ export default function Writing() {
         <h3 className={`${main_color} font-bold text-3xl`}>pieces</h3>
         <br />
         <ul className="list-disc pl-5 text-xl">
-          {pieces.map((piece) => (
+          {writing.map((piece) => (
             <a
               href={piece.link}
               target="_blank"
@@ -50,7 +50,7 @@ export default function Writing() {
         <h3 className={`${main_color} font-bold text-3xl`}>musing</h3>
         <br />
         <ul className="list-disc pl-5 text-xl">
-          {muses.map((muse) => (
+          {musing.map((muse) => (
             <a
               href={muse.link}
               className={`hover:text-neon-green`}

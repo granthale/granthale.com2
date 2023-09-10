@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "api/rss.tsx"  ],
   "exclude": [
     "node_modules"
   ]

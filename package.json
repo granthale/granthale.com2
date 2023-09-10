@@ -5,9 +5,16 @@
     "build": "next build",
     "start": "next start"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "axios": "^1.4.0",
+    "feed": "^4.2.2",
+    "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "mysql2": "^3.6.0",
     "next": "latest",
