@@ -1,6 +1,7 @@
 import { FaTwitter, FaGithub, FaLinkedin, FaRss } from "react-icons/fa";
 import { AiTwotoneMail } from "react-icons/ai";
 import React from "react";
+import router from "next/router";
 
 interface Props {
   menu?: boolean;
@@ -52,7 +53,7 @@ const Socials = ({ menu }: Props) => {
                 if (social.name !== "RSS") {
                   window.open(social.link, "_blank");
                 } else {
-                  window.location.href = social.link;
+                  router.push(social.link);
                 }
               }}
             >
