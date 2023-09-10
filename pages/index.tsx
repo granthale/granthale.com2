@@ -4,6 +4,16 @@ import Image from "next/image";
 import Socials from "../components/Socials";
 import Link from "next/link";
 import Arrow from "../components/Arrow";
+import generateRssFeed from "../utils/generateRssFeed";
+
+export const getStaticProps = async () => {
+  await generateRssFeed();
+
+  return {
+    props: {}, // Add any props you need for your page here
+    revalidate: 60, // Optional: Re-generate the RSS feed every 60 seconds
+  };
+};
 
 export default function Home() {
   const identities = [

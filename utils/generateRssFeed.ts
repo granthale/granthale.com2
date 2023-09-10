@@ -1,4 +1,4 @@
-import { RSS } from "rss";
+import RSS from "rss";
 import fs from "fs";
 import path from "path";
 import { getSortedPosts } from "./getSortedPosts";
@@ -17,7 +17,7 @@ export default async function generateRssFeed() {
   const feed = new RSS(feedOptions);
 
   allPosts.map((post) => {
-    feed.addItem({
+    feed.item({
       title: post.title,
       description: post.description,
       author: "Grant Hale",
@@ -39,5 +39,3 @@ export default async function generateRssFeed() {
     console.log("RSS feed generation: all good");
   });
 }
-
-generateRssFeed();
