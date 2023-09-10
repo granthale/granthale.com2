@@ -4,7 +4,7 @@ import path from "path";
 import { getSortedPosts } from "./getSortedPosts";
 
 export default async function generateRssFeed() {
-  const site_url = "localhost:3000"; // TODO: Change this to my domain
+  const site_url = "https://granthale.com"; // TODO: Change this to my domain
   const allPosts = await getSortedPosts();
 
   const feedOptions = {
