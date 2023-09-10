@@ -1,8 +1,8 @@
-import Layout from "../components/Layout";
-import Header from "../components/Header";
-import Arrow from "../components/Arrow";
-import { pieces } from "../data/pieces";
-import { muses } from "../data/muses";
+import Layout from "../../components/Layout";
+import Header from "../../components/Header";
+import Arrow from "../../components/Arrow";
+import { pieces } from "../../data/pieces";
+import { muses } from "../../data/muses";
 
 export default function Writing() {
   const main_color = "text-blue";
