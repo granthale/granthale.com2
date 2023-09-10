@@ -1,14 +1,10 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Arrow from "../components/Arrow";
+import { pieces } from "../data/pieces";
+import { muses } from "../data/muses";
 
 export default function Writing() {
-  const pieces = [
-    {
-      title: "The European Experiment",
-      link: "https://treetoforest.substack.com/p/the-european-experiment",
-    },
-  ];
   const main_color = "text-blue";
   return (
     <>
@@ -20,7 +16,9 @@ export default function Writing() {
           I write for clarity and I write to explore. Subscribe to{" "}
           <a
             className="underline text-blue hover:text-neon-green"
-            href="https://treetoforest.substack.com/" target="_blank" rel="noopener noreferrer"
+            href="https://treetoforest.substack.com/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Tree to Forest
             <Arrow></Arrow>
@@ -37,13 +35,32 @@ export default function Writing() {
               href={piece.link}
               target="_blank"
               rel="noopener noreferrer"
-              className={`underline hover:text-neon-green`}
+              className={`hover:text-neon-green`}
               key={piece.title}
             >
-              <li>
+              <span className="font-light mr-4">{piece.date}</span>
+              <u>
                 {piece.title}
                 <Arrow></Arrow>
-              </li>
+              </u>
+            </a>
+          ))}
+        </ul>
+        <br />
+        <h3 className={`${main_color} font-bold text-3xl`}>musing</h3>
+        <br />
+        <ul className="list-disc pl-5 text-xl">
+          {muses.map((muse) => (
+            <a
+              href={muse.link}
+              className={`hover:text-neon-green`}
+              key={muse.title}
+            >
+              <span className="font-light mr-4">{muse.date}</span>
+              <u>
+                {muse.title}
+                <Arrow></Arrow>
+              </u>
             </a>
           ))}
         </ul>
