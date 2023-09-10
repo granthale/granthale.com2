@@ -18,5 +18,10 @@ export const podcasts = [
       name: "Andy Matuschak - Self Teaching, Spaced Repetition",
       author: "Dwarkesh Patel",
       link: "https://podcasts.apple.com/us/podcast/dwarkesh-podcast-lunar-society-formerly/id1516093381?i=1000620902710"
+    },
+    {
+      name: "Episode 2: Joshua Waitzkin",
+      author: "Tim Ferris",
+      link: "https://podcasts.apple.com/us/podcast/the-tim-ferriss-show/id863897795?i=1000354785689"
     }
   ];
