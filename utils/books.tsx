@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import markdownToHTML from "./markdownToHTML";
 
-const booksDirectory = path.join(process.cwd(), "books");
+const booksDirectory = path.join(process.cwd(), "/data/books");
 
 export function getSortedBooksData() {
   // Get file names under /books
