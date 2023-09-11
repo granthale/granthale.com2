@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Arrow from "../../components/Arrow";
 import { writing } from "../../data/writing";
 import { musing } from "../../data/musing";
+import Link from "next/link";
 
 export default function Writing() {
   const main_color = "text-blue";
@@ -15,7 +16,7 @@ export default function Writing() {
         <h3 className="text-xl">
           I write for clarity and I write to explore. Subscribe to{" "}
           <a
-            className="underline text-blue hover:text-neon-green"
+            className="underline hover:text-neon-green"
             href="https://treetoforest.substack.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +24,11 @@ export default function Writing() {
             Tree to Forest
             <Arrow></Arrow>
           </a>{" "}
-          if you'd like to read more!
+          and my{" "}
+          <Link className="underline hover:text-neon-green" href="/rss.xml">
+            RSS feed<Arrow></Arrow>
+          </Link>{" "}
+          to read more!
         </h3>
         <br />
         <br />
