@@ -61,10 +61,10 @@ export default function About() {
         <h3 className={`font-bold ${main_color} text-3xl`}>time & location</h3>
         <br />
         <p className="text-xl">
-          I've got ~
+          I've got{" "}
           <span className="font-bold">
             {Math.round(
-              (new Date("2024-01-05").getTime() - new Date().getTime()) /
+              (new Date("2024-01-22").getTime() - new Date().getTime()) /
                 (1000 * 60 * 60 * 24)
             ) + 1}{" "}
             days and counting{" "}
