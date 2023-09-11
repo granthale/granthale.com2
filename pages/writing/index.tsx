@@ -69,6 +69,15 @@ export default function Writing() {
             </li>
           ))}
         </ul>
+        <br />
+        <br />
+        <br />
+        <a
+          className={`font-bold ${main_color} hover:text-neon-green`}
+          href="/"
+        >
+          Writing philosophy coming soon...
+        </a>
       </Layout>
     </>
   );
