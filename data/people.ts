@@ -67,4 +67,8 @@ export const people = [
       name: "Jakob Greenfeld",
       link: "https://jakobgreenfeld.com/",
     },
+    {
+      name: "Josh Waitzkin",
+      link: "https://www.joshwaitzkin.com/",
+    }
   ];
