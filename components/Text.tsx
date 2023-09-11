@@ -1,4 +1,4 @@
-function BookNotes({ contentHTML }) {
+function Text({ contentHTML }) {
   return (
     <article
       className="prose dark:text-green-500 prose-lg lg:prose-xl max-w-none"
@@ -7,4 +7,4 @@ function BookNotes({ contentHTML }) {
   );
 }
 
-export default BookNotes;
+export default Text;

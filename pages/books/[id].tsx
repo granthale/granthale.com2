@@ -3,7 +3,7 @@ import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllBookIds, getBookData } from "../../utils/books";
 import Link from "next/link";
-import BookNotes from "../../components/Books/BookNotes";
+import Text from "../../components/Text";
 
 export default function Book({
   bookData,
@@ -37,12 +37,12 @@ export default function Book({
               </h1>
               <br />
               <div className="md:flex md:justify-between">
-              <h2 className="font-light text-2xl">
-                Rating: {bookData.rating}/10
-              </h2>
-              <h2 className="font-light text-2xl">
-                Date Finished: {bookData.dateFinished}
-              </h2>
+                <h2 className="font-light text-2xl">
+                  Rating: {bookData.rating}/10
+                </h2>
+                <h2 className="font-light text-2xl">
+                  Date Finished: {bookData.dateFinished}
+                </h2>
               </div>
             </div>
             <br />
@@ -69,7 +69,7 @@ export default function Book({
           <br />
           <br />
         </div>
-        <BookNotes contentHTML={bookData.contentHTML} />
+        <Text contentHTML={bookData.contentHTML} />
       </article>
       <br />
       <br />

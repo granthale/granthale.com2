@@ -1,90 +1,45 @@
 import Layout from "../../components/Layout";
 import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { getAllBookIds, getBookData } from "../../utils/books";
+import { getAllMusingIds, getMusingsData } from "../../utils/musings";
 import Link from "next/link";
-import BookNotes from "../../components/Books/BookNotes";
+import Text from "../../components/Text";
 
-export default function Book({
-  bookData,
+export default function writing({
+  musingData,
 }: {
-  bookData: {
+  musingData: {
     title: string;
-    author: string;
-    summary: string;
-    dateFinished: string;
+    date: string;
     contentHTML: string;
-    rating: string;
     id: string;
   };
 }) {
   return (
     <Layout>
       <Head>
-        <title>{bookData.title}</title>
+        <title>{musingData.title}</title>
       </Head>
       <article>
-        <div className="md:flex md:justify-between">
-          {/* Title, author, summary */}
-          <div className="flex-grow">
-            {/* Title and author */}
-            <div>
-              <h1 className="font-bold text-violet text-3xl">
-                {bookData.title}{" "}
-                <span className="text-violet text-2xl font-normal">
-                  by {bookData.author}
-                </span>
-              </h1>
-              <br />
-              <div className="md:flex md:justify-between">
-              <h2 className="font-light text-2xl">
-                Rating: {bookData.rating}/10
-              </h2>
-              <h2 className="font-light text-2xl">
-                Date Finished: {bookData.dateFinished}
-              </h2>
-              </div>
-            </div>
-            <br />
-            {/* summary */}
-            <p className="text-xl font-bold">{bookData.summary}</p>
-            <br />
-          </div>
-          {/* image */}
-          <div className="flex-none md:ml-4">
-            <Link
-              className="text-violet underline hover:no-underline text-xl"
-              href="/books"
-            >
-              ← Back to books
-            </Link>
-            <br />
-            <br />
-            <img
-              src={`/books/${bookData.id}.jpeg`}
-              alt={`Cover of ${bookData.title}`}
-              width={150}
-            />
-          </div>
-          <br />
-          <br />
-        </div>
-        <BookNotes contentHTML={bookData.contentHTML} />
+        <h1 className="font-bold text-violet text-3xl">{musingData.title} </h1>
+        <h3 className="text-xl">{musingData.date}</h3>
+        <br />
+        <Text contentHTML={musingData.contentHTML} />
       </article>
       <br />
       <br />
       <Link
         className="text-violet underline hover:no-underline text-xl"
-        href="/books"
+        href="/writing"
       >
-        ← Back to books
+        ← Back to writing
       </Link>
     </Layout>
   );
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllBookIds();
+  const paths = getAllMusingIds();
   return {
     paths,
     fallback: false,
@@ -92,10 +47,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const bookData = await getBookData(params?.id as string);
+  const musingData = await getMusingsData(params?.id as string);
   return {
     props: {
-      bookData,
+      musingData,
     },
   };
 };
