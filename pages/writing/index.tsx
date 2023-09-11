@@ -29,39 +29,44 @@ export default function Writing() {
         <br />
         <h3 className={`${main_color} font-bold text-3xl`}>pieces</h3>
         <br />
-        <ul className="list-disc pl-5 text-xl">
+        <ul className="pl-5 text-xl">
           {writing.map((piece) => (
-            <a
-              href={piece.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`hover:text-neon-green`}
-              key={piece.title}
-            >
-              <span className="font-light mr-4">{piece.date}</span>
-              <u>
-                {piece.title}
-                <Arrow></Arrow>
-              </u>
-            </a>
+            <li className="mb-4">
+              <a
+                href={piece.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`hover:text-neon-green`}
+                key={piece.title}
+              >
+                <span className="font-light mr-4">{piece.date}</span>
+                <u>
+                  {piece.title}
+                  <Arrow></Arrow>
+                </u>
+              </a>
+            </li>
           ))}
         </ul>
         <br />
         <h3 className={`${main_color} font-bold text-3xl`}>musing</h3>
         <br />
-        <ul className="list-disc pl-5 text-xl">
+        <ul className="pl-5 text-xl">
           {musing.map((muse) => (
-            <a
-              href={muse.link}
-              className={`hover:text-neon-green`}
-              key={muse.title}
-            >
-              <span className="font-light mr-4">{muse.date}</span>
-              <u>
-                {muse.title}
-                <Arrow></Arrow>
-              </u>
-            </a>
+            <li className="mb-4">
+              <a
+                href={muse.link}
+                className={`hover:text-neon-green`}
+                key={muse.title}
+              >
+                <span className="font-light mr-4">{muse.date}</span>
+                <u>
+                  {muse.title}
+                  <Arrow></Arrow>
+                </u>
+              </a>
+              <br />
+            </li>
           ))}
         </ul>
       </Layout>
