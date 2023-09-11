@@ -9,13 +9,13 @@ const Header = ({ page }: Props) => {
   return (
     <Head>
       <title>{title}</title>
+      <meta name="twitter:title" content={title} />
       <link
         rel="alternate"
         type="application/rss+xml"
         title="Grant's RSS feed"
         href="/rss.xml"
       />
-      <meta name="twitter:title" content={title} />
       <meta
         name="twitter:description"
         content="Grant's bustling internet cafe."
