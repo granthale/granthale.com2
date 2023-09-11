@@ -9,6 +9,6 @@ export const musing = [
       title: "Makers, Managers, Thinkers",
       link: "/writing/makers-managers-thinkers",
       date: "2023-09-07",
-      description: "Choose your tools wisely."
+      description: "Choose your tool wisely."
     }
   ];
