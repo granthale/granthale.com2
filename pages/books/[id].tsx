@@ -4,6 +4,7 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllBookIds, getBookData } from "../../utils/books";
 import Link from "next/link";
 import Text from "../../components/Text";
+import Header from "../../components/Header";
 
 export default function Book({
   bookData,
@@ -20,9 +21,7 @@ export default function Book({
 }) {
   return (
     <Layout>
-      <Head>
-        <title>{bookData.title}</title>
-      </Head>
+      <Header page={`books: ${bookData.title}`} />
       <article>
         <div className="md:flex md:justify-between">
           {/* Title, author, summary */}
