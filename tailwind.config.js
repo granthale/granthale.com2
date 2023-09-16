@@ -15,7 +15,7 @@ module.exports = {
         "reddish":"#E55C41",
         "black": "#000000",
         "blue": "#2563eb",
-        "violet": "#7c3aed"
+        "violet": "#7c3aed",
       },
     },
     },

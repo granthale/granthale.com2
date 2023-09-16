@@ -20,7 +20,7 @@ const BookCard = ({
   return (
     <>
       <Link href={`/books/${id}`}>
-        <div className="flex p-4 rounded-b border lg:rounded-b-none lg:rounded-r hover:text-violet">
+        <div className="flex p-4 rounded-b border lg:rounded-b-none lg:rounded-r hover:text-neon-green">
           <div className="flex flex-col flex-grow justify-between">
             <div className="mr-2">
               <p className="text-2xl font-bold mb-1 hidden md:block left-0">
