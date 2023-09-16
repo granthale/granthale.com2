@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Header = ({ page }: Props) => {
-  const title = page === "home" ? "grant hale" : `${page} | grant hale`;
+  const title = page === "home" ? "grant hale" : `${page}`;
   return (
     <Head>
       <title>{title}</title>
