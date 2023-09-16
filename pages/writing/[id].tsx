@@ -4,6 +4,8 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllMusingIds, getMusingsData } from "../../utils/musings";
 import Link from "next/link";
 import Text from "../../components/Text";
+import { musing } from "../../data/musing";
+import Header from "../../components/Header";
 
 export default function writing({
   musingData,
@@ -17,9 +19,7 @@ export default function writing({
 }) {
   return (
     <Layout>
-      <Head>
-        <title>{musingData.title}</title>
-      </Head>
+      <Header page={`writing: ${musingData.title}`} />
       <article>
         <h1 className="font-bold text-violet text-3xl">{musingData.title} </h1>
         <h3 className="text-xl">{musingData.date}</h3>
