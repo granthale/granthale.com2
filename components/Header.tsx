@@ -10,12 +10,6 @@ const Header = ({ page }: Props) => {
     <Head>
       <title>{title}</title>
       <meta name="twitter:title" content={title} />
-      {/* <link
-        rel="alternate"
-        type="application/rss+xml"
-        title="Grant's RSS feed"
-        href="/rss.xml"
-      /> */}
       <meta
         name="twitter:description"
         content="Grant's bustling internet cafe."
@@ -50,6 +44,12 @@ const Header = ({ page }: Props) => {
       <meta
         property="og:description"
         content="Grant's bustling internet cafe."
+      />
+      <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="Grant's RSS feed"
+        href="/rss.xml"
       />
     </Head>
   );
