@@ -1724,6 +1724,8 @@ video {
   background: #5dc284;
 }
 
+/* Work-around for dark mode */
+
 [data-theme='dark'] .prose,
 [data-theme='dark'] .prose h1,
 [data-theme='dark'] .prose h2,
@@ -1733,6 +1735,15 @@ video {
 
 [data-theme='dark'] .prose a {
   color: #5dc284;
+}
+
+/* Added to remove unnecessary quotes in blockquote sections */
+
+blockquote::before,
+blockquote::after,
+blockquote p::before,
+blockquote p::after {
+  content: "" !important;
 }
 
 @media (min-width: 1024px) {
@@ -2061,4 +2072,3 @@ video {
     border-bottom-right-radius: 0.25rem;
   }
 }
-
