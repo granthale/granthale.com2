@@ -1,5 +1,11 @@
 export const musing = [
     {
+      title: "How I Learn",
+      link: "/writing/how-i-learn",
+      date: "2023-09-16",
+      description: "Learning."
+    },  
+    {
       title: "Renaissance of RSS",
       link: "/writing/rss-renaissance",
       date: "2023-09-10",
@@ -10,11 +16,5 @@ export const musing = [
       link: "/writing/makers-managers-thinkers",
       date: "2023-09-07",
       description: "Choose your tool wisely."
-    },
-    {
-      title: "How I Learn",
-      link: "/writing/how-i-learn",
-      date: "2023-09-16",
-      description: "Learning."
     }
   ];

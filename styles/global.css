@@ -20,7 +20,8 @@ Work-around for dark mode
 [data-theme='dark'] .prose h2,
 [data-theme='dark'] .prose h3,
 [data-theme='dark'] .prose blockquote,
-[data-theme='dark'] .prose li {
+[data-theme='dark'] .prose li,
+[data-theme='dark'] .prose p {
   color: #fff;
 }
 [data-theme='dark'] .prose a {

@@ -1654,11 +1654,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1735,7 +1730,8 @@ Work-around for dark mode
 [data-theme='dark'] .prose h2,
 [data-theme='dark'] .prose h3,
 [data-theme='dark'] .prose blockquote,
-[data-theme='dark'] .prose li {
+[data-theme='dark'] .prose li,
+[data-theme='dark'] .prose p {
   color: #fff;
 }
 
