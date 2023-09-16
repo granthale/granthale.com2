@@ -37,7 +37,7 @@ const books = ({
     });
     setSortedBooks(sorted);
   };
-  const main_color = "text-violet";
+  const main_color = "";
   return (
     <>
       <Header page="books" />

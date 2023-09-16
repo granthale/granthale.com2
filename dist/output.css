@@ -1654,6 +1654,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1724,12 +1729,13 @@ video {
   background: #5dc284;
 }
 
-/* Work-around for dark mode */
-
+Work-around for dark mode
 [data-theme='dark'] .prose,
 [data-theme='dark'] .prose h1,
 [data-theme='dark'] .prose h2,
-[data-theme='dark'] .prose h3 {
+[data-theme='dark'] .prose h3,
+[data-theme='dark'] .prose blockquote,
+[data-theme='dark'] .prose li {
   color: #fff;
 }
 
@@ -1986,11 +1992,6 @@ blockquote p::after {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.hover\:text-violet:hover {
-  --tw-text-opacity: 1;
-  color: rgb(124 58 237 / var(--tw-text-opacity));
 }
 
 .hover\:no-underline:hover {
