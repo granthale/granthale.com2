@@ -48,5 +48,15 @@ export const essays = [
         name: "Media Playlists",
         author: "Simon Hørup Eskildsen",
         link: "https://sirupsen.com/playlists/"
+    },
+    {
+        name: "How to write good prompts",
+        author: "Andy Matuschak",
+        link: "https://andymatuschak.org/prompts/"
+    },
+    {
+        name: "Augmenting Long-term Memory",
+        author: "Michael Nielsen",
+        link: "http://augmentingcognition.com/ltm.html"
     }
 ];
