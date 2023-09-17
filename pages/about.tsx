@@ -90,27 +90,29 @@ export default function About() {
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
-          <li key="podcasting">
-            Recording podcast episodes for{" "}
-            <Link className="underline hover:text-neon-green" href="/podcast">
-              Surface Tension
-              <Arrow></Arrow>
-            </Link>
-          </li>
           <li key="writing">
             {" "}
             <Link href="/writing" className="underline hover:text-neon-green">
               Writing
               <Arrow></Arrow>
             </Link>{" "}
-            @ least 15 minutes a day - ideally closer to an hour
+            evergeen-style pieces, and spaced-repetition prompts
           </li>
           <li key="reading">
             <Link href="/books" className="underline hover:text-neon-green">
               Reading
               <Arrow></Arrow>
             </Link>{" "}
-            like a madman (mostly science, history, and psychology)
+            science, history, and psychology
+          </li>
+          <li key="podcasting">
+            <Link className="underline hover:text-neon-green" href="/podcast">
+              Recording<Arrow></Arrow>
+            </Link>{" "}
+            podcast episodes for Surface Tension
+          </li>
+          <li key="traveling">
+            Traveling, building relationships, and exploring different cultures
           </li>
         </ul>
         <br />
@@ -123,22 +125,21 @@ export default function About() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="entrepreneurship">
-            Join an early-stage company or start my own
+            Join an early-stage company or start my own (potentially in EdTech
+            or the Tools for Thought space)
           </li>
           <li key="living">
             Live in a different country for an extended period of time
           </li>
           <li key="talking">
-            Facilitate great conversations with friends & strangers
+            Read and internalize a well-chosen information diet
           </li>
-          <li key="talking">Read every (great) book known to man</li>
         </ul>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>colophon</h3>
         <br />
         <p className="text-xl">
-          This website was made from scratch (and with love) using Next.js. It's
-          hosted on Vercel.
+          This website was made from scratch (and care) using Next.js.
         </p>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>

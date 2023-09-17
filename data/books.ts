@@ -138,5 +138,10 @@ export const books = [
       name: "Thinking Physics",
       author: "Lewis Caroll Epstein",
       link: "https://archive.org/details/ThinkingPhysicsPracticalLessonsInCriticalThinking_201808/mode/2up",
-    }
+    },
+    {
+      name: "How to Read a Book",
+      author: "Mortimer Adler and Charles Van Doren",
+      link: "TODO"
+    },
   ];

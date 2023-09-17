@@ -3,17 +3,13 @@ title: 'Renaissance of RSS'
 date: '2023-09-10'
 ---
 
-Make your own feed. Make your own what? Feed, like the social media kind.
+**Make your own feed.**
 
-This time, make it free of short-lived inspirations, hot-takes and selfies. This time include durable, thoughtful, question-raising content.
+This time, make it free of short-lived inspirations, hot-takes and selfies.
+Include durable, thoughtful, question-raising content. Put your favorite authors, blogs, news websites, podcasts, and Youtube channels in one place.
 
-Include your favorite authors, bloggers, podcasters, and Youtubers all in one place.
+You are what you eat. Choose a better information diet.
 
-It can be an intellectual breeding ground, a knowledge stream, a curiosity-inducing deluge.
-Even better, you no longer have to check a multitude of apps. Everything should be in one place.
+RSS - Really Simple Syndication makes this possible. In an age of increasingly diverse inputs, it's indeed a "really simple" solution. Sign up for one of the many free apps, and link to who you would like to see.
 
-RSS - Really Simple Syndication (it's been around since the early 2000s) makes this possible.
-
-In an age of increasingly diverse inputs, it's indeed a "really simple" solution. Sign up for one of the many free apps, and invite your favorite creator's to join you.
-
-You are what you eat. Improve your diet. RSS is a way to improve the quality of your inputs.
+There are a plethora of options out there. The important thing is to just choose a tool and get started. I use Reader by Readwise. Check out my influences page if you're looking for interesting websites to add and let me know how it works for you!
