@@ -4,8 +4,6 @@ import path from "path";
 import { writing } from "../data/writing";
 import { getData, getSortedData } from "./usePosts";
 import { Musing } from "../pages/writing/[id]";
-import markdownToHTML from "./markdownToHTML";
-import Book from "../pages/books/[id]";
 
 const musing = getSortedData<Musing>("musings");
 
@@ -43,11 +41,15 @@ export default async function generateRssFeed() {
   const feed = new RSS(feedOptions);
 
   for (const post of sortedPosts) {
+    console.log("Current Post:", post);  // <-- Add this line
+    let description = post.title;
     if ('link' in post) {
-      let description = post.description + "\n\n" + post.link;
+      description += post.description + "\n\n" + post.link;
 
-      if (!post.link) {
-        // TODO: Read the Markdown file contents.
+      if ('id' in post) {
+        // Add the content of the post to the RSS feed
+        const postContent = await getData((post.id as string), "musings");
+        description += "\n\n" + postContent.contentHTML;
       }
 
       feed.item({
