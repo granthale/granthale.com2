@@ -45,22 +45,22 @@ export default async function generateRssFeed() {
     let description = post.title;
     if ('link' in post) {
       description += post.description + "\n\n" + post.link;
-
-      if ('id' in post) {
-        // Add the content of the post to the RSS feed
+    } 
+    else if ('id' in post) { // Add the content of the post to the RSS feed
         const postContent = await getData((post.id as string), "musings");
         description += "\n\n" + postContent.contentHTML;
-      }
-
-      feed.item({
-        title: post.title,
-        description: description,
-        author: "Grant Hale",
-        date: new Date(post.date),
-        url: post.link,
-      });
     }
-  }
+    // If link is present, use it; otherwise, use "writing/{id}"
+    const url = ("link" in post) ? post.link : `writing/${post.id}`;
+
+    feed.item({
+      title: post.title,
+      description: description,
+      author: "Grant Hale",
+      date: new Date((post as any).date),
+      url: url,
+    });
+    }
 
   const fullFilePath = path.join(process.cwd(), "public", "rss.xml");
 
