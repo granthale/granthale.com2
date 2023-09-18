@@ -2,10 +2,19 @@ import Layout from "../../components/Layout";
 import Header from "../../components/Header";
 import Arrow from "../../components/Arrow";
 import { writing } from "../../data/writing";
-import { musing } from "../../data/musing";
 import Link from "next/link";
+import { getSortedData } from "../../utils/usePosts";
+import { GetStaticProps } from "next";
 
-export default function Writing() {
+export default function Writing({
+  allMusingData,
+}: {
+  allMusingData: {
+    id: string;
+    title: string;
+    date: string;
+  }[];
+}) {
   const main_color = "text-blue";
   return (
     <>
@@ -57,19 +66,19 @@ export default function Writing() {
         <h3 className={`${main_color} font-bold text-3xl`}>musing</h3>
         <br />
         <ul className="pl-5 text-xl">
-          {musing.map((muse) => (
-            <li className="mb-4">
-              <a
-                href={muse.link}
+          {allMusingData.map(({ id, date, title }) => (
+            <li className="mb-4" key={id}>
+              <Link
                 className={`hover:text-neon-green`}
-                key={muse.title}
+                key={title}
+                href={`/writing/${id}`}
               >
-                <span className="font-light mr-4">{muse.date}</span>
+                <span className="font-light mr-4">{date}</span>
                 <u>
-                  {muse.title}
+                  {title}
                   <Arrow></Arrow>
                 </u>
-              </a>
+              </Link>
               <br />
             </li>
           ))}
@@ -78,3 +87,12 @@ export default function Writing() {
     </>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const allMusingData = getSortedData("musings");
+  return {
+    props: {
+      allMusingData,
+    },
+  };
+};

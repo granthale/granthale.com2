@@ -1,9 +1,15 @@
 import Layout from "../../components/Layout";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { getAllMusingIds, getMusingsData } from "../../utils/musings";
+import { getAllIds, getData } from "../../utils/usePosts";
 import Link from "next/link";
 import Text from "../../components/Text";
 import Header from "../../components/Header";
+
+interface Musing {
+  title: string;
+  author: string;
+  id: string;
+}
 
 export default function writing({
   musingData,
@@ -37,7 +43,7 @@ export default function writing({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllMusingIds();
+  const paths = getAllIds("musings");
   return {
     paths,
     fallback: false,
@@ -45,7 +51,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const musingData = await getMusingsData(params?.id as string);
+  const musingData = await getData<Musing>(params?.id as string, "musings");
   return {
     props: {
       musingData,
