@@ -1,10 +1,8 @@
 import Layout from "../../components/Layout";
-import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllMusingIds, getMusingsData } from "../../utils/musings";
 import Link from "next/link";
 import Text from "../../components/Text";
-import { musing } from "../../data/musing";
 import Header from "../../components/Header";
 
 export default function writing({

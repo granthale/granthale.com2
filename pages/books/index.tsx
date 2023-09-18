@@ -1,6 +1,6 @@
 import utilStyles from "../../styles/utils.module.css";
 import { GetStaticProps } from "next";
-import { getSortedBooksData } from "../../utils/books";
+import { getSortedData } from "../../utils/usePosts";
 import Header from "../../components/Header";
 import Layout from "../../components/Layout";
 import BookCard from "../../components/Books/BookCard";
@@ -97,7 +97,7 @@ const books = ({
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allBooksData = getSortedBooksData();
+  const allBooksData = getSortedData("books");
   return {
     props: {
       allBooksData,

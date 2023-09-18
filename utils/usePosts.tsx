@@ -3,20 +3,19 @@ import path from "path";
 import matter from "gray-matter";
 import markdownToHTML from "./markdownToHTML";
 
-const booksDirectory = path.join(process.cwd(), "/data/books");
-
 // For index.tsx
-export function getSortedBooksData() {
+export function getSortedData<T>(directory: string) {
+  directory = path.join(process.cwd(), `/data/${directory}`);
   // Get file names under /books
   const fileNames = fs
-    .readdirSync(booksDirectory)
+    .readdirSync(directory)
     .filter((fileName) => fileName.endsWith(".md"));
-  const allBooksData = fileNames.map((fileName) => {
+  const allData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
 
     // Read markdown file as string
-    const fullPath = path.join(booksDirectory, fileName);
+    const fullPath = path.join(directory, fileName);
     const fileContents = fs.readFileSync(fullPath, "utf8");
 
     // Use gray-matter to parse the book metadata section
@@ -25,27 +24,17 @@ export function getSortedBooksData() {
     // Combine the data with the id
     return {
       id,
-      ...(matterResult.data as {
-        title: string;
-        author: string;
-        summary: string;
-        rating: string;
-      }),
+      ...(matterResult.data as T),
     };
   });
-  // Sort books by rating
-  return allBooksData.sort((a, b) => {
-    if (a.rating < b.rating) {
-      return 1;
-    } else {
-      return -1;
-    }
-  });
+  // TODO: Sort books by rating, sort musing by dateFinished
+  return allData;
 }
 
 // for [id].tsx
-export function getAllBookIds() {
-  const fileNames = fs.readdirSync(booksDirectory);
+export function getAllIds(directory: string) {
+  directory = path.join(process.cwd(), `/data/${directory}`);
+  const fileNames = fs.readdirSync(directory);
   return fileNames.map((fileName) => {
     return {
       params: {
@@ -56,11 +45,14 @@ export function getAllBookIds() {
 }
 
 // for [id].tsx
-export async function getBookData(id: string) {
-  const fullPath = path.join(booksDirectory, `${id}.md`);
+export async function getData<T>(
+  id: string,
+  directory: string
+): Promise<T & { contentHTML: string; id: string }> {
+  const fullPath = path.join("data/", directory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
-  // Use gray-matter to parse the book metadata section
+  // Use gray-matter to parse the metadata section
   const matterResult = matter(fileContents);
 
   // Use helper function to turn markdown into HTML
@@ -68,14 +60,8 @@ export async function getBookData(id: string) {
 
   // Combine the data with the id and contentHtml
   return {
-    id,
+    ...(matterResult.data as T),
     contentHTML,
-    ...(matterResult.data as {
-      title: string;
-      author: string;
-      summary: string;
-      rating: string;
-      dateFinished: string;
-    }),
+    id,
   };
 }

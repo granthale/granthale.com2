@@ -1,24 +1,21 @@
 import Layout from "../../components/Layout";
-import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { getAllBookIds, getBookData } from "../../utils/books";
 import Link from "next/link";
 import Text from "../../components/Text";
 import Header from "../../components/Header";
+import { getAllIds, getData } from "../../utils/usePosts";
 
-export default function Book({
-  bookData,
-}: {
-  bookData: {
-    title: string;
-    author: string;
-    summary: string;
-    dateFinished: string;
-    contentHTML: string;
-    rating: string;
-    id: string;
-  };
-}) {
+interface Book {
+  title: string;
+  author: string;
+  summary: string;
+  dateFinished: string;
+  contentHTML: string;
+  rating: string;
+  id: string;
+}
+
+export default function Book({ bookData }: { bookData: Book }) {
   return (
     <Layout>
       <Header page={`books: ${bookData.title}`} />
@@ -83,7 +80,7 @@ export default function Book({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllBookIds();
+  const paths = getAllIds("books");
   return {
     paths,
     fallback: false,
@@ -91,7 +88,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const bookData = await getBookData(params?.id as string);
+  const bookData = await getData<Book>(params?.id as string, "books");
   return {
     props: {
       bookData,
