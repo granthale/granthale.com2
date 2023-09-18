@@ -1,7 +1,29 @@
 import RSS from "rss";
 import fs from "fs";
 import path from "path";
-import { getSortedPosts } from "./getSortedPosts";
+import { writing } from "../data/writing";
+import { getSortedData } from "./usePosts";
+import { Musing } from "../pages/writing/[id]";
+
+const musing = getSortedData<Musing>("musings");
+
+export const getSortedPosts = () => {
+  return (
+    [...musing, ...writing]
+      // Sort posts by date
+      .sort((a, b) => {
+        if ("date" in a && "date" in b) {
+          if (a.date < b.date) {
+            return 1;
+          } else {
+            return -1;
+          }
+        }
+        return 0;
+      })
+  );
+};
+
 
 export default async function generateRssFeed() {
   const site_url = "https://granthale.com";
@@ -17,14 +39,16 @@ export default async function generateRssFeed() {
   const feed = new RSS(feedOptions);
 
   allPosts.map((post) => {
+  if ('date' in post) {
     feed.item({
       title: post.title,
-      description: post.description,
+      description: "",
       author: "Grant Hale",
       date: new Date(post.date),
       URL: post.link,
     });
-  });
+  }}
+  );
 
   const fullFilePath = path.join(process.cwd(), "public", "rss.xml");
   // remove the old file
