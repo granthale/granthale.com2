@@ -2,36 +2,19 @@ import Layout from "../components/Layout";
 import Pods from "../components/Pods";
 import Header from "../components/Header";
 import Arrow from "../components/Arrow";
-import axios from "axios";
 import { Podcast } from "../components/Pods";
+import { getSpotifyEpisodes, getSpotifyToken } from "../utils/spotifyAPI";
 
 export const getStaticProps = async () => {
-  const CLIENT_ID = "1f2b3fd8e5f9456784a516219a435cfa";
-  const CLIENT_SECRET = "0e3e2d1089a14edf870bf79d35225ab7";
+  const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
+  const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
 
   try {
-    const tokenResponse = await axios({
-      method: "POST",
-      url: "https://accounts.spotify.com/api/token",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        Authorization: "Basic " + btoa(CLIENT_ID + ":" + CLIENT_SECRET),
-      },
-      data: "grant_type=client_credentials",
-    });
-
-    const token = tokenResponse.data.access_token;
-
-    const response = await axios({
-      method: "GET",
-      url: "https://api.spotify.com/v1/shows/1Q6JuUv6QxYgR12C67EPYb/episodes?market=US&limit=50&offset=0",
-      headers: {
-        Authorization: "Bearer " + token,
-      },
-    });
+    const token = await getSpotifyToken(CLIENT_ID, CLIENT_SECRET);
+    const pods = await getSpotifyEpisodes(token);
 
     return {
-      props: { pods: response.data.items }, // will be passed to the page component as props
+      props: { pods },
       revalidate: 3600,
     };
   } catch (error) {
