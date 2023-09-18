@@ -5,7 +5,7 @@ import Link from "next/link";
 import Text from "../../components/Text";
 import Header from "../../components/Header";
 
-interface Musing {
+export interface Musing {
   title: string;
   author: string;
   id: string;
