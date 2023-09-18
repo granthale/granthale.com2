@@ -16,15 +16,6 @@ export const getStaticProps = async () => {
 };
 
 export default function Home() {
-  const identities = [
-    "reader",
-    "writer",
-    "thinker",
-    "lifter",
-    "coder",
-    "podcaster",
-    "runner",
-  ];
   return (
     <>
       <Header page="home" />
