@@ -142,6 +142,6 @@ export const books = [
     {
       name: "How to Read a Book",
       author: "Mortimer Adler and Charles Van Doren",
-      link: "TODO"
+      link: "https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095"
     },
   ];
