@@ -2,8 +2,10 @@ import RSS from "rss";
 import fs from "fs";
 import path from "path";
 import { writing } from "../data/writing";
-import { getSortedData } from "./usePosts";
+import { getData, getSortedData } from "./usePosts";
 import { Musing } from "../pages/writing/[id]";
+import markdownToHTML from "./markdownToHTML";
+import Book from "../pages/books/[id]";
 
 const musing = getSortedData<Musing>("musings");
 
@@ -29,7 +31,7 @@ export default async function generateRssFeed() {
   try {
 
   const site_url = "https://granthale.com";
-  const allPosts = getSortedPosts();
+  const sortedPosts = getSortedPosts();
 
   const feedOptions = {
     title: "grant hale",
@@ -40,21 +42,23 @@ export default async function generateRssFeed() {
   };
   const feed = new RSS(feedOptions);
 
-  allPosts.map((post) => {
-  if ('date' in post) {
-    feed.item({
-      title: post.title,
-      // TODO: add description
-        // if post.link, add to description
-        // if post.description, add to description
-        // if neither, add content to description
-      description: "",
-      author: "Grant Hale",
-      date: new Date(post.date),
-      URL: post.link,
-    });
-  }}
-  );
+  for (const post of sortedPosts) {
+    if ('link' in post) {
+      let description = post.description + "\n\n" + post.link;
+
+      if (!post.link) {
+        // TODO: Read the Markdown file contents.
+      }
+
+      feed.item({
+        title: post.title,
+        description: description,
+        author: "Grant Hale",
+        date: new Date(post.date),
+        url: post.link,
+      });
+    }
+  }
 
   const fullFilePath = path.join(process.cwd(), "public", "rss.xml");
 
