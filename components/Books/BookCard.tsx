@@ -34,20 +34,19 @@ const BookCard = ({
                   : ""}
               </p>
             </div>
-            <p className="flex flex-col md:flex-row md:justify-between mr-2">
+            <div className="flex flex-col md:flex-row md:justify-between mr-2">
               <p>
                 <span className="font-bold">Rating:</span> {rating}/10
               </p>
               <p className="mt-4 md:mt-0 font-bold">{dateFinished}</p>
-            </p>
+            </div>
           </div>
-          <div className="mx-1 flex-none">
-            <img
-              width={125}
-              src={`/books/${id}.jpeg`}
-              alt={`Cover of ${title}`}
-            />
-          </div>
+          <img
+            className="mx-1 flex-none"
+            width={125}
+            src={`/books/${id}.jpeg`}
+            alt={`Cover of ${title}`}
+          />
         </div>
         <br />
       </Link>
