@@ -26,8 +26,10 @@ export const getSortedPosts = () => {
 
 
 export default async function generateRssFeed() {
+  try {
+
   const site_url = "https://granthale.com";
-  const allPosts = await getSortedPosts();
+  const allPosts = getSortedPosts();
 
   const feedOptions = {
     title: "grant hale",
@@ -42,6 +44,10 @@ export default async function generateRssFeed() {
   if ('date' in post) {
     feed.item({
       title: post.title,
+      // TODO: add description
+        // if post.link, add to description
+        // if post.description, add to description
+        // if neither, add content to description
       description: "",
       author: "Grant Hale",
       date: new Date(post.date),
@@ -51,15 +57,10 @@ export default async function generateRssFeed() {
   );
 
   const fullFilePath = path.join(process.cwd(), "public", "rss.xml");
-  // remove the old file
-  if (fs.existsSync(fullFilePath)) {
-    await fs.promises.unlink(fullFilePath);
-  }
 
-  fs.writeFile(fullFilePath, feed.xml(), (err) => {
-    if (err) {
-      console.log("Error: ", err);
-    }
-    console.log("RSS feed generation: all good");
-  });
+  await fs.promises.writeFile(fullFilePath, feed.xml());
+  } catch (e) {
+    console.error("RSS feed generation failed:", e);
+    throw e;
+  }
 }
