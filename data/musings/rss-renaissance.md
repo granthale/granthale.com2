@@ -1,6 +1,7 @@
 ---
 title: 'Renaissance of RSS'
 date: '2023-09-10'
+id: 'rss-renaissance'
 ---
 
 **Make your own feed.**
