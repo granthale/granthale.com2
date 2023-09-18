@@ -28,15 +28,7 @@ export function getSortedData<T>(directory: string) {
     };
   });
 
-  console.log("Before sorting: ", JSON.stringify(allData));
-  const sortedData = allData.sort((a, b) => {
-    // Sort by rating if a book
-    if ("rating" in a && "rating" in b) {
-      if (typeof a.rating === "string" && typeof b.rating === "string") {
-        return parseFloat(b.rating) - parseFloat(a.rating);
-      }
-    }
-
+  return allData.sort((a, b) => {
     // Sort by date if a Muse
     if ("date" in a && "date" in b) {
       if (typeof a.date === "string" && typeof b.date === "string") {
@@ -45,8 +37,6 @@ export function getSortedData<T>(directory: string) {
     }
     return 0; // Fallback case: don't change the order
   });
-  console.log("After sorting: ", JSON.stringify(sortedData));
-  return sortedData;
 }
 
 // for [id].tsx
