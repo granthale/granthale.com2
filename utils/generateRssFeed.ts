@@ -10,7 +10,6 @@ const musing = getSortedData<Musing>("musings");
 export const getSortedPosts = () => {
   return (
     [...musing, ...writing]
-      // Sort posts by date
       .sort((a, b) => {
         if ("date" in a && "date" in b) {
           if (a.date < b.date) {
@@ -41,18 +40,17 @@ export default async function generateRssFeed() {
   const feed = new RSS(feedOptions);
 
   for (const post of sortedPosts) {
-    console.log("Current Post:", post);  // <-- Add this line
-    let description = post.title;
+    let description = "";
     if ('link' in post) {
-      description += post.description + "\n\n" + post.link;
+      description += `<a href="${post.link}">${post.description}</a>`;
     } 
     else if ('id' in post) { // Add the content of the post to the RSS feed
         const postContent = await getData((post.id as string), "musings");
         description += "\n\n" + postContent.contentHTML;
     }
-    // If link is present, use it; otherwise, use "writing/{id}"
-    const url = ("link" in post) ? post.link : `writing/${post.id}`;
 
+    // If link is present, use it; otherwise, use "writing/{id}"
+    const url = ("link" in post) ? post.link : `https://granthale.com/writing/${post.id}`;
     feed.item({
       title: post.title,
       description: description,
