@@ -47,8 +47,9 @@ export default async function generateRssFeed() {
       description += post.description + "\n\n" + post.link;
 
       if ('id' in post) {
-        // const postContent = await getData(post.id, "musings");
-        // description += "\n\n" + postContent.contentHTML;
+        // Add the content of the post to the RSS feed
+        const postContent = await getData((post.id as string), "musings");
+        description += "\n\n" + postContent.contentHTML;
       }
 
       feed.item({
