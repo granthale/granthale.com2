@@ -45,7 +45,7 @@ export default function Writing({
         <br />
         <ul className="pl-5 text-xl">
           {writing.map((piece) => (
-            <li className="mb-4">
+            <li className="mb-4" key={piece.title}>
               <a
                 href={piece.link}
                 target="_blank"
