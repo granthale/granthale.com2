@@ -20,10 +20,6 @@ export const people = [
       link: "https://sive.rs/",
     },
     {
-      name: "Seth Godin",
-      link: "https://seths.blog/top-100/",
-    },
-    {
       name: "Tim Ferris",
       link: "https://tim.blog/",
     },
@@ -70,5 +66,9 @@ export const people = [
     {
       name: "Josh Waitzkin",
       link: "https://www.joshwaitzkin.com/",
+    },
+    {
+      name: "Gwern Branwen",
+      link: "https://gwern.net"
     }
   ];

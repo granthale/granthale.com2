@@ -120,11 +120,6 @@ export const books = [
       link: "https://en.wikipedia.org/wiki/The_Great_Gatsby",
     },
     {
-      name: "Hooked",
-      author: "Nir Eyal",
-      link: "https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788",
-    },
-    {
       name: "Road to Character, The",
       author: "David Brooks",
       link: "https://www.amazon.com/Character-Thorndike-Press-Large-Print/dp/1594139377",
