@@ -5,14 +5,14 @@ export const essays = [
         link: "http://www.paulgraham.com/greatwork.html",
     },
     {
-        name: "I should have loved Biology",
-        author: "James Somers",
-        link: "https://jsomers.net/i-should-have-loved-biology",
-    },
-    {
         name: "How to Lose Time and Money",
         author: "Paul Graham",
         link: "http://www.paulgraham.com/selfindulgence.html"
+    },
+        {
+        name: "I should have loved Biology",
+        author: "James Somers",
+        link: "https://jsomers.net/i-should-have-loved-biology",
     },
     {
         name: "Neuralink and the Brain's Magical Future",
@@ -40,23 +40,28 @@ export const essays = [
         link: "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html"
     },
     {
-        name: "How to write good prompts (spaced repetition)",
-        author: "Andy Matuschak",
-        link: "https://andymatuschak.org/prompts/"
-    },
-    {
-        name: "Media Playlists",
-        author: "Simon Hørup Eskildsen",
-        link: "https://sirupsen.com/playlists/"
-    },
-    {
         name: "How to write good prompts",
         author: "Andy Matuschak",
         link: "https://andymatuschak.org/prompts/"
+    },
+        {
+        name: "Evergreen notes",
+        author: "Andy Matuschak",
+        link: "https://notes.andymatuschak.org/Evergreen_notes"
     },
     {
         name: "Augmenting Long-term Memory",
         author: "Michael Nielsen",
         link: "http://augmentingcognition.com/ltm.html"
-    }
+    },
+    {
+        name: "Spaced Repetition for Efficient Learning",
+        author: "Gwern Branwen",
+        link: "https://gwern.net/spaced-repetition"
+    },
+        {
+        name: "Media Playlists",
+        author: "Simon Hørup Eskildsen",
+        link: "https://sirupsen.com/playlists/"
+    },
 ];

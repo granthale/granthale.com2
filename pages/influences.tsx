@@ -93,6 +93,20 @@ export default function Influences() {
         </ul>
         <br />
         <br />
+        <h1 className={`font-bold ${main_color} text-3xl`}>essays</h1>
+        <br />
+        <ul className="list-disc pl-5 text-xl">
+          {essays.map((essay) => (
+            <li className="underline hover:text-primary" key={essay.name}>
+              <a href={essay.link} target="_blank" rel="noopener noreferrer">
+                {essay.name} by {essay.author}
+                <Arrow></Arrow>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <br />
+        <br />
         <h1 className={`font-bold ${main_color} text-3xl`}>podcasts</h1>
         <br />
         <ul className="list-disc pl-5 text-xl">
@@ -110,20 +124,6 @@ export default function Influences() {
                 <Arrow></Arrow>
               </li>
             ))}
-        </ul>
-        <br />
-        <br />
-        <h1 className={`font-bold ${main_color} text-3xl`}>essays</h1>
-        <br />
-        <ul className="list-disc pl-5 text-xl">
-          {essays.map((essay) => (
-            <li className="underline hover:text-primary" key={essay.name}>
-              <a href={essay.link} target="_blank" rel="noopener noreferrer">
-                {essay.name} by {essay.author}
-                <Arrow></Arrow>
-              </a>
-            </li>
-          ))}
         </ul>
         <br />
         <br />
