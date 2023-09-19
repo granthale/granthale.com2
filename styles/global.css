@@ -24,9 +24,6 @@ Work-around for dark mode
 [data-theme='dark'] .prose p {
   color: #fff;
 }
-[data-theme='dark'] .prose a {
-  color: #5dc284;
-}
 
 /* Added to remove unnecessary quotes in blockquote sections */
 blockquote::before,
