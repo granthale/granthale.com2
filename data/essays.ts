@@ -9,7 +9,12 @@ export const essays = [
         author: "Paul Graham",
         link: "http://www.paulgraham.com/selfindulgence.html"
     },
-        {
+    {
+        name: "How to Do What You Love",
+        author: "Paul Graham",
+        link: "http://paulgraham.com/love.html"
+    },
+    {
         name: "I should have loved Biology",
         author: "James Somers",
         link: "https://jsomers.net/i-should-have-loved-biology",
@@ -64,9 +69,4 @@ export const essays = [
         author: "Simon Hørup Eskildsen",
         link: "https://sirupsen.com/playlists/"
     },
-    {
-        name: "A gardening guide for your mind",
-        author: "Anne-Laure Le Cunff",
-        link: "https://www.mentalnodes.com/a-gardening-guide-for-your-mind"
-    }
 ];
