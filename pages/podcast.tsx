@@ -6,8 +6,8 @@ import { Podcast } from "../components/Pods";
 import { getSpotifyEpisodes, getSpotifyToken } from "../utils/spotifyAPI";
 
 export const getStaticProps = async () => {
-  const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
-  const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
+  const CLIENT_ID = "1f2b3fd8e5f9456784a516219a435cfa";
+  const CLIENT_SECRET = "0e3e2d1089a14edf870bf79d35225ab7";
 
   try {
     const token = await getSpotifyToken(CLIENT_ID, CLIENT_SECRET);
