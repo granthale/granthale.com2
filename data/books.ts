@@ -65,6 +65,11 @@ export const books = [
       link: "https://www.betterworldbooks.com/product/detail/something-incredibly-wonderful-happens-frank-oppenheimer-and-the-world-he-made-up-9780151008223",
     },
     {
+      name: "Starting Strength",
+      author: "Mark Rippetoe",
+      link: "https://www.amazon.com/Starting-Strength-Basic-Barbell-Training/dp/0982522738",
+    },
+    {
       name: "How To Live: 27 Conflicting Answers and One Weird Question",
       author: "Derek Sivers",
       link: "https://sive.rs/h",

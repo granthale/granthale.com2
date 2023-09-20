@@ -136,9 +136,7 @@ export default function About() {
             </li>
           ))}
         </ul>
-
         <br />
-
         <h3 className={`font-bold ${main_color} text-3xl`}>hypotheses</h3>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
@@ -158,12 +156,6 @@ export default function About() {
             friends and strangers
           </li>
         </ul>
-        <br />
-        <h3 className={`font-bold ${main_color} text-3xl`}>colophon</h3>
-        <br />
-        <p className="text-xl">
-          This website was made with care (and from scratch) using Next.js.
-        </p>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
         <br />
@@ -188,6 +180,11 @@ export default function About() {
             <Arrow />
           </a>
           !
+        </p>
+        <br/>
+        <p className={`font-bold ${main_color} text-xl`}>
+          This website was made with care (and from scratch) using Next.js. I hope
+          you enjoy.
         </p>
       </Layout>
     </>
