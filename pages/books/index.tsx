@@ -65,7 +65,7 @@ const books = ({
               className="text-right underline hover:no-underline ml-4"
               href="/influences"
             >
-              ← For other books to read
+              ← For more
             </Link>
           </div>
           <br />
@@ -87,7 +87,7 @@ const books = ({
             className={`underline hover:no-underline ${main_color}`}
             href="/influences"
           >
-            ← For other books to read
+            ← For more
           </Link>
         </section>
       </Layout>
