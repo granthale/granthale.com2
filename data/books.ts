@@ -57,7 +57,7 @@ export const books = [
     {
       name: "Atomic Habits",
       author: "James Clear",
-      link: "https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07RFSSYBH",
+      link: "https://granthale.com/books/atomic-habits",
     },
     {
       name: "Something Incredibly Wonderful Happens",

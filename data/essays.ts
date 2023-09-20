@@ -1,8 +1,8 @@
 export const essays = [
     {
-        name: "How to Do Great Work",
+        name: "How to Do What You Love",
         author: "Paul Graham",
-        link: "http://www.paulgraham.com/greatwork.html",
+        link: "http://paulgraham.com/love.html"
     },
     {
         name: "How to Lose Time and Money",
@@ -10,9 +10,9 @@ export const essays = [
         link: "http://www.paulgraham.com/selfindulgence.html"
     },
     {
-        name: "How to Do What You Love",
+        name: "How to Do Great Work",
         author: "Paul Graham",
-        link: "http://paulgraham.com/love.html"
+        link: "http://www.paulgraham.com/greatwork.html",
     },
     {
         name: "I should have loved Biology",
@@ -68,5 +68,10 @@ export const essays = [
         name: "Media Playlists",
         author: "Simon Hørup Eskildsen",
         link: "https://sirupsen.com/playlists/"
+    },
+    {
+        name: "How I Read",
+        author: "Simon Hørup Eskildsen",
+        link: "https://sirupsen.com/read"
     },
 ];

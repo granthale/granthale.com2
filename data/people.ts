@@ -40,6 +40,14 @@ export const people = [
       link: "https://andymatuschak.org/"
     },
     {
+      name: "Michael Nielsen",
+      link: "https://michaelnielsen.org/"
+    },
+    {
+      name: "Steve Jobs",
+      link: "https://stevejobsarchive.com/"
+    },
+    {
       name: "Richard Feynman",
       link: "https://en.wikipedia.org/wiki/Richard_Feynman",
     },
