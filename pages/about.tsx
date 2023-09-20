@@ -29,21 +29,62 @@ export default function About() {
             My name is Grant. I'm currently living in Japan.
           </p>
           <br />
+          <p className="text-xl">
+            Here are the things that I'm currently putting energy into:
+          </p>
+          <br />
+          <ul className="list-disc pl-5 text-xl">
+            <li key="writing">
+              {" "}
+              <Link href="/writing" className="underline hover:text-neon-green">
+                Writing,
+                <Arrow></Arrow>
+              </Link>{" "}
+              evergeen-style
+            </li>
+            <li key="reading">
+              <Link href="/books" className="underline hover:text-neon-green">
+                Reading
+                <Arrow></Arrow>
+              </Link>{" "}
+              science, history, and psychology. Taking notes and writing spaced
+              repetition prompts.
+            </li>
+            <li key="podcasting">
+              <Link className="underline hover:text-neon-green" href="/podcast">
+                Recording<Arrow></Arrow>
+              </Link>{" "}
+              podcast episodes for Surface Tension
+            </li>
+            <li key="traveling">
+              Traveling, building relationships, and exploring different
+              cultures
+            </li>
+          </ul>
+          <br />
+
+          <h3 className={`font-bold ${main_color} text-3xl`}>
+            time & location
+          </h3>
+          <br />
           <p>
-            You texted. I didn't respond. I lost my phone. I'm missing. Where
-            should you look to find me?
+            You texted. I didn't respond. I lost my phone. I'm missing.{" "}
+            <span className="font-bold">Where would you find me?</span>
           </p>
           <br />
           <p>
-            Start at the local cafe. Look for the the guy with noise-cancelling
-            headphones and an iced coffee. He's probably reading (now on
-            Kindle), writing (now in Obsidian), or coding (always in VSCode).
+            <span className="font-bold">Start at the local cafe.</span> Look for
+            the the guy with noise-cancelling headphones and an iced coffee.
+            He's probably reading (now on Kindle), writing (now in Obsidian), or
+            coding (always in VSCode).
           </p>
           <br />
           <p>
-            If I'm not there, check the nearest airport, and then the greenest
-            running path you can find. Keep an eye out for the guy with a smile
-            on his face and some Brooks on feet.
+            If I'm not there,{" "}
+            <span className="font-bold">check the nearest airport</span>, and{" "}
+            <span className="font-bold">then the greenest running path</span>{" "}
+            you can find. Keep an eye out for the guy with a smile on his face
+            and some Brooks on feet.
           </p>
           <br />
           <p>
@@ -52,14 +93,20 @@ export default function About() {
           </p>
           <br />
           <p>
-            Check China first. Look for someone with a far-and-away look in
-            their eyes. The country's incredible economic recovery has been on
-            my mind recently. Then check Richard Hamming's abode. I've been
-            sitting alongside him learning the engineering mindset. Better yet,
-            look for Lewis Carroll Epstein, we've been talking about getting
-            proper intuitions for physics. Ah! Now that I think about it, check
-            out what Andy Matuschak and Michael Nielsen are up to. I've been
-            deep down a rabbit hole with them on spaced-repetition and learning.
+            <span className="font-bold">Check China first.</span> Look for
+            someone with a far-and-away look in their eyes. The country's
+            incredible economic recovery has been on my mind recently. Then
+            <span className="font-bold">check Richard Hamming's abode</span>.
+            I've been sitting alongside him learning the engineering mindset.
+            Better yet,{" "}
+            <span className="font-bold">look for Lewis Carroll Epstein</span>,
+            we've been talking about getting proper intuitions for physics. Ah!
+            Now that I think about it,{" "}
+            <span className="font-bold">
+              check out what Andy Matuschak and Michael Nielsen are up to
+            </span>
+            . I've been deep down a rabbit hole with them on spaced-repetition
+            and learning.
           </p>
           <br />
           <p>
@@ -68,11 +115,8 @@ export default function About() {
           </p>
         </div>
         <br />
-
-        <h3 className={`font-bold ${main_color} text-3xl`}>time & location</h3>
-        <br />
         <p className="text-xl">
-          On a more literal plane. I've got{" "}
+          On a more literal note. I've got{" "}
           <span className="font-bold">
             {Math.round(
               (new Date("2024-01-22").getTime() - new Date().getTime()) /
@@ -80,8 +124,8 @@ export default function About() {
             ) + 1}{" "}
             days and counting{" "}
           </span>
-          until I start work for Boston Consulting Group as an Associate. Here
-          is where I'll be from now until then:
+          until I start work for Boston Consulting Group. Here is where I've
+          been and where I'll be from now until then:
         </p>
         <br />
         <ul>
@@ -92,47 +136,13 @@ export default function About() {
             </li>
           ))}
         </ul>
-        <br />
 
-        <h3 className={`font-bold ${main_color} text-3xl`}>energy</h3>
-        <br />
-        <p className="text-xl">
-          Here are the things that I'm currently putting energy into:
-        </p>
-        <br />
-        <ul className="list-disc pl-5 text-xl">
-          <li key="writing">
-            {" "}
-            <Link href="/writing" className="underline hover:text-neon-green">
-              Writing,
-              <Arrow></Arrow>
-            </Link>{" "}
-            evergeen-style
-          </li>
-          <li key="reading">
-            <Link href="/books" className="underline hover:text-neon-green">
-              Reading
-              <Arrow></Arrow>
-            </Link>{" "}
-            science, history, and psychology. Taking notes and writing spaced
-            repetition prompts.
-          </li>
-          <li key="podcasting">
-            <Link className="underline hover:text-neon-green" href="/podcast">
-              Recording<Arrow></Arrow>
-            </Link>{" "}
-            podcast episodes for Surface Tension
-          </li>
-          <li key="traveling">
-            Traveling, building relationships, and exploring different cultures
-          </li>
-        </ul>
         <br />
 
         <h3 className={`font-bold ${main_color} text-3xl`}>hypotheses</h3>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          I'm pretty sure that I want to do the following:
+          I'm pretty confident that I want to do the following:
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
@@ -144,8 +154,8 @@ export default function About() {
             Live in a different country for an extended period of time
           </li>
           <li key="talking">
-            Facilitate interesting & productive conversations among friends and
-            strangers
+            Facilitate curious, engaging, productive conversations amongst
+            friends and strangers
           </li>
         </ul>
         <br />
