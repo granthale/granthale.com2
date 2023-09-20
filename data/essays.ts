@@ -59,9 +59,14 @@ export const essays = [
         author: "Gwern Branwen",
         link: "https://gwern.net/spaced-repetition"
     },
-        {
+    {
         name: "Media Playlists",
         author: "Simon Hørup Eskildsen",
         link: "https://sirupsen.com/playlists/"
     },
+    {
+        name: "A gardening guide for your mind",
+        author: "Anne-Laure Le Cunff",
+        link: "https://www.mentalnodes.com/a-gardening-guide-for-your-mind"
+    }
 ];

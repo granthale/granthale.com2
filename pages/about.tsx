@@ -24,44 +24,55 @@ export default function About() {
       <Layout>
         <h1 className={`font-extrabold ${main_color} text-4xl`}>about!</h1>
         <br />
-        <p className={`font-bold ${main_color} text-xl`}>
-          I'm currently living in Japan, and making an effort to truly think
-          everyday.
-        </p>
-        <br />
-
-        <p className="text-xl">
-          In my freetime, I read, spend time with friends, play sports, write{" "}
-          <Link className="underline hover:text-neon-green" href="/writing">
-            words
-            <Arrow></Arrow>
-          </Link>
-          , write{" "}
-          <a
-            className="underline hover:text-neon-green"
-            href="https://github.com/granthale"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            code
-            <Arrow></Arrow>
-          </a>
-          , run, and more than anything, I love to think.
-        </p>
-        <br />
-
-        <p className="text-xl">
-          I recently graduated in May 2023 from the{" "}
-          <span className="font-bold">University of Illinois</span>, and I truly
-          don't know where I would be without the people I met and the
-          (main)character that I developed.
-        </p>
+        <div className="text-xl">
+          <p className={`font-bold ${main_color}`}>
+            My name is Grant. I'm currently living in Japan.
+          </p>
+          <br />
+          <p>
+            You texted. I didn't respond. I lost my phone. I'm missing. Where
+            should you look to find me?
+          </p>
+          <br />
+          <p>
+            Start at the local cafe. Look for the the guy with noise-cancelling
+            headphones and an iced coffee. He's probably reading (now on
+            Kindle), writing (now in Obsidian), or coding (always in VSCode).
+          </p>
+          <br />
+          <p>
+            If I'm not there, check the nearest airport, and then the greenest
+            running path you can find. Keep an eye out for the guy with a smile
+            on his face and some Brooks on feet.
+          </p>
+          <br />
+          <p>
+            If you haven't found me yet, things get a little more difficult. Get
+            ready to dig in a little. The search space has expanded.
+          </p>
+          <br />
+          <p>
+            Check China first. Look for someone with a far-and-away look in
+            their eyes. The country's incredible economic recovery has been on
+            my mind recently. Then check Richard Hamming's abode. I've been
+            sitting alongside him learning the engineering mindset. Better yet,
+            look for Lewis Carroll Epstein, we've been talking about getting
+            proper intuitions for physics. Ah! Now that I think about it, check
+            out what Andy Matuschak and Michael Nielsen are up to. I've been
+            deep down a rabbit hole with them on spaced-repetition and learning.
+          </p>
+          <br />
+          <p>
+            Otherwise, I hope I'm okay! This website should do the trick until I
+            find my way back :)
+          </p>
+        </div>
         <br />
 
         <h3 className={`font-bold ${main_color} text-3xl`}>time & location</h3>
         <br />
         <p className="text-xl">
-          I've got{" "}
+          On a more literal plane. I've got{" "}
           <span className="font-bold">
             {Math.round(
               (new Date("2024-01-22").getTime() - new Date().getTime()) /
@@ -93,17 +104,18 @@ export default function About() {
           <li key="writing">
             {" "}
             <Link href="/writing" className="underline hover:text-neon-green">
-              Writing
+              Writing,
               <Arrow></Arrow>
             </Link>{" "}
-            evergeen-style pieces, and spaced-repetition prompts
+            evergeen-style
           </li>
           <li key="reading">
             <Link href="/books" className="underline hover:text-neon-green">
               Reading
               <Arrow></Arrow>
             </Link>{" "}
-            science, history, and psychology
+            science, history, and psychology. Taking notes and writing spaced
+            repetition prompts.
           </li>
           <li key="podcasting">
             <Link className="underline hover:text-neon-green" href="/podcast">
@@ -125,21 +137,22 @@ export default function About() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="entrepreneurship">
-            Join an early-stage company or start my own (potentially in EdTech
+            Join an early-stage company or start my own (most likely in EdTech
             or the Tools for Thought space)
           </li>
           <li key="living">
             Live in a different country for an extended period of time
           </li>
           <li key="talking">
-            Read and internalize a well-chosen information diet
+            Facilitate interesting & productive conversations among friends and
+            strangers
           </li>
         </ul>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>colophon</h3>
         <br />
         <p className="text-xl">
-          This website was made from scratch (and care) using Next.js.
+          This website was made with care (and from scratch) using Next.js.
         </p>
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
