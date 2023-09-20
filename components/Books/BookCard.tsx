@@ -36,9 +36,11 @@ const BookCard = ({
             </div>
             <div className="flex flex-col md:flex-row md:justify-between mr-2">
               <p>
+                <p className="mt-4 md:mt-0 font-bold">{dateFinished}</p>
+              </p>
+              <p>
                 <span className="font-bold">Rating:</span> {rating}/10
               </p>
-              <p className="mt-4 md:mt-0 font-bold">{dateFinished}</p>
             </div>
           </div>
           <img

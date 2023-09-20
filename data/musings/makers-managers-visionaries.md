@@ -1,6 +1,6 @@
 ---
 title: 'Makers, Managers, Visionaries'
-date: '2023-09-07'
+date: '2023-08-28'
 id: 'makers-managers-visionaries'
 ---
 Paul Graham splits people into [makers and managers](http://www.paulgraham.com/makersschedule.html), and Michael Gerber into [technicians, managers, and entrepreneurs](https://www.amazon.com/Myth-Revisited-Small-Businesses-About/dp/0887307280) (more generally I prefer visionaries).

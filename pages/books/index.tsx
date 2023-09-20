@@ -45,7 +45,7 @@ const books = ({
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className={`flex justify-between ${main_color}`}>
             <div>
-              <h1 className="text-4xl font-extrabold">books!</h1>
+              <h1 className="text-4xl font-extrabold">book notes!</h1>
               <br />
               <div className="flex items-center">
                 <p className="mr-4">Sort by:</p>
@@ -65,7 +65,7 @@ const books = ({
               className="text-right underline hover:no-underline ml-4"
               href="/influences"
             >
-              ← To influences
+              ← For other books to read
             </Link>
           </div>
           <br />
@@ -84,10 +84,10 @@ const books = ({
           )}
           <br />
           <Link
-            className="text-violet underline hover:no-underline"
+            className={`underline hover:no-underline ${main_color}`}
             href="/influences"
           >
-            ← To influences
+            ← For other books to read
           </Link>
         </section>
       </Layout>
