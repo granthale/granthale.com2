@@ -61,10 +61,7 @@ const books = ({
                 </select>
               </div>
             </div>
-            <Link
-              className="text-right ml-4"
-              href="/influences"
-            >
+            <Link className="text-right ml-4 border-b-0" href="/influences">
               ← For more
             </Link>
           </div>
@@ -83,10 +80,7 @@ const books = ({
             )
           )}
           <br />
-          <Link
-            className={`${main_color}`}
-            href="/influences"
-          >
+          <Link className={`${main_color}`} href="/influences">
             ← For more
           </Link>
         </section>
