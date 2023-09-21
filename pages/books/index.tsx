@@ -61,9 +61,6 @@ const books = ({
                 </select>
               </div>
             </div>
-            <Link className="text-right ml-4 border-b-0" href="/influences">
-              ← For more
-            </Link>
           </div>
           <br />
           {sortedBooks.map(
