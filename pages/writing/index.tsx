@@ -35,7 +35,7 @@ export default function Writing({
           </a>{" "}
           and my{" "}
           <Link className="underline hover:text-neon-green" href="/rss.xml">
-            RSS feed<Arrow></Arrow>
+            RSS feed
           </Link>{" "}
           to read more!
         </h3>
@@ -56,7 +56,6 @@ export default function Writing({
                 <span className="font-light mr-4">{piece.date}</span>
                 <u>
                   {piece.title}
-                  <Arrow></Arrow>
                 </u>
               </a>
             </li>
@@ -76,7 +75,6 @@ export default function Writing({
                 <span className="font-light mr-4">{date}</span>
                 <u>
                   {title}
-                  <Arrow></Arrow>
                 </u>
               </Link>
               <br />

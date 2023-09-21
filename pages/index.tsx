@@ -40,7 +40,6 @@ export default function Home() {
               Check out my{" "}
               <Link className="underline hover:text-neon-green" href="/about">
                 about
-                <Arrow></Arrow>
               </Link>{" "}
               page to learn more!
             </p>

@@ -37,22 +37,20 @@ export default function About() {
             <li key="writing">
               {" "}
               <Link href="/writing" className="underline hover:text-neon-green">
-                Writing,
-                <Arrow></Arrow>
+                Writing
               </Link>{" "}
               evergeen-style
             </li>
             <li key="reading">
               <Link href="/books" className="underline hover:text-neon-green">
                 Reading
-                <Arrow></Arrow>
               </Link>{" "}
               science, history, and psychology. Taking notes and writing spaced
               repetition prompts.
             </li>
             <li key="podcasting">
               <Link className="underline hover:text-neon-green" href="/podcast">
-                Recording<Arrow></Arrow>
+                Recording
               </Link>{" "}
               podcast episodes for Surface Tension
             </li>
