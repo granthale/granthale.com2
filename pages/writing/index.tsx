@@ -56,6 +56,7 @@ export default function Writing({
                 <span className="font-light mr-4">{piece.date}</span>
                 <u>
                   {piece.title}
+                  <Arrow />
                 </u>
               </a>
             </li>
