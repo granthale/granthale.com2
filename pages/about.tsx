@@ -34,19 +34,22 @@ export default function About() {
           </p>
           <br />
           <ul className="list-disc pl-5 text-xl">
-            <li key="writing">
-              {" "}
-              <Link href="/writing" className="hover:text-neon-green hover:border-neon-green">
-                Writing
-              </Link>{" "}
-              evergeen-style
-            </li>
             <li key="reading">
               <Link href="/books" className="">
                 Reading
               </Link>{" "}
-              science, history, and psychology. Taking notes and writing spaced
-              repetition prompts.
+              science, history, and psychology. Taking raw notes and writing
+              spaced repetition prompts.
+            </li>
+            <li key="writing">
+              {" "}
+              <Link
+                href="/writing"
+                className="hover:text-neon-green hover:border-neon-green"
+              >
+                Writing
+              </Link>{" "}
+              evergeen-style notes
             </li>
             <li key="podcasting">
               <Link className="" href="/podcast">
@@ -60,61 +63,68 @@ export default function About() {
             </li>
           </ul>
           <br />
-
           <h3 className={`font-bold ${main_color} text-3xl`}>
             time & location
           </h3>
           <br />
           <p>
-            You texted. I didn't respond. I lost my phone. I'm missing.{" "}
+            You called. I didn't respond. I lost my phone. I'm missing.{" "}
             <span className="font-bold">Where would you find me?</span>
           </p>
           <br />
           <p>
             <span className="font-bold">Start at the local cafe.</span> Look for
-            the the guy with noise-cancelling headphones and an iced coffee.
-            He's probably reading (now on Kindle), writing (now in Obsidian), or
-            coding (always in VSCode).
+            someone with noise-cancelling headphones and an iced coffee. If I'm
+            there, I'm probably reading (on Kindle), writing (in Obsidian), or
+            coding (in VSCode).
           </p>
           <br />
           <p>
             If I'm not there,{" "}
-            <span className="font-bold">check the nearest airport</span>, and{" "}
+            <span className="font-bold">check the nearest airport</span> and{" "}
             <span className="font-bold">then the greenest running path</span>{" "}
             you can find. Keep an eye out for the guy with a smile on his face
-            and some Brooks on feet.
+            and Brooks on feet.
           </p>
           <br />
           <p>
-            If you haven't found me yet, things get a little more difficult. Get
-            ready to dig in a little. The search space has expanded.
+            If you haven't found me yet, get ready to dig in a little. The
+            search space needs to expand.
           </p>
           <br />
-          <p>
-            <span className="font-bold">Check China first.</span> Look for
-            someone with a far-and-away look in their eyes. The country's
-            incredible economic recovery has been on my mind recently. Then
-            <span className="font-bold">check Richard Hamming's abode</span>.
-            I've been sitting alongside him learning the engineering mindset.
-            Better yet,{" "}
-            <span className="font-bold">look for Lewis Carroll Epstein</span>,
-            we've been talking about getting proper intuitions for physics. Ah!
-            Now that I think about it,{" "}
-            <span className="font-bold">
-              check out what Andy Matuschak and Michael Nielsen are up to
-            </span>
-            . I've been deep down a rabbit hole with them on spaced-repetition
-            and learning.
-          </p>
+          <ul className="list-disc pl-5 text-xl">
+            <li>
+              <span className="font-bold">Check China first.</span> The
+              country's economic recovery has been on my mind recently.
+            </li>{" "}
+            <li>
+              Then{" "}
+              <span className="font-bold">check Richard Hamming's office</span>.
+              I've been sitting in learning the engineering mindset from him.
+            </li>
+            <li>
+              Better yet,{" "}
+              <span className="font-bold">look for Lewis Carroll Epstein</span>,
+              we've been talking about proper intuitions for physics.
+            </li>
+            <li>
+              Ah! Now that I think about it,{" "}
+              <span className="font-bold">
+                check what Andy Matuschak and Michael Nielsen are up to
+              </span>
+              . I've been deep down a rabbit hole with them on spaced-repetition
+              and learning.
+            </li>
+          </ul>
           <br />
           <p>
-            Otherwise, I hope I'm okay! This website should do the trick until I
-            find my way back :)
+            At this point, if I haven't been found, I hope I'm okay! This
+            website should do the trick until I find my way back :)
           </p>
         </div>
         <br />
         <p className="text-xl">
-          On a more literal note. I've got{" "}
+          I've got{" "}
           <span className="font-bold">
             {Math.round(
               (new Date("2024-01-22").getTime() - new Date().getTime()) /
@@ -170,19 +180,16 @@ export default function About() {
             <Arrow />
           </a>{" "}
           or by{" "}
-          <a
-            className=""
-            href="mailto:g@granthale.com"
-          >
+          <a className="" href="mailto:g@granthale.com">
             email
             <Arrow />
           </a>
           !
         </p>
-        <br/>
+        <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          This website was made with care (and from scratch) using Next.js. I hope
-          you enjoy.
+          This website was made with care (and from scratch) using Next.js. I
+          hope you enjoy.
         </p>
       </Layout>
     </>

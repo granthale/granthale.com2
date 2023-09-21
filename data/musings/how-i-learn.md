@@ -7,15 +7,15 @@ id: 'how-i-learn'
 
 1. [Consciously commit]() to what I'm learning for a set amount of time (shorter when initially digging in, longer as time goes on). Decide when I'll reconsider whether or not it's worth continuing. Be at peace with the fear of missing out that committing creates.
 
-2. [Take notes](https://granthale.com/books) as I go. Highlight memorable ideas in Kindle or Reader.
+2. [Take raw notes](https://granthale.com/books) as I go. Highlight memorable ideas in Kindle or Reader.
 
 3. Create [spaced repetition prompts]() of important points while reading and while looking back over notes/ideas.
 
-4. Spend time off-line, writing [evergreen-style]() pieces with original thoughts.
+4. Spend time off-line, writing [evergreen-style]() notes with original thoughts (shifting from note-taking to note-making).
 
 5. [Allow ideas to marinate over time](). Review Anki prompts and Readwise highlights daily.
 
-Continuously: [Go on walks](). Podcast. Tweet. Think things through. Talk to others. Solve problems. Apply the material. Come up with questions and answer them myself.
+Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to others. Solve problems. Apply the material. Come up with questions and answer them myself.
 
 ----
 
