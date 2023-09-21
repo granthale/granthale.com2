@@ -10,6 +10,11 @@ export const podcasts = [
       link: "https://podcasts.apple.com/us/podcast/founders/id1141877104?i=1000609323048",
     },
     {
+      name: "Paul Graham",
+      author: "Founders",
+      link: "https://podcasts.apple.com/us/podcast/founders/id1141877104?i=1000584968921"
+    },
+    {
       name: "In Defense of Thinking",
       author: "Cal Newport",
       link: "https://podcasts.apple.com/us/podcast/deep-questions-with-cal-newport/id1515786216?i=1000614859620",
