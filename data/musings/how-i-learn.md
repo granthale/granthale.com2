@@ -15,7 +15,7 @@ id: 'how-i-learn'
 
 5. Continue to review spaced-repetition prompts and Readwise highlights. [Allow ideas to marinate over time](../writing/revisit-ideas).
 
-Throughout: [Go on walks](../writing/walk). Podcast. Tweet. Think things through. Talk to others.
+Throughout: [Go on walks](../writing/walk). Podcast. Tweet. Think things through. Talk to others. Solve problems. Apply the material. Come up with questions and answer them yourself.
 
 ----
 
@@ -27,4 +27,6 @@ Throughout: [Go on walks](../writing/walk). Podcast. Tweet. Think things through
 - [Spaced Repetition for Efficient Learning by Gwern](https://gwern.net/spaced-repetition)
 - [Augmenting Longterm Memory by Michael Nielsen](http://augmentingcognition.com/ltm.html)
 - [Evergreen notes by Andy Matuschak](https://notes.andymatuschak.org/Evergreen_notes)
-- [Reader by Readwise](https://readwise.io/read)
+- [It's hard to hear yourself think by Andy Matuschak](https://notes.andymatuschak.org/It%E2%80%99s_hard_to_hear_yourself_think)
+- [How to Read a Book by Mortimer Adler and Charles Van Doren](https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095)
+- Tools: [Reader by Readwise](https://readwise.io/read), [Obsidian](https://obsidian.md/)
