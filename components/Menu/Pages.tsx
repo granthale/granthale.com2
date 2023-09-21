@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Pages = () => {
   return (
-    <div className="flex flex-col justify-center m-12">
+    <div className="flex flex-col justify-center m-12 bottom-b-0">
       <Link
         href="/podcast"
         className="text-4xl text-white font-bold hover:text-neon-green"
