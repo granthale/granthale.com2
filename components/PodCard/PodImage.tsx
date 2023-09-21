@@ -9,6 +9,7 @@ const PodImage = ({ podcast }: Props) => {
   return (
     <div className="flex flex-none">
       <a
+        className="border-b-0"
         href={podcast.external_urls.spotify}
         target="_blank"
         rel="noopener noreferrer"

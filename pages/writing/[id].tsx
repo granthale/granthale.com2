@@ -33,7 +33,7 @@ export default function writing({
       <br />
       <br />
       <Link
-        className="text-violet underline hover:no-underline text-xl"
+        className="text-violet text-xl"
         href="/writing"
       >
         ← Back to writing

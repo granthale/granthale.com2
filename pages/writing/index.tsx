@@ -25,7 +25,7 @@ export default function Writing({
         <h3 className="text-xl">
           I write for clarity and I write to explore. Subscribe to{" "}
           <a
-            className="underline hover:text-neon-green"
+            className=""
             href="https://treetoforest.substack.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -34,7 +34,7 @@ export default function Writing({
             <Arrow></Arrow>
           </a>{" "}
           and my{" "}
-          <Link className="underline hover:text-neon-green" href="/rss.xml">
+          <Link className="" href="/rss.xml">
             RSS feed
           </Link>{" "}
           to read more!
@@ -50,11 +50,11 @@ export default function Writing({
                 href={piece.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`hover:text-neon-green`}
+                className={``}
                 key={piece.title}
               >
                 <span className="font-light mr-4">{piece.date}</span>
-                <u>
+                <u className="no-underline">
                   {piece.title}
                   <Arrow />
                 </u>
@@ -74,7 +74,7 @@ export default function Writing({
                 href={`/writing/${id}`}
               >
                 <span className="font-light mr-4">{date}</span>
-                <u>
+                <u className='no-underline'>
                   {title}
                 </u>
               </Link>

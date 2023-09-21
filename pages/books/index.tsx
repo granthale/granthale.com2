@@ -62,7 +62,7 @@ const books = ({
               </div>
             </div>
             <Link
-              className="text-right underline hover:no-underline ml-4"
+              className="text-right ml-4"
               href="/influences"
             >
               ← For more
@@ -84,7 +84,7 @@ const books = ({
           )}
           <br />
           <Link
-            className={`underline hover:no-underline ${main_color}`}
+            className={`${main_color}`}
             href="/influences"
           >
             ← For more

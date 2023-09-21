@@ -36,20 +36,20 @@ export default function About() {
           <ul className="list-disc pl-5 text-xl">
             <li key="writing">
               {" "}
-              <Link href="/writing" className="underline hover:text-neon-green">
+              <Link href="/writing" className="hover:text-neon-green hover:border-neon-green">
                 Writing
               </Link>{" "}
               evergeen-style
             </li>
             <li key="reading">
-              <Link href="/books" className="underline hover:text-neon-green">
+              <Link href="/books" className="">
                 Reading
               </Link>{" "}
               science, history, and psychology. Taking notes and writing spaced
               repetition prompts.
             </li>
             <li key="podcasting">
-              <Link className="underline hover:text-neon-green" href="/podcast">
+              <Link className="" href="/podcast">
                 Recording
               </Link>{" "}
               podcast episodes for Surface Tension
@@ -161,7 +161,7 @@ export default function About() {
           I'm always looking to meet new people and learn new things. If you'd
           like to chat, reach me on{" "}
           <a
-            className="underline hover:text-neon-green"
+            className=""
             href="https://twitter.com/grant__hale"
             target="_blank"
             rel="noopener noreferrer"
@@ -171,7 +171,7 @@ export default function About() {
           </a>{" "}
           or by{" "}
           <a
-            className="underline hover:text-neon-green"
+            className=""
             href="mailto:g@granthale.com"
           >
             email

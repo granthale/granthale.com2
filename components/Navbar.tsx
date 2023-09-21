@@ -6,8 +6,7 @@ interface Props {
 
 const Navbar = ({ home }: Props) => {
   const box = `text-xl h-12 w-74 m-8 p-4 flex items-center`;
-  const hover = `hover:text-neon-green
-   font-bold `;
+  const hover = `font-bold no-underline border-b-0`;
   return (
     <div className={box}>
       <Link href="/podcast" className={hover}>

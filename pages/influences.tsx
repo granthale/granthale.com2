@@ -25,13 +25,13 @@ export default function Influences() {
             I like to think of ideas as{" "}
             <a
               href="https://www.mentalnodes.com/a-gardening-guide-for-your-mind"
-              className={`underline hover:${main_color}`}
+              className={`hover:${main_color}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               seeds
               <Arrow></Arrow>
-            </a>
+            </a>{" "}
             planted by our influences and nourished by curiosity, contemplation,
             and exploration.
           </p>
@@ -53,7 +53,7 @@ export default function Influences() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           {people.map((person) => (
-            <li className={`underline hover:${main_color}`} key={person.name}>
+            <li className={`hover:${main_color}`} key={person.name}>
               <a href={person.link} target="_blank" rel="noopener noreferrer">
                 {person.name}
                 <Arrow></Arrow>
@@ -68,7 +68,7 @@ export default function Influences() {
         <div className="text-xl text-violet">
           <p className="font-bold">
             Click{" "}
-            <Link className="underline hover:text-neon-green" href="/books">
+            <Link className="" href="/books">
               here
             </Link>{" "}
             for notes on the books that I read.
@@ -83,7 +83,7 @@ export default function Influences() {
           {books
             .sort((a, b) => a.name.localeCompare(b.name))
             .map((book) => (
-              <li className={`underline hover:${main_color}`} key={book.name}>
+              <li className={`hover:${main_color}`} key={book.name}>
                 <a href={book.link} target="_blank" rel="noopener noreferrer">
                   {book.name} by {book.author}
                 </a>
@@ -97,7 +97,7 @@ export default function Influences() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           {essays.map((essay) => (
-            <li className={`underline hover:${main_color}`} key={essay.name}>
+            <li className={`hover:${main_color}`} key={essay.name}>
               <a href={essay.link} target="_blank" rel="noopener noreferrer">
                 {essay.name} by {essay.author}
                 <Arrow></Arrow>
@@ -113,7 +113,7 @@ export default function Influences() {
           {podcasts
             .sort((a, b) => a.name.localeCompare(b.name))
             .map((podcast) => (
-              <li className={`underline hover:${main_color}`} key={podcast.name}>
+              <li className={`hover:${main_color}`} key={podcast.name}>
                 <a
                   href={podcast.link}
                   target="_blank"
@@ -135,7 +135,7 @@ export default function Influences() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           {friends.map((friend) => (
-            <li className={`underline hover:${main_color}`} key={friend.name}>
+            <li className={`hover:${main_color}`} key={friend.name}>
               <a href={friend.link} target="_blank" rel="noopener noreferrer">
                 {friend.name}
                 <Arrow></Arrow>

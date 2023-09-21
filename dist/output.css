@@ -1502,6 +1502,10 @@ video {
   border-width: 1px;
 }
 
+.border-b-0 {
+  border-bottom-width: 0px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -1654,13 +1658,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
+.no-underline {
+  text-decoration-line: none;
 }
 
 .shadow-md {
@@ -1729,7 +1728,8 @@ video {
   background: #5dc284;
 }
 
-Work-around for dark mode
+/* Work-around for dark mode */
+
 [data-theme='dark'] .prose,
 [data-theme='dark'] .prose h1,
 [data-theme='dark'] .prose h2,
@@ -1740,6 +1740,10 @@ Work-around for dark mode
   color: #fff;
 }
 
+.prose a {
+  text-decoration: none;
+}
+
 /* Added to remove unnecessary quotes in blockquote sections */
 
 blockquote::before,
@@ -1747,6 +1751,24 @@ blockquote::after,
 blockquote p::before,
 blockquote p::after {
   content: "" !important;
+}
+
+a {
+  text-transform: none;
+  padding-bottom: 0;
+  transition: all .2s;
+  border-bottom: 2px dotted rgba(0, 0, 0, .15);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline;
+  border-bottom-color: #22c55e;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #22c55e;
+  color: #22c55e;
 }
 
 @media (min-width: 1024px) {
@@ -1971,6 +1993,11 @@ blockquote p::after {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:border-neon-green:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(34 197 94 / var(--tw-border-opacity));
+}
+
 .hover\:bg-green-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
@@ -1984,20 +2011,6 @@ blockquote p::after {
 .hover\:text-neon-green:hover {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
-}
-
-.hover\:text-primary:hover {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.hover\:text-violet:hover {
-  --tw-text-opacity: 1;
-  color: rgb(124 58 237 / var(--tw-text-opacity));
-}
-
-.hover\:no-underline:hover {
-  text-decoration-line: none;
 }
 
 .hover\:ring-8:hover {

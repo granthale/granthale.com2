@@ -49,7 +49,7 @@ export default function Book({ bookData }: { bookData: Book }) {
           {/* image */}
           <div className="flex-none md:ml-4">
             <Link
-              className="text-violet underline hover:no-underline text-xl"
+              className="text-violet text-xl"
               href="/books"
             >
               ← Back to books
@@ -70,7 +70,7 @@ export default function Book({ bookData }: { bookData: Book }) {
       <br />
       <br />
       <Link
-        className="text-violet underline hover:no-underline text-xl"
+        className="text-violet text-xl"
         href="/books"
       >
         ← Back to books
