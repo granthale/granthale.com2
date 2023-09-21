@@ -14,7 +14,7 @@ export default function About() {
     { month: "August", location: "San Francisco, Chicago" },
     { month: "September", location: "Japan, Taiwan" },
     { month: "October", location: "Taiwan, China" },
-    { month: "November", location: "Phillipines, Thailand, Indonesia, India" },
+    { month: "November", location: "Philippines, Thailand, Indonesia, India" },
     { month: "December", location: "India, Chicago" },
   ];
   const main_color = "text-reddish";
