@@ -11,7 +11,7 @@ id: 'learning-to-learn'
 
 3. Create [spaced repetition prompts]() of important points while reading and while looking back over notes/ideas.
 
-4. Spend time off-line, writing [evergreen-style]() notes with original thoughts (shifting from note-taking to note-making).
+4. Spend time off-line, writing [evergreen-style]() notes with original thoughts (shifting from note-taking to note-making, from consuming information to creating knowledge).
 
 5. [Allow ideas to marinate over time](). Review Anki prompts and Readwise highlights daily.
 
