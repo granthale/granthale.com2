@@ -6,8 +6,6 @@ summary: 'An endearing story about a shepherd boy who follows his dreams.'
 rating: 9
 ---
 
-## Introduction
-
 ### There are four obstacles to following your dreams
 
 1. Told from childhood on that everything we want to do is impossible

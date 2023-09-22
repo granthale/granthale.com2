@@ -1,7 +1,7 @@
 ---
-title: 'Learning How to Learn'
+title: 'Learning to Learn'
 date: '2023-09-21'
-id: 'learning-how-to-learn'
+id: 'learning-to-learn'
 ---
 *WIP. Most links are not currently active.*
 

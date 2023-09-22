@@ -42,16 +42,14 @@ export default function Book({ bookData }: { bookData: Book }) {
               </div>
             </div>
             <br />
+            <br />
             {/* summary */}
             <p className="text-xl font-bold">{bookData.summary}</p>
             <br />
           </div>
           {/* image */}
           <div className="flex-none md:ml-4">
-            <Link
-              className="text-violet text-xl"
-              href="/books"
-            >
+            <Link className="text-violet text-xl" href="/books">
               ← Back to books
             </Link>
             <br />
@@ -65,14 +63,13 @@ export default function Book({ bookData }: { bookData: Book }) {
           <br />
           <br />
         </div>
-        <Text contentHTML={bookData.contentHTML} />
+        <div className="mt-16">
+          <Text contentHTML={bookData.contentHTML} />
+        </div>
       </article>
       <br />
       <br />
-      <Link
-        className="text-violet text-xl"
-        href="/books"
-      >
+      <Link className="text-violet text-xl" href="/books">
         ← Back to books
       </Link>
     </Layout>

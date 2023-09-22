@@ -34,12 +34,17 @@ export default function About() {
           </p>
           <br />
           <ul className="list-disc pl-5 text-xl">
+            <li key="learning">
+              {" "}
+              <Link href="writing/learning-to-learn">
+                Learning how to learn
+              </Link>
+            </li>
             <li key="reading">
               <Link href="/books" className="">
                 Reading
               </Link>{" "}
-              science, history, and psychology. Taking raw notes and writing
-              spaced repetition prompts.
+              science, history, and psychology.
             </li>
             <li key="writing">
               {" "}
@@ -55,7 +60,7 @@ export default function About() {
               <Link className="" href="/podcast">
                 Recording
               </Link>{" "}
-              podcast episodes for Surface Tension
+              podcasts on Surface Tension
             </li>
             <li key="traveling">
               Traveling, building relationships, and exploring different

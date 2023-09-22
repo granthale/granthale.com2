@@ -1,16 +1,16 @@
 import "../dist/output.css";
-// import "../styles/global.css";
 import { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
+import { Montserrat } from '@next/font/google'
 
-const font = {
-  subsets: ["latin"],
-  display: "swap",
-};
+const font = Montserrat({
+  subsets: [],
+  weight: ['300', '400', '500', '600'],
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={font.display}>
+    <main className={font.className}>
       <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>
