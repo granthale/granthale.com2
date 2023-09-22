@@ -45,7 +45,13 @@ const books = ({
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className={`flex justify-between ${main_color}`}>
             <div>
-              <h1 className="text-4xl font-extrabold">book notes!</h1>
+              <h1 className="text-4xl font-extrabold">my notes!</h1>
+              <br />
+              <p>
+                See{" "}
+                <Link href="/writing/learning-to-learn">Learning to Learn</Link>{" "}
+                for some context.
+              </p>
               <br />
               <div className="flex items-center">
                 <p className="mr-4">Sort by:</p>

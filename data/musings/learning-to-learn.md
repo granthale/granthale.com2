@@ -29,5 +29,6 @@ Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to other
 - [Evergreen notes by Andy Matuschak](https://notes.andymatuschak.org/Evergreen_notes)
 - [It's hard to hear yourself think by Andy Matuschak](https://notes.andymatuschak.org/It%E2%80%99s_hard_to_hear_yourself_think)
 - [How to Read a Book by Mortimer Adler and Charles Van Doren](https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095)
+- [About My Book Notes by Derek Sivers](https://sive.rs/bfaq)
 - [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/)
 - Tools: [Anki](https://ankiweb.net/), Kindle, [Reader](https://readwise.io/read), [Obsidian](https://obsidian.md/)
