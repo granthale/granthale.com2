@@ -9,11 +9,19 @@ id: 'learning-to-learn'
 
 2. [Take raw notes](https://granthale.com/books) as I go. Highlight memorable ideas in Kindle or Reader.
 
+    - Writing raw notes helps keep me from going on auto-pilot when reading. It makes me take a second to think through and put something in my own words.
+    - After finishing a chapter is a good time to do this. It helps to try to recall what it is that you just read. Then I go back to fill in whatever I missed.
+    - This can be inconvenient while traveling or away from a laptop, and isn't fully necessary but it helps me read more effectively.
+
 3. Create [spaced repetition prompts]() of important points while reading and while looking back over notes/ideas.
+
+    - This can almost be treated like notetaking for things that you want to remember. See [Michael Nielsen's post on this](http://augmentingcognition.com/ltm.html).
 
 4. Spend time off-line, writing [evergreen-style]() notes with original thoughts (shifting from note-taking to note-making, from consuming information to creating knowledge).
 
-5. [Allow ideas to marinate over time](). Review Anki prompts and Readwise highlights daily.
+5. [Allow ideas to marinate over time](). Review Anki prompts and Readwise daily.
+
+    - Reviewing is not only a way to remember things. It's also a way to keep things you want to keep thinking about front-and-center.
 
 Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to others. Solve problems. Apply the material. Come up with questions and answer them.
 
