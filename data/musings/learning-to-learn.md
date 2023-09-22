@@ -15,7 +15,7 @@ id: 'learning-to-learn'
 
 5. [Allow ideas to marinate over time](). Review Anki prompts and Readwise highlights daily.
 
-Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to others. Solve problems. Apply the material. Come up with questions and answer them myself.
+Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to others. Solve problems. Apply the material. Come up with questions and answer them.
 
 ----
 
