@@ -1,6 +1,6 @@
 ---
 title: 'Learning to Learn'
-date: '2023-09-21'
+date: '2023-09-22'
 id: 'learning-to-learn'
 ---
 *WIP. Most links are not currently active.*
