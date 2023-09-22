@@ -1,6 +1,6 @@
 .container {
     height: 50vh;
-    font-family: "Montserrat", "sans-serif";
+    /* font-family: "Montserrat", "sans-serif"; */
     font-weight: bolder;
     display: flex;
     justify-content: center;
