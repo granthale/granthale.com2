@@ -22,8 +22,8 @@ Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to other
 #### References
 
 - "Praxis tentatum docebit" - Gauss
-- [How to write good prompts by Andy Matuschak](https://andymatuschak.org/prompts/)
 - [How I Read by Simon Eskildsen](https://sirupsen.com/read)
+- [How to write good prompts by Andy Matuschak](https://andymatuschak.org/prompts/)
 - [Spaced Repetition for Efficient Learning by Gwern](https://gwern.net/spaced-repetition)
 - [Augmenting Longterm Memory by Michael Nielsen](http://augmentingcognition.com/ltm.html)
 - [Evergreen notes by Andy Matuschak](https://notes.andymatuschak.org/Evergreen_notes)
