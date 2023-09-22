@@ -27,8 +27,6 @@ Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to other
 
 ----
 
-#### References
-
 - "Praxis tentatum docebit" - Gauss
 - [How I Read by Simon Eskildsen](https://sirupsen.com/read)
 - [How to write good prompts by Andy Matuschak](https://andymatuschak.org/prompts/)
