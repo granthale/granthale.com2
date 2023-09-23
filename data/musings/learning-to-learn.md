@@ -5,25 +5,37 @@ id: 'learning-to-learn'
 ---
 *WIP. Most links are not currently active.*
 
-1. [Consciously commit]() to what I'm learning for a set amount of time (shorter when initially digging in, longer as time goes on). Decide when I'll reconsider whether or not it's worth continuing. Be at peace with the fear of missing out that committing creates.
+### Goals
 
-2. [Take raw notes](https://granthale.com/books) as I go. Highlight memorable ideas in Kindle or Reader.
+To learn. To develop a system that brings ideas back into attention that would otherwise have been lost to the [forgetting curve](https://en.wikipedia.org/wiki/Forgetting_curve). To be able to explain to people what it is that you're learning about and why they should care.
 
-    - Writing raw notes helps keep me from going on auto-pilot when reading. It makes me take a second to think through and put something in my own words.
-    - After finishing a chapter is a good time to do this. It helps to try to recall what it is that you just read. Then I go back to fill in whatever I missed.
-    - This can be inconvenient while traveling or away from a laptop, and isn't fully necessary but it helps me read more effectively.
+### Process
 
-3. Create [spaced repetition prompts]() of important points while reading and while looking back over notes/ideas.
+1. [Consciously commit]() to learning about something for a set amount of time (shorter when initially digging in, longer as time goes on). Decide when to reconsider whether or not it's worth continuing. Be at peace with the fear of missing out that committing creates.
 
-    - This can almost be treated like notetaking for things that you want to remember. See [Michael Nielsen's post on this](http://augmentingcognition.com/ltm.html).
+2. [Take raw notes](https://granthale.com/books) while consuming. Highlight memorable ideas in Kindle or Reader.
 
-4. Spend time off-line, writing [evergreen-style]() notes with original thoughts (shifting from note-taking to note-making, from consuming information to creating knowledge).
+    - Writing raw notes helps keep auto-pilot at bay. It takes a few second to think through and put something in your own words.
+    - After finishing a chapter/section is a great time to do this. Try to recall what the most important points are that you just consumed. Imagine explaining it to someone. Then go back and fill in whatever details you were missing.
+    - This step can be inconvenient while traveling or away from a laptop. It isn't fully necessary but it helps you to initially process everything and to have something to look back at in the future.
 
-5. [Allow ideas to marinate over time](). Review Anki prompts and Readwise daily.
+3. Create [spaced repetition prompts]() (I use Anki) of important points while consuming and looking back over notes/original texts.
 
-    - Reviewing is not only a way to remember things. It's also a way to keep things you want to keep thinking about front-and-center.
+    - Spaced repetition is often maligned with remembering rote details. However, it can be treated like note taking for things that you want to remember. The notes are then in the form of questions and answers instead of just statements. See [Michael Nielsen's demonstration of this](http://augmentingcognition.com/ltm.html).
 
-Throughout: [Go on walks](). Podcast. Tweet. Think things through. Talk to others. Solve problems. Apply the material. Come up with questions and answer them.
+4. Spend time off-line, writing [evergreen-style]() notes with original thoughts. At this point, shift from note-taking to note-making, from consuming information to creating knowledge.
+
+5. [Allow ideas to marinate](). Review Anki prompts and Readwise daily.
+
+    - This is the most underrated aspect of spaced repetition. We are what we think about. Prompts become the ideal way to consistently bring attention back to the ideas we want to be thinking about.
+
+Throughout: [Go on walks](). Think things through without the source material at hand. Ask questions and answer them. Talk to others. Podcast. Tweet. Solve problems. Apply the material. 
+
+### Misc thoughts
+
+ I've often found myself passively going through these steps, especially when tired. While I don't think it's bad to continue to work when we're not fully there*, it can often be useful to take breaks or choose to [work on other things](https://jakobgreenfeld.com/personal-productivity).
+
+*I find it a useful time for first-reads and scaffold-building.
 
 ----
 
