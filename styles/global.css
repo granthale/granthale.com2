@@ -24,9 +24,17 @@
 [data-theme='dark'] .prose p {
   color: #fff;
 }
+[data-theme='dark'] .prose a {
+  color: #22c55e;
+}
+
+.prose {
+  color:black
+}
 
 .prose a {
   text-decoration: none;
+  color: #22c55e;
 }
 
 /* Added to remove unnecessary quotes in blockquote sections */
