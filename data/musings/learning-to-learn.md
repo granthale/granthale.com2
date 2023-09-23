@@ -3,7 +3,7 @@ title: 'Learning to Learn'
 date: '2023-09-22'
 id: 'learning-to-learn'
 ---
-*Note: This is a WIP. Most links are not currently active.*
+*Note: This is a WIP. Some links are not currently active.*
 
 ---
 
