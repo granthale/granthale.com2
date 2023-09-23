@@ -30,7 +30,7 @@ To learn. To develop a system that brings ideas back into attention that would o
     - This step can be inconvenient while traveling or away from a laptop. It isn't fully necessary but it helps you to initially process everything and to have something to look back at in the future.
     - Try your best to avoid the [Collector's Fallacy](https://zettelkasten.de/posts/collectors-fallacy/).
 
-3. Create [spaced repetition prompts](https://andymatuschak.org/prompts/) (I use Anki) of important points while consuming and looking back over notes/original texts.
+3. [Create spaced repetition prompts](https://andymatuschak.org/prompts/) (I use Anki) of important points while consuming and looking back over notes/original texts.
 
     - Spaced repetition is often maligned with remembering rote details. However, it can be treated like note taking for things that you want to remember. The notes are then in the form of questions and answers instead of just statements. See [Michael Nielsen's demonstration of this](http://augmentingcognition.com/ltm.html).
 
