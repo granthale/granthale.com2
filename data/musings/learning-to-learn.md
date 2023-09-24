@@ -66,6 +66,8 @@ I've often found myself passively going through these steps, especially when tir
 
 ---
 
+#### References
+
 - Start here: [Augmenting Longterm Memory by Michael Nielsen](http://augmentingcognition.com/ltm.html)
 - [How I Read by Simon Eskildsen](https://sirupsen.com/read)
 - [How to write good prompts by Andy Matuschak](https://andymatuschak.org/prompts/)
