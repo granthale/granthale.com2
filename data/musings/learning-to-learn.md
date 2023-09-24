@@ -49,7 +49,7 @@ And finally, **interspersed through these steps:** Go on walks. Think things thr
 
 ### Wrapping up
 
-With all that said, let's come back to the two original examples of what school doesn't prepare us for. 
+With all that said, let's come back to the two original examples of what school doesn't prepare us for.
 
 1. **To remember things**, take notes and think through the material upfront. Write spaced repetition prompts to continue to revisit the ideas and avoid the dreaded forgetting curve. Then grapple with the information to create new ideas. These ideas don't have to be fully original, but they shouldn't be something that you've read before. They should be new to you.
 2. **To learn something fully on your own** is a bigger question. Following what I've outlined here and being rigorous in evaluating how much you actually understand can be great first steps in that direction.
