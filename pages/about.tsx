@@ -49,7 +49,7 @@ export default function About() {
               <Link href="/books" className="">
                 Reading
               </Link>{" "}
-              science, history, and psychology.
+              science, history, and psychology
             </li>
             <li key="writing">
               {" "}
@@ -59,13 +59,13 @@ export default function About() {
               >
                 Writing
               </Link>{" "}
-              evergeen-style
+              pieces publicly and evergeen-style notes privately
             </li>
             <li key="podcasting">
               <Link className="" href="/podcast">
                 Recording
               </Link>{" "}
-              podcasts on Surface Tension
+              podcasts for Surface Tension
             </li>
             <li key="traveling">
               Traveling, building relationships, and exploring different
