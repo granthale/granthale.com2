@@ -6,6 +6,7 @@ import Layout from "../../components/Layout";
 import BookCard from "../../components/Books/BookCard";
 import Link from "next/link";
 import { useState } from "react";
+import Arrow from "../../components/Arrow";
 
 const books = ({
   allBooksData,
@@ -49,8 +50,15 @@ const books = ({
               <br />
               <p>
                 See{" "}
-                <Link href="/writing/learning-to-learn">Learning to Learn</Link>{" "}
-                for some context.
+                <a
+                  href="/writing/learning-to-learn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learning to Learn
+                  <Arrow></Arrow>
+                </a>{" "}
+                for context.
               </p>
               <br />
               <div className="flex items-center">

@@ -36,9 +36,14 @@ export default function About() {
           <ul className="list-disc pl-5 text-xl">
             <li key="learning">
               {" "}
-              <Link href="writing/learning-to-learn">
+              <a
+                href="treetoforest.substack.com/p/learning-to-learn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Learning how to learn
-              </Link>
+                <Arrow></Arrow>
+              </a>
             </li>
             <li key="reading">
               <Link href="/books" className="">
@@ -54,7 +59,7 @@ export default function About() {
               >
                 Writing
               </Link>{" "}
-              evergeen-style notes
+              evergeen-style
             </li>
             <li key="podcasting">
               <Link className="" href="/podcast">
