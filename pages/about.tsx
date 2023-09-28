@@ -26,7 +26,7 @@ export default function About() {
         <br />
         <div className="text-xl">
           <p className={`font-bold ${main_color}`}>
-            My name is Grant. I'm currently living in Japan.
+            My name is Grant. I'm currently living in Taiwan.
           </p>
           <br />
           <p className="text-xl">
