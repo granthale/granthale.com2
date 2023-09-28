@@ -16,6 +16,7 @@ export default function About() {
     { month: "October", location: "Taiwan, China" },
     { month: "November", location: "Philippines, Thailand, Indonesia, India" },
     { month: "December", location: "India, Chicago" },
+    { month: "January", location: "Chicago" },
   ];
   const main_color = "text-reddish";
   return (
@@ -57,9 +58,9 @@ export default function About() {
                 href="/writing"
                 className="hover:text-neon-green hover:border-neon-green"
               >
-                Writing
+                Writing pieces
               </Link>{" "}
-              pieces publicly and evergeen-style notes privately
+              publicly and evergeen-style notes privately
             </li>
             <li key="podcasting">
               <Link className="" href="/podcast">
@@ -78,28 +79,28 @@ export default function About() {
           </h3>
           <br />
           <p>
-            You called. I didn't respond. I lost my phone. I'm missing.{" "}
+            Pre-ability-to-call-me.{" "}
             <span className="font-bold">Where would you find me?</span>
           </p>
           <br />
           <p>
             <span className="font-bold">Start at the local cafe.</span> Look for
-            someone with noise-cancelling headphones and an iced coffee. If I'm
-            there, I'm probably reading (on Kindle), writing (in Obsidian), or
-            coding (in VSCode).
+            someone with noise-cancelling headphones and an iced coffee. I'm
+            most likely reading, writing, or coding.
           </p>
           <br />
           <p>
             If I'm not there,{" "}
-            <span className="font-bold">check the nearest airport</span> and{" "}
-            <span className="font-bold">then the greenest running path</span>{" "}
-            you can find. Keep an eye out for the guy with a smile on his face
-            and Brooks on feet.
+            <span className="font-bold">
+              check the nearest running path or gym
+            </span>
+            . Keep an eye out for the guy with a smile on his face and Brooks on
+            feet.
           </p>
           <br />
           <p>
             If you haven't found me yet, get ready to dig in a little. The
-            search space needs to expand.
+            search space has expanded.
           </p>
           <br />
           <ul className="list-disc pl-5 text-xl">
@@ -110,12 +111,12 @@ export default function About() {
             <li>
               Then{" "}
               <span className="font-bold">check Richard Hamming's office</span>.
-              I've been sitting in learning the engineering mindset from him.
+              I've been sitting in learning the engineering mindset.
             </li>
             <li>
               Better yet,{" "}
               <span className="font-bold">look for Lewis Carroll Epstein</span>,
-              we've been talking about proper intuitions for physics.
+              we've been talking about physics intuition.
             </li>
             <li>
               Ah! Now that I think about it,{" "}
@@ -163,8 +164,8 @@ export default function About() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="entrepreneurship">
-            Join an early-stage company or start my own (most likely in EdTech
-            or the Tools for Thought space)
+            Work in an early-stage company, most likely in EdTech or the Tools
+            for Thought space
           </li>
           <li key="living">
             Live in a different country for an extended period of time
