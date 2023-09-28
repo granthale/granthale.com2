@@ -144,4 +144,9 @@ export const books = [
       author: "Mortimer Adler and Charles Van Doren",
       link: "https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095"
     },
+    {
+      name: "One Hundred Years of Solitude",
+      author: "Gabriel Garcia Marquez",
+      link: "https://www.amazon.com/Hundred-Solitude-Harper-Perennial-Classics/dp/0060883286"
+    }
   ];
