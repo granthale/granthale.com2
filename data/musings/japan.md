@@ -3,7 +3,7 @@ title: 'Cultural Differences in Japan'
 date: '2023-09-29'
 id: 'japan'
 ---
-#### Here is a short list of the cultural differences I noticed in Japan
+**Japan was one of the most interesting countries that I've ever been to. It was incredibly first-world, austere, kind and unique. Here are the main cultural differences that I noticed during my two weeks there:**
 
 #### Social Etiquette
 
