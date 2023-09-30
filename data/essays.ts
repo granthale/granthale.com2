@@ -15,6 +15,11 @@ export const essays = [
         link: "http://www.paulgraham.com/greatwork.html",
     },
     {
+        name: "You and Your Research",
+        author: "Richard Hamming",
+        link: "http://www.cs.virginia.edu/~robins/YouAndYourResearch.html"
+    },
+    {
         name: "I should have loved Biology",
         author: "James Somers",
         link: "https://jsomers.net/i-should-have-loved-biology",
@@ -60,11 +65,6 @@ export const essays = [
         link: "http://augmentingcognition.com/ltm.html"
     },
     {
-        name: "Spaced Repetition for Efficient Learning",
-        author: "Gwern Branwen",
-        link: "https://gwern.net/spaced-repetition"
-    },
-    {
         name: "Media Playlists",
         author: "Simon Hørup Eskildsen",
         link: "https://sirupsen.com/playlists/"
@@ -74,4 +74,14 @@ export const essays = [
         author: "Simon Hørup Eskildsen",
         link: "https://sirupsen.com/read"
     },
+    {
+        name: "Teach Yourself Programming in 10 Years",
+        author: "Peter Norvig",
+        link: "http://norvig.com/21-days.html"
+    },
+    {
+        name: "When I Stopped Trying to Self-Optimize, I Got Better",
+        author: "Francis Sanzaro",
+        link: "https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html"
+    }
 ];
