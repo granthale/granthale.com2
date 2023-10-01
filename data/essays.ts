@@ -83,5 +83,10 @@ export const essays = [
         name: "When I Stopped Trying to Self-Optimize, I Got Better",
         author: "Francis Sanzaro",
         link: "https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html"
+    },
+    {
+        name: "Transformative Tools for Thought",
+        author: "Andy Matuschak and Michael Nielsen",
+        link: "https://numinous.productions/tftt"
     }
 ];
