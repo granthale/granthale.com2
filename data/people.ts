@@ -78,5 +78,9 @@ export const people = [
     {
       name: "Gwern Branwen",
       link: "https://gwern.net"
+    },
+    {
+      name: "David Senra",
+      link: "https://www.founderspodcast.com/"
     }
   ];
