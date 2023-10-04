@@ -15,11 +15,6 @@ export const books = [
       link: "https://www.amazon.com/Catch-22-50th-Anniversary-Joseph-Heller/dp/1451626657",
     },
     {
-      name: "A Guide to the Good Life",
-      author: "William B. Irvine",
-      link: "https://www.amazon.com/Guide-Good-Life-Ancient-Stoic/dp/1522632735",
-    },
-    {
       name: "Black Boy",
       author: "Richard Wright",
       link: "https://www.amazon.com/Black-Boy-Richard-Wright/dp/0061443085",
@@ -50,16 +45,6 @@ export const books = [
       link: "https://www.navalmanack.com/",
     },
     {
-      name: "Hard Landing",
-      author: "Thomas Petzinger Jr.",
-      link: "https://www.amazon.com/Hard-Landing-Contest-Profits-Airlines/dp/0812928350",
-    },
-    {
-      name: "Atomic Habits",
-      author: "James Clear",
-      link: "https://granthale.com/books/atomic-habits",
-    },
-    {
       name: "Something Incredibly Wonderful Happens",
       author: "K.C. Cole",
       link: "https://www.betterworldbooks.com/product/detail/something-incredibly-wonderful-happens-frank-oppenheimer-and-the-world-he-made-up-9780151008223",
@@ -75,34 +60,14 @@ export const books = [
       link: "https://sive.rs/h",
     },
     {
-      name: "Skin in the Game",
-      author: "Nassim Taleb",
-      link: "https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/042528462X",
-    },
-    {
       name: "Surely You're Joking, Mr. Feynman!",
       author: "Richard Feynman",
       link: "https://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041",
     },
     {
-      name: "Deep Work",
-      author: "Cal Newport",
-      link: "https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692",
-    },
-    {
-      name: "Poor Charlie's Almanack",
-      author: "Charlie Munger",
-      link: "https://www.amazon.com/Poor-Charlies-Almanack-Essential-Charles/dp/1953953239/ref=sr_1_1?crid=3SR5XEKQJNH0L&keywords=poor+charlie%27s+almanack&qid=1683681145&sprefix=poor%2520charlies%2520almanack%2Caps%2C88&sr=8-1",
-    },
-    {
       name: "Innovator's Dilemma, The",
       author: "Clayton Christensen",
       link: "https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780/ref=sr_1_1?keywords=innovators+dilemma&qid=1683681292&s=books&sprefix=the+innovators+di%2Cstripbooks%2C88&sr=1-1",
-    },
-    {
-      name: "I Know Why the Caged Bird Sings",
-      author: "Maya Angelou",
-      link: "https://www.amazon.com/Know-Why-Caged-Bird-Sings/dp/0345514408",
     },
     {
       name: "Good Calories, Bad Calories",
@@ -115,19 +80,9 @@ export const books = [
       link: "https://www.amazon.com/Grapes-Wrath-John-Steinbeck/dp/0143039431",
     },
     {
-      name: "Misbehavior of Markets, The",
-      author: "Benoit Mandelbrot",
-      link: "https://www.amazon.com/Misbehavior-Markets-Fractal-Financial-Turbulence/dp/0465043577",
-    },
-    {
       name: "Great Gatsby, The",
       author: "F. Scott Fitzgerald",
       link: "https://en.wikipedia.org/wiki/The_Great_Gatsby",
-    },
-    {
-      name: "Road to Character, The",
-      author: "David Brooks",
-      link: "https://www.amazon.com/Character-Thorndike-Press-Large-Print/dp/1594139377",
     },
     {
       name: "Dune",
@@ -145,8 +100,13 @@ export const books = [
       link: "https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095"
     },
     {
-      name: "One Hundred Years of Solitude",
-      author: "Gabriel Garcia Marquez",
-      link: "https://www.amazon.com/Hundred-Solitude-Harper-Perennial-Classics/dp/0060883286"
+      name: "Art of Learning, The",
+      author: "Josh Waitzkin",
+      link: "https://www.amazon.com/Art-Learning-Journey-Optimal-Performance/dp/0743277465"
+    },
+    {
+      name: "Mindstorms: Children, Computers, and Powerful Ideas",
+      author: "Seymour Papert",
+      link: "https://www.amazon.com/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746"
     }
   ];

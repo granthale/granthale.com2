@@ -159,7 +159,7 @@ export default function About() {
         <h3 className={`font-bold ${main_color} text-3xl`}>hypotheses</h3>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          I'm pretty confident that I want to do the following:
+          At this point, I'd like to:
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">

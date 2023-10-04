@@ -1,5 +1,10 @@
 export const essays = [
     {
+        name: "Transformative Tools for Thought",
+        author: "Andy Matuschak and Michael Nielsen",
+        link: "https://numinous.productions/tftt"
+    },
+    {
         name: "How to Do What You Love",
         author: "Paul Graham",
         link: "http://paulgraham.com/love.html"
@@ -50,14 +55,14 @@ export const essays = [
         link: "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html"
     },
     {
+        name: "When I Stopped Trying to Self-Optimize, I Got Better",
+        author: "Francis Sanzaro",
+        link: "https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html"
+    },
+    {
         name: "How to write good prompts",
         author: "Andy Matuschak",
         link: "https://andymatuschak.org/prompts/"
-    },
-        {
-        name: "Evergreen notes",
-        author: "Andy Matuschak",
-        link: "https://notes.andymatuschak.org/Evergreen_notes"
     },
     {
         name: "Augmenting Long-term Memory",
@@ -79,14 +84,4 @@ export const essays = [
         author: "Peter Norvig",
         link: "http://norvig.com/21-days.html"
     },
-    {
-        name: "When I Stopped Trying to Self-Optimize, I Got Better",
-        author: "Francis Sanzaro",
-        link: "https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html"
-    },
-    {
-        name: "Transformative Tools for Thought",
-        author: "Andy Matuschak and Michael Nielsen",
-        link: "https://numinous.productions/tftt"
-    }
 ];
