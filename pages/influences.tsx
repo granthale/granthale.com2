@@ -93,7 +93,7 @@ export default function Influences() {
         </ul>
         <br />
         <br />
-        <h1 className={`font-bold ${main_color} text-3xl`}>essays</h1>
+        <h1 className={`font-bold ${main_color} text-3xl`}>articles & essays</h1>
         <br />
         <ul className="list-disc pl-5 text-xl">
           {essays.map((essay) => (
