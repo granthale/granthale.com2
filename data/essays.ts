@@ -84,4 +84,9 @@ export const essays = [
         author: "Peter Norvig",
         link: "http://norvig.com/21-days.html"
     },
+    {
+        name: "Going Critical",
+        author: "Kevin Simler",
+        link: "https://meltingasphalt.com/interactive/going-critical/"
+    }
 ];
