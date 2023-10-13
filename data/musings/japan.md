@@ -1,9 +1,11 @@
 ---
-title: 'Cultural Differences in Japan'
+title: 'Japan'
 date: '2023-09-29'
 id: 'japan'
 ---
-**Japan was one of the most interesting countries that I've ever been to. It was incredibly first-world, austere, kind and unique. Here are the main cultural differences that I noticed during my two weeks there:**
+Japan was one of the most interesting countries that I've ever been to. It was incredibly first-world, austere, kind and unique.
+
+**Here are the main cultural differences that I noticed during my two weeks there:**
 
 #### Social Etiquette
 
@@ -12,6 +14,7 @@ id: 'japan'
 - When train platforms are busy, people still line up in straight lines and wait their turn. Orderliness is off the charts.
 - No one jaywalks. It is looked down upon and a finable offense.
 - No one stares or makes eye contact. There is no outward judgement whatsoever. This is in contrast to the western people that I saw, who noticably look at you for much longer.
+- However, since leaving the country, I've now heard from multiple people that internal judgements are common. It's difficult for foreigners to ever be fully accepted.
 - Bowing is the default greeting/goodbye instead of shaking hands.
 
 #### Public spaces

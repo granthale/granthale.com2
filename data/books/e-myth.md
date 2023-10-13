@@ -2,7 +2,7 @@
 title: 'E-Myth Revisited'
 author: 'Michael E. Gerber'
 dateFinished: ''
-summary: 'Coming soon...'
+summary: 'A very practical view into what it takes to successfully run your own business.'
 rating: 10
 ---
 

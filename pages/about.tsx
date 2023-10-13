@@ -14,7 +14,7 @@ export default function About() {
     { month: "August", location: "San Francisco, Chicago" },
     { month: "September", location: "Japan, Taiwan" },
     { month: "October", location: "Taiwan, China" },
-    { month: "November", location: "Philippines, Thailand, Indonesia, India" },
+    { month: "November", location: "Philippines, Vietnam, Cambodia, India" },
     { month: "December", location: "India, Chicago" },
     { month: "January", location: "Chicago" },
   ];
@@ -27,7 +27,7 @@ export default function About() {
         <br />
         <div className="text-xl">
           <p className={`font-bold ${main_color}`}>
-            My name is Grant. I'm currently living in Taiwan.
+            My name is Grant. I'm currently traveling in Asia.
           </p>
           <br />
           <p className="text-xl">
@@ -79,7 +79,7 @@ export default function About() {
           </h3>
           <br />
           <p>
-            Pre-ability-to-call-me.{" "}
+            Assuming you didn't have my number.{" "}
             <span className="font-bold">Where would you find me?</span>
           </p>
           <br />
@@ -164,11 +164,11 @@ export default function About() {
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="entrepreneurship">
-            Work in an early-stage company, most likely in EdTech or the Tools
-            for Thought space
+            Work in an early-stage company, most likely in education technology
           </li>
           <li key="living">
-            Live in a different country for an extended period of time
+            Live in a different country for an extended period of time. Learn
+            the language
           </li>
           <li key="talking">
             Facilitate curious, engaging, productive conversations amongst

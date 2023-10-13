@@ -61,6 +61,13 @@ const books = ({
                 for context.
               </p>
               <br />
+              <p>
+                I've been leaning towards reviewing what I read using Anki
+                instead of by taking raw notes. Reach out if you'd like to know
+                what I'm currently reading and keep an eye on my{" "}
+                <Link href="/influences">influences</Link> tab.
+              </p>
+              <br />
               <div className="flex items-center">
                 <p className="mr-4">Sort by:</p>
                 <select
