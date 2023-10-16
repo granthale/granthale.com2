@@ -12,6 +12,7 @@ Taiwan was far less developed than I thought it would be and was great because o
 - Some parts are much more run down than Japan and most of the US. Many buildings look pretty old.
 - So many billboards of politicians running for office or attractive women. Not much else.
 - Super, super humid. I got used to sweating constantly.
+- Temples were incredibly colorful and had as much as possible packed into as little space as possible. It was overwhelming and a little disconcerting.
 
 #### Transportation
 

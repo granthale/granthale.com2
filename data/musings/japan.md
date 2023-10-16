@@ -35,6 +35,7 @@ Japan was one of the most interesting countries that I've ever been to. It was i
 - When paying for something, money is never handed directly to someone. It is always put into a little basket first.
 - Unbelievable food at the convenience stores. The 7-Eleven's in particular blow the US out of the water.
 - Wet napkin provided for before and after meal. No napkins for during meals at most restaurants.
+- Many subways have complete underground malls or restaurants built in all over the place
 
 #### Cultural traditions and beliefs
 
