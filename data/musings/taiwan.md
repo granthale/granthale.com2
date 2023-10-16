@@ -37,7 +37,7 @@ Tons and tons of scooters, about the same ratio as cars.
 
 - Many less foreigners than Japan.
 - Most older people don't speak english. Many younger ones do.
-- Out of all of the students and professionals that I saw, I don't remember seeing any Macbooks. A lot of iPads and iPhones though.
+- Out of all of the students and professionals that I saw, I don't remember seeing any Macbooks. A lot of iPads and iPhones though (and eyePatches at times for some reason).
 - More open muscularity than Japan, but still not much.
 - People are friendly and willing to help.
 
