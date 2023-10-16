@@ -23,6 +23,7 @@ Japan was one of the most interesting countries that I've ever been to. It was i
 - There are no public trash cans! People hold on to their trash until they are home or throw it away at the restaurant or convenience store that they bought it from.
 - Littering is non-existent. Even cigarettes are placed carefully in the trash.
 - Lots of gravel is used in public playgrounds and public spaces. Rock gardens are somewhat common.
+- Bidets everywhere, even in public bathrooms.
 
 #### Public transport
 
@@ -48,3 +49,4 @@ Japan was one of the most interesting countries that I've ever been to. It was i
 - In bathrooms, people bring their own handkerchiefs to dry their hands. There is no paper towels. I'm wondering if this is remnants of an American tradition?
 - Elevators actually close when you push the close door button.
 - Little anime-like characters are used everywhere. Even in what we could consider serious settings like depicting police.
+
