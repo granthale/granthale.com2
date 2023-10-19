@@ -38,7 +38,7 @@ export default function About() {
             <li key="learning">
               {" "}
               <a
-                href="treetoforest.substack.com/p/learning-to-learn"
+                href="https://seedtoforest.substack.com/p/learning-to-learn"
                 target="_blank"
                 rel="noopener noreferrer"
               >

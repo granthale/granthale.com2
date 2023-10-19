@@ -26,7 +26,7 @@ export default function Writing({
           I write for clarity and I write to explore. Subscribe to{" "}
           <a
             className=""
-            href="https://treetoforest.substack.com/"
+            href="https://seedtoforest.substack.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
