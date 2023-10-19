@@ -55,11 +55,6 @@ export const essays = [
         link: "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html"
     },
     {
-        name: "When I Stopped Trying to Self-Optimize, I Got Better",
-        author: "Francis Sanzaro",
-        link: "https://www.nytimes.com/2023/09/17/opinion/sports-zen-mental-subtraction.html"
-    },
-    {
         name: "How to write good prompts",
         author: "Andy Matuschak",
         link: "https://andymatuschak.org/prompts/"
@@ -88,5 +83,15 @@ export const essays = [
         name: "Going Critical",
         author: "Kevin Simler",
         link: "https://meltingasphalt.com/interactive/going-critical/"
+    },
+    {
+        name: "Up and Down the Ladder of Abstraction",
+        author: "Bret Victor",
+        link: "http://worrydream.com/LadderOfAbstraction/"
+    },
+    {
+        name: "Growth Without Goals",
+        author: "Patrick O'Shaughnessy",
+        link: "https://www.joincolossus.com/blog/posts/growth-without-goals?ref=candosts-space"
     }
 ];

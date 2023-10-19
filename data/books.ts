@@ -35,11 +35,6 @@ export const books = [
       link: "https://www.amazon.com/Chip-Americans-Invented-Microchip-Revolution/dp/0375758283",
     },
     {
-      name: "Stuff Matters",
-      author: "Mark Miodownik",
-      link: "https://www.amazon.com/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544236041",
-    },
-    {
       name: "Almanack of Naval Ravikant, The",
       author: "Eric Jorgenson",
       link: "https://www.navalmanack.com/",
@@ -55,11 +50,6 @@ export const books = [
       link: "https://www.amazon.com/Starting-Strength-Basic-Barbell-Training/dp/0982522738",
     },
     {
-      name: "How To Live: 27 Conflicting Answers and One Weird Question",
-      author: "Derek Sivers",
-      link: "https://sive.rs/h",
-    },
-    {
       name: "Surely You're Joking, Mr. Feynman!",
       author: "Richard Feynman",
       link: "https://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041",
@@ -73,11 +63,6 @@ export const books = [
       name: "Good Calories, Bad Calories",
       author: "Gary Taubes",
       link: "https://www.amazon.com/Good-Calories-Bad-Controversial-Science/dp/1400033462/ref=asc_df_1400033462/?tag=hyprod-20&linkCode=df0&hvadid=312134205520&hvpos=&hvnetw=g&hvrand=830581454970089288&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9022185&hvtargid=pla-330756790220&psc=1",
-    },
-    {
-      name: "Grapes of Wrath, The",
-      author: "John Steinbeck",
-      link: "https://www.amazon.com/Grapes-Wrath-John-Steinbeck/dp/0143039431",
     },
     {
       name: "Great Gatsby, The",
@@ -108,5 +93,10 @@ export const books = [
       name: "Mindstorms: Children, Computers, and Powerful Ideas",
       author: "Seymour Papert",
       link: "https://www.amazon.com/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746"
+    },
+    {
+      name: "As One Is",
+      author: "Jiddu Krishnamurti",
+      link: "https://www.amazon.com/As-One-Free-Mind-Conditioning/dp/1890772623"
     }
   ];
