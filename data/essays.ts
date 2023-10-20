@@ -4,6 +4,16 @@ export const essays = [
         author: "Andy Matuschak and Michael Nielsen",
         link: "https://numinous.productions/tftt"
     },
+        {
+        name: "How to write good prompts",
+        author: "Andy Matuschak",
+        link: "https://andymatuschak.org/prompts/"
+    },
+    {
+        name: "Augmenting Long-term Memory",
+        author: "Michael Nielsen",
+        link: "http://augmentingcognition.com/ltm.html"
+    },
     {
         name: "How to Do What You Love",
         author: "Paul Graham",
@@ -53,16 +63,6 @@ export const essays = [
         name: "The Cook and the Chef: Musk's Secret Sauce",
         author: "Tim Urban",
         link: "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html"
-    },
-    {
-        name: "How to write good prompts",
-        author: "Andy Matuschak",
-        link: "https://andymatuschak.org/prompts/"
-    },
-    {
-        name: "Augmenting Long-term Memory",
-        author: "Michael Nielsen",
-        link: "http://augmentingcognition.com/ltm.html"
     },
     {
         name: "Media Playlists",
