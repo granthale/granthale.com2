@@ -93,5 +93,10 @@ export const essays = [
         name: "Growth Without Goals",
         author: "Patrick O'Shaughnessy",
         link: "https://www.joincolossus.com/blog/posts/growth-without-goals?ref=candosts-space"
+    },
+    {
+        name: "You Are Not Late",
+        author: "Kevin Kelly",
+        link: "https://kk.org/thetechnium/you-are-not-late/"
     }
 ];
