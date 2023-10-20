@@ -86,5 +86,9 @@ export const people = [
     {
       name: "Jiddu Krishnamurti",
       link: "https://en.wikipedia.org/wiki/Jiddu_Krishnamurti"
+    },
+    {
+      name: "Bret Victor",
+      link: "https://worrydream.com"
     }
   ];
