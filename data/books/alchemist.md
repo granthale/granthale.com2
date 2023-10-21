@@ -2,7 +2,7 @@
 title: 'Alchemist'
 author: 'Paulo Coelho'
 dateFinished: '2023-08-15'
-summary: 'An endearing story about a shepherd boy who follows his dreams.'
+summary: 'An endearing story about a shepherd boy who follows his dreams. He is consistently presented with challenges to doing so and works to overcome them.'
 rating: 9
 ---
 

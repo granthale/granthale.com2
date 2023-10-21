@@ -46,7 +46,7 @@ const books = ({
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className={`flex justify-between ${main_color}`}>
             <div>
-              <h1 className="text-4xl font-extrabold">my notes!</h1>
+              <h1 className="text-4xl font-extrabold">books!</h1>
               <br />
               <p>
                 See{" "}
@@ -62,10 +62,10 @@ const books = ({
               </p>
               <br />
               <p>
-                I've been leaning towards reviewing what I read using Anki
-                instead of by taking raw notes. Reach out if you'd like to know
-                what I'm currently reading and keep an eye on my{" "}
-                <Link href="/influences">influences</Link> tab.
+                Some of the books below will contain raw notes or structural
+                notes. All will contain a summary and a rating. Reach out if
+                you'd like to know what I'm currently reading and keep an eye on
+                my <Link href="/influences">influences</Link> tab.
               </p>
               <br />
               <div className="flex items-center">

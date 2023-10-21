@@ -2,8 +2,8 @@
 title: 'Little Book of Common Sense Investing'
 author: 'John C. Bogle'
 dateFinished: '2023-08-17'
-summary: 'An extremely sensible way to invest, applicable to everyone except Warren Buffett, delivered straight from the father of the low-cost index fund.'
-rating: 8
+summary: 'Bogle argues for the use of low-cost index funds as the go-to approach for most retail investors.'
+rating: 7
 ---
 
 ### **Intro**
@@ -93,7 +93,6 @@ rating: 8
 
 > “Fund investors have been chasing past performance since time immemorial, allowing their emotions—perhaps even their greed-to overwhelm their reason.”
 >
-
 > ⭐ “The beauty of the index fund, then, lies not only in its low expenses, but in its elimination of all those tempting fund choices that promise so much and deliver so little.”
 >
 
@@ -125,7 +124,6 @@ rating: 8
 
 > “Don’t look for the needle, buy the haystack”
 >
-
 > “Think about the reality that over 25 years the typical fund will replace its managers three times…Think, too about the odds that a given fund will even exist 25 years hence”
 >
 - Fidelity Magellan and Fidelity Contrafund both reverted to the mean after years of outperformance → investor cashflows poured out because of it
@@ -171,7 +169,7 @@ rating: 8
 > “You may even enjoy a bit of extra tax efficiency from these broad market ETFs”
 >
 
-**…skipped 16, 17…**
+#### …skipped 16, 17…
 
 ### Chapter 18 - Asset Allocation 1
 
