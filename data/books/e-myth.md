@@ -3,7 +3,7 @@ title: 'E-Myth Revisited'
 author: 'Michael E. Gerber'
 dateFinished: ''
 summary: 'Gerber diagnoses the problems that most entrpreneurs run into when first operating a business. He then provides a useful framework for thinking about how to manage oneself and growth into the future.'
-rating: 10
+rating: 9
 ---
 
 ### Intro
