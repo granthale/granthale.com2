@@ -199,7 +199,7 @@ export default function About() {
         </p>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          This website was made with care (and from scratch) using Next.js. I
+          This website was made with care and from scratch with Next.js. I
           hope you enjoy.
         </p>
       </Layout>
