@@ -2,7 +2,7 @@
 title: 'Atomic Habits'
 author: 'James Clear'
 dateFinished: '2023-08-20'
-summary: 'Clear argues that habits trump goals and provides actionable steps to cerate better habits for yourself.'
+summary: "Habits trump goals. They're not magical. On the contrary, there are clear, actionable steps that we can use to create the ones we want."
 rating: 8
 ---
 

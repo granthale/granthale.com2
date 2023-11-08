@@ -62,10 +62,16 @@ const books = ({
               </p>
               <br />
               <p>
-                Some of the books below will contain raw notes or structural
-                notes. All will contain a summary and a rating. Reach out if
-                you'd like to know what I'm currently reading and keep an eye on
-                my <Link href="/influences">influences</Link> tab.
+                Some of the books below will contain raw or structural notes.
+                Every one will contain the book's unity and my personal rating.
+                The rating roughly represents how impactful the book has been on
+                my thinking, and how often I found myself revisiting it.
+              </p>
+              <br />
+              <p>
+                Reach out if you'd like to know what I'm currently reading and
+                keep an eye on my <Link href="/influences">influences</Link>{" "}
+                tab.
               </p>
               <br />
               <div className="flex items-center">

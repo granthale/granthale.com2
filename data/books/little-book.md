@@ -2,8 +2,8 @@
 title: 'Little Book of Common Sense Investing'
 author: 'John C. Bogle'
 dateFinished: '2023-08-17'
-summary: 'Bogle argues for the use of low-cost index funds as the go-to approach for most retail investors.'
-rating: 8
+summary: 'Low-cost index funds should be the go-to approach for most retail investors.'
+rating: 7
 ---
 
 ### **Intro**
