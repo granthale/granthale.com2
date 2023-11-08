@@ -98,5 +98,10 @@ export const essays = [
         name: "You Are Not Late",
         author: "Kevin Kelly",
         link: "https://kk.org/thetechnium/you-are-not-late/"
+    },
+    {
+        name: "The Evolution of Trust",
+        author: "Nick Case",
+        link: "https://ncase.me/trust/"
     }
 ];

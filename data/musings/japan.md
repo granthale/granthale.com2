@@ -49,4 +49,3 @@ Japan was one of the most interesting countries that I've ever been to. It was i
 - In bathrooms, people bring their own handkerchiefs to dry their hands. There is no paper towels. I'm wondering if this is remnants of an American tradition?
 - Elevators actually close when you push the close door button.
 - Little anime-like characters are used everywhere. Even in what we could consider serious settings like depicting police.
-
