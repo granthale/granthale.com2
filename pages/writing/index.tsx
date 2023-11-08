@@ -30,7 +30,7 @@ export default function Writing({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Tree to Forest
+            Seed to Forest
             <Arrow></Arrow>
           </a>{" "}
           and my{" "}
