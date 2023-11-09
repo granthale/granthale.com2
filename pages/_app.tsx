@@ -1,7 +1,7 @@
 import "../dist/output.css";
 import { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
-import { Montserrat } from '@next/font/google'
+import { Montserrat } from "next/font/google"
 
 const font = Montserrat({
   subsets: [],
