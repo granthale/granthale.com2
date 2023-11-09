@@ -60,7 +60,7 @@ export default function About() {
               >
                 Writing pieces
               </Link>{" "}
-              publicly and evergeen-style notes privately
+              and evergeen-style notes
             </li>
             <li key="podcasting">
               <Link className="" href="/podcast">
@@ -170,7 +170,8 @@ export default function About() {
             Working in/on an early-stage company (hopefully in EdTech)
           </li>
           <li key="living">
-            Living in a different country for an extended period of time. Learning a second language fluently
+            Living in a different country for an extended period of time.
+            Learning a second language fluently
           </li>
           <li key="talking">
             Facilitating curious, engaging, productive conversations amongst
@@ -201,8 +202,8 @@ export default function About() {
         </p>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          This website was made with care and from scratch with Next.js. I
-          hope you enjoy.
+          This website was made with care and from scratch with Next.js. I hope
+          you enjoy.
         </p>
       </Layout>
     </>
