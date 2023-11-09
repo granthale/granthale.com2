@@ -14,8 +14,8 @@ export default function About() {
     { month: "August", location: "San Francisco, Chicago" },
     { month: "September", location: "Japan, Taiwan" },
     { month: "October", location: "Taiwan, China" },
-    { month: "November", location: "Philippines, Vietnam, Cambodia, India" },
-    { month: "December", location: "India, Chicago" },
+    { month: "November", location: "Philippines, Thailand, Vietnam" },
+    { month: "December", location: "Cambodia, India, Chicago" },
     { month: "January", location: "Chicago" },
   ];
   const main_color = "text-reddish";
@@ -159,19 +159,21 @@ export default function About() {
         <h3 className={`font-bold ${main_color} text-3xl`}>hypotheses</h3>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          At this point, I'd like to:
+          At this point, I'm looking forward to:
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
+          <li key="learning">
+            Spending time reading and exploring different fields
+          </li>
           <li key="entrepreneurship">
-            Work in an early-stage company, most likely in education technology
+            Working in/on an early-stage company (hopefully in EdTech)
           </li>
           <li key="living">
-            Live in a different country for an extended period of time. Learn
-            the language
+            Living in a different country for an extended period of time. Learning a second language fluently
           </li>
           <li key="talking">
-            Facilitate curious, engaging, productive conversations amongst
+            Facilitating curious, engaging, productive conversations amongst
             friends and strangers
           </li>
         </ul>
