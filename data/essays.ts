@@ -103,5 +103,10 @@ export const essays = [
         name: "The Evolution of Trust",
         author: "Nick Case",
         link: "https://ncase.me/trust/"
+    },
+    {
+        name: "Effortless Personal Productivity",
+        author: "Jakob Greenfeld",
+        link: "https://jakobgreenfeld.com/personal-productivity"
     }
 ];

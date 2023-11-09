@@ -171,7 +171,7 @@ export default function About() {
           </li>
           <li key="living">
             Living in a different country for an extended period of time.
-            Learning a second language fluently
+            Learning a second language
           </li>
           <li key="talking">
             Facilitating curious, engaging, productive conversations amongst
