@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import {
@@ -8,7 +8,23 @@ import {
   Graticule,
 } from "react-simple-maps";
 
-const travel = () => {
+const highlightCountries = [
+  "USA",
+  "CAN",
+  "MEX",
+  "COL",
+  "ISL",
+  "NLD",
+  "NOR",
+  "GBR",
+  "FRA",
+  "ITA",
+  "JPN",
+  "TWN",
+  "CHN",
+  "PHL",
+];
+
   return (
     <>
       <Header page="travel" />
@@ -20,13 +36,17 @@ const travel = () => {
           <Geographies geography="/features.json">
             {({ geographies }) =>
               geographies.map((geo) => {
+                // Check if country has been visited
+                const isHighlighted = highlightCountries.includes(geo.id);
                 return (
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
+                    stroke="#000000"
                     style={{
                       default: {
-                        fill: "#EEE",
+                        // Change color for highlighted countries
+                        fill: isHighlighted ? "#22c55e" : "#EEE",
                       },
                       hover: {
                         fill: "#F53",
