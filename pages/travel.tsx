@@ -25,6 +25,8 @@ const highlightCountries = [
   "PHL",
 ];
 
+const travel = () => {
+
   return (
     <>
       <Header page="travel" />
