@@ -44,8 +44,7 @@ const travel = ({
         <div className="text-neon-green font-extrabold text-4xl">travel!</div>
         <br />
         <p className="text text-xl">
-          Here are the countries that I've explored and my notes from along the
-          way.
+          Here are the countries that I've traveled to and the notes that I've taken along the way.
         </p>
         <ComposableMap projectionConfig={{ scale: 180 }}>
           <Graticule stroke="#F53" />
