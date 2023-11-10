@@ -25,6 +25,7 @@ const highlightCountries = [
   "TWN",
   "CHN",
   "PHL",
+  "MYS",
 ];
 
 const travel = ({
