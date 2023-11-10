@@ -42,6 +42,11 @@ const travel = ({
       <Header page="travel" />
       <Layout>
         <div className="text-neon-green font-extrabold text-4xl">travel!</div>
+        <br />
+        <p className="text text-xl">
+          Here are the countries that I've explored and my notes from along the
+          way.
+        </p>
         <ComposableMap projectionConfig={{ scale: 180 }}>
           <Graticule stroke="#F53" />
           <Geographies geography="/features.json">
@@ -104,6 +109,5 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   };
 };
-
 
 export default travel;

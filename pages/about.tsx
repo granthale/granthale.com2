@@ -58,19 +58,15 @@ export default function About() {
                 href="/writing"
                 className="hover:text-neon-green hover:border-neon-green"
               >
-                Writing pieces
-              </Link>{" "}
-              and evergeen-style notes
-            </li>
-            <li key="podcasting">
-              <Link className="" href="/podcast">
-                Recording
-              </Link>{" "}
-              podcasts for Surface Tension
+                Writing longer-form
+              </Link>{" "} and
+              evergeen-style pieces
             </li>
             <li key="traveling">
-              Traveling, building relationships, and exploring different
-              cultures
+              <Link className="" href="/travel">
+                Traveling
+              </Link>
+              , building relationships, and exploring different cultures
             </li>
           </ul>
           <br />
