@@ -58,19 +58,15 @@ export default function About() {
                 href="/writing"
                 className="hover:text-neon-green hover:border-neon-green"
               >
-                Writing pieces
-              </Link>{" "}
-              and evergeen-style notes
-            </li>
-            <li key="podcasting">
-              <Link className="" href="/podcast">
-                Recording
-              </Link>{" "}
-              podcasts for Surface Tension
+                Writing longer-form
+              </Link>{" "} and
+              evergeen-style pieces
             </li>
             <li key="traveling">
-              Traveling, building relationships, and exploring different
-              cultures
+              <Link className="" href="/travel">
+                Traveling
+              </Link>
+              , building relationships, and exploring different cultures
             </li>
           </ul>
           <br />
@@ -171,7 +167,7 @@ export default function About() {
           </li>
           <li key="living">
             Living in a different country for an extended period of time.
-            Learning a second language fluently
+            Learning a second language
           </li>
           <li key="talking">
             Facilitating curious, engaging, productive conversations amongst

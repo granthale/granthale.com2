@@ -4,6 +4,26 @@ export const people = [
       link: "https://en.wikipedia.org/wiki/Frank_Oppenheimer",
     },
     {
+      name: "Andy Matuschak",
+      link: "https://andymatuschak.org/"
+    },
+    {
+      name: "Seymour Papert",
+      link: "https://en.wikipedia.org/wiki/Seymour_Papert"
+    },
+    {
+      name: "Michael Nielsen",
+      link: "https://michaelnielsen.org/"
+    },
+    {
+      name: "Bret Victor",
+      link: "https://worrydream.com"
+    },
+    {
+      name: "Richard Feynman",
+      link: "https://en.wikipedia.org/wiki/Richard_Feynman",
+    },
+    {
       name: "Tim Urban",
       link: "https://waitbutwhy.com/",
     },
@@ -20,64 +40,20 @@ export const people = [
       link: "https://sive.rs/",
     },
     {
-      name: "Tim Ferris",
-      link: "https://tim.blog/",
-    },
-    {
       name: "Paul Graham",
       link: "http://paulgraham.com/",
-    },
-    {
-      name: "Naval Ravikant",
-      link: "https://nav.al/",
     },
     {
       name: "Andrew Huberman",
       link: "https://hubermanlab.com/",
     },
     {
-      name: "Andy Matuschak",
-      link: "https://andymatuschak.org/"
-    },
-    {
-      name: "Michael Nielsen",
-      link: "https://michaelnielsen.org/"
-    },
-    {
-      name: "Steve Jobs",
-      link: "https://stevejobsarchive.com/"
-    },
-    {
-      name: "Richard Feynman",
-      link: "https://en.wikipedia.org/wiki/Richard_Feynman",
-    },
-    {
-      name: "Charlie Munger",
-      link: "https://en.wikipedia.org/wiki/Charlie_Munger",
-    },
-    {
       name: "J.C.R. Licklider",
       link: "https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119",
     },
     {
-      name: "Douglas Hofstadter",
-      link: "https://en.wikipedia.org/wiki/Douglas_Hofstadter",
-    },
-    {
-      name: "Pieter Levels",
-      link: "https://levels.io/blog",
-    },
-    {
-      name: "Jakob Greenfeld",
-      link: "https://jakobgreenfeld.com/",
-    },
-    {
       name: "Josh Waitzkin",
       link: "https://www.joshwaitzkin.com/",
-    },
-    {
-      name: "Gwern Branwen",
-      link: "https://gwern.net"
     },
     {
       name: "David Senra",
@@ -87,8 +63,4 @@ export const people = [
       name: "Jiddu Krishnamurti",
       link: "https://en.wikipedia.org/wiki/Jiddu_Krishnamurti"
     },
-    {
-      name: "Bret Victor",
-      link: "https://worrydream.com"
-    }
   ];

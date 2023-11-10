@@ -25,6 +25,10 @@ const Navbar = ({ home }: Props) => {
         books
       </Link>
       <div className="border-r bg-black h-full mx-2"></div>
+      <Link href="/travel" className={hover}>
+        travel
+      </Link>
+      <div className="border-r bg-black h-full mx-2"></div>
       <Link href="/about" className={hover}>
         about
       </Link>

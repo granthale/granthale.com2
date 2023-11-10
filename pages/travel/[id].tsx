@@ -5,15 +5,16 @@ import Link from "next/link";
 import Text from "../../components/Text";
 import Header from "../../components/Header";
 
-export interface Musing {
+export interface Countries {
   title: string;
+  date: string;
   id: string;
 }
 
-export default function writing({
-  musingData,
+export default function travel({
+  travelData,
 }: {
-  musingData: {
+  travelData: {
     title: string;
     date: string;
     contentHTML: string;
@@ -22,27 +23,24 @@ export default function writing({
 }) {
   return (
     <Layout>
-      <Header page={`writing: ${musingData.title}`} />
+      <Header page={`travel: ${travelData.title}`} />
       <article>
-        <h1 className="font-bold text-violet text-3xl">{musingData.title} </h1>
-        <h3 className="text-xl">{musingData.date}</h3>
+        <h1 className="font-bold text-violet text-3xl">{travelData.title} </h1>
+        <h3 className="text-xl">{travelData.date}</h3>
         <br />
-        <Text contentHTML={musingData.contentHTML} />
+        <Text contentHTML={travelData.contentHTML} />
       </article>
       <br />
       <br />
-      <Link
-        className="text-violet text-xl"
-        href="/writing"
-      >
-        ← Back to writing
+      <Link className="text-violet text-xl" href="/travel">
+        ← Back to travel
       </Link>
     </Layout>
   );
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllIds("musings");
+  const paths = getAllIds("travel");
   return {
     paths,
     fallback: false,
@@ -50,10 +48,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const musingData = await getData<Musing>(params?.id as string, "musings");
+  const travelData = await getData<Countries>(params?.id as string, "travel");
   return {
     props: {
-      musingData,
+      travelData,
     },
   };
 };
