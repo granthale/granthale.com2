@@ -15,9 +15,9 @@ const Pages = () => {
       <Link href="/books" className="mt-3">
         books
       </Link>
-      <Link href="/travel" className="mt-3">
+      {/* <Link href="/travel" className="mt-3">
         travel
-      </Link>
+      </Link> */}
       <Link href="/about" className="mt-3">
         about
       </Link>

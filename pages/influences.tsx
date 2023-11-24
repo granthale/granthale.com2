@@ -9,11 +9,8 @@ import { friends } from "../data/friends";
 import Link from "next/link";
 
 export default function Influences() {
-  const sidebar = (
-    <div className="text-waving-brown font-bold text-3xl">Influences</div>
-  );
-
   const main_color = "text-violet";
+  
   return (
     <>
       <Header page="influences" />
