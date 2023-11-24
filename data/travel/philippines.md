@@ -3,6 +3,9 @@ title: 'Philippines'
 date: '2023-11-10'
 id: 'philippines'
 ---
+
+- A consistent, deeply ingrained culture was not readily apparent to me. I came out of the country not knowing what makes a Filipino, a Filipino.
+
 #### People
 
 - American influences are present everywhere:

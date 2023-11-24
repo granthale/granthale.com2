@@ -38,13 +38,13 @@ const books = ({
     });
     setSortedBooks(sorted);
   };
-  const main_color = "";
+
   return (
     <>
       <Header page="books" />
       <Layout>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <div className={`flex justify-between ${main_color}`}>
+          <div className="flex justify-between">
             <div>
               <h1 className="text-4xl font-extrabold">books!</h1>
               <br />
@@ -62,10 +62,10 @@ const books = ({
               </p>
               <br />
               <p>
-                Some of the books below will contain raw or structural notes.
+                Some of the pages below will contain raw or structural notes.
                 Every one will contain the book's unity and my personal rating.
-                The rating roughly represents how impactful the book has been on
-                my thinking, and how often I found myself revisiting it.
+                The rating is a rough assessment of how often I find myself
+                revisiting the books's ideas.
               </p>
               <br />
               <p>
@@ -104,7 +104,7 @@ const books = ({
             )
           )}
           <br />
-          <Link className={`${main_color}`} href="/influences">
+          <Link href="/influences">
             ← For more
           </Link>
         </section>
