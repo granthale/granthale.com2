@@ -14,14 +14,21 @@ export default function About() {
         <br />
         <div className="text-xl">
           <p className={`font-bold ${main_color}`}>
-            Here are the things that I'm currently putting
-            energy into:
+            Here are the things that I'm currently putting energy into:
           </p>
           <br />
           <ul className="font-bold list-disc pl-5 text-xl">
             <li key="traveling">
-              Traveling through Asia, building relationships, and exploring
-              different cultures
+              <a
+                href="https://www.instagram.com/gha.travels/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold"
+              >
+                "Walking 1000 miles, meeting 1000 people"
+                <Arrow />
+              </a>{" "}
+              in Asia
             </li>
             <li key="reading">
               <Link href="/books" className="font-bold">
@@ -147,7 +154,9 @@ export default function About() {
         </ul>
 
         <br />
-        <h3 className={`font-bold ${main_color} text-3xl`}>colophon & contact</h3>
+        <h3 className={`font-bold ${main_color} text-3xl`}>
+          colophon & contact
+        </h3>
         <br />
         <p className="text-xl font-bold">
           If any of these topics or people also interest you, reach out on{" "}
