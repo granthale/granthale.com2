@@ -100,7 +100,7 @@ export default function About() {
               <span className={`font-bold ${main_color}`}>
                 head to David Deutsch's office
               </span>
-              . We've been grappling with epistemology.
+              . We've been grappling with explanation and epistemology.
             </li>
             <li>
               Better yet,{" "}
