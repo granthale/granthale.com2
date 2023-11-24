@@ -4,21 +4,8 @@ import Header from "../components/Header";
 import Arrow from "../components/Arrow";
 
 export default function About() {
-  const locations = [
-    { month: "May", location: "Chicago" },
-    {
-      month: "June",
-      location: "Iceland, Amsterdam, Norway, London, France, and Italy",
-    },
-    { month: "July", location: "San Francisco" },
-    { month: "August", location: "San Francisco, Chicago" },
-    { month: "September", location: "Japan, Taiwan" },
-    { month: "October", location: "Taiwan, China" },
-    { month: "November", location: "Philippines, Thailand, Vietnam" },
-    { month: "December", location: "Cambodia, India, Chicago" },
-    { month: "January", location: "Chicago" },
-  ];
   const main_color = "text-reddish";
+
   return (
     <>
       <Header page="about" />
@@ -33,6 +20,7 @@ export default function About() {
           <p className="text-xl">
             Here are the things that I'm currently putting energy into:
           </p>
+
           <br />
           <ul className="list-disc pl-5 text-xl">
             <li key="learning">
@@ -58,9 +46,9 @@ export default function About() {
                 href="/writing"
                 className="hover:text-neon-green hover:border-neon-green"
               >
-                Writing longer-form
-              </Link>{" "} and
-              evergeen-style pieces
+                Writing
+              </Link>{" "}
+              longer-form pieces and evergeen notes
             </li>
             <li key="traveling">
               <Link className="" href="/travel">
@@ -69,28 +57,30 @@ export default function About() {
               , building relationships, and exploring different cultures
             </li>
           </ul>
+
           <br />
           <h3 className={`font-bold ${main_color} text-3xl`}>
             time & location
           </h3>
           <br />
-          <p>
-            Assuming you didn't have my number.{" "}
-            <span className="font-bold">Where would you find me?</span>
+          <p className={`font-bold ${main_color}`}>
+            Assuming you didn't have my number. Where would you find me?
           </p>
           <br />
           <p>
-            <span className="font-bold">Start at the local cafe.</span> Look for
-            someone with noise-cancelling headphones and an iced coffee. I'm
-            most likely reading, writing, or coding.
+            <span className={`font-bold ${main_color}`}>
+              Start at the local cafe.
+            </span>{" "}
+            Look for someone with noise-cancelling headphones and an iced
+            coffee. I'm most likely reading, writing, or coding.
           </p>
           <br />
           <p>
             If I'm not there,{" "}
-            <span className="font-bold">
-              check the nearest running path or gym
+            <span className={`font-bold ${main_color}`}>
+              check the nearest running path
             </span>
-            . Keep an eye out for the guy with a smile on his face and Brooks on
+            . Keep an eye out for the guy with a furrowed brow and Brooks on
             feet.
           </p>
           <br />
@@ -101,26 +91,32 @@ export default function About() {
           <br />
           <ul className="list-disc pl-5 text-xl">
             <li>
-              <span className="font-bold">Check China first.</span> The
-              country's economic recovery has been on my mind recently.
+              <span className={`font-bold ${main_color}`}>Check China</span>{" "}
+              first. The country's economic recovery and culture have been on my
+              mind recently.
             </li>{" "}
             <li>
               Then{" "}
-              <span className="font-bold">check Richard Hamming's office</span>.
-              I've been sitting in learning the engineering mindset.
+              <span className={`font-bold ${main_color}`}>
+                head to David Deutsch's office
+              </span>
+              . We've been grappling with epistemology.
             </li>
             <li>
               Better yet,{" "}
-              <span className="font-bold">look for Lewis Carroll Epstein</span>,
-              we've been talking about physics intuition.
+              <span className={`font-bold ${main_color}`}>
+                look for William Zinsser
+              </span>
+              , in an effort to write better, I've been asking him a lot of
+              questions.
             </li>
             <li>
-              Ah! Now that I think about it,{" "}
-              <span className="font-bold">
-                check what Andy Matuschak and Michael Nielsen are up to
+              Ah! Now that I think about it.{" "}
+              <span className={`font-bold ${main_color}`}>
+                Find Andy Matuschak, Michael Nielsen, or Bret Victor
               </span>
-              . I've been deep down a rabbit hole with them on spaced-repetition
-              and learning.
+              . We've been deep down a rabbit hole on spaced-repetition,
+              interactive design, and effective learning.
             </li>
           </ul>
           <br />
@@ -131,49 +127,40 @@ export default function About() {
         </div>
         <br />
         <p className="text-xl">
-          I've got{" "}
-          <span className="font-bold">
-            {Math.round(
-              (new Date("2024-01-22").getTime() - new Date().getTime()) /
-                (1000 * 60 * 60 * 24)
-            ) + 1}{" "}
-            days and counting{" "}
-          </span>
-          until I start work for Boston Consulting Group. Here is where I've
-          been and where I'll be from now until then:
+          On a more professional note, I've got{" "}
+          {Math.round(
+            (new Date("2024-01-22").getTime() - new Date().getTime()) /
+              (1000 * 60 * 60 * 24)
+          ) + 1}{" "}
+          days until I start work for Boston Consulting Group (not that I'm
+          counting). I'll be traveling through Asia until then.
         </p>
-        <br />
-        <ul>
-          {locations.map((location) => (
-            <li key={location.location} className="text-xl">
-              <span className="font-bold">{location.month}:</span>{" "}
-              {location.location}
-            </li>
-          ))}
-        </ul>
+
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>hypotheses</h3>
         <br />
         <p className={`font-bold ${main_color} text-xl`}>
-          At this point, I'm looking forward to:
+          I'm looking forward to:
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="learning">
-            Spending time reading and exploring different fields
+            Spending time reading about and exploring different fields
           </li>
           <li key="entrepreneurship">
-            Working in/on an early-stage company (hopefully in EdTech)
+            Working in/on an early-stage company (I'm currently most interested
+            in Edtech tools for thought)
           </li>
           <li key="living">
-            Living in a different country for an extended period of time.
-            Learning a second language
+            Living in a different country. Learning a second language
+            (potentially 中文)
           </li>
-          <li key="talking">
-            Facilitating curious, engaging, productive conversations amongst
-            friends and strangers
+          <li key="friendships">
+            Being back in one place for a longer period of time. Facilitating
+            curious, engaging, productive conversations amongst friends
           </li>
         </ul>
+
         <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>contact</h3>
         <br />
@@ -197,9 +184,13 @@ export default function About() {
           !
         </p>
         <br />
-        <p className={`font-bold ${main_color} text-xl`}>
-          This website was made with care and from scratch with Next.js. I hope
-          you enjoy.
+        <p className="text-xl">
+          <span className={`font-bold ${main_color}`}>
+            This website was made with care and from scratch with Next.js. I
+            hope it makes for an enjoyable experience.
+          </span>{" "}
+          If there's anything that isn't working correctly or a feature you
+          think would be cool to add, let me know!
         </p>
       </Layout>
     </>

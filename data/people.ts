@@ -1,11 +1,23 @@
 export const people = [
-    {
-      name: "Frank Oppenheimer",
-      link: "https://en.wikipedia.org/wiki/Frank_Oppenheimer",
-    },
+      {
+      name: "Josh Waitzkin",
+      link: "https://www.joshwaitzkin.com/",
+    },  
     {
       name: "Andy Matuschak",
       link: "https://andymatuschak.org/"
+    },
+    {
+      name: "Paul Graham",
+      link: "http://paulgraham.com/",
+    },
+    {
+      name: "Richard Feynman",
+      link: "https://en.wikipedia.org/wiki/Richard_Feynman",
+    },
+    {
+      name: "Frank Oppenheimer",
+      link: "https://en.wikipedia.org/wiki/Frank_Oppenheimer",
     },
     {
       name: "Seymour Papert",
@@ -18,10 +30,6 @@ export const people = [
     {
       name: "Bret Victor",
       link: "https://worrydream.com"
-    },
-    {
-      name: "Richard Feynman",
-      link: "https://en.wikipedia.org/wiki/Richard_Feynman",
     },
     {
       name: "Tim Urban",
@@ -40,10 +48,6 @@ export const people = [
       link: "https://sive.rs/",
     },
     {
-      name: "Paul Graham",
-      link: "http://paulgraham.com/",
-    },
-    {
       name: "Andrew Huberman",
       link: "https://hubermanlab.com/",
     },
@@ -52,15 +56,7 @@ export const people = [
       link: "https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119",
     },
     {
-      name: "Josh Waitzkin",
-      link: "https://www.joshwaitzkin.com/",
-    },
-    {
-      name: "David Senra",
-      link: "https://www.founderspodcast.com/"
-    },
-    {
-      name: "Jiddu Krishnamurti",
-      link: "https://en.wikipedia.org/wiki/Jiddu_Krishnamurti"
+      name: "David Deutsch",
+      link: "https://en.wikipedia.org/wiki/David Deutsch"
     },
   ];

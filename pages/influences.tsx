@@ -11,6 +11,7 @@ import Link from "next/link";
 export default function Influences() {
   const main_color = "text-violet";
   
+
   return (
     <>
       <Header page="influences" />
@@ -35,15 +36,16 @@ export default function Influences() {
           <br />
           <p>
             These seeds, when shared with others through discussion and
-            creation, have the power to take root and become a{" "}
-            <span className="font-bold">collective intellectual forest.</span>
+            creation, have the power to take root and become an{" "}
+            <span className="font-bold"> intellectual forest.</span>
           </p>
           <br />
           <p className={`${main_color} font-bold`}>
-            Here are some of the books and people that have provided me with
-            seeds as a person and thinker:
+            Here are some of the works and people that have provided me with
+            seeds and nourishment as a person and professional.
           </p>
         </div>
+
         <br />
         <br />
         <h1 className={`font-bold ${main_color} text-3xl`}>people</h1>
@@ -58,6 +60,7 @@ export default function Influences() {
             </li>
           ))}
         </ul>
+
         <br />
         <br />
         <h1 className={`font-bold ${main_color} text-3xl`}>books</h1>
@@ -88,9 +91,12 @@ export default function Influences() {
               </li>
             ))}
         </ul>
+
         <br />
         <br />
-        <h1 className={`font-bold ${main_color} text-3xl`}>articles & essays</h1>
+        <h1 className={`font-bold ${main_color} text-3xl`}>
+          articles & essays
+        </h1>
         <br />
         <ul className="list-disc pl-5 text-xl">
           {essays.map((essay) => (
@@ -102,6 +108,7 @@ export default function Influences() {
             </li>
           ))}
         </ul>
+
         <br />
         <br />
         <h1 className={`font-bold ${main_color} text-3xl`}>podcasts</h1>
@@ -122,6 +129,7 @@ export default function Influences() {
               </li>
             ))}
         </ul>
+
         <br />
         <br />
         <h1 className={`font-bold ${main_color} text-3xl`}>friends</h1>
