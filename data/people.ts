@@ -56,6 +56,10 @@ export const people = [
       link: "https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119",
     },
     {
+      name: "Patrick O'Shaugnessy",
+      link: "https://twitter.com/patrick_oshag"
+    },
+    {
       name: "David Deutsch",
       link: "https://en.wikipedia.org/wiki/David Deutsch"
     },

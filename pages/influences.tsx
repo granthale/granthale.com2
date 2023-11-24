@@ -10,7 +10,6 @@ import Link from "next/link";
 
 export default function Influences() {
   const main_color = "text-violet";
-  
 
   return (
     <>
@@ -135,7 +134,7 @@ export default function Influences() {
         <h1 className={`font-bold ${main_color} text-3xl`}>friends</h1>
         <br />
         <p className={`${main_color} text-xl`}>
-          Here are some friends that are cool enough to have personal websites!
+          Here are some good friends with personal websites!
         </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
