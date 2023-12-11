@@ -2,6 +2,6 @@
 title: 'On Writing Well'
 author: 'William Zinsser'
 dateFinished: 'WIP'
-summary: '...'
-rating: 10
+summary: 'Writing is editing.'
+rating: 9
 ---

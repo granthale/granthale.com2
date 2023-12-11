@@ -6,12 +6,12 @@
   background: #FDF3F1;
 } */
 
+/* Highlighting */
 ::selection {
-  background: #5dc284;
+  background: #2563eb;
 }
-
 ::-moz-selection {
-  background: #5dc284;
+  background: #2563eb;
 }
 
 /* Work-around for dark mode */
