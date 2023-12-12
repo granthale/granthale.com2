@@ -108,5 +108,10 @@ export const essays = [
         name: "Effortless Personal Productivity",
         author: "Jakob Greenfeld",
         link: "https://jakobgreenfeld.com/personal-productivity"
+    },
+    {
+        name: "My techno-optimism",
+        author: "Vitalik Buterin",
+        link: "https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html"
     }
 ];
