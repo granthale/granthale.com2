@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 import Header from "../components/Header";
-import Arrow from "../components/ExternalArrow";
+import ExternalArrow from "../components/ExternalArrow";
 
 export default function About() {
   const main_color = "text-reddish";
@@ -26,7 +26,7 @@ export default function About() {
                 className="font-bold"
               >
                 "Walking 1000 miles, meeting 1000 people"
-                <Arrow />
+                <ExternalArrow />
               </a>{" "}
               in Asia
             </li>
@@ -55,7 +55,7 @@ export default function About() {
                 className="font-bold"
               >
                 Learning how to learn
-                <Arrow></Arrow>
+                <ExternalArrow></ExternalArrow>
               </a>
             </li>
           </ul>
@@ -167,12 +167,12 @@ export default function About() {
             rel="noopener noreferrer"
           >
             Twitter
-            <Arrow />
+            <ExternalArrow />
           </a>{" "}
           or by{" "}
           <a className="" href="mailto:g@granthale.com">
             email
-            <Arrow />
+            <ExternalArrow />
           </a>
           !
         </p>

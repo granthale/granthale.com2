@@ -6,7 +6,7 @@ export const writing = [
     description: "What I've learned about learning"
   },
   {
-    title: "Around the World in 90 days",
+    title: "Around the World in 99 days",
     link: "https://seedtoforest.substack.com/p/around-the-world-in-90-days",
     date: "2023-09-15",
     description: "Living in Asia for 3 months"

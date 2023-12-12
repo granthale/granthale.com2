@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Pods from "../components/Pods";
 import Header from "../components/Header";
-import Arrow from "../components/ExternalArrow";
+import ExternalArrow from "../components/ExternalArrow";
 import { Podcast } from "../components/Pods";
 import { getSpotifyEpisodes, getSpotifyToken } from "../utils/spotifyAPI";
 
@@ -41,7 +41,7 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
               rel="noopener noreferrer"
             >
               Surface Tension
-              <Arrow></Arrow>
+              <ExternalArrow></ExternalArrow>
             </a>{" "}
             focuses on making you more curious.{" "}
           </span>

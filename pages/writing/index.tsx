@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
-import Arrow from "../../components/ExternalArrow";
+import ExternalArrow from "../../components/ExternalArrow";
 import { writing } from "../../data/writing";
 import Link from "next/link";
 import { getSortedData } from "../../utils/usePosts";
@@ -31,7 +31,7 @@ export default function Writing({
             rel="noopener noreferrer"
           >
             Seed to Forest
-            <Arrow></Arrow>
+            <ExternalArrow></ExternalArrow>
           </a>{" "}
           and my{" "}
           <Link className="" href="/rss.xml">
@@ -56,7 +56,7 @@ export default function Writing({
                 <span className="font-light mr-4">{piece.date}</span>
                 <u className="no-underline">
                   {piece.title}
-                  <Arrow />
+                  <ExternalArrow />
                 </u>
               </a>
             </li>

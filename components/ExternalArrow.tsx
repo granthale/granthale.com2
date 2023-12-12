@@ -1,4 +1,4 @@
-const Arrow = () => {
+const ExternalArrow = () => {
   return (
     <span className="inline-flex">
       <svg
@@ -18,6 +18,6 @@ const Arrow = () => {
       </svg>
     </span>
   );
-}
+};
 
-export default Arrow
+export default ExternalArrow;

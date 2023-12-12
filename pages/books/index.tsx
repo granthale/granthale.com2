@@ -6,7 +6,7 @@ import Layout from "../../components/Layout";
 import BookCard from "../../components/cards/BookCard";
 import Link from "next/link";
 import { useState } from "react";
-import Arrow from "../../components/ExternalArrow";
+import ExternalArrow from "../../components/ExternalArrow";
 
 const books = ({
   allBooksData,
@@ -49,23 +49,11 @@ const books = ({
               <h1 className="text-4xl font-extrabold">books!</h1>
               <br />
               <p>
-                See{" "}
-                <a
-                  href="/writing/learning-to-learn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learning to Learn
-                  <Arrow></Arrow>
-                </a>{" "}
-                for context.
-              </p>
-              <br />
-              <p>
                 Some of the pages below will contain raw or structural notes.
                 Every one will contain the book's unity and my personal rating.
-                The rating is a rough assessment of how often I find myself
-                revisiting the books's ideas.
+                The rating is an approximation of how often I find myself
+                revisiting the books's ideas, and how much the book has
+                influenced my thinking.
               </p>
               <br />
               <p>

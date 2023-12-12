@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Arrow from "../components/ExternalArrow";
+import ExternalArrow from "../components/ExternalArrow";
 import { books } from "../data/books";
 import { people } from "../data/people";
 import { podcasts } from "../data/podcasts";
@@ -27,7 +27,7 @@ export default function Influences() {
               rel="noopener noreferrer"
             >
               seeds
-              <Arrow></Arrow>
+              <ExternalArrow></ExternalArrow>
             </a>{" "}
             planted by our influences and nourished by curiosity, contemplation,
             and exploration.
@@ -54,7 +54,7 @@ export default function Influences() {
             <li className={`hover:${main_color}`} key={person.name}>
               <a href={person.link} target="_blank" rel="noopener noreferrer">
                 {person.name}
-                <Arrow></Arrow>
+                <ExternalArrow></ExternalArrow>
               </a>
             </li>
           ))}
@@ -86,7 +86,7 @@ export default function Influences() {
                 <a href={book.link} target="_blank" rel="noopener noreferrer">
                   {book.name} by {book.author}
                 </a>
-                <Arrow></Arrow>
+                <ExternalArrow></ExternalArrow>
               </li>
             ))}
         </ul>
@@ -102,7 +102,7 @@ export default function Influences() {
             <li className={`hover:${main_color}`} key={essay.name}>
               <a href={essay.link} target="_blank" rel="noopener noreferrer">
                 {essay.name} by {essay.author}
-                <Arrow></Arrow>
+                <ExternalArrow></ExternalArrow>
               </a>
             </li>
           ))}
@@ -124,7 +124,7 @@ export default function Influences() {
                 >
                   {podcast.name} by {podcast.author}
                 </a>
-                <Arrow></Arrow>
+                <ExternalArrow></ExternalArrow>
               </li>
             ))}
         </ul>
@@ -142,7 +142,7 @@ export default function Influences() {
             <li className={`hover:${main_color}`} key={friend.name}>
               <a href={friend.link} target="_blank" rel="noopener noreferrer">
                 {friend.name}
-                <Arrow></Arrow>
+                <ExternalArrow></ExternalArrow>
               </a>
             </li>
           ))}

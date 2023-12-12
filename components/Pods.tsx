@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
-import PodCard from "./cards/PodCard/PodCard";
+import PodCard from "./cards/podcast/PodCard";
 
 export interface Podcast {
   id: number;
@@ -13,15 +11,6 @@ export interface Podcast {
 
 interface ExternalUrls {
   spotify: string;
-}
-
-interface FetchPodsResponse {
-  count: number;
-  results: Podcast[];
-}
-
-interface FetchTokenResponse {
-  token: string;
 }
 
 const Pods = ({ pods }: { pods?: Podcast[] }) => {
