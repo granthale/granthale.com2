@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Podcast } from "../Pods";
+import { Podcast } from "../../Pods";
 
 interface Props {
   podcast: Podcast;
@@ -20,7 +20,11 @@ const PodImage = ({ podcast }: Props) => {
           height={100}
           // if the title starts with Stay Curious, use the logo with the text
           // otherwise, use the logo without the text
-          src={`/images/${podcast.name.startsWith("Stay Curious") ? "stay-curious" : "surface-tension"}.jpeg`}
+          src={`/images/${
+            podcast.name.startsWith("Stay Curious")
+              ? "stay-curious"
+              : "surface-tension"
+          }.jpeg`}
           alt="surface tension logo"
         />
       </a>

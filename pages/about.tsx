@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 import Header from "../components/Header";
-import Arrow from "../components/Arrow";
+import Arrow from "../components/ExternalArrow";
 
 export default function About() {
   const main_color = "text-reddish";

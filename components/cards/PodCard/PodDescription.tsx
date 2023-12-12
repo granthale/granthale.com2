@@ -1,4 +1,4 @@
-import { Podcast } from "../Pods";
+import { Podcast } from "../../Pods";
 
 interface Props {
   podcast: Podcast;

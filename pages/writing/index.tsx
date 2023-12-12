@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
-import Arrow from "../../components/Arrow";
+import Arrow from "../../components/ExternalArrow";
 import { writing } from "../../data/writing";
 import Link from "next/link";
 import { getSortedData } from "../../utils/usePosts";
@@ -74,9 +74,7 @@ export default function Writing({
                 href={`/writing/${id}`}
               >
                 <span className="font-light mr-4">{date}</span>
-                <u className='no-underline'>
-                  {title}
-                </u>
+                <u className="no-underline">{title}</u>
               </Link>
               <br />
             </li>

@@ -3,9 +3,7 @@ import Link from "next/link";
 const Pages = () => {
   return (
     <div className="flex flex-col justify-center m-12 text-4xl text-white">
-      <Link href="/podcast">
-        podcast
-      </Link>
+      <Link href="/podcast">podcast</Link>
       <Link href="/writing" className="mt-3">
         writing
       </Link>
@@ -15,9 +13,6 @@ const Pages = () => {
       <Link href="/books" className="mt-3">
         books
       </Link>
-      {/* <Link href="/travel" className="mt-3">
-        travel
-      </Link> */}
       <Link href="/about" className="mt-3">
         about
       </Link>

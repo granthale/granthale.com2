@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Arrow from "../components/Arrow";
+import Arrow from "../components/ExternalArrow";
 import { books } from "../data/books";
 import { people } from "../data/people";
 import { podcasts } from "../data/podcasts";

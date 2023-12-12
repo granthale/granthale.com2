@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import PodCard from "./PodCard/PodCard";
+import PodCard from "./cards/PodCard/PodCard";
 
 export interface Podcast {
   id: number;

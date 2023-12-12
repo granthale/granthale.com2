@@ -1,4 +1,4 @@
-import { Podcast } from "../Pods";
+import { Podcast } from "../../Pods";
 import { useEffect, useRef, useState } from "react";
 import PodImage from "./PodImage";
 import PodTitle from "./PodTitle";

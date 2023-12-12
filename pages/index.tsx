@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Image from "next/image";
 import Socials from "../components/Socials";
 import Link from "next/link";
-import Arrow from "../components/Arrow";
+import Arrow from "../components/ExternalArrow";
 import generateRssFeed from "../utils/generateRssFeed";
 
 export const getStaticProps = async () => {

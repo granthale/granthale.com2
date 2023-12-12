@@ -3,10 +3,10 @@ import { GetStaticProps } from "next";
 import { getSortedData } from "../../utils/usePosts";
 import Header from "../../components/Header";
 import Layout from "../../components/Layout";
-import BookCard from "../../components/Books/BookCard";
+import BookCard from "../../components/cards/BookCard";
 import Link from "next/link";
 import { useState } from "react";
-import Arrow from "../../components/Arrow";
+import Arrow from "../../components/ExternalArrow";
 
 const books = ({
   allBooksData,
@@ -104,9 +104,7 @@ const books = ({
             )
           )}
           <br />
-          <Link href="/influences">
-            ← For more
-          </Link>
+          <Link href="/influences">← For more</Link>
         </section>
       </Layout>
     </>

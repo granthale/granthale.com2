@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Pods from "../components/Pods";
 import Header from "../components/Header";
-import Arrow from "../components/Arrow";
+import Arrow from "../components/ExternalArrow";
 import { Podcast } from "../components/Pods";
 import { getSpotifyEpisodes, getSpotifyToken } from "../utils/spotifyAPI";
 

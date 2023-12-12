@@ -1,10 +1,10 @@
-import { Podcast } from "../Pods";
+import { Podcast } from "../../Pods";
 
 interface Props {
-    podcast: Podcast;
+  podcast: Podcast;
 }
 
-const PodTitle = ({podcast} : Props) => {
+const PodTitle = ({ podcast }: Props) => {
   return (
     <a
       href={podcast.external_urls.spotify}
