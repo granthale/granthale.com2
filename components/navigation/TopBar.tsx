@@ -1,7 +1,7 @@
-import Menu from "./dropdown/MobileMenu";
+import Menu from "./MobileMenu";
 import MenuButton from "./MenuButton";
 import Navbar from "./Navbar";
-import Title from "./Title";
+import Title from "../Title";
 
 interface Props {
   home?: boolean;

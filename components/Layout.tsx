@@ -1,4 +1,4 @@
-import TopBar from "./TopBar";
+import TopBar from "./navigation/TopBar";
 import MainContent from "./MainContent";
 import { useState } from "react";
 import styles from "../styles/Layout.module.css";
@@ -11,7 +11,6 @@ interface Props {
 
 function Layout({ children, home }: Props) {
   const [menuStatus, setMenuStatus] = useState(false);
-  
 
   return (
     <main>
