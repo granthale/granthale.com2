@@ -10,8 +10,8 @@ const Pages = () => {
       <Link href="/influences" className="mt-3">
         influences
       </Link>
-      <Link href="/books" className="mt-3">
-        books
+      <Link href="/library" className="mt-3">
+        library
       </Link>
       <Link href="/about" className="mt-3">
         about

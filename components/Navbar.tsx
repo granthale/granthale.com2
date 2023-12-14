@@ -21,8 +21,8 @@ const Navbar = ({ home }: Props) => {
         influences
       </Link>
       <div className="border-r bg-black h-full mx-2"></div>
-      <Link href="/books" className={hover}>
-        books
+      <Link href="/library" className={hover}>
+        library
       </Link>
       {/* <div className="border-r bg-black h-full mx-2"></div>
       <Link href="/travel" className={hover}>

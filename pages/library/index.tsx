@@ -41,12 +41,12 @@ const books = ({
 
   return (
     <>
-      <Header page="books" />
+      <Header page="library" />
       <Layout>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className="flex justify-between">
             <div>
-              <h1 className="text-4xl font-extrabold">books!</h1>
+              <h1 className="text-4xl font-extrabold">library!</h1>
               <br />
               <p>
                 Some of the pages below will contain raw or structural notes.
