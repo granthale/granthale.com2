@@ -11,7 +11,7 @@ const Learning = () => {
       <br />
       <section>
         <h1 className="font-bold">Holy Grail</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://www.joshwaitzkin.com/the-art-of-learning"
@@ -27,7 +27,7 @@ const Learning = () => {
       <br />
       <section>
         <h1 className="font-bold text-xl">On Reading</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095"
@@ -74,7 +74,7 @@ const Learning = () => {
       <br />
       <section>
         <h1 className="font-bold text-xl">On Spaced Repetition</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="http://augmentingcognition.com/ltm.html"
@@ -132,7 +132,7 @@ const Learning = () => {
       <br />
       <section>
         <h1 className="font-bold">Tools for Thought</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://numinous.productions/tftt"
@@ -150,7 +150,7 @@ const Learning = () => {
       <br />
       <section>
         <h1 className="font-bold text-xl">Internet Corners</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://andymatuschak.org/"

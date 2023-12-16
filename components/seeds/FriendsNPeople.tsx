@@ -12,7 +12,7 @@ const FriendsNPeople = () => {
       <br />
       <section>
         <h1 className="font-bold">Internet-specific</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://guzey.com/how-to-make-friends-over-the-internet/#the-most-useful-post-on-networking-ive-ever-read"
@@ -29,7 +29,7 @@ const FriendsNPeople = () => {
       <br />
       <section>
         <h1 className="font-bold">General Advice</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://benjaminreinhardt.com/networking-for-nerds/"

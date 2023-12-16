@@ -12,7 +12,7 @@ const PyschNPerform = () => {
       <br />
       <section>
         <h1 className="font-bold">Performance</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://www.joshwaitzkin.com/the-art-of-learning"
@@ -29,7 +29,7 @@ const PyschNPerform = () => {
       <br />
       <section>
         <h1 className="font-bold">Productivity</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://jakobgreenfeld.com/personal-productivity"
@@ -56,7 +56,7 @@ const PyschNPerform = () => {
       <br />
       <section>
         <h1 className="font-bold">Emotional Understanding</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://www.thefriendlymind.com/3-things-about-anxiety-everyone-should-know/"
@@ -93,7 +93,7 @@ const PyschNPerform = () => {
       <br />
       <section>
         <h1 className="font-bold">Evolutionary</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a href="" target="_blank" rel="noopener noreferrer">
               The Elephant in the Brain by Simler & Hanson

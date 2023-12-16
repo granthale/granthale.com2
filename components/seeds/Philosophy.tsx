@@ -12,7 +12,7 @@ const Philosophy = () => {
       <br />
       <section>
         <h1 className="font-bold">Epistemology</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://en.wikipedia.org/wiki/The_Beginning_of_Infinity"
@@ -29,7 +29,7 @@ const Philosophy = () => {
       <br />
       <section>
         <h1 className="font-bold">Quality</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://www.amazon.in/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469"
@@ -66,7 +66,7 @@ const Philosophy = () => {
       <br />
       <section>
         <h1 className="font-bold">Misc</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://waitbutwhy.com/2014/12/what-makes-you-you.html"

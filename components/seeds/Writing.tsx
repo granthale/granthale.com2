@@ -17,7 +17,7 @@ const Writing = () => {
       <br />
       <section>
         <h1 className="font-bold">General Advice</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548"
@@ -54,7 +54,7 @@ const Writing = () => {
       <br />
       <section>
         <h1 className="font-bold">Digital Gardening & Zettelkasten</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://notes.andymatuschak.org/Evergreen_notes"
@@ -91,7 +91,7 @@ const Writing = () => {
       <br />
       <section>
         <h1 className="font-bold">Writing Online</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://guzey.com/personal/why-have-a-blog/"

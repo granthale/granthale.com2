@@ -12,7 +12,7 @@ const Career = () => {
       <br />
       <h1 className="font-bold">What To Work On</h1>
       <section>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="http://paulgraham.com/love.html"
@@ -60,7 +60,7 @@ const Career = () => {
       <br />
       <section>
         <h1 className="font-bold">General Principles</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html"

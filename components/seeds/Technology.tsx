@@ -11,7 +11,7 @@ const Technology = () => {
       <br />
       <section>
         <h1 className="font-bold">Future</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html"
@@ -48,7 +48,7 @@ const Technology = () => {
       <br />
       <section>
         <h1 className="font-bold">Today</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://kk.org/thetechnium/you-are-not-late/"

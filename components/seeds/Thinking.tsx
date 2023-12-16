@@ -12,7 +12,7 @@ const Thinking = () => {
       <br />
       <section>
         <h1 className="font-bold">Philosophical</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://theamericanscholar.org/solitude-and-leadership/"
@@ -29,7 +29,7 @@ const Thinking = () => {
       <br />
       <section>
         <h1 className="font-bold">Practical</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://notes.andymatuschak.org/It%E2%80%99s_hard_to_hear_yourself_think"
@@ -46,7 +46,7 @@ const Thinking = () => {
       <br />
       <section>
         <h1 className="font-bold">Brain Gymnasium</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://www.amazon.in/Thinking-Physics-Gedanken-Lewis-Epstein/dp/0935218084"

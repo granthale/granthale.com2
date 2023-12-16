@@ -16,7 +16,7 @@ const RabbitHoles = () => {
       <br />
       <section>
         <h1 className="font-bold">Biology</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://jsomers.net/i-should-have-loved-biology"
@@ -32,7 +32,7 @@ const RabbitHoles = () => {
       <br />
       <section>
         <h1 className="font-bold">Design</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="http://worrydream.com/LadderOfAbstraction/"
@@ -48,7 +48,7 @@ const RabbitHoles = () => {
       <br />
       <section>
         <h1 className="font-bold">Science & Physics</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://waitbutwhy.com/2016/03/sound.html"
@@ -71,10 +71,11 @@ const RabbitHoles = () => {
           </li>
         </ul>
       </section>
+
       <br />
       <section>
         <h1 className="font-bold">Game Theory</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://ncase.me/trust/"
@@ -87,10 +88,11 @@ const RabbitHoles = () => {
           </li>
         </ul>
       </section>
+
       <br />
       <section>
         <h1 className="font-bold">American History</h1>
-        <ul className="ml-4">
+        <ul className="pl-5 list-disc">
           <li>
             <a
               href="https://collabfund.com/blog/how-this-all-happened/"
