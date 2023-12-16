@@ -8,10 +8,10 @@
 
 /* Highlighting */
 ::selection {
-  background: #2563eb;
+  background: #22c55e;
 }
 ::-moz-selection {
-  background: #2563eb;
+  background: #22c55e;
 }
 
 /* Work-around for dark mode */

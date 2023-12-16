@@ -32,6 +32,16 @@ const Technology = () => {
           <ExternalArrow />
         </a>
       </li>
+      <li>
+        <a
+          href="https://waitbutwhy.com/2017/04/neuralink.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Neuralink and the Brain's Magical Future by Tim Urban
+          <ExternalArrow />
+        </a>
+      </li>
     </ul>
   );
 };

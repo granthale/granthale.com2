@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import { useState } from "react";
-import Curiosities from "../components/influences/Curiosities";
 import Learning from "../components/influences/Learning";
 import Default from "../components/influences/Default";
 import Writing from "../components/influences/Writing";
@@ -12,16 +11,19 @@ import Philosophy from "../components/influences/Philosophy";
 import Career from "../components/influences/Career";
 import Technology from "../components/influences/Technology";
 import Other from "../components/influences/Other";
+import Productivity from "../components/influences/Productivity";
+import EntryPoints from "../components/influences/EntryPoints";
 
-export default function Influences() {
+export default function Seeds() {
   const main_color = "text-violet";
   const subjects = [
-    "Curiosities",
+    "Entry Points",
     "Learning",
     "Writing",
     "Thinking",
     "Friends & People",
     "Psych & Performance",
+    "Productivity",
     "Philosophy",
     "Career",
     "Technology",
@@ -34,8 +36,8 @@ export default function Influences() {
 
   const renderContent = () => {
     switch (clicked) {
-      case "Curiosities":
-        return <Curiosities />;
+      case "Entry Points":
+        return <EntryPoints />;
       case "Learning":
         return <Learning />;
       case "Writing":
@@ -46,6 +48,8 @@ export default function Influences() {
         return <FriendsNPeople />;
       case "Psych & Performance":
         return <PyschNPerform />;
+      case "Productivity":
+        return <Productivity />;
       case "Philosophy":
         return <Philosophy />;
       case "Career":
@@ -53,7 +57,7 @@ export default function Influences() {
       case "Technology":
         return <Technology />;
       case "Other":
-        return <Other />
+        return <Other />;
       default:
         return <Default main_color={main_color} />;
     }
@@ -61,9 +65,11 @@ export default function Influences() {
 
   return (
     <>
-      <Header page="influences" />
+      <Header page="seeds" />
       <Layout>
-        <h1 className={`font-extrabold ${main_color} text-4xl`}>influences!</h1>
+        <h1 className={`font-extrabold ${main_color} text-4xl`}>
+          <a href="/seeds">seeds!</a>
+        </h1>
         <br />
         <div className="grid grid-cols-3 gap-4">
           <div className="text-xl">
@@ -71,7 +77,7 @@ export default function Influences() {
               {subjects.map((subject) => (
                 <li
                   key={subject}
-                  className={`hover:text-black hover:font-bold ${
+                  className={`hover:text-black hover:font-bold hover:cursor-pointer ${
                     subject === clicked ? "text-black font-bold" : ""
                   }`}
                   onClick={() => handleClick(subject)}

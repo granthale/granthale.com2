@@ -17,8 +17,8 @@ const Navbar = ({ home }: Props) => {
         writing
       </Link>
       <div className="border-r bg-black h-full mx-2"></div>
-      <Link href="/influences" className={hover}>
-        influences
+      <Link href="/seeds" className={hover}>
+        seeds
       </Link>
       <div className="border-r bg-black h-full mx-2"></div>
       <Link href="/library" className={hover}>

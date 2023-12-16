@@ -9,7 +9,7 @@ const Thinking = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Solitude and Leadership
+          Solitude and Leadership by William Deresiewicz
           <ExternalArrow />
         </a>
       </li>
@@ -19,7 +19,7 @@ const Thinking = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          It's hard to hear yourself think
+          It's hard to hear yourself think by Andy Matuschak
           <ExternalArrow />
         </a>
       </li>
@@ -29,7 +29,7 @@ const Thinking = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Thinking Physics
+          Thinking Physics by Lewis Caroll Epstein
           <ExternalArrow />
         </a>
       </li>

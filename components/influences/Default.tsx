@@ -25,8 +25,11 @@ const Default = (main_color) => {
           Click through to see them by category.
         </span>
       </p>
+
+      <br />
+      <p>If I had to choose a place to start, I would suggest:</p>
     </>
   );
-}
+};
 
-export default Default
+export default Default;

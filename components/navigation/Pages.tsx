@@ -7,7 +7,7 @@ const Pages = () => {
       <Link href="/writing" className="mt-3">
         writing
       </Link>
-      <Link href="/influences" className="mt-3">
+      <Link href="/seeds" className="mt-3">
         influences
       </Link>
       <Link href="/library" className="mt-3">
