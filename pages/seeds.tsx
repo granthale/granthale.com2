@@ -1,33 +1,29 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import { useState } from "react";
-import Learning from "../components/influences/Learning";
-import Default from "../components/influences/Default";
-import Writing from "../components/influences/Writing";
-import FriendsNPeople from "../components/influences/FriendsNPeople";
-import Thinking from "../components/influences/Thinking";
-import PyschNPerform from "../components/influences/PyschNPerform";
-import Philosophy from "../components/influences/Philosophy";
-import Career from "../components/influences/Career";
-import Technology from "../components/influences/Technology";
-import Other from "../components/influences/Other";
-import Productivity from "../components/influences/Productivity";
-import EntryPoints from "../components/influences/EntryPoints";
+import Learning from "../components/seeds/Learning";
+import Default from "../components/seeds/Default";
+import Writing from "../components/seeds/Writing";
+import FriendsNPeople from "../components/seeds/FriendsNPeople";
+import Thinking from "../components/seeds/Thinking";
+import PyschNPerform from "../components/seeds/PyschNPerform";
+import Philosophy from "../components/seeds/Philosophy";
+import Career from "../components/seeds/Career";
+import Technology from "../components/seeds/Technology";
+import RabbitHoles from "../components/seeds/RabbitHoles";
 
 export default function Seeds() {
   const main_color = "text-violet";
   const subjects = [
-    "Entry Points",
-    "Learning",
+    "Rabbit Holes",
+    "Learning to Learn",
     "Writing",
     "Thinking",
     "Friends & People",
     "Psych & Performance",
-    "Productivity",
     "Philosophy",
     "Career",
     "Technology",
-    "Other",
   ];
   const [clicked, setClicked] = useState();
   const handleClick = (subject) => {
@@ -36,9 +32,9 @@ export default function Seeds() {
 
   const renderContent = () => {
     switch (clicked) {
-      case "Entry Points":
-        return <EntryPoints />;
-      case "Learning":
+      case "Rabbit Holes":
+        return <RabbitHoles />;
+      case "Learning to Learn":
         return <Learning />;
       case "Writing":
         return <Writing />;
@@ -48,16 +44,12 @@ export default function Seeds() {
         return <FriendsNPeople />;
       case "Psych & Performance":
         return <PyschNPerform />;
-      case "Productivity":
-        return <Productivity />;
       case "Philosophy":
         return <Philosophy />;
       case "Career":
         return <Career />;
       case "Technology":
         return <Technology />;
-      case "Other":
-        return <Other />;
       default:
         return <Default main_color={main_color} />;
     }

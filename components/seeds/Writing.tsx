@@ -4,13 +4,14 @@ const Writing = () => {
   return (
     <>
       <p>
-        I started consistently writing in 2023 and it's been game changing. As
-        far as tools, I use{" "}
+        I started consistently writing in 2023 and it's been game changing. I
+        use{" "}
         <a href="https://obsidian.md" target="_blank" rel="noopener noreferrer">
           Obsidian
           <ExternalArrow />
         </a>{" "}
-        to maintain a Zettelkasten and an ongoing list of questions.
+        to maintain a Zettelkasten and an ongoing list of questions, and try to
+        write every day.
       </p>
 
       <br />

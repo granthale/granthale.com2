@@ -27,7 +27,10 @@ const Default = (main_color) => {
       </p>
 
       <br />
-      <p>If I had to choose a place to start, I would suggest:</p>
+      <p>
+        Let me know if you find anything you like, or there's anything that I
+        should check out!{" "}
+      </p>
     </>
   );
 };
