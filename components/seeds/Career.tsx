@@ -5,8 +5,7 @@ const Career = () => {
     <>
       <p>
         Most of us will spend anywhere from 50,000-150,000 hours of our life
-        working on something. For help making such an important decision, here's
-        some pieces I found useful.
+        working on something. Let's make it interesting.
       </p>
 
       <br />

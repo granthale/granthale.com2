@@ -3,7 +3,7 @@ import ExternalArrow from "../ExternalArrow";
 const RabbitHoles = () => {
   return (
     <>
-      <p>
+      <p className="font-bold">
         “I almost wish I hadn't gone down that rabbit-hole—and yet—and yet—it's
         rather curious, you know, this sort of life!”
       </p>
