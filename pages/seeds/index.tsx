@@ -3,7 +3,6 @@ import ExternalArrow from "../../components/ExternalArrow";
 import Seed from "../../components/Seed";
 
 export default function Seeds() {
-  const main_color = "text-violet";
 
   return (
     <>
@@ -14,7 +13,6 @@ export default function Seeds() {
           I like to think of{" "}
           <a
             href="https://www.mentalnodes.com/a-gardening-guide-for-your-mind"
-            className={`hover:${main_color} font-bold`}
             target="_blank"
             rel="noopener noreferrer"
           >

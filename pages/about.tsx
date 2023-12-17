@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import ExternalArrow from "../components/ExternalArrow";
 
 export default function About() {
-  const main_color = "text-neon-green";
+  const main_color = "text-blue";
 
   return (
     <>

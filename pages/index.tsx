@@ -23,7 +23,7 @@ export default function Home() {
         <div className="flex">
           <div className="text-xl mt-2">
             <p className="text-blue font-bold text-3xl">Hello friend, </p>
-            <p className="mt-4 text-neon-green">
+            <p className="mt-4 text-blue">
               <span className="font-bold">My name is Grant.</span> I'm a human
               being and a human doing.
             </p>
