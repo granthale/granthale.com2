@@ -38,6 +38,8 @@ const books = ({
     setSortedBooks(sorted);
   };
 
+  const main_color = "text-blue";
+
   return (
     <>
       <Header page="library" />
@@ -45,7 +47,7 @@ const books = ({
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className="flex justify-between text-xl">
             <div>
-              <h1 className="text-4xl font-extrabold">library!</h1>
+              <h1 className={`text-4xl font-extrabold ${main_color}`}>library!</h1>
               <br />
               <p>
                 Some of the pages below will contain raw or structural notes.

@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Seed = ({ children, selected }: Props) => {
-  const main_color = "text-violet";
+  const main_color = "text-neon-green";
 
   const subjects = [
     { title: "Rabbit Holes", link: "rabbit-holes" },
