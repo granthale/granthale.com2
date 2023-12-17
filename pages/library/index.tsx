@@ -47,7 +47,9 @@ const books = ({
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className="flex justify-between text-xl">
             <div>
-              <h1 className={`text-4xl font-extrabold ${main_color}`}>library!</h1>
+              <h1 className={`text-4xl font-extrabold ${main_color}`}>
+                library!
+              </h1>
               <br />
               <p>
                 Some of the pages below will contain raw or structural notes.
@@ -57,10 +59,13 @@ const books = ({
                 influenced my thinking.
               </p>
               <br />
-              <p>
+              <p className="font-bold">
                 Reach out if you'd like to know what I'm currently reading and
-                keep an eye on my <Link href="/influences">influences</Link>{" "}
-                tab.
+                keep an eye on my{" "}
+                <Link href="/seeds" className="font-bold">
+                  seeds
+                </Link>{" "}
+                tab!
               </p>
               <br />
               <div className="flex items-center">
@@ -93,7 +98,7 @@ const books = ({
             )
           )}
           <br />
-          <Link href="/influences">← For more</Link>
+          <Link href="/seeds">← For more</Link>
         </section>
       </Layout>
     </>
