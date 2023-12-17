@@ -9,6 +9,7 @@ export default function Seeds() {
     <>
       <Header page="seeds" />
       <Seed selected="">
+        <img src="/seed.png" className="float-left w-12 mr-8" alt="Seed" />
         <p>
           I like to think of{" "}
           <a
