@@ -5,7 +5,7 @@ import Seed from "../../components/Seed";
 const psychNPerform = () => (
   <>
     <Header page="seeds | psych & performance" />
-    <Seed>
+    <Seed selected="Psych & Performance">
       <p>
         Even though we spend 100% of our life in our own head, we tend to be "a
         stranger unto ourselves". These pieces, along with putting myself in new

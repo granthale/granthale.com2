@@ -6,7 +6,7 @@ const tech = () => {
   return (
     <>
       <Header page="seeds | technology" />
-      <Seed>
+      <Seed selected="Technology">
         <p>
           Technology is one of the most impactful, evolving fields in human
           history. Here's some food for thought.

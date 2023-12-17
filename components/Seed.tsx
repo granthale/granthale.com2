@@ -2,9 +2,13 @@ import Link from "next/link";
 import Layout from "./Layout";
 
 // Put main color back in original file
-// Add headers to each file
 
-const Seed = ({ children }) => {
+interface Props {
+  children: React.ReactNode;
+  selected: string;
+}
+
+const Seed = ({ children, selected }: Props) => {
   const main_color = "text-violet";
 
   const subjects = [
@@ -22,18 +26,27 @@ const Seed = ({ children }) => {
   return (
     <>
       <Layout>
-        <h1 className={`font-extrabold ${main_color} text-4xl`}>
-          <Link href="/seeds">seeds!</Link>
+        <h1>
+          <Link
+            href="/seeds"
+            className={`font-extrabold ${main_color} text-4xl`}
+          >
+            seeds!
+          </Link>
         </h1>
         <br />
         <div className="grid grid-cols-3 gap-4 text-xl">
           <ul>
             {subjects.map((subject) => (
-              <li
-                key={subject.title}
-                className="hover:text-black hover:font-bold hover:cursor-pointer"
-              >
-                <Link href={`/seeds/${subject.link}`}>{subject.title}</Link>
+              <li key={subject.title}>
+                <Link
+                  href={`/seeds/${subject.link}`}
+                  className={`${
+                    subject.title === selected ? "text-black font-bold" : ""
+                  }`}
+                >
+                  {subject.title}
+                </Link>
               </li>
             ))}
           </ul>

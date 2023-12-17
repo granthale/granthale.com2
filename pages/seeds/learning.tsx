@@ -6,7 +6,7 @@ const learning = () => {
   return (
     <>
       <Header page="seeds | learning" />
-      <Seed>
+      <Seed selected="Learning to Learn">
         <p>
           In the middle of 2023, I dove deep on learning to learn more
           effectively. Here are some of the most useful resources on the

@@ -6,7 +6,7 @@ const rabbitHoles = () => {
   return (
     <>
       <Header page="seeds | rabbit holes" />
-      <Seed>
+      <Seed selected="Rabbit Holes">
         <p className="font-bold">
           “I almost wish I hadn't gone down that rabbit-hole—and yet—and
           yet—it's rather curious, you know, this sort of life!”

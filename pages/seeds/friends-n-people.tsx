@@ -6,7 +6,7 @@ const friendsNPeople = () => {
   return (
     <>
       <Header page="seeds | friends & people" />
-      <Seed>
+      <Seed selected="Friends & People">
         <p>
           One of the beautiful byproducts of traveling through Asia was a
           greater appreciation for the people in my life. Here are some

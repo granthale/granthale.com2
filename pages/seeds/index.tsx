@@ -8,7 +8,7 @@ export default function Seeds() {
   return (
     <>
       <Header page="seeds" />
-      <Seed>
+      <Seed selected="">
         <p>
           I like to think of{" "}
           <a

@@ -7,7 +7,7 @@ const writing = () => {
   return (
     <>
       <Header page="seeds | writing" />
-      <Seed>
+      <Seed selected="Writing">
         <p>
           I started consistently writing in 2023 and it's been game changing. I
           use{" "}

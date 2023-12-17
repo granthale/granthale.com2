@@ -7,7 +7,7 @@ const career = () => {
   return (
     <>
       <Header page="seeds | career" />
-      <Seed>
+      <Seed selected="Career">
         <p>
           Most of us will spend anywhere from 50,000-150,000 hours of our life
           working on something. Let's make it interesting.

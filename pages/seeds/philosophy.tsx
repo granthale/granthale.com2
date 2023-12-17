@@ -6,7 +6,7 @@ const philosophy = () => {
   return (
     <>
       <Header page="seeds | philosophy" />
-      <Seed>
+      <Seed selected="Philosophy">
         <p>
           Historically I haven't given philosophy much of a chance, but as of
           late 2023, it's been one of my most frequented genres. Here are some

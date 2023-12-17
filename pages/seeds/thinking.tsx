@@ -6,7 +6,7 @@ const thinking = () => {
   return (
     <>
       <Header page="seeds | thinking" />
-      <Seed>
+      <Seed selected="Thinking">
         <p>
           Taking time to think every day is one of life's most underrated joys.
           Here are some of the pieces that have most influenced my *cough cough*
