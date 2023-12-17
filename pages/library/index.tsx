@@ -6,7 +6,6 @@ import Layout from "../../components/Layout";
 import BookCard from "../../components/cards/BookCard";
 import Link from "next/link";
 import { useState } from "react";
-import ExternalArrow from "../../components/ExternalArrow";
 
 const books = ({
   allBooksData,
@@ -44,7 +43,7 @@ const books = ({
       <Header page="library" />
       <Layout>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <div className="flex justify-between">
+          <div className="flex justify-between text-xl">
             <div>
               <h1 className="text-4xl font-extrabold">library!</h1>
               <br />

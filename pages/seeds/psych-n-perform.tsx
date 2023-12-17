@@ -1,8 +1,11 @@
-import ExternalArrow from "../ExternalArrow";
+import ExternalArrow from "../../components/ExternalArrow";
+import Header from "../../components/Header";
+import Seed from "../../components/Seed";
 
-const PyschNPerform = () => {
-  return (
-    <>
+const psychNPerform = () => (
+  <>
+    <Header page="seeds | psych & performance" />
+    <Seed>
       <p>
         Even though we spend 100% of our life in our own head, we tend to be "a
         stranger unto ourselves". These pieces, along with putting myself in new
@@ -102,8 +105,8 @@ const PyschNPerform = () => {
           </li>
         </ul>
       </section>
-    </>
-  );
-};
+    </Seed>
+  </>
+);
 
-export default PyschNPerform;
+export default psychNPerform;
