@@ -35,22 +35,29 @@ const Seed = ({ children, selected }: Props) => {
           </Link>
         </h1>
         <br />
-        <div className="grid grid-cols-3 gap-4 text-xl">
-          <ul>
-            {subjects.map((subject) => (
-              <li key={subject.title}>
-                <Link
-                  href={`/seeds/${subject.link}`}
-                  className={`${
-                    subject.title === selected ? "text-black font-bold" : ""
-                  }`}
-                >
-                  {subject.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <div className="col-span-2">{children}</div>
+        {/* WIP */}
+        <div className="hidden md:block">
+          <div className="grid grid-cols-3 gap-4 text-xl">
+            <ul>
+              {subjects.map((subject) => (
+                <li key={subject.title}>
+                  <Link
+                    href={`/seeds/${subject.link}`}
+                    className={`${
+                      subject.title === selected ? "text-black font-bold" : ""
+                    }`}
+                  >
+                    {subject.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <div className="col-span-2">{children}</div>
+          </div>
+        </div>
+        {/* WIP */}
+        <div className="block md:hidden text-xl font-bold">
+          Not currently available for mobile. Check back soon!
         </div>
       </Layout>
     </>
@@ -58,3 +65,4 @@ const Seed = ({ children, selected }: Props) => {
 };
 
 export default Seed;
+

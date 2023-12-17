@@ -8,7 +8,7 @@ const Pages = () => {
         writing
       </Link>
       <Link href="/seeds" className="mt-3">
-        influences
+        seeds
       </Link>
       <Link href="/library" className="mt-3">
         library
