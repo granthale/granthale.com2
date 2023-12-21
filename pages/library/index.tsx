@@ -209,7 +209,6 @@ const books = ({
                 </Link>{" "}
                 tab!
               </p>
-
               <br />
               <div className="flex items-center">
                 <p className="mr-4">Sort by:</p>
