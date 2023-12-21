@@ -57,23 +57,105 @@ const books = ({
     setSortedBooks(sorted);
   };
 
+  const returnBooksWRatings = (r) => {
+    return (
+      <>
+        {sortedBooks.map(({ id, title, dateFinished, rating }) => (
+          <div className="p-4 italic">
+            <p>{dateFinished}</p>
+            <BookCard key={id} title={title} id={id}></BookCard>
+          </div>
+        ))}
+      </>
+    );
+  };
+
   const returnBooks = () => {
     // Would this be better off in an API file? Yes...
     if (criteria === "rating") {
       return (
-        <section>
+        <>
           <br />
+          <h1 className="font-bold text-2xl">Rating: 10</h1>
           <div className="border"></div>
-          <h1 className="font-bold text-xl">Rating: 10</h1>
-        </section>
+          <br />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {returnBooksWRatings(10)}
+          </div>
+
+          <br />
+          <br />
+          <h1 className="font-bold text-2xl">Rating: 9</h1>
+          <div className="border"></div>
+          <br />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {returnBooksWRatings(9)}
+          </div>
+
+          <br />
+          <br />
+          <h1 className="font-bold text-2xl">Rating: 8</h1>
+          <div className="border"></div>
+          <br />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {returnBooksWRatings(8)}
+          </div>
+
+          <br />
+          <br />
+          <h1 className="font-bold text-2xl">Everything Else</h1>
+          <div className="border"></div>
+          <br />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {returnBooksWRatings(0)}
+          </div>
+        </>
       );
     }
-    return sortedBooks.map(({ id, title, dateFinished }) => (
-      <div className="p-4 italic">
-        <p>{dateFinished}</p>
-        <BookCard key={id} title={title} id={id}></BookCard>
-      </div>
-    ));
+    if (criteria === "recency") {
+      return (
+        <>
+          <br />
+          <h1 className="font-bold text-2xl">Current</h1>
+          <div className="border"></div>
+          <br />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {sortedBooks.map(({ id, title, dateFinished }) => (
+              <div className="p-4 italic">
+                <p>{dateFinished}</p>
+                <BookCard key={id} title={title} id={id}></BookCard>
+              </div>
+            ))}
+          </div>
+
+          <br />
+          <br />
+          <h1 className="font-bold text-2xl">Everything Else</h1>
+          <div className="border"></div>
+          <br />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {sortedBooks.map(({ id, title, dateFinished }) => (
+              <div className="p-4 italic">
+                <p>{dateFinished}</p>
+                <BookCard key={id} title={title} id={id}></BookCard>
+              </div>
+            ))}
+          </div>
+        </>
+      );
+    }
+    return (
+      <>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {sortedBooks.map(({ id, title, dateFinished }) => (
+            <div className="p-4 italic">
+              <p>{dateFinished}</p>
+              <BookCard key={id} title={title} id={id}></BookCard>
+            </div>
+          ))}
+        </div>
+      </>
+    );
   };
 
   const main_color = "text-blue";
@@ -123,11 +205,10 @@ const books = ({
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <br />
-            {/* Separate 10, 9, 8 from rest */}
-            {returnBooks()}
-          </div>
+          {/* Separate 10, 9, 8 from rest */}
+          <br />
+          {returnBooks()}
+
           <br />
           <Link href="/seeds">← For more, see my garden</Link>
         </section>
