@@ -3,7 +3,7 @@ interface Props {
 }
 
 const Unity = ({ children }: Props) => {
-  return <div className="border rounded-lg bg-sky-100 p-4">{children}</div>;
+  return <div className="border rounded-md p-4 text-xl">{children}</div>;
 };
 
 export default Unity;
