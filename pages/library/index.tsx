@@ -20,9 +20,28 @@ const books = ({
   }[];
 }) => {
   const [sortedBooks, setSortedBooks] = useState(allBooksData);
+  const [criteria, setCriteria] = useState("title");
+
+  function compareBooks(a, b) {
+    const isWIP = (date) => date === "WIP";
+
+    if (isWIP(a.dateFinished) && isWIP(b.dateFinished)) {
+      return 0; // Both are WIP, so order doesn't matter between them
+    } else if (isWIP(a.dateFinished)) {
+      return -1; // a is WIP, so it should be sorted after b
+    } else if (isWIP(b.dateFinished)) {
+      return 1; // b is WIP, so it should be sorted after a
+    } else {
+      // Your existing logic for comparing dates
+      return +new Date(b.dateFinished) - +new Date(a.dateFinished);
+    }
+  }
+
   const handleSortChange = (e) => {
     sortBooks(e.target.value);
+    setCriteria(e.target.value);
   };
+
   const sortBooks = (criteria) => {
     const sorted = [...sortedBooks].sort((a, b) => {
       if (criteria === "rating") {
@@ -30,12 +49,23 @@ const books = ({
       } else if (criteria === "title") {
         return a.title.localeCompare(b.title);
       } else if (criteria === "recency") {
-        return +new Date(b.dateFinished) - +new Date(a.dateFinished);
+        return compareBooks(a, b);
       } else {
         return 0;
       }
     });
     setSortedBooks(sorted);
+  };
+
+  const returnBooks = () => {
+    
+    // Would this be better off in an API file? Yes...
+    if (criteria === "rating") {
+      return <h1>Need to implement</h1>;
+    }
+    return sortedBooks.map(({ id, title }) => (
+      <BookCard key={id} title={title} id={id}></BookCard>
+    ));
   };
 
   const main_color = "text-blue";
@@ -67,6 +97,7 @@ const books = ({
                 </Link>{" "}
                 tab!
               </p>
+
               <br />
               <div className="flex items-center">
                 <p className="mr-4">Sort by:</p>
@@ -83,22 +114,14 @@ const books = ({
               </div>
             </div>
           </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <br />
+            {/* Separate 10, 9, 8 from rest */}
+            {returnBooks()}
+          </div>
           <br />
-          {sortedBooks.map(
-            ({ id, title, author, dateFinished, summary, rating }) => (
-              <BookCard
-                key={id}
-                title={title}
-                author={author}
-                dateFinished={dateFinished}
-                summary={summary}
-                rating={rating}
-                id={id}
-              ></BookCard>
-            )
-          )}
-          <br />
-          <Link href="/seeds">← For more</Link>
+          <Link href="/seeds">← For more, see my garden</Link>
         </section>
       </Layout>
     </>
