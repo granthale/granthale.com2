@@ -11,7 +11,7 @@ const BookCard = ({ title, id }: Props) => {
     <>
       <Link href={`/library/${id}`} style={{ borderBottom: "none" }}>
         <Image
-          className="p-4 hover:animate-pulse"
+          className="hover:animate-pulse"
           width={250}
           height={100}
           src={`/library/${id}.jpeg`}

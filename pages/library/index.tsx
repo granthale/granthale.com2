@@ -58,13 +58,21 @@ const books = ({
   };
 
   const returnBooks = () => {
-    
     // Would this be better off in an API file? Yes...
     if (criteria === "rating") {
-      return <h1>Need to implement</h1>;
+      return (
+        <section>
+          <br />
+          <div className="border"></div>
+          <h1 className="font-bold text-xl">Rating: 10</h1>
+        </section>
+      );
     }
-    return sortedBooks.map(({ id, title }) => (
-      <BookCard key={id} title={title} id={id}></BookCard>
+    return sortedBooks.map(({ id, title, dateFinished }) => (
+      <div className="p-4 italic">
+        <p>{dateFinished}</p>
+        <BookCard key={id} title={title} id={id}></BookCard>
+      </div>
     ));
   };
 
