@@ -20,7 +20,7 @@ const books = ({
   }[];
 }) => {
   const [sortedBooks, setSortedBooks] = useState(allBooksData);
-  const [criteria, setCriteria] = useState("title");
+  const [criteria, setCriteria] = useState("rating");
 
   function compareBooks(a, b) {
     const isWIP = (date) => date === "WIP";
@@ -58,14 +58,32 @@ const books = ({
   };
 
   const returnBooksWRatings = (r) => {
+    if (r === -1) {
+      return (
+        <>
+          {sortedBooks
+            .filter(
+              ({ rating }) => rating !== 10 && rating !== 9 && rating !== 8
+            )
+            .map(({ id, title, dateFinished }) => (
+              <div className="p-4 italic">
+                <p>{dateFinished}</p>
+                <BookCard key={id} title={title} id={id}></BookCard>
+              </div>
+            ))}
+        </>
+      );
+    }
     return (
       <>
-        {sortedBooks.map(({ id, title, dateFinished, rating }) => (
-          <div className="p-4 italic">
-            <p>{dateFinished}</p>
-            <BookCard key={id} title={title} id={id}></BookCard>
-          </div>
-        ))}
+        {sortedBooks
+          .filter(({ rating }) => rating === r)
+          .map(({ id, title, dateFinished }) => (
+            <div className="p-4 italic">
+              <p>{dateFinished}</p>
+              <BookCard key={id} title={title} id={id}></BookCard>
+            </div>
+          ))}
       </>
     );
   };
@@ -107,7 +125,7 @@ const books = ({
           <div className="border"></div>
           <br />
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {returnBooksWRatings(0)}
+            {returnBooksWRatings(-1)}
           </div>
         </>
       );
@@ -120,12 +138,14 @@ const books = ({
           <div className="border"></div>
           <br />
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {sortedBooks.map(({ id, title, dateFinished }) => (
-              <div className="p-4 italic">
-                <p>{dateFinished}</p>
-                <BookCard key={id} title={title} id={id}></BookCard>
-              </div>
-            ))}
+            {sortedBooks
+              .filter(({ dateFinished }) => dateFinished === "WIP")
+              .map(({ id, title, dateFinished }) => (
+                <div className="p-4 italic">
+                  <p>{dateFinished}</p>
+                  <BookCard key={id} title={title} id={id}></BookCard>
+                </div>
+              ))}
           </div>
 
           <br />
@@ -134,12 +154,14 @@ const books = ({
           <div className="border"></div>
           <br />
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {sortedBooks.map(({ id, title, dateFinished }) => (
-              <div className="p-4 italic">
-                <p>{dateFinished}</p>
-                <BookCard key={id} title={title} id={id}></BookCard>
-              </div>
-            ))}
+            {sortedBooks
+              .filter(({ dateFinished }) => dateFinished !== "WIP")
+              .map(({ id, title, dateFinished }) => (
+                <div className="p-4 italic">
+                  <p>{dateFinished}</p>
+                  <BookCard key={id} title={title} id={id}></BookCard>
+                </div>
+              ))}
           </div>
         </>
       );
@@ -193,13 +215,13 @@ const books = ({
                 <p className="mr-4">Sort by:</p>
                 <select
                   id="sorting"
-                  defaultValue="title"
+                  defaultValue="rating"
                   onChange={handleSortChange}
                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5"
                 >
-                  <option value="title">Title</option>
                   <option value="rating">Rating</option>
                   <option value="recency">Recency</option>
+                  <option value="title">Title</option>
                 </select>
               </div>
             </div>
@@ -210,7 +232,7 @@ const books = ({
           {returnBooks()}
 
           <br />
-          <Link href="/seeds">← For more, see my garden</Link>
+          <Link href="/seeds">← For more, see the garden</Link>
         </section>
       </Layout>
     </>
