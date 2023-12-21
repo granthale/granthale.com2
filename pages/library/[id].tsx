@@ -18,16 +18,16 @@ interface Book {
 export default function Book({ bookData }: { bookData: Book }) {
   return (
     <Layout>
-      <Header page={`books: ${bookData.title}`} />
+      <Header page={`library: ${bookData.title}`} />
       <article>
         <div className="md:flex md:justify-between">
           {/* Title, author, summary */}
           <div className="flex-grow">
             {/* Title and author */}
             <div>
-              <h1 className="font-bold text-violet text-3xl">
+              <h1 className="font-bold text-blue text-3xl">
                 {bookData.title}{" "}
-                <span className="text-violet text-2xl font-normal">
+                <span className="text-blue text-2xl font-normal">
                   by {bookData.author}
                 </span>
               </h1>
@@ -50,7 +50,7 @@ export default function Book({ bookData }: { bookData: Book }) {
             <br />
             <br />
             <img
-              src={`/books/${bookData.id}.jpeg`}
+              src={`/library/${bookData.id}.jpeg`}
               alt={`Cover of ${bookData.title}`}
               width={150}
             />
@@ -64,8 +64,8 @@ export default function Book({ bookData }: { bookData: Book }) {
       </article>
       <br />
       <br />
-      <Link className="text-violet text-xl" href="/books">
-        ← Back to books
+      <Link className="text-blue text-xl" href="/library">
+        ← Back to library
       </Link>
     </Layout>
   );
