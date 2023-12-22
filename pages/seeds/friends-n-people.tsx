@@ -12,6 +12,11 @@ const friendsNPeople = () => {
           greater appreciation for the people in my life. Here are some
           resources on how to be more intentional about relationships.
         </p>
+        <br />
+        <p>
+          "When you choose your friends today, you are choosing your habits
+          tomorrow." —James Clear
+        </p>
 
         <br />
         <section>
