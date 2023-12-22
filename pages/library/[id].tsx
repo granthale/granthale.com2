@@ -48,16 +48,6 @@ export default function Book({ bookData }: { bookData: Book }) {
             <br />
             {/* summary */}
           </div>
-          {/* image */}
-          <div className="flex-none md:ml-4">
-            <br />
-            <Image
-              src={`/library/${bookData.id}.jpeg`}
-              alt={`Cover of ${bookData.title}`}
-              width={150}
-              height={100}
-            />
-          </div>
           <br />
           <br />
         </div>
