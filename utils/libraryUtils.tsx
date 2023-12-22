@@ -38,8 +38,8 @@ export const returnBooksWRatings = (sortedBooks, r) => {
         {sortedBooks
           .filter(({ rating }) => rating !== 10 && rating !== 9 && rating !== 8)
           .map(({ id, title, dateFinished }) => (
-            <div className="p-4 italic">
-              <p>{dateFinished}</p>
+            <div className="p-4">
+              <p className="italic">{dateFinished}</p>
               <BookCard key={id} title={title} id={id}></BookCard>
             </div>
           ))}
