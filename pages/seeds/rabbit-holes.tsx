@@ -23,6 +23,16 @@ const rabbitHoles = () => {
           <ul className="pl-5 list-disc">
             <li>
               <a
+                href="https://en.wikipedia.org/wiki/The_Selfish_Gene"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                The Selfish Gene by Richard Dawkins
+                <ExternalArrow />
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://jsomers.net/i-should-have-loved-biology"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,6 +43,7 @@ const rabbitHoles = () => {
             </li>
           </ul>
         </section>
+
         <br />
         <section>
           <h1 className="font-bold">Design</h1>

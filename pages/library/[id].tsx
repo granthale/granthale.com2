@@ -4,6 +4,8 @@ import Link from "next/link";
 import Text from "../../components/Text";
 import Header from "../../components/Header";
 import { getAllIds, getData } from "../../utils/usePosts";
+import Unity from "../../components/mdx/Unity";
+import Image from "next/image";
 
 interface Book {
   title: string;
@@ -18,41 +20,42 @@ interface Book {
 export default function Book({ bookData }: { bookData: Book }) {
   return (
     <Layout>
-      <Header page={`books: ${bookData.title}`} />
+      <Header page={`library: ${bookData.title}`} />
       <article>
         <div className="md:flex md:justify-between">
           {/* Title, author, summary */}
           <div className="flex-grow">
             {/* Title and author */}
             <div>
-              <h1 className="font-bold text-violet text-3xl">
+              <h1 className="font-bold text-blue text-3xl">
                 {bookData.title}{" "}
-                <span className="text-violet text-2xl font-normal">
+                <span className="text-blue text-2xl font-normal">
                   by {bookData.author}
                 </span>
               </h1>
               <br />
-              <div className="md:flex md:justify-between">
-                <h2 className="font-light text-2xl">
-                  Rating: {bookData.rating}/10
-                </h2>
-                <h2 className="font-light text-2xl">
-                  Date Finished: {bookData.dateFinished}
-                </h2>
-              </div>
+              <Unity>
+                <div className="md:flex md:justify-between">
+                  <h2 className="text-2xl">Rating: {bookData.rating}/10</h2>
+                  <h2 className="font text-2xl">
+                    Date Finished: {bookData.dateFinished}
+                  </h2>
+                </div>
+                <br />
+                <div className="font-bold">{bookData.summary}</div>
+              </Unity>
             </div>
             <br />
             {/* summary */}
-            <p className="text-xl font-bold">{bookData.summary}</p>
           </div>
           {/* image */}
           <div className="flex-none md:ml-4">
             <br />
-            <br />
-            <img
-              src={`/books/${bookData.id}.jpeg`}
+            <Image
+              src={`/library/${bookData.id}.jpeg`}
               alt={`Cover of ${bookData.title}`}
               width={150}
+              height={100}
             />
           </div>
           <br />
@@ -64,8 +67,8 @@ export default function Book({ bookData }: { bookData: Book }) {
       </article>
       <br />
       <br />
-      <Link className="text-violet text-xl" href="/books">
-        ← Back to books
+      <Link className="text-blue text-xl" href="/library">
+        ← Back to library
       </Link>
     </Layout>
   );

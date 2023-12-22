@@ -28,20 +28,28 @@ export default function Home() {
               being and a human doing.
             </p>
             <br />
-            <p>Most of all, I'm asking questions.</p>
+            <p>But most of all, I'm a human asking.</p>
             <br />
             <p>
-              Questions about what? Well, ~83% of them are about science,
-              entrepreneurship, thinking, and learning. The other 17% are mostly
-              covered by history, computers, and wellbeing.
+              Asking about what? Well, ~83% of the time about science,
+              entrepreneurship, thinking, and history. The other 17% is mostly
+              covered by technology, philosophy, and wellbeing.
             </p>
             <br />
             <p>
-              Check out my{" "}
+              Check out the{" "}
               <Link className="" href="/about">
                 about
               </Link>{" "}
-              page to learn more!
+              page to learn about me, and the{" "}
+              <Link className="" href="/seeds">
+                seeds
+              </Link>{" "}
+              and{" "}
+              <Link className="" href="/library">
+                library
+              </Link>{" "}
+              pages to see what influences my thinking!
             </p>
             <br />
             <div className="text-blue font-bold">
