@@ -30,12 +30,12 @@ const podcast = ({ pods }: { pods: Podcast[] }) => {
     <>
       <Header page="podcast" />
       <Layout>
-        <div className="text-neon-green font-extrabold text-4xl">podcast!</div>
+        <div className="text-blue font-extrabold text-4xl">podcast!</div>
         <br />
         <div className="text-xl">
           <span className="font-bold">
             <a
-              className="text-neon-green font-bold hover:text-black"
+              className="text-neon-green font-bold"
               href="https://surfacetensionpod.substack.com"
               target="_blank"
               rel="noopener noreferrer"
