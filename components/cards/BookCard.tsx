@@ -12,9 +12,9 @@ const BookCard = ({ title, id }: Props) => {
       <Link href={`/library/${id}`} style={{ borderBottom: "none" }}>
         <Image
           className="hover:animate-pulse"
+          src={`/library/${id}.jpeg`}
           width={250}
           height={100}
-          src={`/library/${id}.jpeg`}
           alt={`Cover of ${title}`}
         />
       </Link>
