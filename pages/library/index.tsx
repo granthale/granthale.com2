@@ -78,7 +78,7 @@ const books = ({
           {returnBooks(sortedBooks, criteria)}
 
           <br />
-          <Link href="/seeds">← For more, see the garden</Link>
+          <Link href="/seeds">← For more, see my seeds</Link>
         </section>
       </Layout>
     </>
