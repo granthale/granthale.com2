@@ -30,32 +30,43 @@ export function compareBooks(a, b) {
   }
 }
 
-
 export const returnBooksWRatings = (sortedBooks, r) => {
   if (r === -1) {
     return (
       <>
-        {sortedBooks
-          .filter(({ rating }) => rating !== 10 && rating !== 9 && rating !== 8)
-          .map(({ id, title, dateFinished }) => (
-            <div className="p-4">
-              <p className="italic">{dateFinished}</p>
-              <BookCard key={id} title={title} id={id}></BookCard>
-            </div>
-          ))}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {sortedBooks
+            .filter(
+              ({ rating }) => rating !== 10 && rating !== 9 && rating !== 8
+            )
+            .map(({ id, title, dateFinished }) => (
+              <BookCard
+                key={id}
+                title={title}
+                id={id}
+                dateFinished={dateFinished}
+              ></BookCard>
+            ))}
+        </div>
       </>
     );
   }
   return (
     <>
-      {sortedBooks
-        .filter(({ rating }) => rating === r)
-        .map(({ id, title, dateFinished }) => (
-          <div className="p-4 italic">
-            <p>{dateFinished}</p>
-            <BookCard key={id} title={title} id={id}></BookCard>
-          </div>
-        ))}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {sortedBooks
+          .filter(({ rating }) => rating === r)
+          .map(({ id, title, dateFinished }) => (
+            <div className="p-4" key={id}>
+              <BookCard
+                key={id}
+                title={title}
+                id={id}
+                dateFinished={dateFinished}
+              ></BookCard>
+            </div>
+          ))}
+      </div>
     </>
   );
 };
@@ -69,36 +80,28 @@ export const returnBooks = (sortedBooks, criteria) => {
         <h1 className="font-bold text-2xl">Rating: 10</h1>
         <div className="border"></div>
         <br />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {returnBooksWRatings(sortedBooks, 10)}
-        </div>
+        {returnBooksWRatings(sortedBooks, 10)}
 
         <br />
         <br />
         <h1 className="font-bold text-2xl">Rating: 9</h1>
         <div className="border"></div>
         <br />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {returnBooksWRatings(sortedBooks, 9)}
-        </div>
+        {returnBooksWRatings(sortedBooks, 9)}
 
         <br />
         <br />
         <h1 className="font-bold text-2xl">Rating: 8</h1>
         <div className="border"></div>
         <br />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {returnBooksWRatings(sortedBooks, 8)}
-        </div>
+        {returnBooksWRatings(sortedBooks, 8)}
 
         <br />
         <br />
         <h1 className="font-bold text-2xl">Everything Else</h1>
         <div className="border"></div>
         <br />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {returnBooksWRatings(sortedBooks, -1)}
-        </div>
+        {returnBooksWRatings(sortedBooks, -1)}
       </>
     );
   }
@@ -113,9 +116,13 @@ export const returnBooks = (sortedBooks, criteria) => {
           {sortedBooks
             .filter(({ dateFinished }) => dateFinished === "WIP")
             .map(({ id, title, dateFinished }) => (
-              <div className="p-4 italic">
-                <p>{dateFinished}</p>
-                <BookCard key={id} title={title} id={id}></BookCard>
+              <div className="p-4" key={id}>
+                <BookCard
+                  key={id}
+                  title={title}
+                  id={id}
+                  dateFinished={dateFinished}
+                ></BookCard>
               </div>
             ))}
         </div>
@@ -129,9 +136,13 @@ export const returnBooks = (sortedBooks, criteria) => {
           {sortedBooks
             .filter(({ dateFinished }) => dateFinished !== "WIP")
             .map(({ id, title, dateFinished }) => (
-              <div className="p-4 italic">
-                <p>{dateFinished}</p>
-                <BookCard key={id} title={title} id={id}></BookCard>
+              <div className="p-4" key={id}>
+                <BookCard
+                  key={id}
+                  title={title}
+                  id={id}
+                  dateFinished={dateFinished}
+                ></BookCard>
               </div>
             ))}
         </div>
@@ -142,9 +153,13 @@ export const returnBooks = (sortedBooks, criteria) => {
     <>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {sortedBooks.map(({ id, title, dateFinished }) => (
-          <div className="p-4 italic">
-            <p>{dateFinished}</p>
-            <BookCard key={id} title={title} id={id}></BookCard>
+          <div className="p-4" key={id}>
+            <BookCard
+              key={id}
+              title={title}
+              id={id}
+              dateFinished={dateFinished}
+            ></BookCard>
           </div>
         ))}
       </div>
