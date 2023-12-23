@@ -1,11 +1,14 @@
-import utilStyles from "../../styles/utils.module.css";
+"use client";
+
 import { GetStaticProps } from "next";
-import { getSortedData } from "../../utils/usePosts";
-import Header from "../../components/Header";
-import Layout from "../../components/Layout";
 import Link from "next/link";
 import { useState } from "react";
-import { returnBooks, sortBooks } from "../../utils/libraryUtils";
+
+import Header from "../../components/Header";
+import utilStyles from "../../styles/utils.module.css";
+import { getSortedData } from "../../utils/usePosts";
+import Layout from "../../components/Layout";
+import { returnBooksWFormatting, sortBooks } from "../../utils/libraryUtils";
 
 const books = ({
   allBooksData,
@@ -70,9 +73,9 @@ const books = ({
             </div>
           </div>
 
-          {/* Separate 10, 9, 8 from rest */}
           <br />
-          {returnBooks(sortedBooks, criteria)}
+          {returnBooksWFormatting(sortedBooks, criteria)}
+
           <br />
           <Link href="/seeds">← For more, see my seeds</Link>
         </section>

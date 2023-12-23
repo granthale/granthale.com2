@@ -73,8 +73,8 @@ export const returnBooksGrid = (sortedBooks, r) => {
   );
 };
 
-export const returnBooks = (sortedBooks, criteria) => {
-  // Would this be better off in an API file? Yes...
+export const returnBooksWFormatting = (sortedBooks, criteria) => {
+  // Would this be better off in an API file? 
   if (criteria === "rating") {
     return (
       <>
@@ -135,7 +135,8 @@ export const returnBooks = (sortedBooks, criteria) => {
       </>
     );
   }
-  return ( // else
+  return (
+    // else
     <>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {sortedBooks.map(({ id, title, dateFinished }) => (
