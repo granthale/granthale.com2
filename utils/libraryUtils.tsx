@@ -7,7 +7,7 @@ export const sortBooks = (sortedBooks, setSortedBooks, criteria) => {
     } else if (criteria === "title") {
       return a.title.localeCompare(b.title);
     } else if (criteria === "recency") {
-      return compareBooks(a, b);
+      return sortByRecency(a, b);
     } else {
       return 0;
     }
@@ -15,7 +15,7 @@ export const sortBooks = (sortedBooks, setSortedBooks, criteria) => {
   setSortedBooks(sorted);
 };
 
-export function compareBooks(a, b) {
+export function sortByRecency(a, b) {
   const isWIP = (date) => date === "WIP";
 
   if (isWIP(a.dateFinished) && isWIP(b.dateFinished)) {
@@ -30,7 +30,7 @@ export function compareBooks(a, b) {
   }
 }
 
-export const returnBooksWRatings = (sortedBooks, r) => {
+export const returnBooksGrid = (sortedBooks, r) => {
   if (r === -1) {
     return (
       <>
@@ -40,12 +40,14 @@ export const returnBooksWRatings = (sortedBooks, r) => {
               ({ rating }) => rating !== 10 && rating !== 9 && rating !== 8
             )
             .map(({ id, title, dateFinished }) => (
-              <BookCard
-                key={id}
-                title={title}
-                id={id}
-                dateFinished={dateFinished}
-              ></BookCard>
+              <div className="p-4" key={id}>
+                <BookCard
+                  key={id}
+                  title={title}
+                  id={id}
+                  dateFinished={dateFinished}
+                ></BookCard>
+              </div>
             ))}
         </div>
       </>
@@ -76,42 +78,29 @@ export const returnBooks = (sortedBooks, criteria) => {
   if (criteria === "rating") {
     return (
       <>
-        <br />
-        <h1 className="font-bold text-2xl">Rating: 10</h1>
-        <div className="border"></div>
-        <br />
-        {returnBooksWRatings(sortedBooks, 10)}
+        <h1 className="font-bold text-2xl mt-4">Rating: 10</h1>
+        <div className="border mb-4"></div>
+        {returnBooksGrid(sortedBooks, 10)}
 
-        <br />
-        <br />
-        <h1 className="font-bold text-2xl">Rating: 9</h1>
-        <div className="border"></div>
-        <br />
-        {returnBooksWRatings(sortedBooks, 9)}
+        <h1 className="font-bold text-2xl mt-8">Rating: 9</h1>
+        <div className="border mb-4"></div>
+        {returnBooksGrid(sortedBooks, 9)}
 
-        <br />
-        <br />
-        <h1 className="font-bold text-2xl">Rating: 8</h1>
-        <div className="border"></div>
-        <br />
-        {returnBooksWRatings(sortedBooks, 8)}
+        <h1 className="font-bold text-2xl mt-8">Rating: 8</h1>
+        <div className="border mb-4"></div>
+        {returnBooksGrid(sortedBooks, 8)}
 
-        <br />
-        <br />
-        <h1 className="font-bold text-2xl">Everything Else</h1>
-        <div className="border"></div>
-        <br />
-        {returnBooksWRatings(sortedBooks, -1)}
+        <h1 className="font-bold text-2xl mt-8">Everything Else</h1>
+        <div className="border mb-4"></div>
+        {returnBooksGrid(sortedBooks, -1)}
       </>
     );
   }
   if (criteria === "recency") {
     return (
       <>
-        <br />
-        <h1 className="font-bold text-2xl">Current</h1>
-        <div className="border"></div>
-        <br />
+        <h1 className="font-bold text-2xl mt-4">Current</h1>
+        <div className="border mb-4"></div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {sortedBooks
             .filter(({ dateFinished }) => dateFinished === "WIP")
@@ -127,11 +116,8 @@ export const returnBooks = (sortedBooks, criteria) => {
             ))}
         </div>
 
-        <br />
-        <br />
-        <h1 className="font-bold text-2xl">Everything Else</h1>
-        <div className="border"></div>
-        <br />
+        <h1 className="font-bold text-2xl mb-4">Everything Else</h1>
+        <div className="border mb-4"></div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {sortedBooks
             .filter(({ dateFinished }) => dateFinished !== "WIP")
@@ -149,7 +135,7 @@ export const returnBooks = (sortedBooks, criteria) => {
       </>
     );
   }
-  return (
+  return ( // else
     <>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {sortedBooks.map(({ id, title, dateFinished }) => (

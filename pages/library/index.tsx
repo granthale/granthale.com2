@@ -36,19 +36,17 @@ const books = ({
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <div className="flex justify-between text-xl">
             <div>
-              <h1 className={`text-4xl font-extrabold ${main_color}`}>
+              <h1 className={`text-4xl font-extrabold ${main_color} mb-4`}>
                 library!
               </h1>
-              <br />
-              <p>
+              <p className="mb-4">
                 Some of the pages below will contain raw or structural notes.
                 Every one will contain the book's unity and my personal rating.
                 The rating is an approximation of how often I find myself
                 revisiting the books's ideas, and how much the book has
                 influenced my thinking.
               </p>
-              <br />
-              <p className="font-bold">
+              <p className="font-bold mb-4">
                 Reach out if you'd like to know what I'm currently reading and
                 keep an eye on my{" "}
                 <Link href="/seeds" className="font-bold">
@@ -56,7 +54,6 @@ const books = ({
                 </Link>{" "}
                 tab!
               </p>
-              <br />
               <div className="flex items-center">
                 <p className="mr-4">Sort by:</p>
                 <select
@@ -76,7 +73,6 @@ const books = ({
           {/* Separate 10, 9, 8 from rest */}
           <br />
           {returnBooks(sortedBooks, criteria)}
-
           <br />
           <Link href="/seeds">← For more, see my seeds</Link>
         </section>
