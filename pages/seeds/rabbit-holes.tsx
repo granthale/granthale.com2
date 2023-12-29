@@ -16,21 +16,10 @@ const rabbitHoles = () => {
           Below are some of the most interesting, curiosity-inducing entry
           points that I've found and the fields that they relate to.
         </p>
-
         <br />
         <section>
           <h1 className="font-bold">Biology</h1>
           <ul className="pl-5 list-disc">
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/The_Selfish_Gene"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                The Selfish Gene by Richard Dawkins
-                <ExternalArrow />
-              </a>
-            </li>
             <li>
               <a
                 href="https://jsomers.net/i-should-have-loved-biology"
@@ -41,9 +30,18 @@ const rabbitHoles = () => {
                 <ExternalArrow />
               </a>
             </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/The_Selfish_Gene"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                The Selfish Gene by Richard Dawkins
+                <ExternalArrow />
+              </a>
+            </li>
           </ul>
         </section>
-
         <br />
         <section>
           <h1 className="font-bold">Design</h1>
@@ -96,7 +94,6 @@ const rabbitHoles = () => {
             </li>
           </ul>
         </section>
-
         <br />
         <section>
           <h1 className="font-bold">Game Theory</h1>
@@ -113,7 +110,6 @@ const rabbitHoles = () => {
             </li>
           </ul>
         </section>
-
         <br />
         <section>
           <h1 className="font-bold">American History</h1>
@@ -135,6 +131,33 @@ const rabbitHoles = () => {
                 rel="noopener noreferrer"
               >
                 Lies My Teacher Told Me by James W. Loewen
+                <ExternalArrow />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=BShvYeyMm_Y&t=1s"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                How America became a superpower by Vox
+                <ExternalArrow />
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <br />
+        <section>
+          <h1 className="font-bold">Inequality</h1>
+          <ul className="pl-5 list-disc">
+            <li>
+              <a
+                href="https://unequalscenes.com/projects"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Unequal Scenes
                 <ExternalArrow />
               </a>
             </li>

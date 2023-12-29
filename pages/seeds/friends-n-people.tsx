@@ -13,7 +13,7 @@ const friendsNPeople = () => {
           resources on how to be more intentional about relationships.
         </p>
         <br />
-        <p>
+        <p className="font-bold">
           "When you choose your friends today, you are choosing your habits
           tomorrow." —James Clear
         </p>

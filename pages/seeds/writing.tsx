@@ -19,7 +19,7 @@ const writing = () => {
             Obsidian
             <ExternalArrow />
           </a>{" "}
-          to maintain a Zettelkasten and an ongoing list of questions, and try
+          to maintain a Zettelkasten and an ongoing list of questions, and aim
           to write every day.
         </p>
 
