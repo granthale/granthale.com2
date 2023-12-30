@@ -2,6 +2,7 @@
 title: 'Beginning of Infinity'
 author: 'David Deutsch'
 dateFinished: 'WIP'
-summary: 'The fundamental unit of understanding is explanation. These explanations can be the beginning of infinite knowledge. Infinite because humans are universal explainers. However, proper conditions of continuous conjecture and critique are required. Fallibilism is the mindset that leads to these conditions.'
-rating: 9
+
+summary: "Knowledge acquisition is a 'beginning of infinity'. However, for that to be the case, Popperian conditions of continuous creativity and criticisim are required. Fallibilism is the mindset that leads to these. More broadly, science is explanation, not experimentation."
+rating: 10
 ---
