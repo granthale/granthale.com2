@@ -149,8 +149,19 @@ const rabbitHoles = () => {
 
         <br />
         <section>
-          <h1 className="font-bold">Inequality</h1>
+          <h1 className="font-bold">Misc</h1>
           <ul className="pl-5 list-disc">
+            <li>
+              <a
+                href="https://patrickcollison.com/bookshelf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pat Collison's Bookshelf
+                <ExternalArrow />
+              </a>
+            </li>
+
             <li>
               <a
                 href="https://unequalscenes.com/projects"

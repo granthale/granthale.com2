@@ -15,7 +15,7 @@ const philosophy = () => {
 
         <br />
         <section>
-          <h1 className="font-bold">Epistemology</h1>
+          <h1 className="font-bold">Philosophy of Science</h1>
           <ul className="pl-5 list-disc">
             <li>
               <a
@@ -24,6 +24,16 @@ const philosophy = () => {
                 rel="noopener noreferrer"
               >
                 The Beginning of Infinity by David Deutsch
+                <ExternalArrow />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.bretthall.org/fallibilism.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Brett Hall's Website
                 <ExternalArrow />
               </a>
             </li>

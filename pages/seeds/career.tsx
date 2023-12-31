@@ -40,6 +40,28 @@ const career = () => {
 
             <li>
               <a
+                href="https://marginalrevolution.com/marginalrevolution/2019/12/work-on-these-things.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Work on these things by Tyler Cowen
+                <ExternalArrow />
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://patrickcollison.com/questions"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Questions by Patrick Collison
+                <ExternalArrow />
+              </a>
+            </li>
+
+            <li>
+              <a
                 href="https://medium.com/@lukeclancy6/problems-worth-fighting-for-eaeb1fe0b1e3"
                 target="_blank"
                 rel="noopener noreferrer"

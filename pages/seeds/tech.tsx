@@ -51,7 +51,7 @@ const tech = () => {
 
         <br />
         <section>
-          <h1 className="font-bold">Today</h1>
+          <h1 className="font-bold">Present</h1>
           <ul className="pl-5 list-disc">
             <li>
               <a
@@ -60,6 +60,16 @@ const tech = () => {
                 rel="noopener noreferrer"
               >
                 You Are Not Late by Kevin Kelly
+                <ExternalArrow />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://stratechery.com/2023/ai-and-the-big-five/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                AI and the Big Five by Stratechery
                 <ExternalArrow />
               </a>
             </li>
