@@ -79,7 +79,11 @@ const learning = () => {
         <br />
         <section>
           <h1 className="font-bold text-xl">On Spaced Repetition</h1>
-          <ul className="pl-5 list-disc">
+          <p>
+            Using spaced repetition software (SRS) for general knowledge
+            acquisition is a more dynamic version of note taking.
+          </p>
+          <ul className="mt-4 pl-5 list-disc">
             <li>
               <a
                 href="http://augmentingcognition.com/ltm.html"

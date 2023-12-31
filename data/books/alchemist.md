@@ -2,7 +2,7 @@
 title: 'Alchemist'
 author: 'Paulo Coelho'
 dateFinished: '2023-08-15'
-summary: 'A shepherd boy struggles to follow his dreams. He's consistently presented with challenges and works to overcome them.'
+summary: "A shepherd boy struggles to follow his dreams. He's consistently presented with challenges and works to overcome them."
 rating: 7
 ---
 
@@ -69,7 +69,7 @@ rating: 7
 >
 > “He asked that when he wandered far away from his dreams, his heart press him and sound the alarm. The boy sowre that, every time he heard the alarm, he would heed it’s message” (pg 132)
 >
-> “Thats what alchemists do. They show that when we strive to become betteer than we are, everything around us becomes better too” (pg 15)
+> “Thats what alchemists do. They show that when we strive to become better than we are, everything around us becomes better too” (pg 15)
 >
 > “Everything that happens once can never happen again. But everything that happens twice will surely happen a third time.” (pg 156)
 >

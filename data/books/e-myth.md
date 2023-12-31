@@ -2,7 +2,7 @@
 title: 'E-Myth Revisited'
 author: 'Michael E. Gerber'
 dateFinished: 'WIP'
-summary: 'Gerber diagnoses the problems that most entrpreneurs run into when first operating a business. He then provides a useful framework for thinking about how to manage oneself and growth into the future.'
+summary: 'To run a successful small business, one must balance the roles of technician, entrepeneur, and manager. Many people overindex on the role of technician.'
 rating: 8
 ---
 

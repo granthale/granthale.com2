@@ -43,11 +43,11 @@ const books = ({
                 library!
               </h1>
               <p className="mb-4">
-                Some of the pages below will contain raw or structural notes.
-                Every one will contain the book's unity and my personal rating.
-                The rating is an approximation of how often I find myself
-                revisiting the books's ideas, and how much the book has
-                influenced my thinking.
+                Each book will contain the book's unity and my personal rating
+                along with notes of various kinds. The{" "}
+                <span className="font-bold">unity</span> refers to the essence
+                of the book. My <span className="font-bold">rating</span>{" "}
+                approximates how often I revisit the books's ideas.
               </p>
               <p className="font-bold mb-4">
                 Reach out if you'd like to know what I'm currently reading and

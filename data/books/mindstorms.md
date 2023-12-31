@@ -2,10 +2,7 @@
 title: 'Mindstorms'
 author: 'Seymour Papert'
 dateFinished: '2023-10-20'
-summary: 'In the spirit of Jean Piaget, Papert argues that many subjects are difficult to learn because their foundations are not available to us in everyday life. He shows how computers (and the LOGO programming language) can be used to fill that gap. Beyond subjects, he shows how working with computers and their accompanying language can enable a more effective approach to learning'
+summary: "Many subjects are hard to learn because they aren't accessible or relevant in our everyday experience. Computers and simple programming languages can be a powerful means of doing so. Beyond providing inroads to certain subjects, programming can also be a tool to learn how to learn more effectively."
 rating: 10
 ---
-
-### Reaction
-
 One of my all time favorite books. Papert's fascination with better ways to learn deeply resonates with me.
