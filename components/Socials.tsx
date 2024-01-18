@@ -16,11 +16,6 @@ const Socials = ({ menu }: Props) => {
       icon: <FaTwitter size={icon_size} />,
     },
     {
-      name: "LinkedIn",
-      link: "https://www.linkedin.com/in/grantrhale/",
-      icon: <FaLinkedin size={icon_size} />,
-    },
-    {
       name: "Github",
       link: "https://github.com/granthale",
       icon: <FaGithub size={icon_size} />,
@@ -29,6 +24,17 @@ const Socials = ({ menu }: Props) => {
       name: "Email",
       link: "mailto:g@granthale.com",
       icon: <AiTwotoneMail size={icon_size} />,
+    },
+    {
+      name: "Kernel",
+      link: "https://www.kernel.community/en/",
+      icon: (
+        <img
+          src="/images/kernel_heart.png"
+          alt="Kernel"
+          style={{ width: icon_size, height: icon_size }}
+        />
+      ),
     },
     {
       name: "RSS",
