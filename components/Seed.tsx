@@ -20,6 +20,7 @@ const Seed = ({ children, selected }: Props) => {
     { title: "Psych & Performance", link: "psych-n-perform" },
     { title: "Philosophy", link: "philosophy" },
     { title: "Career", link: "career" },
+    { title: "Entrepreneurship", link: "entrepreneurship" },
     { title: "Technology", link: "tech" },
   ];
 
@@ -45,7 +46,7 @@ const Seed = ({ children, selected }: Props) => {
                     href={`/seeds/${subject.link}`}
                     className={`${
                       subject.title === selected
-                        ? "text-black dark:text-white font-bold"
+                        ? "font-bold"
                         : ""
                     }`}
                   >
