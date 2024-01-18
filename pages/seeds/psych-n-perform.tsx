@@ -18,12 +18,9 @@ const psychNPerform = () => (
         <ul className="pl-5 list-disc">
           <li>
             <a
-              href="https://www.joshwaitzkin.com/the-art-of-learning"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/library/art-of-learning"
             >
               The Art of Learning by Josh Waitzkin
-              <ExternalArrow />
             </a>
           </li>
         </ul>
@@ -33,6 +30,16 @@ const psychNPerform = () => (
       <section>
         <h1 className="font-bold">Productivity</h1>
         <ul className="pl-5 list-disc">
+          <li>
+            <a
+              href="https://medium.com/@benjaminhardy/want-to-upgrade-your-brain-stop-doing-these-7-things-immediately-136e2d8c8cde"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Want To Upgrade Your Brain? by Dr. Benjamin Hardy
+              <ExternalArrow />
+            </a>
+          </li>
           <li>
             <a
               href="https://jakobgreenfeld.com/personal-productivity"
@@ -58,7 +65,7 @@ const psychNPerform = () => (
 
       <br />
       <section>
-        <h1 className="font-bold">Emotional Understanding</h1>
+        <h1 className="font-bold">Emotions</h1>
         <ul className="pl-5 list-disc">
           <li>
             <a
@@ -95,11 +102,22 @@ const psychNPerform = () => (
 
       <br />
       <section>
-        <h1 className="font-bold">Evolutionary</h1>
+        <h1 className="font-bold">General</h1>
         <ul className="pl-5 list-disc">
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="/library/elephant-in-the-brain"
+            >
               The Elephant in the Brain by Simler & Hanson
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Thinking Fast and Slow by Kahneman and Tversky
               <ExternalArrow />
             </a>
           </li>

@@ -19,12 +19,9 @@ const philosophy = () => {
           <ul className="pl-5 list-disc">
             <li>
               <a
-                href="https://en.wikipedia.org/wiki/The_Beginning_of_Infinity"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/library/beginning-of-infinity"
               >
                 The Beginning of Infinity by David Deutsch
-                <ExternalArrow />
               </a>
             </li>
             <li>
@@ -33,7 +30,7 @@ const philosophy = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Brett Hall's Website
+                Brett Hall's Entire Website
                 <ExternalArrow />
               </a>
             </li>
@@ -46,12 +43,9 @@ const philosophy = () => {
           <ul className="pl-5 list-disc">
             <li>
               <a
-                href="https://www.amazon.in/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/library/zen-and-cycles"
               >
                 Zen and the Art of Motorcycle Maintenance
-                <ExternalArrow />
               </a>
             </li>
             <li>

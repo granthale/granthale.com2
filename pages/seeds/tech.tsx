@@ -18,16 +18,6 @@ const tech = () => {
           <ul className="pl-5 list-disc">
             <li>
               <a
-                href="https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                My techno-optimism by Vitalik Buterin
-                <ExternalArrow />
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://www.youtube.com/playlist?list=PLUX-sja_eqhTwFEdyu9bBTeWgo3FTxFDz"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,6 +60,29 @@ const tech = () => {
                 rel="noopener noreferrer"
               >
                 AI and the Big Five by Stratechery
+                <ExternalArrow />
+              </a>
+            </li>
+          </ul>
+        </section>
+        <br />
+        <section>
+          <h1 className="font-bold">Past</h1>
+          <ul className="pl-5 list-disc">
+            <li>
+              <a
+                href="/library/dream-machine"
+              >
+                The Dream Machine by M. Mitchell Waldrop
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.amazon.com/Chip-Americans-Invented-Microchip-Revolution/dp/0375758283"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                The Chip by T.R. Reid
                 <ExternalArrow />
               </a>
             </li>

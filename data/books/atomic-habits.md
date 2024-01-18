@@ -3,7 +3,7 @@ title: 'Atomic Habits'
 author: 'James Clear'
 dateFinished: '2023-08-20'
 summary: "Habits trump goals. They're not magical. On the contrary, there are clear, actionable steps that we can use to create the habits we want."
-rating: 8
+rating: 9
 ---
 
 ### Chapter 1

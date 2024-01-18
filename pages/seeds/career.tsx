@@ -19,21 +19,31 @@ const career = () => {
           <ul className="pl-5 list-disc">
             <li>
               <a
-                href="http://paulgraham.com/love.html"
+                href="https://medium.com/@lukeclancy6/problems-worth-fighting-for-eaeb1fe0b1e3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                How to Do What You Love by Paul Graham
+                How to Pick a Career (That Actually Fits You) by Tim Urban
                 <ExternalArrow />
               </a>
             </li>
             <li>
               <a
-                href="https://medium.com/@lukeclancy6/problems-worth-fighting-for-eaeb1fe0b1e3"
+                href="https://www.youngmoney.co/p/future-d9ba"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Problems Worth Spending A Career Solving by Luke Clancy
+                The Future of You by Jack Raines
+                <ExternalArrow />
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://paulgraham.com/love.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                How to Do What You Love by Paul Graham
                 <ExternalArrow />
               </a>
             </li>
@@ -56,27 +66,6 @@ const career = () => {
                 rel="noopener noreferrer"
               >
                 Questions by Patrick Collison
-                <ExternalArrow />
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://medium.com/@lukeclancy6/problems-worth-fighting-for-eaeb1fe0b1e3"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                How to Pick a Career (That Actually Fits You) by Tim Urban
-                <ExternalArrow />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youngmoney.co/p/future-d9ba"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                The Future of You by Jack Raines
                 <ExternalArrow />
               </a>
             </li>

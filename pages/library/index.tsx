@@ -23,7 +23,7 @@ const books = ({
   }[];
 }) => {
   const [sortedBooks, setSortedBooks] = useState(allBooksData);
-  const [criteria, setCriteria] = useState("rating");
+  const [criteria, setCriteria] = useState("title");
 
   const handleSortChange = (e) => {
     sortBooks(sortedBooks, setSortedBooks, e.target.value);
@@ -61,13 +61,13 @@ const books = ({
                 <p className="mr-4">Sort by:</p>
                 <select
                   id="sorting"
-                  defaultValue="rating"
+                  defaultValue="title"
                   onChange={handleSortChange}
                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5"
                 >
+                  <option value="title">Title</option>
                   <option value="rating">Rating</option>
                   <option value="recency">Recency</option>
-                  <option value="title">Title</option>
                 </select>
               </div>
             </div>

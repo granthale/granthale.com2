@@ -20,7 +20,7 @@ const friendsNPeople = () => {
 
         <br />
         <section>
-          <h1 className="font-bold">General Advice</h1>
+          <h1 className="font-bold">General</h1>
           <ul className="pl-5 list-disc">
             <li>
               <a
@@ -39,16 +39,6 @@ const friendsNPeople = () => {
                 rel="noopener noreferrer"
               >
                 Networking for Nerds by Benjamin Reinhardt
-                <ExternalArrow />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://waitbutwhy.com/2014/12/10-types-odd-friendships-youre-probably-part.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                10 Types of Odd Friendships... by Tim Urban
                 <ExternalArrow />
               </a>
             </li>

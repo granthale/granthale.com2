@@ -18,7 +18,7 @@ const rabbitHoles = () => {
         </p>
         <br />
         <section>
-          <h1 className="font-bold">Biology</h1>
+          <h1 className="font-bold">Science</h1>
           <ul className="pl-5 list-disc">
             <li>
               <a
@@ -40,28 +40,6 @@ const rabbitHoles = () => {
                 <ExternalArrow />
               </a>
             </li>
-          </ul>
-        </section>
-        <br />
-        <section>
-          <h1 className="font-bold">Design</h1>
-          <ul className="pl-5 list-disc">
-            <li>
-              <a
-                href="http://worrydream.com/LadderOfAbstraction/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Up and Down the Ladder of Abstraction by Bret Victor
-                <ExternalArrow />
-              </a>
-            </li>
-          </ul>
-        </section>
-        <br />
-        <section>
-          <h1 className="font-bold">Science & Physics</h1>
-          <ul className="pl-5 list-disc">
             <li>
               <a
                 href="https://waitbutwhy.com/2016/03/sound.html"
@@ -74,21 +52,21 @@ const rabbitHoles = () => {
             </li>
             <li>
               <a
-                href="https://meltingasphalt.com/interactive/going-critical/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Going Critical by Kevin Simler
-                <ExternalArrow />
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://ourworldindata.org/life-expectancy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Life Expectancy by Our World in Data
+                <ExternalArrow />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Science Is Getting Less Bang for Its Buck
                 <ExternalArrow />
               </a>
             </li>
@@ -149,7 +127,7 @@ const rabbitHoles = () => {
 
         <br />
         <section>
-          <h1 className="font-bold">Misc</h1>
+          <h1 className="font-bold">Basically everything</h1>
           <ul className="pl-5 list-disc">
             <li>
               <a
@@ -158,17 +136,6 @@ const rabbitHoles = () => {
                 rel="noopener noreferrer"
               >
                 Pat Collison's Bookshelf
-                <ExternalArrow />
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://unequalscenes.com/projects"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Unequal Scenes
                 <ExternalArrow />
               </a>
             </li>

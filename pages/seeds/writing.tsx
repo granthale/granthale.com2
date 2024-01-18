@@ -28,33 +28,8 @@ const writing = () => {
           <h1 className="font-bold">General Advice</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a
-                href="https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="/library/on-writing-well">
                 On Writing Well by William Zinsser
-                <ExternalArrow />
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://www.paulgraham.com/useful.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                How to Write Usefully by Paul Graham
-                <ExternalArrow />
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://paulgraham.com/talk.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Write Like You Talk by Paul Graham
-                <ExternalArrow />
               </a>
             </li>
           </ul>

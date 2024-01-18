@@ -12,35 +12,13 @@ const learning = () => {
           effectively. Here are some of the most useful resources on the
           internet.
         </p>
-
-        <br />
-        <section>
-          <h1 className="font-bold">Holy Grail</h1>
-          <ul className="pl-5 list-disc">
-            <li>
-              <a
-                href="https://www.joshwaitzkin.com/the-art-of-learning"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                The Art of Learning by Josh Waitzkin
-                <ExternalArrow />
-              </a>
-            </li>
-          </ul>
-        </section>
         <br />
         <section>
           <h1 className="font-bold text-xl">On Reading</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a
-                href="https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="/library/how-to-read-a-book">
                 How to Read a Book by Adler & Van Doren
-                <ExternalArrow />
               </a>
             </li>
             <li>
@@ -207,6 +185,17 @@ const learning = () => {
               >
                 Josh Waitzkin
                 <ExternalArrow />
+              </a>
+            </li>
+          </ul>
+        </section>
+        <br />
+        <section>
+          <h1 className="font-bold">Holy Grail</h1>
+          <ul className="pl-5 list-disc">
+            <li>
+              <a href="/library/art-of-learning">
+                The Art of Learning by Josh Waitzkin
               </a>
             </li>
           </ul>

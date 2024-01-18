@@ -7,4 +7,6 @@ rating: 10
 ---
 This book is what self-help books aspire to be. It's practical yet thought provoking, providing much more than just an approach to learning more effectively. A way to see this is through Josh's notion of quality - a high level of presence and enjoyment in all aspects of life - which helps reinforce further quality in learning and competition.
 
-This book is paired well with *Zen and the Art of Motorcycle Maintenance* by Robert Pirsig which introduces the notion of quality that Josh develops.
+This book is paired well with [Zen and the Art of Motorcycle Maintenance](/library/zen-and-cycles) by Robert Pirsig which introduces the notion of quality that Josh develops.
+
+For more information, check out [The Art of Learning](https://www.joshwaitzkin.com/the-art-of-learning).
