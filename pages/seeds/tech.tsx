@@ -1,6 +1,7 @@
 import ExternalArrow from "../../components/ExternalArrow";
 import Header from "../../components/Header";
 import Seed from "../../components/Seed";
+import Link from "next/link";
 
 const tech = () => {
   return (
@@ -70,11 +71,9 @@ const tech = () => {
           <h1 className="font-bold">Past</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a
-                href="/library/dream-machine"
-              >
+              <Link href="/library/dream-machine">
                 The Dream Machine by M. Mitchell Waldrop
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -83,6 +82,16 @@ const tech = () => {
                 rel="noopener noreferrer"
               >
                 The Chip by T.R. Reid
+                <ExternalArrow />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                The Innovator's Dilemma
                 <ExternalArrow />
               </a>
             </li>

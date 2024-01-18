@@ -2,6 +2,7 @@ import React from "react";
 import Seed from "../../components/Seed";
 import ExternalArrow from "../../components/ExternalArrow";
 import Header from "../../components/Header";
+import Link from "next/link";
 
 const writing = () => {
   return (
@@ -28,9 +29,9 @@ const writing = () => {
           <h1 className="font-bold">General Advice</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a href="/library/on-writing-well">
+              <Link href="/library/on-writing-well">
                 On Writing Well by William Zinsser
-              </a>
+              </Link>
             </li>
           </ul>
         </section>

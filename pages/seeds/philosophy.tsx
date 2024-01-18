@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ExternalArrow from "../../components/ExternalArrow";
 import Header from "../../components/Header";
 import Seed from "../../components/Seed";
@@ -18,11 +19,11 @@ const philosophy = () => {
           <h1 className="font-bold">Philosophy of Science</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a
+              <Link
                 href="/library/beginning-of-infinity"
               >
                 The Beginning of Infinity by David Deutsch
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -42,11 +43,11 @@ const philosophy = () => {
           <h1 className="font-bold">Quality</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a
+              <Link
                 href="/library/zen-and-cycles"
               >
                 Zen and the Art of Motorcycle Maintenance
-              </a>
+              </Link>
             </li>
             <li>
               <a

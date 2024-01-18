@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ExternalArrow from "../../components/ExternalArrow";
 import Header from "../../components/Header";
 import Seed from "../../components/Seed";
@@ -17,9 +18,9 @@ const learning = () => {
           <h1 className="font-bold text-xl">On Reading</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a href="/library/how-to-read-a-book">
+              <Link href="/library/how-to-read-a-book">
                 How to Read a Book by Adler & Van Doren
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -194,9 +195,9 @@ const learning = () => {
           <h1 className="font-bold">Holy Grail</h1>
           <ul className="pl-5 list-disc">
             <li>
-              <a href="/library/art-of-learning">
+              <Link href="/library/art-of-learning">
                 The Art of Learning by Josh Waitzkin
-              </a>
+              </Link>
             </li>
           </ul>
         </section>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ExternalArrow from "../../components/ExternalArrow";
 import Header from "../../components/Header";
 import Seed from "../../components/Seed";
@@ -17,11 +18,9 @@ const psychNPerform = () => (
         <h1 className="font-bold">Performance</h1>
         <ul className="pl-5 list-disc">
           <li>
-            <a
-              href="/library/art-of-learning"
-            >
+            <Link href="/library/art-of-learning">
               The Art of Learning by Josh Waitzkin
-            </a>
+            </Link>
           </li>
         </ul>
       </section>
@@ -105,11 +104,9 @@ const psychNPerform = () => (
         <h1 className="font-bold">General</h1>
         <ul className="pl-5 list-disc">
           <li>
-            <a
-              href="/library/elephant-in-the-brain"
-            >
+            <Link href="/library/elephant-in-the-brain">
               The Elephant in the Brain by Simler & Hanson
-            </a>
+            </Link>
           </li>
           <li>
             <a
