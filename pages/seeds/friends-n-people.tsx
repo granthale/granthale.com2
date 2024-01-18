@@ -1,6 +1,6 @@
 import ExternalArrow from "../../components/ExternalArrow";
 import Header from "../../components/Header";
-import Seed from "../../components/Seed";
+import Seed from "../../components/cards/seeds/Seed";
 
 const friendsNPeople = () => {
   return (
