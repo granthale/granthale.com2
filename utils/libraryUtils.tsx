@@ -39,6 +39,7 @@ export const returnBooksGrid = (sortedBooks, r) => {
             .filter(
               ({ rating }) => rating !== 10 && rating !== 9 && rating !== 8
             )
+            .sort((a, b) => b.dateFinished - a.dateFinished)
             .map(({ id, title, dateFinished }) => (
               <div className="p-4" key={id}>
                 <BookCard
@@ -58,6 +59,11 @@ export const returnBooksGrid = (sortedBooks, r) => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {sortedBooks
           .filter(({ rating }) => rating === r)
+          .sort(
+            (a, b) =>
+              new Date(b.dateFinished).getTime() -
+              new Date(a.dateFinished).getTime()
+          )
           .map(({ id, title, dateFinished }) => (
             <div className="p-4" key={id}>
               <BookCard
@@ -74,7 +80,7 @@ export const returnBooksGrid = (sortedBooks, r) => {
 };
 
 export const returnBooksWFormatting = (sortedBooks, criteria) => {
-  // Would this be better off in an API file? 
+  // Would this be better off in an API file?
   if (criteria === "rating") {
     return (
       <>
@@ -121,6 +127,11 @@ export const returnBooksWFormatting = (sortedBooks, criteria) => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {sortedBooks
             .filter(({ dateFinished }) => dateFinished !== "WIP")
+            .sort(
+              (a, b) =>
+                new Date(b.dateFinished).getTime() -
+                new Date(a.dateFinished).getTime()
+            )
             .map(({ id, title, dateFinished }) => (
               <div className="p-4" key={id}>
                 <BookCard

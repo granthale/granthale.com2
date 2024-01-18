@@ -5,7 +5,6 @@ import Text from "../../components/Text";
 import Header from "../../components/Header";
 import { getAllIds, getData } from "../../utils/usePosts";
 import Unity from "../../components/mdx/Unity";
-import Image from "next/image";
 
 interface Book {
   title: string;
