@@ -1,4 +1,5 @@
 import BookCard from "../components/cards/BookCard";
+const gridSettings = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4";
 
 export const sortBooks = (sortedBooks, setSortedBooks, criteria) => {
   const sorted = [...sortedBooks].sort((a, b) => {
@@ -30,11 +31,11 @@ export function sortByRecency(a, b) {
   }
 }
 
-export const returnBooksGrid = (sortedBooks, r) => {
+export const returnRatedBooksGrid = (sortedBooks, r) => {
   if (r === -1) {
     return (
       <>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className={`${gridSettings}`}>
           {sortedBooks
             .filter(
               ({ rating }) => rating !== 10 && rating !== 9 && rating !== 8
@@ -56,7 +57,7 @@ export const returnBooksGrid = (sortedBooks, r) => {
   }
   return (
     <>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className={`${gridSettings}`}>
         {sortedBooks
           .filter(({ rating }) => rating === r)
           .sort(
@@ -85,20 +86,20 @@ export const returnBooksWFormatting = (sortedBooks, criteria) => {
     return (
       <>
         <h1 className="font-bold text-2xl mt-4">Rating: 10</h1>
-        <div className="border mb-4"></div>
-        {returnBooksGrid(sortedBooks, 10)}
+        <div className="border mb-4" />
+        {returnRatedBooksGrid(sortedBooks, 10)}
 
         <h1 className="font-bold text-2xl mt-8">Rating: 9</h1>
-        <div className="border mb-4"></div>
-        {returnBooksGrid(sortedBooks, 9)}
+        <div className="border mb-4" />
+        {returnRatedBooksGrid(sortedBooks, 9)}
 
         <h1 className="font-bold text-2xl mt-8">Rating: 8</h1>
-        <div className="border mb-4"></div>
-        {returnBooksGrid(sortedBooks, 8)}
+        <div className="border mb-4" />
+        {returnRatedBooksGrid(sortedBooks, 8)}
 
         <h1 className="font-bold text-2xl mt-8">Everything Else</h1>
-        <div className="border mb-4"></div>
-        {returnBooksGrid(sortedBooks, -1)}
+        <div className="border mb-4" />
+        {returnRatedBooksGrid(sortedBooks, -1)}
       </>
     );
   }
@@ -107,7 +108,7 @@ export const returnBooksWFormatting = (sortedBooks, criteria) => {
       <>
         <h1 className="font-bold text-2xl mt-4">Current</h1>
         <div className="border mb-4"></div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className={`${gridSettings}`}>
           {sortedBooks
             .filter(({ dateFinished }) => dateFinished === "WIP")
             .map(({ id, title, dateFinished }) => (
@@ -121,10 +122,10 @@ export const returnBooksWFormatting = (sortedBooks, criteria) => {
               </div>
             ))}
         </div>
-
+        <br />
         <h1 className="font-bold text-2xl mb-4">Everything Else</h1>
-        <div className="border mb-4"></div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="border mb-4" />
+        <div className={`${gridSettings}`}>
           {sortedBooks
             .filter(({ dateFinished }) => dateFinished !== "WIP")
             .sort(
@@ -149,7 +150,7 @@ export const returnBooksWFormatting = (sortedBooks, criteria) => {
   return (
     // else
     <>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className={`${gridSettings}`}>
         {sortedBooks.map(({ id, title, dateFinished }) => (
           <div className="p-4" key={id}>
             <BookCard

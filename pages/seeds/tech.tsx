@@ -91,7 +91,7 @@ const tech = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                The Innovator's Dilemma
+                The Innovator's Dilemma by Clayton Christensen
                 <ExternalArrow />
               </a>
             </li>

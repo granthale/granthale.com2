@@ -41,6 +41,16 @@ const psychNPerform = () => (
           </li>
           <li>
             <a
+              href="https://notes.andymatuschak.org/zUc2ssyE7CrHCFX57zhgpgx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pomodoro Technique by Andy Matuschak
+              <ExternalArrow />
+            </a>
+          </li>
+          <li>
+            <a
               href="https://jakobgreenfeld.com/personal-productivity"
               target="_blank"
               rel="noopener noreferrer"

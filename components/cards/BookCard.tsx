@@ -10,7 +10,7 @@ interface Props {
 const BookCard = ({ title, id, dateFinished }: Props) => {
   return (
     <>
-      <p className="italic">{dateFinished}</p>
+      {/* <p className="italic">{dateFinished}</p> */}
       <Link href={`/library/${id}`} style={{ borderBottom: "none" }}>
         <Image
           className="hover:animate-pulse"

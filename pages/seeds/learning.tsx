@@ -60,7 +60,8 @@ const learning = () => {
           <h1 className="font-bold text-xl">On Spaced Repetition</h1>
           <p>
             Using spaced repetition software (SRS) for general knowledge
-            acquisition is a more dynamic version of note taking.
+            acquisition is a more dynamic version of note taking and something
+            that has revolutionized the way that I learn.
           </p>
           <ul className="mt-4 pl-5 list-disc">
             <li>
