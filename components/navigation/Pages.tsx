@@ -7,9 +7,9 @@ const Pages = () => {
       <Link href="/writing" className="mt-3">
         writing
       </Link>
-      <Link href="/seeds" className="mt-3">
+      {/* <Link href="/seeds" className="mt-3">
         seeds
-      </Link>
+      </Link> */}
       <Link href="/library" className="mt-3">
         library
       </Link>

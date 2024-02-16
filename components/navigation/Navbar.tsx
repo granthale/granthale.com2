@@ -17,10 +17,10 @@ const Navbar = ({ home }: Props) => {
         writing
       </Link>
       <div className="border-r bg-black h-full mx-2"></div>
-      <Link href="/seeds" className={hover}>
+      {/* <Link href="/seeds" className={hover}>
         seeds
-      </Link>
-      <div className="border-r bg-black h-full mx-2"></div>
+      </Link> */}
+      {/* <div className="border-r bg-black h-full mx-2"></div> */}
       <Link href="/library" className={hover}>
         library
       </Link>

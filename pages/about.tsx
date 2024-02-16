@@ -121,13 +121,9 @@ export default function About() {
         </div>
         <br />
         <p className="text-xl">
-          On a professional note, I've got{" "}
-          {Math.round(
-            (new Date("2024-01-22").getTime() - new Date().getTime()) /
-              (1000 * 60 * 60 * 24)
-          ) + 1}{" "}
-          days until I start work for Boston Consulting Group. I'll be traveling
-          through Asia until then.
+          (edit Jan 22) On a professional note, I recently started working at
+          Boston Consulting Group. That's probably where you'll find me during
+          the week!
         </p>
 
         <br />
