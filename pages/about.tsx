@@ -48,7 +48,7 @@ export default function About() {
               Chicago
             </li>
             <li key="kernel">
-              Learning with peers @{" "}
+              Learning and creating @{" "}
               <a
                 href="https://kernel.community"
                 target="_blank"
@@ -173,7 +173,8 @@ export default function About() {
         <br />
         <p className="text-xl">
           <span>
-            This website was made from scratch and with love using Next.js. I hope you enjoy!
+            This website was made from scratch and with love using Next.js. I
+            hope you enjoy!
           </span>
         </p>
       </Layout>
