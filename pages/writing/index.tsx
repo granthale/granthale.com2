@@ -40,6 +40,10 @@ export default function Writing({
           to read more!
         </h3>
         <br />
+        <h3 className="text-xl italic">
+          + stay tuned for an exciting update. A friend and I are working on a
+          digital garden that will be linked soon!
+        </h3>
         <br />
         <h3 className={`${main_color} font-bold text-3xl`}>pieces</h3>
         <br />

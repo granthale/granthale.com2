@@ -18,20 +18,8 @@ export default function About() {
           </p>
           <br />
           <ul className="font-bold list-disc pl-5 text-xl">
-            <li key="traveling">
-              <a
-                href="https://www.instagram.com/gha.travels/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-bold"
-              >
-                "Walking 1000 miles, meeting 1000 people"
-                <ExternalArrow />
-              </a>{" "}
-              in Asia
-            </li>
             <li key="reading">
-              <Link href="/books" className="font-bold">
+              <Link href="/library" className="font-bold">
                 Reading
               </Link>{" "}
               science, philosophy, and history
@@ -46,15 +34,28 @@ export default function About() {
               </Link>{" "}
               longer-form pieces and evergeen notes
             </li>
-            <li key="learning">
-              {" "}
+            <li key="working">
+              Working @{" "}
               <a
-                href="https://seedtoforest.substack.com/p/learning-to-learn"
+                href="bcg.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold"
               >
-                Learning how to learn
+                BCG
+                <ExternalArrow />
+              </a>{" "}
+              Chicago
+            </li>
+            <li key="kernel">
+              Learning with peers @{" "}
+              <a
+                href="https://kernel.community"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold"
+              >
+                Kernel
                 <ExternalArrow></ExternalArrow>
               </a>
             </li>
@@ -99,8 +100,8 @@ export default function About() {
             </li>
             <li>
               Better yet,{" "}
-              <span className="font-bold">look for William Zinsser</span>, in an
-              effort to write better, I've been getting to know his process.
+              <span className="font-bold">look for William Zinsser</span>, I've
+              been getting to know his writing process.
             </li>
             <li>
               Ah! Now that I think about it.{" "}
@@ -120,32 +121,29 @@ export default function About() {
           </p>
         </div>
         <br />
-        <p className="text-xl">
-          (edit Jan 22) On a professional note, I recently started working at
-          Boston Consulting Group. That's probably where you'll find me during
-          the week!
-        </p>
-
-        <br />
         <h3 className={`font-bold ${main_color} text-3xl`}>hypotheses</h3>
         <br />
-        <p className="font-bold text-xl">I'm looking forward to:</p>
+        <p className="font-bold text-xl">
+          These are things that I'm fairly certain I'd like to do (or continue
+          doing):
+        </p>
         <br />
         <ul className="list-disc pl-5 text-xl">
           <li key="learning">
-            Spending time reading about and exploring different fields
+            Spend time reading through, wallowing in, and exploring the world's
+            most important problems
           </li>
           <li key="entrepreneurship">
             Working in/on an early-stage company (I'm currently most interested
-            in Edtech tools for thought)
+            in EdTech and tools for thought)
           </li>
           <li key="living">
-            Living in a different country. Learning a second language
-            (potentially 中文)
+            Living in a different country for an extended period of time.
+            Learning a second language (potentially 中文)
           </li>
           <li key="friendships">
-            Being back in one place for a longer period of time. Facilitating
-            curious, engaging, productive conversations amongst friends
+            Facilitating curious, engaging, productive conversations amongst
+            friends
           </li>
         </ul>
 
@@ -175,10 +173,8 @@ export default function About() {
         <br />
         <p className="text-xl">
           <span>
-            This website was made from scratch with Next.js. I hope you like it.
-          </span>{" "}
-          If there's anything that isn't working or a feature that you think
-          would be cool to add, let me know!
+            This website was made from scratch and with love using Next.js. I hope you enjoy!
+          </span>
         </p>
       </Layout>
     </>

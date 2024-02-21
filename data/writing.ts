@@ -2,7 +2,7 @@ export const writing = [
   {
     title: "Learning to Learn",
     link: "https://seedtoforest.substack.com/p/learning-to-learn",
-    date: "2021-09-28",
+    date: "2023-09-28",
     description: "What I've learned about learning"
   },
   {
