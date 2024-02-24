@@ -31,9 +31,9 @@ export default function Home() {
             <p>But most of all, I'm a human asking.</p>
             <br />
             <p>
-              Asking about what? Well, ~83% of the time about science,
-              entrepreneurship, thinking, and history. The other 17% is mostly
-              covered by technology, philosophy, and wellbeing.
+              Asking about what? Well, ~83% of the time about climate, payments,
+              tools for thought, entrepreneurship, and history. The other 17% is
+              mostly covered by technology, philosophy, and wellbeing.
             </p>
             <br />
             <p>
