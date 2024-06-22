@@ -41,8 +41,17 @@ export default function Writing({
         </h3>
         <br />
         <h3 className="text-xl italic">
-          + stay tuned for an exciting update. A friend and I are working on a
-          digital garden that will be linked soon!
+          + check out{" "}
+          <a
+            className=""
+            href="https://www.verdant.ink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            verdant.ink
+            <ExternalArrow></ExternalArrow>
+          </a>{" "}
+          to see a collaborative digital garden I've helped to plant.
         </h3>
         <br />
         <h3 className={`${main_color} font-bold text-3xl`}>pieces</h3>
