@@ -32,6 +32,15 @@ const Navbar = ({ home }: Props) => {
       <Link href="/about" className={hover}>
         about
       </Link>
+      <div className="border-r bg-black h-full mx-2"></div>
+      <a
+        href="https://www.verdant.ink"
+        className=""
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="/tree-arch.png" width={30} alt="verdant"></img>
+      </a>
     </div>
   );
 };

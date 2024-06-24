@@ -16,6 +16,14 @@ const Pages = () => {
       <Link href="/about" className="mt-3">
         about
       </Link>
+      <a
+        href="https://www.verdant.ink"
+        className="mt-3"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        garden
+      </a>
     </div>
   );
 };
