@@ -23,7 +23,7 @@ export default function Writing({
         <h1 className={`font-extrabold ${main_color} text-4xl`}>writing!</h1>
         <br />
         <h3 className="text-xl">
-          I write for clarity and I write to explore. Subscribe to{" "}
+          Check out{" "}
           <a
             className=""
             href="https://seedtoforest.substack.com/"
@@ -33,15 +33,7 @@ export default function Writing({
             Seed to Forest
             <ExternalArrow></ExternalArrow>
           </a>{" "}
-          and my{" "}
-          <Link className="" href="/rss.xml">
-            RSS feed
-          </Link>{" "}
-          to read more!
-        </h3>
-        <br />
-        <h3 className="text-xl italic">
-          + check out{" "}
+          for long-form pieces and{" "}
           <a
             className=""
             href="https://www.verdant.ink"
@@ -51,7 +43,7 @@ export default function Writing({
             verdant.ink
             <ExternalArrow></ExternalArrow>
           </a>{" "}
-          to see a collaborative digital garden I've helped to plant.
+          to see my digital garden :)
         </h3>
         <br />
         <h3 className={`${main_color} font-bold text-3xl`}>pieces</h3>
