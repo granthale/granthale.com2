@@ -13,60 +13,11 @@ export default function About() {
         <h1 className={`font-extrabold ${main_color} text-4xl`}>about!</h1>
         <br />
         <p className="text-xl italic">(Last updated 05-11-24)</p>
-        <br />
         <div className="text-xl">
-          <p className={`font-bold ${main_color}`}>
-            Here are the things that I'm currently putting energy into:
-          </p>
-          <br />
-          <ul className="font-bold list-disc pl-5 text-xl">
-            <li key="working">
-              Working @{" "}
-              <a
-                href="bcg.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-bold"
-              >
-                BCG
-                <ExternalArrow />
-              </a>{" "}
-              Chicago
-            </li>
-            <li key="reading">
-              <Link href="/library" className="font-bold">
-                Reading
-              </Link>{" "}
-              fiction (during the week) and non-fiction (on the weekends)
-            </li>
-            <li key="questions">
-              Getting better at asking the right questions
-            </li>
-            <li key="writing">
-              {" "}
-              <Link
-                href="/writing"
-                className="hover:text-neon-green hover:border-neon-green font-bold"
-              >
-                Writing
-              </Link>{" "}
-              longer-form pieces and evergeen notes
-            </li>
-            <li key="living">
-              {" "}
-              Crafting an authentic, agentic, meaningful life
-            </li>
-          </ul>
-
           <br />
           <h3 className={`font-bold ${main_color} text-3xl`}>
-            time & location
+            IRL, where would you find me?
           </h3>
-          <br />
-          <p className={`font-bold ${main_color}`}>
-            Assuming you were having trouble getting ahold of me (which some may
-            say is likely). Where would you find me?
-          </p>
           <br />
           <p>
             <span className="font-bold">Start at the local cafe.</span> Look for
@@ -206,9 +157,7 @@ export default function About() {
         </ul>
 
         <br />
-        <h3 className={`font-bold ${main_color} text-3xl`}>
-          closing time
-        </h3>
+        <h3 className={`font-bold ${main_color} text-3xl`}>closing time</h3>
         <br />
         <p className="text-xl font-bold">
           If you've gotten this far, I'd love to meet! Reach out on{" "}

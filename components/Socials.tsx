@@ -26,17 +26,6 @@ const Socials = ({ menu }: Props) => {
       icon: <AiTwotoneMail size={icon_size} />,
     },
     {
-      name: "Kernel",
-      link: "https://www.kernel.community/en/",
-      icon: (
-        <img
-          src="/images/kernel_heart.png"
-          alt="Kernel"
-          style={{ width: icon_size, height: icon_size }}
-        />
-      ),
-    },
-    {
       name: "RSS",
       link: "/rss.xml",
       icon: <FaRss size={icon_size} />,
